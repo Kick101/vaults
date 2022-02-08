@@ -1,9 +1,5 @@
 - Wireless Hacking
-	- WiFi Hacking
-	- Decrypting Traffic
-	- Man in the middle Attack
 - Web App pentesting
-	- Bug bounty
 - Information Security
 - Security Operations Analyst
 - Binay Exploitation

@@ -6,6 +6,10 @@
     "webserver",
     "webpage",
     "Metasploit",
-    "softwares"
+    "softwares",
+    "plaintext",
+    "ciphertext",
+    "decrypt",
+    "cryptographic"
   ]
 }

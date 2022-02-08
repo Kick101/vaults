@@ -34,7 +34,7 @@ There are several Cyber Threat Modeling methodologies:
 - __PASTA__ (Stages of Process for Attack Simulation and Threat Analysis)
 - __DREAD__ (Damage, Reproducibility, Exploitation, Affected users, Discoverability)
 - __TRIKE__ ()
-<br>
+<hr>
 
 STRIDE
 - It is a mnemonic for a set threats - Spoofing, Tampering, Repudiation, Information Disclosure, Denial of Service, Elevation of Privilege.

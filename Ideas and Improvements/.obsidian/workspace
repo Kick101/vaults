@@ -4,12 +4,12 @@
     "type": "split",
     "children": [
       {
-        "id": "7e08474cfd4230c9",
+        "id": "9a3c2c7f56b164d6",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Notes/SmartKnower.md",
+            "file": "InfoSec/Hacking Methodology.md",
             "mode": "preview"
           }
         }
@@ -69,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Notes/SmartKnower.md",
+                "file": "InfoSec/Hacking Methodology.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -87,17 +87,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "7e08474cfd4230c9",
+  "active": "9a3c2c7f56b164d6",
   "lastOpenFiles": [
-    "Notes/SmartKnower.md",
-    "Notes/Risk Management.md",
-    "Notes/IP Addresses.md",
-    "Notes/Threat Modeling.md",
-    "Security Analyst.md",
-    "Introduce about yourself.md",
-    "Books.md",
-    "Hacking.md",
-    "Me 2022.md",
-    "Productivity.md"
+    "InfoSec/Hacking Methodology.md",
+    "InfoSec/Cryptography.md",
+    "InfoSec/Account Cracking.md",
+    "InfoSec/Active Directory.md",
+    "InfoSec/Networking.md",
+    "InfoSec/Information Security.md",
+    "InfoSec/Fields.md",
+    "InfoSec/Threat Modeling.md",
+    "InfoSec/TCM Security.md",
+    "InfoSec/SmartKnower.md"
   ]
 }

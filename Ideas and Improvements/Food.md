@@ -1,0 +1,6 @@
+- Ground Nuts soaked
+- Banana
+- Honey
+- Horse gram
+- Neem & turmeric
+- 

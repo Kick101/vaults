@@ -1,4 +1,4 @@
-##### Roles (Broad)
+#### Roles (Broad)
 - Manage network intrusion detection and prevention systems
 - Research and recommend appropriate security tools for a specific problem
 - Create and maintain co-operate security policies
@@ -10,11 +10,11 @@
 - Conduct annual internal and external audits 
 - Anticipate and respond to security alerts and incidents
 
-##### Skills
+#### Skills
 - System administration: Windows & Linux
 - Networking (TCP/IP, OSI, Protocols, Routing, Switching)
 - IDS/IPS (Snort)
-- SIEMS
+- SIEMS (Splunk)
 - EDR
 - WAF
 - Firewalls (IP tables, ufw)
@@ -22,9 +22,11 @@
 - Basic Git Configuration
 - Git
 - Well known Web vulnerabilities
-- Scripting (Powershell, Bash, Python)
+- Scripting (Powershell, Bash, Python, go)
+- Active Directory
+- nginx server setting up
 
-##### Resources
+#### Resources
 - Cyberaces from SANS
 	- OS, Networking, System administration
 - CCNA

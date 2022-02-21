@@ -4,13 +4,14 @@
     "type": "split",
     "children": [
       {
-        "id": "9a3c2c7f56b164d6",
+        "id": "aaac9f6ea96c2bce",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "InfoSec/Hacking Methodology.md",
-            "mode": "preview"
+            "file": "InfoSec/Privesc.md",
+            "mode": "preview",
+            "source": false
           }
         }
       }
@@ -52,7 +53,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
+    "width": 221,
     "collapsed": true
   },
   "right": {
@@ -69,7 +70,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "InfoSec/Hacking Methodology.md",
+                "file": "InfoSec/Privesc.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -87,17 +88,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "9a3c2c7f56b164d6",
+  "active": "aaac9f6ea96c2bce",
   "lastOpenFiles": [
+    "InfoSec/Privesc.md",
     "InfoSec/Hacking Methodology.md",
+    "InfoSec/Linux & Bash.md",
+    "InfoSec/Security Analyst.md",
+    "InfoSec/Risk Management.md",
     "InfoSec/Cryptography.md",
-    "InfoSec/Account Cracking.md",
-    "InfoSec/Active Directory.md",
+    "InfoSec/CTF.md",
     "InfoSec/Networking.md",
-    "InfoSec/Information Security.md",
-    "InfoSec/Fields.md",
-    "InfoSec/Threat Modeling.md",
-    "InfoSec/TCM Security.md",
-    "InfoSec/SmartKnower.md"
+    "InfoSec/cloud sek.md",
+    "InfoSec/Information Security.md"
   ]
 }

@@ -1,4 +1,4 @@
-##### Nifty alerts
+#### Nifty alerts
 - Price crossing alerts
 	- Price, time, duration in that price range
 
@@ -6,6 +6,9 @@
 - Find the average deviation scores
 - Find common teams
 
-##### Time Manager
+#### Time Manager
 - Workout and other such things
 - Label, timer, intervals
+
+#### Payload Generator
+- msfvenom

@@ -1,10 +1,11 @@
-## Phases of Ethical Hacking
+# Phases of Ethical Hacking
 
 - Reconnaissance
 - Scanning
 - Gaining Access
 - Maintaining Access
 - Clearing Track
+
 <hr>
 
 ### Reconnaissance
@@ -18,7 +19,7 @@ __Types of Recon:__
 - Passive
 
 __Active Reconnaissance:__
-In this process, you will directly interact with the computer system to gain information. This information can be relevant and accurate. But there is a risk of getting detected if you are planning active reconnaissance without permission. If you are detected, then system admin can take severe action against you and trail your subsequent activities.
+In this process, you will directly interact with the computer system to gain information. This information can be relevant and accurate. But there is a risk of getting detected. 
 
 __Tools:__ Nmap, Metasploit, Nessus, OpenVAS, Nikto, Wireshark, Maltego, Whatweb, Advanced IP Scanner, Fierce, dnsrecon, Knockpy, Gobuster, Dirb, Dirbuster, CMSMap, WPScan, JoomScan, Sn1per, OWASP Amass, Aquatone, Dataspoilt, Spiderfoot
 
@@ -77,7 +78,9 @@ __Definition:__
 <hr>
 
 ### Scanning
-__Definition:__ Attackers try to find different ways to gain the target’s information. The attacker looks for information such as user accounts, credentials, IP addresses, etc. This step of ethical hacking involves finding easy and quick ways to access the network and skim for information. Tools such as dialers, port scanners, network mappers, sweepers, and vulnerability scanners are used in the scanning phase to scan data and records.
+__Definition:__ Attackers try to find different ways to gain the target’s information. The attacker looks for information such as user accounts, credentials, IP addresses, etc. This step of ethical hacking involves finding easy and quick ways to access the network and skim for information. 
+
+__Tools:__ dialers, port scanners, network mappers, sweepers, and vulnerability scanners are used in the scanning phase to scan data and records.
 <hr>
 
 ### Gaining Access
@@ -90,4 +93,3 @@ __Definition:__
 
 ### Clearing Tracks
 __Definition:__
-<hr>

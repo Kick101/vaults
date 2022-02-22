@@ -10,10 +10,6 @@
     "plaintext",
     "ciphertext",
     "decrypt",
-    "cryptographic",
-    "multicast",
-    "hostname",
-    "NetBIOS"
-  ],
-  "legacyEditor": false
+    "cryptographic"
+  ]
 }

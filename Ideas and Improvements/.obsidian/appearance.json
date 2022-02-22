@@ -1,6 +1,5 @@
 {
-  "baseFontSize": 16,
+  "baseFontSize": 20,
   "translucency": false,
-  "cssTheme": "Dark Moss",
-  "theme": "obsidian"
+  "cssTheme": "Ono Sendai"
 }

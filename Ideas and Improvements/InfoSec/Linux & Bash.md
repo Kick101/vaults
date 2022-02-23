@@ -1,3 +1,14 @@
+### Linux File system
+| __Directory__ | __Description__ |
+|-----------------| -------------|
+| /bin | Basic programs like: ls, cd, cat|
+| /sbin/ [root] | System programs like: fdisk, mkfs, systemctl|
+| /etc | Configuration files|
+| /tmp | Temporary files|
+| /usr/bin | Application like: nc, nmap|
+| /usr/share | Application support and data files |
+
+----
 ### Special Bash Variables
 
 | __Variable Name__ | __Description__ |

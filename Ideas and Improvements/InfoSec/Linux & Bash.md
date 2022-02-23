@@ -65,7 +65,7 @@ ____________
 -----
 ### Starting local servers
 - Python3 -> `# python -m http.server <port>`
-- Python2 ->  `# python -m SimpleHttpServer <port>`
+- Python2 ->  `# python -m SimpleHTTPServer <port>`
 - PHP -> `# php -S <addr>:<port>`
 
 ---

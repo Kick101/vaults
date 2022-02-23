@@ -1,7 +1,7 @@
 ### Web Challenges
 - robots.txt
 - Data type conversions
-	-  base64 | base32 | base84 |  hex | md5 hash 
+	-  base64 | base32 | base84 |  hex | md5 hash | UTF-7
 	- jsfuck | brainfuck etc
 - Parameters
 	- IDs

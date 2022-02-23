@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "InfoSec/Privesc.md",
+            "file": "InfoSec/Networking.md",
             "mode": "preview",
             "source": false
           }
@@ -70,7 +70,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "InfoSec/Privesc.md",
+                "file": "InfoSec/Networking.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -90,15 +90,15 @@
   },
   "active": "aaac9f6ea96c2bce",
   "lastOpenFiles": [
+    "InfoSec/Networking.md",
+    "InfoSec/Linux & Bash.md",
+    "InfoSec/Active Directory.md",
+    "InfoSec/Web Vuln/Bug Bounty.md",
+    "InfoSec/Web Vuln/SOP CORS.md",
+    "InfoSec/Web Vuln/CORS.md",
+    "InfoSec/CTF.md",
     "InfoSec/Privesc.md",
     "InfoSec/Hacking Methodology.md",
-    "InfoSec/Linux & Bash.md",
-    "InfoSec/Security Analyst.md",
-    "InfoSec/Risk Management.md",
-    "InfoSec/Cryptography.md",
-    "InfoSec/CTF.md",
-    "InfoSec/Networking.md",
-    "InfoSec/cloud sek.md",
-    "InfoSec/Information Security.md"
+    "InfoSec/Security Analyst.md"
   ]
 }

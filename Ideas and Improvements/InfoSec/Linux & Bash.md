@@ -46,6 +46,10 @@ ____________
 |-w FILE | FILE exists and has write permission
 |-x FILE | FILE exists and has execute permission
 
+------------
+### case statement
+
+
 ____________
 ### Snippets
 `((i++)` -> Math operation

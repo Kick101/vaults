@@ -30,12 +30,12 @@ In this process, you will not be directly connected to a computer system. This p
 
 __Tools:__ dnslookup, nslookup, whoislookup, waybackmachine, reverse IP lookup, tracert/traceroute, ping, dnsrecon, dig, Wafw00f, theHarvester, Sublist3r, Google Dorks, etc
 
-__Reverse IP Lookup:__ It looks up the IP address and gives a list of all the domains running on the same server which have the same IP address.
-
-__(D)NS Lookup:__ Tool for querying the Domain Name System to obtain the mapping between domain name and IP address, or other DNS records
-
-__Reverse Name Server Lookup:__ Reverse NS Lookup tool will show you all of the domains currently hosted in that name server.
-
+|Terms|Meaning|
+|--|--|
+|Reverse IP Lookup| It looks up the IP address and gives a list of all the domains running on the same server which have the same IP address. And region.|
+| (D)NS Lookup| Tool for querying the Domain Name System to obtain the mapping between domain name and IP address, or other DNS records|
+|Reverse Name Server Lookup| Reverse NS Lookup tool will show you all of the domains currently hosted in that name server.|
+|CNAME Record|Canonical Name, alias one name to another|
 https://osintframework.com/
 https://whois.domaintools.com/
 https://lookup.icann.org/lookup

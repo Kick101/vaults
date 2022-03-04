@@ -48,41 +48,51 @@ ____________
 
 ------------
 ### case statement
+`case $1 in`
+        `1) echo "odd"`
+        `;;`
+        `2|4) echo "even"`
+        `;;`
+       `*) echo "Whatever!"`
+`esac`
 
 
 ____________
-### Snippets
-`((i++)` -> Math operation
-`$(cmd)` -> Command execution
-`local var=69` -> Local variable, by default variables are global
-`echo -n` -> Strips trailing newline character from the output
-`for i in $(seq 1 10); do echo $i; done;` -> Online for loop
-`i=1;while [ $i -lt 10 ]; do echo $i;((i++)); done;` -> Online while loop
+### Bash Snippets
+|snippet|Description|
+|--|--|
+|`((i++))`|Updates self value|
+|`$((n=5*4))`|Arithmetic Expression|
+|`$(cmd)`|Command execution|
+|`local var=69`|Local variable, by default variables are global|
+|`echo -n`|Strips trailing newline character from the output|
+|`for i in $(seq 1 10); do echo $i; done;`|Online for loop|
+|`i=1;while [ $i -lt 10 ]; do echo $i;((i++)); done;`|Online while loop|
 
 ----
 ### Finding files
-- __which__
-	- Finds files specified in the $PATH variable
-- __locate__
-	-  locates files and folders indexed in locate.db
-	- `# sudo updatedb`
-- __find__
-	- Finds files and folders with advanced options like: permissions, owner, time-stamp, age, size, filetype etc.
-	- `# sudo find / -name sbd*`
+|Command|Description|
+|--|--|
+|which|Finds files specified in the $PATH variable
+|locate|Locates files and folders indexed in locate.db `# sudo updatedb`|
+|find|Finds files and folders with advanced options like: permissions, owner, time-stamp, age, size, filetype etc.|
+
 -----
 ### Striping strings
-- cut | Returns specified field with respect to delimitator
-	- `# cut -d ":" -f 2`
-- tr | Deletes chars
-	- `# tr -d "-"`
-- awk | cut but more chars as delimitator
-	- `# awk -F "something" {'print $2'}`
+|Command|Description|
+|--|--|
+|`# cut -d ":" -f 2`|Returns specified field with respect to deliminator|
+|`# tr -d "-"`|Deletes chars|
+|`# awk -F "something" {'print $2'}`|cut but more chars as deliminator|
+
 -----
 ### Starting local servers
-- Python3 -> `# python -m http.server <port>`
-- Python2 ->  `# python -m SimpleHTTPServer <port>`
-- PHP -> `# php -S <addr>:<port>`
+|Server|Command|
+|--|--|
+|Python3|`# python -m http.server <port>`|
+|Python2|`# python -m SimpleHTTPServer <port>`|
+|PHP|`# php -S <addr>:<port>`|
+|Apache2|`# systemctl start apache2.service`|
 
 ---
-
 

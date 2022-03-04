@@ -20,7 +20,7 @@
 - Firewalls (IP tables, ufw)
 - Wireshark
 - Basic Git Configuration
-- Git
+- GitHub
 - Well known Web vulnerabilities
 - Scripting (Powershell, Bash, Python, go)
 - Active Directory

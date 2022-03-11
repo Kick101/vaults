@@ -48,21 +48,23 @@ ____________
 
 ------------
 ### case statement
-`case $1 in`
-        `1) echo "odd"`
-        `;;`
-        `2|4) echo "even"`
-        `;;`
-       `*) echo "Whatever!"`
-`esac`
+```sh
+case $1 in
+        1) echo "odd"
+        ;;
+        2|4) echo "even"
+        ;;
+       *) echo "Whatever!"
+esac
+```
 
 
 ____________
 ### Bash Snippets
 |snippet|Description|
 |--|--|
-|`((i++))`|Updates self value|
-|`$((n=5*4))`|Arithmetic Expression|
+|`((i++))` \| `((i=$x+$y))`|Computes Arithmetic Expression|
+|`$((n=5*4))`|Computes Arithmetic Expression and can be used with echo|
 |`$(cmd)`|Command execution|
 |`local var=69`|Local variable, by default variables are global|
 |`echo -n`|Strips trailing newline character from the output|
@@ -73,9 +75,9 @@ ____________
 ### Finding files
 |Command|Description|
 |--|--|
-|which|Finds files specified in the $PATH variable
-|locate|Locates files and folders indexed in locate.db `# sudo updatedb`|
-|find|Finds files and folders with advanced options like: permissions, owner, time-stamp, age, size, filetype etc.|
+|`# which`|Finds files specified in the $PATH variable
+|`# locate`|Locates files and folders indexed in locate.db `# sudo updatedb`|
+|`# find`|Finds files and folders with advanced options like: permissions, owner, time-stamp, age, size, filetype etc.|
 
 -----
 ### Striping strings
@@ -95,4 +97,9 @@ ____________
 |Apache2|`# systemctl start apache2.service`|
 
 ---
+
+### Sorting files
+```sh
+sort -u <file-1>...<file-n> | tee <new-file>
+```
 

@@ -12,4 +12,6 @@
 - pngcheck
 - exfitool
 - file
-> windows copy command `> copy /b original.jpg+"hide me.txt" bindedSteg.jpg`
+```powershell
+windows> copy /b original.jpg+"hide me.txt" bindedSteg.jpg
+```

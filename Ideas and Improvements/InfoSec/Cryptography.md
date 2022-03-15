@@ -41,3 +41,31 @@ __Definition:__
 
 
 ### Tools
+
+---
+<center><h3>SSL/TLS</h3></center>
+
+__Why Certificate Authority(CA)?__
+- To generate a certificate for server's public key integrity
+
+__How server gets certificate?__
+- The server goes to CA for certificate
+- CA takes identity proof of owner and proof of ownership of the server
+- Then CA takes server's public key and generate certificate with following fields:
+	- server's public key
+	- signature -> CA signs/encrypts the server's public key with it's own (CA's) private key 
+
+__How client verifies a server's public key?__
+- When client gets certificate from a server
+- It sees who's the issued CA for the certificate
+- Then client fetches CA's public key and encrypts the server's public key and 
+checks the integrity by matching it with the signature it got in certificate
+
+__How client verifies CA's public key?__
+- It verifies with root certificate
+
+__what is root certificate?__
+- 
+
+### Resources
+- [badssl.com](https://badssl.com)

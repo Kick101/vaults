@@ -17,7 +17,7 @@
 |fmt.Println()|Like print() in python|
 |fmt.Printf()|Like printf() in C|
 |fmt.Scan()|Like scanf() in C|
-|string()|Converts int,bytes into string|
+|string()|Converts int, bytes into string|
 |append(array, value)|Append value & return new array|
 |len(array)|Return Array length|
 |delete(x, "key")|Delete key:value from map "x"|
@@ -27,7 +27,7 @@
 |-|-|
 |%v|Variable|
 |%T|type of variable|
-|%d|int type|
+|%d|decimal|
 
 |Visibility|Scope|Snippet|
 |-|-|-|

@@ -23,7 +23,7 @@ In this process, you will directly interact with the computer system to gain inf
 
 __Tools:__ Nmap, Metasploit, Nessus, OpenVAS, Nikto, Wireshark, Maltego, Whatweb, Advanced IP Scanner, Fierce, dnsrecon, Knockpy, Gobuster, Dirb, Dirbuster, CMSMap, WPScan, JoomScan, Sn1per, OWASP Amass, Aquatone, Dataspoilt, Spiderfoot
 
-https://hackersploit.org/red-team-reconnaissance-techniques/
+[Reconnaissance - Hackersploit](https://hackersploit.org/red-team-reconnaissance-techniques/)
 
 __Passive Reconnaissance:__
 In this process, you will not be directly connected to a computer system. This process is used to gather essential information without ever interacting with the target systems.
@@ -36,8 +36,8 @@ __Tools:__ dnslookup, nslookup, whoislookup, waybackmachine, reverse IP lookup, 
 | (D)NS Lookup| Tool for querying the Domain Name System to obtain the mapping between domain name and IP address, or other DNS records|
 |Reverse Name Server Lookup| Reverse NS Lookup tool will show you all of the domains currently hosted in that name server.|
 |CNAME Record|Canonical Name, alias one name to another|
-https://osintframework.com/
-https://whois.domaintools.com/
+[OSINT Framework](https://osintframework.com/)
+[WHOIS](https://whois.domaintools.com/)
 https://lookup.icann.org/lookup
 https://www.ripe.net/
 https://centralops.net/
@@ -47,19 +47,19 @@ https://hackertarget.com/reverse-ip-lookup/
 https://www.ip2location.com/
 https://www.iplocation.net/ip-lookup
 https://spyse.com
-https://dnsdumpster.com/
+[DNS Dumpster](https://dnsdumpster.com/)
 http://cqcounter.com/whois/
-https://web.archive.org/
-https://www.shodan.io/
-https://builtwith.com/
+[Web Archive - Wayback](https://web.archive.org/)
+[Shodan.io](https://www.shodan.io/)
+[Built with](https://builtwith.com/)
 https://www.wappalyzer.com/
 https://pimeyes.com/
 https://namechk.com/
-https://www.linkedin.com
-https://hunter.io/
-https://haveibeenpwned.com
+[Linkedin](https://www.linkedin.com)
+[Hunter.io](https://hunter.io/)
+[Have I been pwned](https://haveibeenpwned.com)
 https://github.com/arch4ngel/peasant
-https://www.virustotal.com
+[Virus Total](https://www.virustotal.com)
 
 During this phase, a hacker can collect the following information:
 - Domain name

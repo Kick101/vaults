@@ -2,11 +2,11 @@
 |-|-|
 |Text types|str|
 |Numeric Types|int, float, complex|
-|Sequence Types|list(mutable), tuple(immutable), range|
-|Mapping Type|dict|
-|Set Types|set, frozenset|
-|Boolean Type|bool|
-|BInary Types|bytes, bytearray, memoryview|
+|Sequence Types|list(mutable)[], tuple(immutable)(), range|
+|Mapping Type|dict {"key":"value"}|
+|Set Types|set, frozenset {}|
+|Boolean Type|bool True/False|
+|Binary Types|bytes, bytearray, memoryview|
 
 >Data type of any object can be obtained by using the `type()` function
 
@@ -32,5 +32,28 @@ content = res.content
 print(content)
 ```
 ---
-<center><h3>Oops</h3><center>
+<center><h3>Sockets</h3></center> 
+
+```python
+import socket
+```
+
+---
+<center><h3>Command line Arguments</h3></center>
+
+```python
+
+
+```
+
+---
+<center><h3>Oops</h3></center>
+
+```python
+def main():
+	print("test")
+
+def __init__:
+	main()
 	
+```	

@@ -31,9 +31,9 @@
 
 |Visibility|Scope|Snippet|
 |-|-|-|
-|Block level|inside blocks|x := 10|
-|Package level|Package level|var int x = 10|
-|Global level|Package level with Capital letter convention|var X int = 1337|
+|Block level|inside blocks `{}`|x := 10|
+|Package level|Outside all functions|var int x = 10|
+|Global level|Outside all functions with Capital letter convention|var X int = 1337|
 
 ---
 #### Loops
@@ -127,17 +127,20 @@ import (
 func main() {
 	res, err := http.Get("https://www.google.com/")
 	
-	if err != nil {
-		panic(err)
-	}
+	checkError(err)
 	defer res.Body.Close()
 	
 	dataBytes, err := io.ReadAll(res.Body)	
-	if err != nil {
-		panic(err)
-	}
+	checkError(err)
 	
 	content := string(dataBytes)
 	fmt.Println(content)
+}
+
+// Check for errors
+func checkError(err error) {
+	if err != nil {
+		panic(err)
+	}
 }
 ```

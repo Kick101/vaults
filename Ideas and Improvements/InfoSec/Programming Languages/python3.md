@@ -42,7 +42,18 @@ import socket
 <center><h3>Command line Arguments</h3></center>
 
 ```python
+import argparse
 
+# Initialize the parser
+parser = argparse.ArgumentParser()
+
+# Add optional parameters
+parser.add_argument("-x","--xyz", help="abc", type="int",default="qwerty")
+
+# Parse arguments
+args = parser.parse_args()
+
+print(args.xyz)
 
 ```
 
@@ -53,7 +64,6 @@ import socket
 def main():
 	print("test")
 
-def __init__:
+if __name__ == __main__:
 	main()
-	
 ```	

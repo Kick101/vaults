@@ -68,7 +68,8 @@ ____________
 |`echo -n`|Strips trailing newline character from the output|
 |`for i in $(seq 1 10); do echo $i; done;`|Online for loop|
 |`i=1;while [ $i -lt 10 ]; do echo $i;((i++)); done;`|Online while loop|
-|`tput setaf 1;echo h3ll0`| 1-red, 42-green|
+|`for (( c=1; c<=5; c++ ));do echo $c; done;`| C like for loop|
+|`tput setaf 1;echo h3ll0`| 1-red, 42-green, 7-white|
 
 ----
 ### Finding files
@@ -152,3 +153,10 @@ $ flags.sh -a abc -b asd -c
 When above line ran, the execution follows similar to this:
 - getopts takes `-a abc` as value and run the case statement
 - Then again it takes `-b asd` and does the same
+
+---
+### Handling files
+
+```sh
+
+```

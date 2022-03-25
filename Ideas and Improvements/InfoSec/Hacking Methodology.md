@@ -36,6 +36,8 @@ __Tools:__ dnslookup, nslookup, whoislookup, waybackmachine, reverse IP lookup, 
 | (D)NS Lookup| Tool for querying the Domain Name System to obtain the mapping between domain name and IP address, or other DNS records|
 |Reverse Name Server Lookup| Reverse NS Lookup tool will show you all of the domains currently hosted in that name server.|
 |CNAME Record|Canonical Name, alias one name to another|
+|A record|Address record. Domain to IP|
+|PTR record|IP to domain only resolves when the PTR record is configured in DNS configuration.|
 [OSINT Framework](https://osintframework.com/)
 [WHOIS](https://whois.domaintools.com/)
 https://lookup.icann.org/lookup

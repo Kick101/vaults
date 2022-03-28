@@ -70,6 +70,7 @@ ____________
 |`i=1;while [ $i -lt 10 ]; do echo $i;((i++)); done;`|One line while loop|
 |`for (( c=1; c<=5; c++ ));do echo $c; done;`| C like for loop|
 |`tput setaf 7;echo h3ll0`| 1-red, 42-green, 7-white|
+|`while read line;do echo $line;done;<file`|Read file|
 
 ----
 ### Finding files

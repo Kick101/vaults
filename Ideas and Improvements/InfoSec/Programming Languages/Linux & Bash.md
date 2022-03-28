@@ -66,10 +66,10 @@ ____________
 |`$(cmd)`|Command execution|
 |`local var=69`|Local variable, by default variables are global|
 |`echo -n`|Strips trailing newline character from the output|
-|`for i in $(seq 1 10); do echo $i; done;`|Online for loop|
-|`i=1;while [ $i -lt 10 ]; do echo $i;((i++)); done;`|Online while loop|
+|`for i in $(seq 1 10); do echo $i; done;`|One line for loop|
+|`i=1;while [ $i -lt 10 ]; do echo $i;((i++)); done;`|One line while loop|
 |`for (( c=1; c<=5; c++ ));do echo $c; done;`| C like for loop|
-|`tput setaf 1;echo h3ll0`| 1-red, 42-green, 7-white|
+|`tput setaf 7;echo h3ll0`| 1-red, 42-green, 7-white|
 
 ----
 ### Finding files
@@ -155,8 +155,15 @@ When above line ran, the execution follows similar to this:
 - Then again it takes `-b asd` and does the same
 
 ---
-### Handling files
+### wget/curl
 
 ```sh
 
+```
+
+---
+### grep
+
+```sh
+grep 
 ```

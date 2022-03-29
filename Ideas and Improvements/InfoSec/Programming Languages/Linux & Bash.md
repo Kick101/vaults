@@ -168,3 +168,20 @@ When above line ran, the execution follows similar to this:
 ```sh
 grep 
 ```
+
+---
+### Formatting disks & installing iso
+
+```sh
+lsblk
+```
+```sh
+sudo mkfs.ext4 /dev/sdb1
+```
+```sh
+sudo mkfs.vfat -F 32 /dev/sdb1
+```
+
+```sh
+sudo dd if=<iso-path> of=/dev/sdb bs=4M status=progress
+```

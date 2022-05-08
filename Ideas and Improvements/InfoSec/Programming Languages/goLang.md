@@ -104,6 +104,11 @@ func inc(i *int) {
 ```
 
 ---
+#### Interfaces
+```go
+
+```
+---
 
 <center><h3>Handling Web Requests</h3></center>
 
@@ -121,8 +126,10 @@ __Packages__
 __Snippet__
 ```go
 import (
-	"fmt""io"
-	"net/http")
+	"fmt"
+	"io"
+	"net/http"
+)
 
 func main() {
 	res, err := http.Get("https://www.google.com/")

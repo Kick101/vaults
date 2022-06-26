@@ -87,6 +87,7 @@ ____________
 |`# cut -d ":" -f 2`|Returns specified field with respect to deliminator|
 |`# tr -d "-"`|Deletes chars|
 |`# awk -F "something" {'print $2'}`|cut but more chars as deliminator|
+|`sed -i 's/^\#.*$//g'`|Remove comment lines|
 
 -----
 ### Starting local servers

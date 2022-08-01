@@ -111,7 +111,7 @@ sort -u <file-0>...<file-n> | tee <new-file>
 [linuxconfig.org - bash script flags](https://linuxconfig.org/bash-script-flags-usage-with-arguments-examples)
 [mkssoftware.com - getopts](https://www.mkssoftware.com/docs/man1/getopts.1.asp)
 
-### `getopts`
+#### getopts
 >obtains single character options and their arguments from a list of parameters that follows the standard POSIX.2 option syntax 
 
 ><span style="color:red">NOTE:</span> when `getopts` ran, it takes only one argument among provided list of options and stores the option name in followed by variable-name and the value is stored in `$OPTARG` only if the option is followed by a `:`

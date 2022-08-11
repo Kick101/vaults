@@ -1,6 +1,6 @@
 __Set WiFi Adapter to monitor mode__
 ```
-sudo iwconfig <interface> mode monitor
+sudo iwconfig wlxb0a7b95826be mode monitor
 ```
 or
 ```sh

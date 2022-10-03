@@ -165,4 +165,19 @@ def main():
 
 if __name__ == __main__:
 	main()
-```	
+```
+
+---
+### Errors & Fixes
+__Install pip2__
+```bash
+sudo apt update
+curl https://bootstrap.pypa.io/pip/2.7/get-pip.py --output get-pip.py
+sudo python2 get-pip.py
+```
+
+__NoSQLMap Fix__
+```bash
+sudo pip2 uninstall certifi
+pip2 install certifi==2018.10.15
+```

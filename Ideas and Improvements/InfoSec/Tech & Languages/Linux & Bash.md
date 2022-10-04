@@ -186,3 +186,6 @@ sudo mkfs.vfat -F 32 /dev/sdb1
 ```sh
 sudo dd if=<iso-path> of=/dev/sdb bs=4M status=progress
 ```
+---
+### Fixes
+[qemu setup](https://christitus.com/vm-setup-in-linux/)

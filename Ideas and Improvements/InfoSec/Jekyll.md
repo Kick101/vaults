@@ -1,3 +1,3 @@
 ```bash
-gem install bundler jekyll
+sudo gem install bundler jekyll
 ```

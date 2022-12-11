@@ -17,3 +17,5 @@ e: 65537
 - To find _d_ value, we can factor give _n_ value since it's relatively small.
 	- [FactorDB](http://factordb.com) - Contains already factorised numbers into their primes
 	- 
+- Tools:
+	- [rsaCTFtool](https://github.com/RsaCtfTool/RsaCtfTool)

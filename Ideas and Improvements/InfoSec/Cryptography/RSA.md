@@ -14,7 +14,7 @@ c: 96435412891391239393848085759096982630805446295056187563849203936337377980364
 n: 1584586296183412107468474423529992275940096154074798537916936609523894209759157543  
 e: 65537
 ```
-- To find _d_ value, we can factor give _n_ value since it's relatively small.
+- To find _d_ value (private key), we can factor give _n_ value since it's relatively small.
 	- [FactorDB](http://factordb.com) - Contains already factorised numbers into their primes
 	- 
 - Tools:

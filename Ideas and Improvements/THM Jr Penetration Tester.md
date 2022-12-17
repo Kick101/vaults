@@ -2,7 +2,7 @@
 -   __Penetration Tester__ - Responsible for _testing technology_ products for finding exploitable security vulnerabilities.
 - __Red Teamer__ - Plays the _role of an adversary_, attacking an organization and providing feedback from an enemy's perspective.
 - __Security Engineer__ - _Design, monitor, and maintain_ security controls, networks, and systems to help prevent cyber-attacks.
-
+---
 ### Defensive Security
 #### Security Operations Center (SoC)
 _A team of cyber security professionals that monitors the network and its systems to detect malicious cyber security events_.
@@ -44,3 +44,61 @@ Malware stands for malicious software. Malware includes many types, such as:
 Malware analysis aims to learn about such malicious programs using various means:
 1.  __Static analysis__ works by inspecting the malicious program without running it. Usually, this requires solid knowledge of assembly language.
 2.  __Dynamic analysis__ works by running the malware in a controlled environment and monitoring its activities. It lets you observe how the malware behaves when running.
+---
+### Pentesting Fundamentals
+**Rules of Engagement (ROE)**
+The ROE is a document that is created at the initial stages of a penetration testing engagement. This document consists of three main sections.
+
+|section|description|
+|-|-|
+|Permission|This section of the document gives explicit permission for the engagement to be carried out. This permission is essential to legally protect individuals and organisations for the activities they carry out.|
+|Test Scope|This section of the document will annotate specific targets to which the engagement should apply. For example, the penetration test may only apply to certain servers or applications but not the entire network.
+|Rules|The rules section will define exactly the techniques that are permitted during the engagement. For example, the rules may specifically state that techniques such as phishing attacks are prohibited, but MITM (Man-in-the-Middle) attacks are okay.|
+#### Penetration Testing Methodologies
+##### General Methodology
+- Information Gathering
+- Enumeration/Scanning
+- Exploitation
+- Privilege Escalation
+- Post-Escalation
+
+##### Open Source Testing Methodology Manual (OSSTMM)
+- provides testing strategies for systems, software, applications, communications & the human aspect of cybersecurity.
+- The methodology focuses primarily on how these systems, applications communicate, so it includes a methodology for:
+	1.  _Telecommunications_ (phones, VoIP, etc.)
+	2.  _Wired Networks_
+	3.  _Wireless communications_
+
+##### Open Web Application Security Project (OWASP)
+- Used solely to test the security of web applications and services.
+
+##### NIST Cybersecurity Framework 1.1
+- Framework used to improve an organisations cybersecurity standards and manage the risk of cyber threats
+
+##### Cyber Assessment Framework (NCSC CAF
+- Extensive framework of 14 principles used to assess the risk of various cyber threats and an organisation's defences against these.
+- The framework applies to organisations considered to perform "_vitally important services and activities_" such as critical infrastructure, _banking_, and the likes. The framework mainly focuses on and assesses the following topics:
+	-   Data security
+	-   System security
+	-   Identity and access control
+	-   Resiliency
+	-   Monitoring
+	-   Response and recovery planning
+---
+### Principles of Security
+#### CIA Traid
+- Confidentiality
+- Integrity
+- Availability
+
+#### Principles of Privileges
+The levels of access given to individuals are determined on two primary factors:
+-   The individual's role/function within the organisation
+-   The sensitivity of the information being stored on the system
+
+__PIM__ - Privileged Identity Management. Used to translate a user's role within an organisation into an access role on a system
+__PAM__ - Privilege Access Management. Management of the privileges a system's access role has, enforcing security policies (password management), auditing policies and reducing the attack surface a system faces.
+
+#### Security Models
+__Bell-La Padula__ (Confidentiality) - no write down, no read up
+__Biba__ (Integrity) - no write up, no read down

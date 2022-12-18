@@ -102,3 +102,13 @@ __PAM__ - Privilege Access Management. Management of the privileges a system's a
 #### Security Models
 __Bell-La Padula__ (Confidentiality) - no write down, no read up
 __Biba__ (Integrity) - no write up, no read down
+
+---
+### Network Security
+#### Reconnaissance
+##### Passive
+__whois__ - `whois tryhackme.com`
+__nslookup__ - `nslookup -type=A tryhackme.com 1.1.1.1`
+__dig__ - `dig tryhackme.com MX`
+
+##### Active

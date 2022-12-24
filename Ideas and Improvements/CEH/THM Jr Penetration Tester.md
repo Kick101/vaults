@@ -101,14 +101,36 @@ __Bell-La Padula__ (Confidentiality) - no write down, no read up
 __Biba__ (Integrity) - no write up, no read down
 
 #### Threat modelling and incidence response
+Threat modelling is the process of reviewing, improving, and testing the security protocols in place in an organisation's information technology infrastructure and services.
 
+![[Pasted image 20221224125425.png | 200]]
+
+An effective threat model includes:
+-   Threat intelligence
+-   Asset identification
+-   Mitigation capabilities
+-   Risk assessment
+
+__Frameworks__:
+- **STRIDE** (**S**poofing identity, **T**ampering with data, **R**epudiation threats, **I**nformation disclosure, **D**enial of Service and **E**levation of privileges) 
+- **PASTA** (**P**rocess for **A**ttack **S**imulation and **T**hreat **A**nalysis)
+
+Incidents are classified using a rating of urgency and impact. Urgency will be determined by the type of attack faced, where the impact will be determined by the affected system and what impact that has on business operations.
+
+![[Pasted image 20221224130530.png | 300]]
+
+  
+
+An incident is responded to by a **C**omputer **S**ecurity **I**ncident **R**esponse **T**eam (**CSIRT**) 
+_Six phases of Incident Response:_
+![[Pasted image 20221224130706.png]]
 
 ---
 ### Network Security
-#### Reconnaissance
-##### Passive
+#### Passive Reconnaissance
 __whois__ - `whois tryhackme.com`
 __nslookup__ - `nslookup -type=A tryhackme.com 1.1.1.1`
 __dig__ - `dig tryhackme.com MX`
+__DNS Dumpster__ - 
 
-##### Active
+#### Active Reconnaissance

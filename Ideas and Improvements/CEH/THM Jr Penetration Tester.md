@@ -128,9 +128,6 @@ _Six phases of Incident Response:_
 ---
 ### Network Security
 #### Passive Reconnaissance
-__whois__ - `whois tryhackme.com`
-__nslookup__ - `nslookup -type=A tryhackme.com 1.1.1.1`
-__dig__ - `dig tryhackme.com MX`
-__DNS Dumpster__ - 
+![[Pasted image 20221225105504.png]]
 
 #### Active Reconnaissance

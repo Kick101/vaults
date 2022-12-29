@@ -5,22 +5,7 @@
 |fixed|dynamic|
 |pointer|struct|
 
-___Error Code___
-```rust
-let test1: &str = "test1";  // Borrow, like pointer
-let test2: String = "test2".to_string();  // Ownership moved to test2
-println!("{} {}",test1,test2);  
-let test3 = test2;  // Ownership moved to test3, test2 no  longer valid
-println!("{:?}",(test1,test2,test3)); // Error!!
-```
-___Legit Code___
-```rust
-let test1: &str = "test1";  // Borrow
-let test2: &String = &"test2".to_string();  // Only borrow happened
-println!("{} {}",test1,test2);  
-let test3 = test2;  // test3 borrowed from test2
-println!("{:?}",(test1,test2,test3));
-```
+  
 
 [rust docs | Book](https://doc.rust-lang.org/book/ch04-02-references-and-borrowing.html)
 
@@ -34,6 +19,17 @@ println!("{:?}",(test1,test2,test3));
 	-   At least one of the pointers is being used to write to the data.
 	-   There’s no mechanism being used to synchronize access to the data.
 - The ability of the compiler to tell that a reference is no longer being used at a point before the end of the scope is called _Non-Lexical Lifetimes_
+
+#### String slices
+- A _string slice_ is a reference to part of a `String`
+- Slice data structure stores the starting position and the length of the slice
+- We can pass a slice of the `String` or a reference to the `String` to `&str` parameter. This flexibility takes advantage of _deref coercions_
+
+```rust
+let s = String::from("hello world");
+let s2: &String = &s; // not a string slice, reference to String
+```
+
 
 
 

@@ -140,22 +140,27 @@ __Base64, base16, base32, base85__
 import base64
 
 string = "hello"
-
 # convert to bytes
 string_bytes = string.encode()
-
 # base64 encode
 b64_encoded = base64.b64encode(string_bytes)
-
 # Decode base64
 b64_decoded = base64.b64decode(b64_encoded)
-
 # Convert back to string from bytes
 string_decoded = b64_decoded.decode()
-
-print(string_decoded)
 ```
-
+__ascii value__
+```python
+ord('a') # 97
+```
+__Convert Binary to ascii__
+```python
+chr(int(binary, 2))
+```
+__Convert ascii to binary__
+```python
+"{0:08b}".format(ord(c))
+```
 ---
 <center><h3>Oops</h3></center>
 

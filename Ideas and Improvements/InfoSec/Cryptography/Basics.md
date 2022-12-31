@@ -26,5 +26,18 @@ bytes_code.hex()
 - 64 characters.
 - 4 characters of Base64 encode three 8-bit bytes.
 ```python
-
+# base64 encode bytes string
+base64.b64encode(bytes_code)
+```
+#### XOR
+```python
+from pwn import *
+xor(b'a',100)
+```
+__Properties__
+```txt
+Commutative: A ⊕ B = B ⊕ A  
+Associative: A ⊕ (B ⊕ C) = (A ⊕ B) ⊕ C  
+Identity: A ⊕ 0 = A  
+Self-Inverse: A ⊕ A = 0
 ```

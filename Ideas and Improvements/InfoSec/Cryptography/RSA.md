@@ -44,3 +44,8 @@ def find_invpow(x,n):
 k = 0 # loop through k
 long_to_bytes(find_invpow(k * n + c, e))
 ```
+---
+__Small d__
+```txt
+d = e^(-1) mod φ(n)
+```

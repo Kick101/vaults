@@ -41,3 +41,9 @@ Associative: A ⊕ (B ⊕ C) = (A ⊕ B) ⊕ C
 Identity: A ⊕ 0 = A  
 Self-Inverse: A ⊕ A = 0
 ```
+__Partial output known__
+```python
+partial_flag = b"crypto{"
+key = xor(partial_flag, hash[:len(partial_flag)])
+flag = xor(key, bytes_code)
+```

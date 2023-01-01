@@ -45,7 +45,8 @@ k = 0 # loop through k
 long_to_bytes(find_invpow(k * n + c, e))
 ```
 ---
-__Small d__
+__Small d or Wiener Attack__
+![[Pasted image 20230101090656.png | 500]]
 ```txt
 d = e^(-1) mod φ(n)
 ```

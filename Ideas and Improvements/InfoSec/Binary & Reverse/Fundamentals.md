@@ -1,20 +1,95 @@
 ### Executable and Linkable Format (ELF)
 [Blog post](https://www.intezer.com/blog/research/executable-linkable-format-101-part1-sections-segments/)
+##### ELF Header 
+- The ELF header is denoted by an __Elfxx_Ehdr__ structure. Mainly, this contains general information about the binary. 
+-   __e_ident__: Array of 16 bytes containing identification flags about the file, which serve to decode and interpret the file’s contents. Examples of these identification flags include
+	- EI_MAG0-3: ELF magic:
+	- EI_CLASS: File class.
+	- EI_DATA: File’s data encoding.
+	- EI_VERSION: File’s version.
+	- EI_OSABI: OS/ABI identification.
+	- EI_ABIVERSION: ABI version
+	- EI_PAD: Start of padding bytes.
+	- EI_NIDENT: Size of ei_ident.
+
+![[Pasted image 20230103192039.png]]
+-   e_type: Type of executable.
+-   e_machine: File’s architecture.
+-   e_version: Object file version.
+-   e_entry:  Entry point of application.
+-   e_phoff: File offset of the Program Header Table.
+-   e_shoff: File offset of the Section Header Table.
+-   e_flags: Processor-specific flags associated with the file.
+-   e_ehsize: ELF header size.
+-   e_phentsize: Program Header entry size in Program Header Table.
+-   e_phnum: Number of Program Headers.
+-   e_shentsize: Section Header entry size in Section Header Table.
+-   e_shnum: Number of Section Headers.
+-   e_shstrndx: index in Section Header Table Denoting Section dedicated to Hold Section names.
+```bash
+readelf -h <executable>
+```
 ##### Program/Segment Headers
-Program headers specify information needed to prepare the program for execution. Most important entry types.
-Magic bytes: `7f 45 4c 46` -> ELF
-- __INTERP:__ Defines the library that should be used to load this ELF into memory.
-- __LOAD:__ Defines a part of the file that should be loaded into memory.
+- Program headers specify information needed to prepare the program for execution.
+- Magic bytes: `7f 45 4c 46` -> ELF
+- Program Headers are not needed on linktime.
+- Every ELF binary contains a Program Header Table which comprises of a single __Elfxx_Phdr__ structure per existing segment. Definitions of these structure’s fields are the following:
+	- p_type: Segment type.
+	- p_flags: Segment attributes.
+	-   p_offset: File offset of segment.
+	-   p_vaddr: Virtual address of segment.
+	-   p_paddr: Physical address of segment.
+	-   p_filesz: Size of segment on disk.
+	-   p_memsz: Size of segment in memory.
+	-   P_align: segment alignment in memory.
 
+![[Pasted image 20230103193603.png]]
+
+Common Segment types:
+- PT_NULL: unassigned segment (usually first entry of Program Header Table).
+-   PT_LOAD: Loadable segment.
+-   PT_INTERP: Segment holding .interp section.
+-   PT_TLS: Thread Local Storage segment (Common in statically linked binaries).
+-   PT_DYNAMIC: Holding .dynamic section.
+```bash
+readelf -l <executable>
+```
 ##### Section Headers
-Useful for information for introspection, debugging etc.
-Section headers are not necessary part of the ELF. They are metadata.
-- __.text__: executable code
-- __.plt__ & __.got__: resolve & dispatch library calls
-- __.data__: pre-initialised global writable data (global arrays with initial values)
-- __.rodata__: global read-only data (strings constants)
-- __.bss__: uninitialised global writable data (global arrays without initial values)
+- Sections comprise all information needed for linking a target object file in order to build a working executable.
+- Useful for information for introspection, debugging etc. (metadata)
+- Sections are needed on linktime but they are not needed on runtime.
+- In every ELF executable, there is a Section Header Table. This table is an array of Elfxx_Shdr structures, having one __Elfxx_Shdr__ entry per section.
+	- sh_name: index of section name in section header string table.
+	- sh_type: section type.
+	- sh_flags: section attributes.
+	-   sh_addr: virtual address of section.
+	-   sh_offset: section offset in disk.
+	-   sh_size: section size.
+	-   sh_link: section link index.
+	-   sh_Info: Section extra information.
+	-   sh_addralign: section alignment.
+	-   sh_entsize: size of entries contained in section.
 
+![[Pasted image 20230103192334.png]]
+Some common sections are the following:
+-  .text: code.
+-   .data: initialised data.
+-   .rodata: initialised read-only data.
+-   .bss: uninitialized data.
+-   .plt: PLT (Procedure Linkage Table) (IAT equivalent).
+-   .got: GOT entries dedicated to dynamically linked global variables.
+-   .got.plt: GOT entries dedicated to dynamically linked functions.
+-   .symtab: global symbol table.
+-   .dynamic: Holds all needed information for dynamic linking.
+-   .dynsym: symbol tables dedicated to dynamically linked symbols.
+-   .strtab: string table of .symtab section.
+-   .dynstr: string table of .dynsym section.
+-   .interp: RTLD embedded string.
+-   .rel.dyn: global variable relocation table.
+-   .rel.plt: function relocation table.
+```bash
+readelf -S <executable>
+```
 ##### Symbols
 Binaries and libraries that use dynamically loaded libraries rely symbols to find libraries, resolve function calls into those libraries, etc.
 

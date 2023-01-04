@@ -92,6 +92,24 @@ readelf -S <executable>
 ```
 ##### Symbols
 Binaries and libraries that use dynamically loaded libraries rely symbols to find libraries, resolve function calls into those libraries, etc.
+- Each symbol is represented as an instance of __Elfxx_Sym__ struct.
+![[Pasted image 20230103221909.png]]
+-   st_name: index in string table of symbol name. If this field is not initialized, then the symbol doesn’t have a name
+-   st_info: contains symbol bind and type attributes. Binding attributes determine the linkage visibility and behavior when a given symbol is referenced by an external object. The most common symbol binds are the following:
+    -   STB_LOCAL: Symbol is not visible outside the _ELF_ object containing the symbol definition.
+    -   STB_GLOBAL: Symbol is visible to all object files.
+    -   STB_WEAK: Representing global symbols, but their definition can be overridden.
+
+The most common symbol types are the following:
+
+- STT_NOTYPE: symbol type is not specified
+-   STT_OBJECT: symbol is a data object (variable).
+-   STT_FUNC: symbol is a code object (function).
+-   STT_SECTION: symbol is a section.
+
+In order to retrieve these fields, a set of bitmasks are used. These bitmasks include:
+-   ELF64_ST_BIND(info)    ((info) >> 4)
+-   ELF64_ST_TYPE(info)    ((info) & 0xf)
 
 ---
 #### Interacting with ELF

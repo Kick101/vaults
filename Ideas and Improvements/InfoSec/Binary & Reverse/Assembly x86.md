@@ -13,9 +13,10 @@ __Six General purpose registers__
 __Reserved Registers__
 - ebp: Base pointer
 - esp: Stack pointer
-- eip
+- eip: Instruction pointer
 ---
 ### Stack
+>Stack grows upwards but memory address go up as we go down
 - __push__ - add element to the top of the stack
 - __pop__ - remove top element from the stack
 - Elements on the lower have the higher address

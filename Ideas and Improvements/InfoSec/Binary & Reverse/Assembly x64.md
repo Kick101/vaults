@@ -134,3 +134,22 @@ __cmp__
 __jnz/jz__
 -  `jump if not zero` & `jump if zero` (`jnz/jz`). They will only execute the jump depending on the status of the `zero` flag. 
 - For `jz` executes if the `zero` flag is set. The opposite is true for `jnz`.
+
+__jle__
+- Jump if less or equal
+
+---
+### Binaries
+__loop__
+```asm
+804840c:       mov    DWORD PTR [ebp-0xc],0x0  ; x = 0
+8048413:       jmp    804842c <main+0x31>  
+8048415:       sub    esp,0x8                  ; stack increase
+8048418:       push   DWORD PTR [ebp-0xc]      ; push x onto stack
+804841b:       push   0x80484c0                ; push this value onto stack
+8048420:       call   80482d0 <printf@plt>     ; printf 0x80484c0
+8048425:       add    esp,0x10  
+8048428:       add    DWORD PTR [ebp-0xc],0x1  
+804842c:       cmp    DWORD PTR [ebp-0xc],0x13  ; x <= 13
+8048430:       jle    8048415 <main+0x1a>       ; jump if above true 
+```

@@ -19,6 +19,7 @@ e: 65537
 ```
 - To find _d_ value (private key), we can factor give _n_ value since it's relatively small.
 	- [FactorDB](http://factordb.com) - Contains already factorised numbers into their primes
+	- [online factor](https://www.alpertron.com.ar/ECM.HTM)
 ---
 __Small exponent__
 m = c^d (mod n) (or) m = (k * n + c)^(1/e)

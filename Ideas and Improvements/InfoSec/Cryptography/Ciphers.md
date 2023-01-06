@@ -10,3 +10,5 @@ key = xor(cipher_1, pt)
 pt = xor(cipher_1, key)
 ```
 #### Caesar Cipher
+
+#### Affine Cipher

@@ -131,3 +131,31 @@ _Six phases of Incident Response:_
 ![[Pasted image 20221225105504.png]]
 
 #### Active Reconnaissance
+__Ping__
+- MS Windows firewall blocks ping by default.
+- Default is 56 bytes, which translates into 64 ICMP data bytes when combined with the 8 bytes of  ICMP header data.
+
+__Traceroute__
+- Traceroute command _traces the route_ taken by the packets from your system to another host. The purpose of a traceroute is to find the IP addresses of the routers or hops that a packet traverses as it goes from your system to a target host
+- Route taken by the packets might change as many routers use dynamic routing protocols that adapt to network changes.
+- We rely on ICMP to "trick" the routers into revealing their IP addresses. We can accomplish this by using a small Time To Live (TTL) in the IP header field. Although the T in TTL stands for time, TTL indicates the maximum number of routers/hops that a packet can pass through before being dropped; TTL is not a maximum number of time units. When a router receives a packet, it decrements the TTL by one before passing it to the next router.
+
+__TELNET (Teletype Network)__
+- Telnet can be used for banner grabbing
+
+__netcat__
+- Listen with netcat
+```bash
+nc -vnlp 1234
+```
+- `-k` -> Keep listening after client disconnects
+- `-n` -> will avoid DNS lookups and warnings.
+- _port numbers less than 1024 require root privileges to listen on_.
+
+---
+### Nmap
+#### Live Host Discovery
+1.  ARP scan: Uses ARP requests to discover live hosts
+2.  ICMP scan: Uuses ICMP requests to identify live hosts
+3.  TCP/UDP ping scan: Sends packets to TCP ports and UDP ports to determine live hosts.
+

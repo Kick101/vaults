@@ -140,6 +140,10 @@ __jle__
 
 ---
 ### Binaries
+__Objdump__
+```bash
+objdump -D <executable> -M intel | less
+```
 __loop__
 ```asm
 804840c:       mov    DWORD PTR [ebp-0xc],0x0  ; x = 0

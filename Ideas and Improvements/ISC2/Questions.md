@@ -5,16 +5,16 @@
 - _Technical Control:_ part of the IT environment
 - _Procedure:_ A set of instructions to perform a particular task, checklist
 - _Law:_ Code was created by a governmental body and is a legal mandate
-- _Standard:_ recognized throughout the industry
+- _Standard:_ recognized throughout the industry. PCI
 - _Policy:_ strategic internal overview issued by senior management
 - _Preserve health and human safety:_ most important goal of a business/security
 - _Regulators:_ regulators do not detect incidents, nor alert organizations to the existence of incidents
-- _Business Continuity Plan:_
+- _Business Continuity Plan:_ Business continuity planning is proactive preparation for restoring operations after disruption
 - security manager will likely be involved in crafting and implementing the policy, but only senior management can approve it
 - _Senior Management:_
 - _Least Privilege:_
-- _Defense in Depth:_
-- _DAC:_ operational managers have authority to determine which personnel have access to assets the manager controls.
+- _Defense in Depth:_ multiple types of controls provides better security
+- _DAC:_ Operational managers have authority to determine which personnel have access to assets the manager controls.
 - _MAC:_ Classification of data/objects. Clearance level
 - A fence is useful for controlling visitors, authorized users and potential intruders. But not specific to visitors.
 - _RBAC:_ employee's job responsibilities dictate exactly which kinds of access the employee has. This also enforces the concept of "least privilege."
@@ -26,7 +26,7 @@
 - _on-path attack:_ attackers insert themselves between communicating parties
 - _side channel attack:_ surveils operational activity, such as changes in power usage, emissions and so forth
 - IoT is typified by effects on or use of the physical environment.
-- Water is typically the _least expensive type of fire-suppression system_
+- Water is the _safest and least expensive type of fire-suppression system_
 - Dirt is usually only used in the suppression of forest fires
 - _NTP(Network Time Protocol):_ Synchronise devices on internal IT environment
 - Devices that must often interact with the external environment (such as a mail server) are typically best situated in the DMZ
@@ -43,9 +43,29 @@
 - Log data should be kept On a device other than where it was captured
 - _Threat_ is something or someone that poses risk to an organization or asset
 - _Acceptance:_ Put a bet, accepting the risk
-
+- _Intrusion_ is an attempt (successful or otherwise) to gain unauthorized access.
+- _Dual Control/Two Person Integrity:_ two people, each with distinct authentication factors, must be present to perform a function
+- _HVAC:_ heating, ventilation and air conditioning
+- _Wiring Closet:_ small spaces, typically placed on each floor of a building, where IT infrastructure can be placed
+- _SIEM:_ A tool that aggregates log data from multiple sources, and typically analyzes it and reports potential threats.
+- _VLAN:_ logical network segmentation
+- _DLP (Data Loss Prevention):_ inspect outbound communications traffic to check for unauthorized exfiltration of sensitive/valuable information
+- _Remanence:_ data left behind on systems/media after normal deletion procedures have been attempted.
+- _Baseline:_ A documented, lowest level of security configuration allowed by a standard or organization.
+- Symmetric encryption preferred for streaming data
+- _BYOD (bring-your-own-device):_ 
 ---
+#### Focus Areas
 - Code of Ethics
 - Access Controls
 - Procedure, policy, standard
-- 
+- Business Continuity
+- Disaster Management
+- Configuration Management
+- Policies
+
+---
+#### To-Do
+- Domain 3
+- Domain 4 (Configuration Management, HVAC, HIDS, NIDS)
+- Domain 5

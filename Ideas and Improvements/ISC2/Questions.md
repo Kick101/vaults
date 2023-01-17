@@ -63,9 +63,13 @@
 - Disaster Management
 - Configuration Management
 - Policies
+- Incidence response
+- Network Security
+- Security Operations
 
 ---
 #### To-Do
 - Domain 3
 - Domain 4 (Configuration Management, HVAC, HIDS, NIDS)
 - Domain 5
+- Glossary

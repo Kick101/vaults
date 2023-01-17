@@ -1,0 +1,51 @@
+- _GDPR (General Data Protection Regulation):_  EU law that treats privacy as a human right
+- _(ISC)² Code of Ethics_ requires that members "advance and protect the profession"; this includes protecting test security for (ISC)² certification material. (ISC)² (and every (ISC)² member) has a vested interest in protecting test material, and countering any entity that is trying to undermine the validity of the certifications.
+- _Physical controls_ ensure objects are not moved from a certain place, walls & bollards
+- _Administrative control:_ rules, policies, permissions, instructions, governance and practices
+- _Technical Control:_ part of the IT environment
+- _Procedure:_ A set of instructions to perform a particular task, checklist
+- _Law:_ Code was created by a governmental body and is a legal mandate
+- _Standard:_ recognized throughout the industry
+- _Policy:_ strategic internal overview issued by senior management
+- _Preserve health and human safety:_ most important goal of a business/security
+- _Regulators:_ regulators do not detect incidents, nor alert organizations to the existence of incidents
+- _Business Continuity Plan:_
+- security manager will likely be involved in crafting and implementing the policy, but only senior management can approve it
+- _Senior Management:_
+- _Least Privilege:_
+- _Defense in Depth:_
+- _DAC:_ operational managers have authority to determine which personnel have access to assets the manager controls.
+- _MAC:_ Classification of data/objects. Clearance level
+- A fence is useful for controlling visitors, authorized users and potential intruders. But not specific to visitors.
+- _RBAC:_ employee's job responsibilities dictate exactly which kinds of access the employee has. This also enforces the concept of "least privilege."
+- Biometric systems can be extremely accurate.
+- _Availability:_ resilience and Redundancy
+- _DMZ:_ 
+- Users report unusual systems activity/response to Help Desk or the security office common ways potential attacks are often identified
+- _Worm:_ an application or file is replicating rapidly across an entire environment
+- _on-path attack:_ attackers insert themselves between communicating parties
+- _side channel attack:_ surveils operational activity, such as changes in power usage, emissions and so forth
+- IoT is typified by effects on or use of the physical environment.
+- Water is typically the _least expensive type of fire-suppression system_
+- Dirt is usually only used in the suppression of forest fires
+- _NTP(Network Time Protocol):_ Synchronise devices on internal IT environment
+- Devices that must often interact with the external environment (such as a mail server) are typically best situated in the DMZ
+- _Asymmetric encryption:_ Provides proof-of-origin for the message
+- _Labeling_ is the practice of annotating assets with classification markings
+- _configuration Management:_ uniformity throughout the IT environment, and that only authorized modifications are made
+- Security policy that conflicts with business goals can inhibit productivity
+- _Hashing_ is often used to provide Integrity
+- _AUP (Acceptable Use Policy):_ agreement between the user and the organization, so both parties need to keep a copy of it.
+- Only senior management has the legal and financial authority to issue policy and accept risk on behalf of the organization
+- Reason to conduct security instruction for all employees: An informed user is a more secure user
+- _CBT (computer-based training)_ is completely scalable, because it can be replicated uniformly for any number of users
+- Logs should be reviewed  Continually.
+- Log data should be kept On a device other than where it was captured
+- _Threat_ is something or someone that poses risk to an organization or asset
+- _Acceptance:_ Put a bet, accepting the risk
+
+---
+- Code of Ethics
+- Access Controls
+- Procedure, policy, standard
+- 

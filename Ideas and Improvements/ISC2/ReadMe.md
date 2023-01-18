@@ -1,5 +1,7 @@
+[Glossary](https://learn.isc2.org/content/enforced/9541-CC-SPT-GLOBAL-1ED-1M/build/glossary/gloss_m00_Glossary.html?ou=9541&d2l_body_type=3)
+
+---
 - _GDPR (General Data Protection Regulation):_  EU law that treats privacy as a human right
-- _(ISC)² Code of Ethics_ requires that members "advance and protect the profession"; this includes protecting test security for (ISC)² certification material. (ISC)² (and every (ISC)² member) has a vested interest in protecting test material, and countering any entity that is trying to undermine the validity of the certifications.
 - _Physical controls_ ensure objects are not moved from a certain place, walls & bollards
 - _Administrative control:_ rules, policies, permissions, instructions, governance and practices
 - _Technical Control:_ part of the IT environment

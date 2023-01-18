@@ -1,6 +1,24 @@
 [Glossary](https://learn.isc2.org/content/enforced/9541-CC-SPT-GLOBAL-1ED-1M/build/glossary/gloss_m00_Glossary.html?ou=9541&d2l_body_type=3)
 
 ---
+### Acronyms
+__Security Principles__
+- GDPR: General Data Protection Regulation
+- HIPAA: Health Insurance Portability and Accountability Act
+- IEEE: Institute of Electrical and Electronics Engineers
+- ISO: International Organization of Standards
+- IEC: International Electro-technical Commission
+- ITU: International Telecommunication Union
+- IETF: Internet Engineering Task Force (TPC, DNS, IP)
+- NIST: National Institutes of Standards and Technology
+- PII: Personally Identifiable Information
+- PHI: Protected Health Information
+
+__Incident Response__
+
+
+---
+
 - _GDPR (General Data Protection Regulation):_  EU law that treats privacy as a human right
 - _Physical controls_ ensure objects are not moved from a certain place, walls & bollards
 - _Administrative control:_ rules, policies, permissions, instructions, governance and practices

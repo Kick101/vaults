@@ -110,20 +110,32 @@ Refers to the use of AI techniques to create or manipulate data to deceive or di
 ---
 ### Given a scenario, analyze potential indicators associated with application attacks
 #### Privilege escalation
+Privilege escalation is the process of a user or program gaining access to higher level privileges than they are normally authorized to have.
 
-#### Cross-site scripting 
+#### Cross-site scripting (XSS)
+Web vulnerability that allows an attacker to _inject malicious code_ (such as JavaScript) into a website, potentially stealing sensitive information from users visiting the affected site.
 
 #### Injections
-- __Structured query language (SQL)__ 
-- __Dynamic-link library (DLL)__
-- __Lightweight Directory Access Protocol (LDAP)__
-- __Extensible Markup Language (XML)__
+A method of inserting malicious code into a website or application by exploiting vulnerabilities in its input validation.
+- **Structured Query Language Injection (SQL):** Attack that targets the database of a system or application. It is done by injecting malicious SQL commands into a form input, URL, or other type of user input
+- **Dynamic-Link Library Injection (DLL):** Attack that targets dynamic-link libraries (DLLs) used by a system or application. It is done by injecting a malicious DLL into the system or application
+- **Lightweight Directory Access Protocol Injection (LDAP):** Attack that targets Lightweight Directory Access Protocol (LDAP) servers. It is done by injecting malicious LDAP commands into a form input, URL, or other type of user input.
+- **XML External Entity (XXE):** Injection of external entities into an XML document, potentially allowing them to access sensitive information or execute malicious code on the affected system.
+
+#### Request forgeries 
+- __Server-side Request Forgery (SSRF):__ Web application vulnerability that allows an attacker to _manipulate the server into making requests on their behalf_. This is achieved by injecting malicious URLs into the application, which the server then uses to make requests to other systems or internal resources.
+- __Cross-site Request Forgery (CSRF):__ Web application vulnerability that allows an attacker to _manipulate a user's browser into making requests to a web application on their behalf_. This is achieved by injecting malicious code into a web page, which the user's browser then sends to the web application without the user's knowledge or consent.
 
 #### Pointer/object dereference
+- Dereferencing means accessing the data stored at a specific memory address or location in a computer program
+- This attack consists of finding null references in a program and dereferencing them, causing an exception to be generated and application crashes.
+- The vulnerability in memory that usually causes the applications to crash or a denial of service is a _NULL Pointer dereference_.
 
 #### Directory traversal 
+Security vulnerability that allows an attacker to access files and directories outside of the intended directory structure by manipulating file paths.
 
 #### Buffer overflows
+Security weakness that occurs when more data is written to a buffer than it can hold, causing it to overflow and potentially allowing an attacker to execute malicious code.
 
 #### Race conditions 
 - __Time of check/time of use__
@@ -135,9 +147,6 @@ Refers to the use of AI techniques to create or manipulate data to deceive or di
 
 #### Integer overflow 
 
-#### Request forgeries 
-- __Server-side__
-- __Cross-site__
 
 #### Application programming interface (API) attacks 
 #### Resource exhaustion

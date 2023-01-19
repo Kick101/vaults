@@ -102,3 +102,50 @@ Refers to the use of AI techniques to create or manipulate data to deceive or di
 - You do not benefit from the cloud’s shared responsibility model. You have more control but are responsible for security of the full stack.
 
 #### Cryptographic attacks
+- __Birthday:__ An attempt to find collisions in hash functions. Commonly targets digital signatures.
+- __Collision:__ Attack on a cryptographic hash to find two inputs that produce the same hash value. Beat with collision-resistant hashes
+- __Downgrade:__ when a protocol is downgraded from a higher mode or version to a low-quality mode or lower version. Commonly targets TLS.
+- __Replay:__ an attempt to reuse authentication requests. targets authentication (often Kerberos)
+
+---
+### Given a scenario, analyze potential indicators associated with application attacks
+#### Privilege escalation
+
+#### Cross-site scripting 
+
+#### Injections
+- __Structured query language (SQL)__ 
+- __Dynamic-link library (DLL)__
+- __Lightweight Directory Access Protocol (LDAP)__
+- __Extensible Markup Language (XML)__
+
+#### Pointer/object dereference
+
+#### Directory traversal 
+
+#### Buffer overflows
+
+#### Race conditions 
+- __Time of check/time of use__
+
+#### Error handling 
+#### Improper input handling 
+#### Replay attack
+- __Session replays__
+
+#### Integer overflow 
+
+#### Request forgeries 
+- __Server-side__
+- __Cross-site__
+
+#### Application programming interface (API) attacks 
+#### Resource exhaustion
+#### Memory leak 
+#### Secure Sockets Layer (SSL) stripping 
+#### Driver manipulation 
+- __Shimming__
+- __Refactoring__
+
+#### Pass the hash
+

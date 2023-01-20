@@ -203,8 +203,8 @@ A technique whereby an _attacker captures a password hash and then passes it thr
 - Examples: session hijacking, and denial-of-service (DoS) attacks.
 
 #### Layer 2 attacks 
-- __Address Resolution Protocol (ARP) poisoning:__ Sending ARP packets across the LAN that contain the attacker’s MAC address and the target’s IP address.
-- __Media access control (MAC) flooding:__ Forcing legitimate MAC table contents out of the switch and forcing a unicast flooding behavior. Potentially sends sensitive info to areas of the network where it is not normally intended to go.
+- __Address Resolution Protocol (ARP) poisoning:__ Sending _unsoliciated ARP replies between two endpoints that contain the attacker’s MAC address_ with endpoints IP addresses.
+- __Media access control (MAC) flooding:__ Attacker _floods a network switch with a large number of fake MAC addresses_, causing the switch to overload and potentially disrupt network communication, causes a denial of service (DoS).
 - __MAC cloning:__ _Duplicates the MAC address of a device_, allowing attacker to appear as a trusted device.
 
 #### Domain name system (DNS) 
@@ -213,7 +213,7 @@ A technique whereby an _attacker captures a password hash and then passes it thr
 - __DNS Spoofing:__ Attacker _sends false replies to a requesting system_, beating the real reply from the valid DNS server.
 - **URL redirection** is the technique of _redirecting a web page request to a different URL_, which can be used for phishing or other malicious purposes.
 - __URL Hijacking:__ Attacker _takes control of a website's URL and redirects visitors to  malicious website_. This can be done by typosquatting or by using different TLD.
-- **Domain reputation** is a _measure of the trustworthiness of a domain_ based on various factors such as its history of hosting malicious content, its owner, and the nature of its content.
+- **Domain reputation** is a _measure of the trustworthiness of a domain_ based on various _factors such as its history of hosting malicious content, its owner, and the nature of its content_.
 
 #### Distributed denial-of-service (DDoS)
 A type of cyber attack that aims to make a website or network resource unavailable by overwhelming it with traffic from multiple sources.
@@ -223,14 +223,26 @@ A type of cyber attack that aims to make a website or network resource unavailab
 - **Operational technology (OT)**: Targets the weaknesses of software and hardware devices that _control systems in factories, power plants, and other industries, such as IoT devices_.
 
 #### Malicious code or script execution 
-- PowerShell 
-- Python 
-- Bash 
-- Macros 
-- Visual Basic for Applications (VBA)
+_Malicious code or scripts_ that can created in many programming languages:
+- PowerShell (windows shell script)
+- Python (multi-purpose programming language)
+- Bash (Linux shell script)
+- Macros (code that automates a repetitive tasks, used in micorsoft products mainly)
+- Visual Basic for Applications (VBA) (windows shell script)
+
+Ex: Logic bombs, macro virus, python keylogger etc.
 
 ---
 ### Explain different threat actors, vectors, and intelligence sources.
+#### Actors and threats
+- **Advanced persistent threat (APT)**: A type of cyber attack in which an attacker establishes a long-term presence on a network in order to steal sensitive information.
+-   **Insider threats**: A security threat to an organization that comes from within, either from an employee, a former employee, or a business partner.
+-   **State actors**: State-sponsored hackers or organizations who are backed by a country's government to perform cyber attacks on other countries.
+-   **Hacktivists**: Hackers who use their skills to achieve a political or social agenda.
+-   **Script kiddies**: Individuals who use pre-written scripts or programs, often without understanding how they work, to launch cyber attacks.
+-   **Criminal syndicates**: Organized groups that engage in cybercrime for financial gain.
+
+
 
 ---
 ### Explain the security concerns associated with various types of vulnerabilities

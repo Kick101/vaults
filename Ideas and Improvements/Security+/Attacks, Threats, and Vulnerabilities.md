@@ -110,7 +110,7 @@ Refers to the use of AI techniques to create or manipulate data to deceive or di
 ---
 ### Given a scenario, analyze potential indicators associated with application attacks
 #### Privilege escalation
-Privilege escalation is the process of a user or program gaining access to higher level privileges than they are normally authorized to have.
+Privilege escalation is the process of a user or program _gaining access to higher level privileges_ than they are normally authorized to have.
 
 #### Cross-site scripting (XSS)
 Web vulnerability that allows an attacker to _inject malicious code_ (such as JavaScript) into a website, potentially stealing sensitive information from users visiting the affected site.
@@ -128,33 +128,98 @@ A method of inserting malicious code into a website or application by exploiting
 
 #### Pointer/object dereference
 - Dereferencing means accessing the data stored at a specific memory address or location in a computer program
-- This attack consists of finding null references in a program and dereferencing them, causing an exception to be generated and application crashes.
+- This attack consists of _finding null references in a program and dereferencing them, causing an exception_ to be generated and application crashes.
 - The vulnerability in memory that usually causes the applications to crash or a denial of service is a _NULL Pointer dereference_.
 
 #### Directory traversal 
-Security vulnerability that allows an attacker to access files and directories outside of the intended directory structure by manipulating file paths.
+Security vulnerability that _allows an attacker to access files and directories outside of the intended directory_ structure by manipulating file paths.
 
 #### Buffer overflows
-Security weakness that occurs when more data is written to a buffer than it can hold, causing it to overflow and potentially allowing an attacker to execute malicious code.
+Security weakness that occurs when _more data is written to a memory buffer than it can hold, causing it to overflow_ and potentially allowing an attacker to execute malicious code.
 
 #### Race conditions 
-- __Time of check/time of use__
+A condition where the system's behaviour is dependent on the sequence or timing of other uncontrollable events.
+- __Time of check/time of use:__ When a program checks the state of an object (e.g. a file, a network connection) and then uses it later on, without ensuring that the state of the object has not changed in the meantime. (Ex: DNS Rebinding)
 
 #### Error handling 
-#### Improper input handling 
+- The process of detecting and responding to errors that occur during the execution of a program.
+- Properly done, the user will simply see an error message box. If a program crashes, it is a sign of poor error handling
+
+#### Improper input handling
+The failure to properly validate or sanitise user input, which can lead to security vulnerabilities such as SQL injection or cross-site scripting (XSS) attacks.
+
 #### Replay attack
-- __Session replays__
+An attempt to reuse authentication requests.
+- __Session replays:__ An attacker steals a valid session ID of a user and reuses it to impersonate an authorized user and perform fraudulent transactions or activities.
 
 #### Integer overflow 
+A type of arithmetic overflow error when the result of an integer operation _does not fit within the allocated memory space_, causes the result to be unexpected.
 
+#### Application programming interface (API) attacks
+- API attacks refer to methods used by attackers to _exploit vulnerabilities in application programming interfaces_ (APIs) to gain unauthorized access to systems or data, disrupt or degrade service, or steal sensitive information. 
+- These attacks can include techniques such as injection attacks, authentication bypass, and denial of service (DoS) attacks.
 
-#### Application programming interface (API) attacks 
 #### Resource exhaustion
+- Resource exhaustion refers to a situation where an attacker _floods an application or system with a large amount of requests_, causing it to use up all of its resources, such as memory, CPU, or network bandwidth. 
+- This leads to a state where the application or system is unable to respond to legitimate requests, causing a Denial of Service. (Ex: DoS, DDoS)
+
 #### Memory leak 
-#### Secure Sockets Layer (SSL) stripping 
-#### Driver manipulation 
-- __Shimming__
-- __Refactoring__
+- Software bug where an _application continuously allocates memory but fails to release it back to the system_, resulting in an increasing amount of used memory. As the application continues to run, it will consume more and more memory until it eventually causes the system to slow down or crash. 
+- Memory leaks are common in programs written in C and C++
+
+#### Secure Sockets Layer (SSL) stripping
+- A technique by which a website is _downgraded from https to http_ and exposes you to eavesdropping and data manipulation.
+- In order to “strip” the TLS/SSL, an attacker intervenes in the redirection from HTTP to HTTPS and intercepts a request from the user to the server.
+
+
+#### Driver manipulation
+- Drivers are _software programs that allow the operating system to communicate with hardware devices_, such as printers, keyboards, and network adapters.
+- Attacker alters or replaces the legitimate drivers installed on a system with malicious versions to gain access to sensitive information, execute arbitrary code, or cause the system to crash.
+- __Shimming:__ Technique of _intercepting an application's function calls and redirecting them to a malicious library or code_. This is often achieved by creating a shim, a small library that sits between the application and the operating system, and intercepts certain function calls. Often used to bypass security controls, such as antivirus software, or to perform malicious actions, such as stealing sensitive information.
+- __Refactoring:__ Software attack in which an attacker _modifies the code of an application or system in a way that changes its behavior, but does not change its functionality_. For example, a piece of malicious code inserted into a program that is designed to steal sensitive information, but the program will still perform its intended function, such as opening a document or playing a video. The malicious code will run in the background, performing its malicious function without being noticed by the user or security controls, as the functionality of the program has not been changed.
 
 #### Pass the hash
+A technique whereby an _attacker captures a password hash and then passes it through for authentication_ and lateral access.
+- One primary difference between pass-the-hash and __pass-the-ticket__, is ticket expiration.
+- Kerberos TGT tickets expire (10 hours by default) whereas NTLM hashes only change when the user changes their password.
+> “Credential Guard” in Windows 10 encrypts hash in memory, stopping this attack
 
+---
+### Given a scenario, analyze potential indicators associated with network attacks.
+#### Wireless 
+- **Evil twin**: An evil twin is a type of wireless access point (AP) that masquerades as a legitimate one, usually with the intention of stealing sensitive information from unsuspecting victims.
+- **Rogue access point**: A rogue access point (AP) is a wireless access point that has been installed on a network without the authorization of the network administrator.
+- **Bluesnarfing**: Bluesnarfing is a type of hacking in which an attacker gains unauthorized access to data on a Bluetooth-enabled device.
+- **Bluejacking**: Bluejacking is a type of hacking in which an attacker sends unsolicited messages to Bluetooth-enabled devices in the vicinity.
+- **Disassociation**: Disassociation is the process of disconnecting a device from a wireless network.
+- **Jamming**: Jamming is the intentional broadcasting of radio signals on the same frequency as an authorized transmitter, with the intent to interfere with or disrupt the legitimate wireless communications.
+- **Radio frequency identification (RFID)**: RFID is a technology that uses radio waves to identify and track objects wirelessly.
+- **Near-field communication (NFC)**: NFC is a technology that enables short-range wireless communication between devices, typically used for mobile payments and data transfer.
+- **Initialization vector (IV)**: An initialization vector (IV) is a random value that is used in conjunction with a secret key to encrypt data in symmetric key algorithms. It helps to ensure that the same data encrypted with the same key will produce different ciphertext.
+
+#### On-path attack ( man-in-the-middle attack/ man-in-the-browser attack)
+- Attacker sits in the middle between two endpoints and is able to intercept traffic, capturing (and potentially changing) information.
+- Examples: session hijacking, and denial-of-service (DoS) attacks.
+
+#### Layer 2 attacks 
+- Address Resolution Protocol (ARP) poisoning 
+- Media access control (MAC) flooding 
+- MAC cloning
+
+#### Domain name system (DNS) 
+- Domain hijacking 
+- DNS poisoning 
+- Uniform Resource Locator (URL) redirection 
+- Domain reputation
+
+---
+### Explain different threat actors, vectors, and intelligence sources.
+
+---
+### Explain the security concerns associated with various types of vulnerabilities
+
+---
+### Summarize the techniques used in security assessments.
+
+---
+### Explain the techniques used in penetration testing.

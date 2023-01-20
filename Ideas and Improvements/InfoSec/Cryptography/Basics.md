@@ -29,6 +29,18 @@ bytes_code.hex()
 # base64 encode bytes string
 base64.b64encode(bytes_code)
 ```
+#### Convert binary to ascii
+```python
+binary_data = "0110100001101001"
+ascii_data = bytes.fromhex(hex(int(binary_data, 2))[2:]).decode()
+print(ascii_data)
+```
+```python
+import binascii
+binary_data = "0110100001101001"
+ascii_data = binascii.unhexlify('%x' % int(binary_data, 2))
+print(ascii_data)
+```
 #### XOR
 ```python
 from pwn import *

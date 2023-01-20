@@ -235,13 +235,20 @@ Ex: Logic bombs, macro virus, python keylogger etc.
 ---
 ### Explain different threat actors, vectors, and intelligence sources.
 #### Actors and threats
-- **Advanced persistent threat (APT)**: A type of cyber attack in which an attacker establishes a long-term presence on a network in order to steal sensitive information.
--   **Insider threats**: A security threat to an organization that comes from within, either from an employee, a former employee, or a business partner.
--   **State actors**: State-sponsored hackers or organizations who are backed by a country's government to perform cyber attacks on other countries.
--   **Hacktivists**: Hackers who use their skills to achieve a political or social agenda.
--   **Script kiddies**: Individuals who use pre-written scripts or programs, often without understanding how they work, to launch cyber attacks.
--   **Criminal syndicates**: Organized groups that engage in cybercrime for financial gain.
+- **Advanced persistent threat (APT)**: A _group of attackers conduct sophisticated series of attacks_ taking place over an _extended period of time_. Typically wellorganized, well-funded and highly skilled.
+-   **Insider threats**: A security threat to an organization that comes from within, either from an _employee, a former employee, or a business partner_.
+-   **State actors**: State-sponsored hackers or organizations who are _backed by a country's government_ to perform cyber attacks on other countries.
+-   **Hacktivists**: Hackers who use their skills to _achieve a political or social agenda_.
+-   **Script kiddies**: Individuals _who use pre-written scripts_ or programs, often _without understanding how they work_, to launch cyber attacks.
+-   **Criminal syndicates**: Organized groups that engage in _cybercrime for financial gain_.
+- __Hacker:__ A hacker is a person who uses computer skills to gain access to systems, networks or data.
+	- __Unauthorized:__ Black Hat
+	- __Authorized:__ White Hat
+	- __Semiauthorized:__ Grey Hat
+- __Shadow IT:__ The use of information technology systems, devices, software, applications, and services _without explicit IT department approval_, often done with no bad intentions.
+- __Competitors:__ _Competitive organization attack_ to steal or destory information or intellectual property.
 
+#### Attributes of actors
 
 
 ---

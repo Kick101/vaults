@@ -4,7 +4,7 @@ An attempt by an attacker to convince someone to provide info (like a password) 
 
 #### Social Engineering Attacks
 ##### Virtual Attacks
-- __Phishing:__ Attempt to acquire sensitive information by disguising oneself as a trustworthy entity in an electronic communication.
+- __Phishing:__ Attempt to acquire sensitive information by _disguising oneself as a trustworthy entity_ in an electronic communication.
 - __Smishing:__ Attempt to acquire sensitive information by disguising oneself as a trustworthy entity in a _text message_.
 - __Vishing:__ Attempt to acquire sensitive information over the _phone_ by disguising oneself as a trustworthy entity. 
 - __Spam:__ Unsolicited messages sent in bulk, typically through email or messaging platforms. 
@@ -189,8 +189,9 @@ A technique whereby an _attacker captures a password hash and then passes it thr
 #### Wireless 
 - **Evil twin**: An evil twin is a type of wireless access point (AP) that masquerades as a legitimate one, usually with the intention of stealing sensitive information from unsuspecting victims.
 - **Rogue access point**: A rogue access point (AP) is a wireless access point that has been installed on a network without the authorization of the network administrator.
-- **Bluesnarfing**: Bluesnarfing is a type of hacking in which an attacker gains unauthorized access to data on a Bluetooth-enabled device.
-- **Bluejacking**: Bluejacking is a type of hacking in which an attacker sends unsolicited messages to Bluetooth-enabled devices in the vicinity.
+- **Bluesnarfing**: Attacker gains _unauthorized access to data_ on a Bluetooth-enabled device.
+- **Bluejacking**: Attacker _sends unsolicited messages_ to Bluetooth-enabled devices.
+- __Bluebugging:__ creates a backdoor attack before returning control of the phone to its owner.
 - **Disassociation**: Disassociation is the process of disconnecting a device from a wireless network.
 - **Jamming**: Jamming is the intentional broadcasting of radio signals on the same frequency as an authorized transmitter, with the intent to interfere with or disrupt the legitimate wireless communications.
 - **Radio frequency identification (RFID)**: RFID is a technology that uses radio waves to identify and track objects wirelessly.

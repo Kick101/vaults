@@ -254,6 +254,17 @@ Ex: Logic bombs, macro virus, python keylogger etc.
 -   **Resources/Funding**: The resources and funding available to the actor.
 -   **Intent/Motivation**: The reasons or goals driving the actor's action
 
+#### Vectors
+The _means by which a threat or vulnerability can propagate_ or spread.
+-   **Direct access:** Physical access to facilities, hardware and infrastructure. Keylogger, flash drive common here.
+-   **Wireless:** Wireless communication networks and devices.
+-   **Email:** Electronic mail and messaging systems.
+-   **Supply chain:** The flow of goods, services, and information from suppliers to manufacturers to distributors to customers.
+-   **Social media:** Online platforms for social interaction and communication.
+-   **Removable media:** Portable storage devices such as USB drives and CDs.
+-   **Cloud:** Remote servers and storage accessed through the internet.
+
+
 ---
 ### Explain the security concerns associated with various types of vulnerabilities
 

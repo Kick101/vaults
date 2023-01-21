@@ -249,7 +249,10 @@ Ex: Logic bombs, macro virus, python keylogger etc.
 - __Competitors:__ _Competitive organization attack_ to steal or destory information or intellectual property.
 
 #### Attributes of actors
-
+-   **Internal/External**: Whether the actor is within an organization or outside of it.
+-   **Level of Sophistication/Capability**: The level of expertise and capability the actor possesses.
+-   **Resources/Funding**: The resources and funding available to the actor.
+-   **Intent/Motivation**: The reasons or goals driving the actor's action
 
 ---
 ### Explain the security concerns associated with various types of vulnerabilities

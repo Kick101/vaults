@@ -102,10 +102,10 @@ Refers to the use of AI techniques to create or manipulate data to deceive or di
 - You do not benefit from the cloud’s shared responsibility model. You have more control but are responsible for security of the full stack.
 
 #### Cryptographic attacks
-- __Birthday:__ An attempt to find collisions in hash functions. Commonly targets digital signatures.
-- __Collision:__ Attack on a cryptographic hash to find two inputs that produce the same hash value. Beat with collision-resistant hashes
-- __Downgrade:__ when a protocol is downgraded from a higher mode or version to a low-quality mode or lower version. Commonly targets TLS.
-- __Replay:__ an attempt to reuse authentication requests. targets authentication (often Kerberos)
+- __Birthday:__ An attempt to _find collisions in hash functions_. Commonly targets digital signatures.
+- __Collision:__ Attack on a cryptographic hash to _find two inputs that produce the same hash_ value. Beat with collision-resistant hashes
+- __Downgrade:__ when a _protocol is downgraded_ from a higher mode or version to a low-quality mode or lower version. Commonly targets TLS.
+- __Replay:__ an attempt to _reuse authentication requests_. targets authentication (often Kerberos)
 
 ---
 ### Given a scenario, analyze potential indicators associated with application attacks
@@ -256,14 +256,28 @@ Ex: Logic bombs, macro virus, python keylogger etc.
 
 #### Vectors
 The _means by which a threat or vulnerability can propagate_ or spread.
--   **Direct access:** Physical access to facilities, hardware and infrastructure. Keylogger, flash drive common here.
--   **Wireless:** Wireless communication networks and devices.
--   **Email:** Electronic mail and messaging systems.
--   **Supply chain:** The flow of goods, services, and information from suppliers to manufacturers to distributors to customers.
--   **Social media:** Online platforms for social interaction and communication.
--   **Removable media:** Portable storage devices such as USB drives and CDs.
--   **Cloud:** Remote servers and storage accessed through the internet.
+-   **Direct access:** _Physical access_ to facilities, hardware and infrastructure. Keylogger, flash drive common here.
+-   **Wireless:** _Unsecure access points_, rogue access points, evil twin.
+-   **Email:** SPAM, phishing, ransomware, fake invoice scams.
+-   **Supply chain:** _Attack on vendors in an organizations supply chain_, sometimes as a precursor to direct attack.
+-   **Social media:** Employees _sharing critical info on social media_ can aid more info for an attack.
+-   **Removable media:** Portable storage devices such as USB drives and CDs. High security organizations _should elminate/limit the use of removable media_.
+-   **Cloud:** Unsecure apps, misconfigured infrastructure, shadow IT could as attack vector.
 
+#### Threat intelligence sources
+Information and data that is used to identify and understand potential threats and vulnerabilities.
+-   **Open-source intelligence (OSINT):** Information that is _publicly available_, such as news articles, social media posts, and government reports.
+-   **Closed/proprietary:** _Vendor-specific threat intelligence_ feeds limited to paying customers, which are intended to keep customers informed and secure, while not tipping off threat actors (hackers).
+-   **Vulnerability databases:** Databases that contain _information about known vulnerabilities_ in software and systems. National Vulnerability Database (NVD).
+-   **Public/private information-sharing centers:** Organizations that facilitate the _sharing of information and intelligence_ between public and private sector entities.
+-   **Dark web:** The portion of the internet that is _not indexed by search engines_ and can only be accessed using specialized software.
+-   **Indicators of compromise (IOCs):** sometimes called “threat indicators” are “pieces of forensic data, such as data found in system log entries or files, that _identify potentially malicious activity_ on a system or network.”
+-   **Automated Indicator Sharing (AIS):** It is a Cybersecurity and Infrastructure Security Agency (CISA) capability, _enables the realtime exchange of machine-readable cyber threat indicators and defensive measures_. It’s provided free to help protect participants of the AIS community and ultimately reduce the prevalence of cyberattacks.
+	-   **Structured Threat Information eXpression (STIX):** Defines how to _represent cyber threat information_ in a standardized and structured way.
+	- __Trusted Automated eXchange of Intelligence Information (TAXII):__ It enables organizations to _transfer threat intelligence_. TAXII is based on HTTPS.
+-   **Predictive analysis:** The use of data and analytics to _predict future threats_ and vulnerabilities.
+-   **Threat maps:** Visual representations of threat information, such as geolocated maps of attack locations.
+-   **File/code repositories:** Online platforms where files, scripts, and _code can be shared_ and accessed by others.
 
 ---
 ### Explain the security concerns associated with various types of vulnerabilities

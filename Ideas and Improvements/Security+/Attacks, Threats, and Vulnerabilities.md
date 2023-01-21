@@ -275,8 +275,8 @@ Information and data that is used to identify and understand potential threats a
 -   **Automated Indicator Sharing (AIS):** It is a Cybersecurity and Infrastructure Security Agency (CISA) capability, _enables the realtime exchange of machine-readable cyber threat indicators and defensive measures_. It’s provided free to help protect participants of the AIS community and ultimately reduce the prevalence of cyberattacks.
 	-   **Structured Threat Information eXpression (STIX):** Defines how to _represent cyber threat information_ in a standardized and structured way.
 	- __Trusted Automated eXchange of Intelligence Information (TAXII):__ It enables organizations to _transfer threat intelligence_. TAXII is based on HTTPS.
--   **Predictive analysis:** The use of data and analytics to _predict future threats_ and vulnerabilities.
--   **Threat maps:** Visual representations of threat information, such as geolocated maps of attack locations.
+-   **Predictive analysis:** A _mix of automation and human intelligence_ capabilities to optimize your cybersecurity program and gradually build capacity to _predict and prevent attacks before they hit_.
+-   **Threat maps:** _Visual representations of threat information_, such as geolocated maps of attack locations.
 -   **File/code repositories:** Online platforms where files, scripts, and _code can be shared_ and accessed by others.
 
 ---

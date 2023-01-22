@@ -10,6 +10,25 @@ __Learning Objectives:__
 
 ---
 ### Understand data security
+#### Encryption 
+- symmetric
+- asymmetric
+- hashing
+#### Data handling
+- Create
+- Store
+- Share
+- Use
+- Modify
+- Archive
+- Destroy
+- destruction
+- retention
+- __Classification:__
+- __Labeling:__
+
+#### Logging and monitoring security events
+
 
 ---
 ### Understand system hardening

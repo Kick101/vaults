@@ -10,14 +10,13 @@ At the end of this module, you will be able to:
 - Apply footprinting best practices
 ---
 ### Footprinting Concepts
->Footprinting is the process of gathering information about a target system or organization in order to identify potential vulnerabilities that can be exploited during a cyber attack. It is an important part of the ethical hacking process because it helps hackers to understand the target environment and plan their attacks accordingly. Footprinting can involve a variety of activities, such as gathering information about the organization's structure and business operations, identifying key personnel and their roles, and researching the technology and software that the organization uses. By understanding these details, hackers can identify potential weak points in the organization's defenses and tailor their attacks to exploit them.
 
 __Footprinting Basic Terminology__
 - Why do we do footprinting?
 	- To gather information about a target system or an organization.
 - What is the need of this information?
 	- We can analyze this information to find any vulnerabilities in the system
-- What are these types of information?
+- What type of information are we interseted in?
 	- Organisation structure
 	- Business operations
 	- Identify key personnel and their roles in the org.
@@ -29,14 +28,14 @@ __Footprinting Basic Terminology__
 - What is passive footprinting?
 	- Gathering information _without interaction_ with target.
 - What is the need for passive footprinting?
-	- It is hard to be detected by the target
+	- To not get detected by the target and will help how to plan active footprinting such that detection is minimized.
 - How to perform passive footprinting?
-	- It is performed by collecting archived and stored information using search engines, social engines(Google, Shodan), social networking sites, so on.
+	- It is performed by collecting archived and stored information using search engines (Google, Shodan), social networking sites, wayback machine, so on.
 - What is active footprinting?
 	- Gathering information _with direct interaction_ with target.
 - What is the need for active footprinting?
 	- It gathers information that is not available using passive footprinting technique
-	- Information like: open ports, service enumeration, directories
+	- Information like: open ports, service enumeration
 - How to perform active footprinting?
 	- Using tools that directly interact with the target system
 	- Such as: nmap, nc, nessus, metasploit, and other enumeration tools

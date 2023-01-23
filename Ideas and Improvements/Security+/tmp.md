@@ -48,3 +48,13 @@ __Hacking Related Ques__
 - Human Microchip implant
 - E-Governance
 - Healthcare
+
+---
+### Questions
+- rot13
+- sqli
+- google dorking
+- socials: discord, whatsapp, insta, linkedin
+- shodan
+- reverse string (rev)
+

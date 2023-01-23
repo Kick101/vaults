@@ -50,13 +50,55 @@ __Classification:__ Process of recognizing the organizational impacts if the inf
 -   When systems elements are to be removed and replaced, purging or destruction may be required to protect sensitive information from being compromised by an attacker.
 
 #### Encryption 
-- symmetric
-- asymmetric
-- hashing
+Encryption is the process of _converting plaintext (readable text) into ciphertext (unreadable text) using a secret key_, to protect it from unauthorized access.
+Encryption ensures two important security principles: confidentiality(encryption) and integrity (hashing).
+
+__Symmetric Encryption__: 
+- Symmetric encryption is a method of _encrypting and decrypting data using a shared secret key_.
+- Distribution of the key poses a challenge as it cannot be sent through the same channel as the encrypted message without risking the key being intercepted by a man-in-the-middle (MITM) attack. To mitigate this, the _key is distributed through an out-of-band method_, such as courier, fax, or phone, to ensure secure key delivery.
+- Separate key is required for each person or group to communicate with another. However, this raises the _challenge of scalability_ as it is difficult to manage as the number of users increases. For example, an organization with 1,000 employees would need to manage 499,500 keys if all employees wanted to communicate with each other.
+- _Primary uses of symmetric algorithms:_
+	-   Encrypting bulk data (backups, hard drives, portable media)
+	-   Encrypting messages traversing communications channels (IPsec, TLS)
+	-   Streaming large-scale, time-sensitive data (audio/video materials, gaming, etc.)
+- _Other names for symmetric algorithms:_
+	-   Same key
+	-   Single key
+	-   Shared key
+	-   Secret key
+	-   Session key
+
+__Asymmetric Encryption:__
+- Asymmetric encryption uses _different keys to encrypt and decrypt messages, solving key distribution and scalability issues_ but being _slower and less practical for large amounts of data_.
+
+__Hashing:__
+- 
 
 #### Logging and monitoring security events
-
-
+Logging is the process of _capturing and recording information about events_ that occur within a computer system or network.
+- Logged data include but not limited to: 
+	-   user IDs
+	-   system activities
+	-   dates/times of key events (e.g., logon and logoff)
+	-   device and location identity
+	-   successful and rejected system and resource access attempts
+	-   system configuration changes and system protection activation and deactivation events
+- Log reviews are essential for identifying security incidents, policy violations, and operational problems in a timely manner.
+- __Ingress monitoring__: monitoring _incoming network traffic_ to detect and prevent unauthorized access
+	- Tools:
+		- Firewalls
+		- Gateways
+		- Remote authentication servers
+		- IDS/IPS tools
+		- SIEM solutions
+		- Anti-malware solutions
+- __Egress monitoring:__ monitoring _outgoing network traffic_ to detect and prevent data exfiltration or malicious activity. 
+	- The _Data Loss Prevention_ solution is used to inspect all forms of data leaving the organization, including:
+		- Email (content and attachments)
+		- Copy to portable media
+		- File Transfer Protocol (FTP)
+		- Posting to web pages/websites
+		- Applications/application programming interfaces (APIs)
 ---
 ### Understand system hardening
 #### Configuration management 

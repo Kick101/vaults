@@ -10,22 +10,29 @@ __Learning Objectives:__
 
 ---
 ### Understand data security
+#### Data Handling
+Data itself goes through its own life cycle as users create, use, share and modify it.
+
+##### Data Life cycle
+- Create
+- Store
+- Use
+- Share
+- Modify
+- Archive
+- Destroy
+
+##### Data handling Practices
+- __Classification:__
+- __Labeling:__
+- __Retention:__
+- __Destruction:__
+
+
 #### Encryption 
 - symmetric
 - asymmetric
 - hashing
-#### Data handling
-- Create
-- Store
-- Share
-- Use
-- Modify
-- Archive
-- Destroy
-- destruction
-- retention
-- __Classification:__
-- __Labeling:__
 
 #### Logging and monitoring security events
 

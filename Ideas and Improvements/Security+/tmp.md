@@ -58,3 +58,13 @@ __Hacking Related Ques__
 - shodan
 - reverse string (rev)
 
+
+---
+Bug chart themes:
+1. pubg
+2. harry potter 
+3. dooms day
+4. wednesday
+5. call of duty
+6. assassins creed
+7.,8.,9.10. Hacking animated themes

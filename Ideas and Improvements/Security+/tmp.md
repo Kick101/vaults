@@ -68,3 +68,38 @@ Bug chart themes:
 5. call of duty
 6. assassins creed
 7.,8.,9.10. Hacking animated themes
+
+---
+Remote challenges
+
+team lead: Saketh 
+team members: Saketh, Jaswanth, Kishore. 
+constraints:
+10 challenges and 20 Qr's (Backup Qr's)
+proper placement Qr's and surveillance.
+Osint high priority
+after Qr gets Scanned: Three input fields 
+Name
+ID 
+Flag
+limit of flags submission: 5 
+
+In Ctf solution we will be uploading flag solution along with small blog. in order to create a small excitement in audience.
+
+
+
+---
+### Question implementation
+
+
+
+
+
+
+
+
+
+
+
+
+

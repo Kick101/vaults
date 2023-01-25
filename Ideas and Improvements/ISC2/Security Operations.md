@@ -61,6 +61,15 @@ __Symmetric Encryption__:
 	-   Encrypting bulk data (backups, hard drives, portable media)
 	-   Encrypting messages traversing communications channels (IPsec, TLS)
 	-   Streaming large-scale, time-sensitive data (audio/video materials, gaming, etc.)
+_Examples_
+- Any substitution cipher  
+- AES (Advanced Encryption Standard)
+-   DES (Data Encryption Standard)
+-   3DES (Triple DES)
+-   Blowfish
+-   Twofish
+-   RC4 (Ron's Code 4)
+
 - _Other names for symmetric algorithms:_
 	-   Same key
 	-   Single key

@@ -93,11 +93,11 @@ In Ctf solution we will be uploading flag solution along with small blog. in ord
 
 
 
-
-
-
-
-
+Bug chart: 10rs choclate-15 members -150
+acronyms: 5rs choclate-15-members
+dhamS: 10rs choclate-15 
+challenges: 1st 10 challenges - 75 celebrations.
+All stall challenges: 75 celebrations.
 
 
 

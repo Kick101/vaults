@@ -22,19 +22,15 @@
 
 **Topic:** Open Source Intelligence (OSINT)
 
-**Here is your surprise for finding this QR, get a free flag from Discord: <discord-invite-link>**
+**Here is your surprise for finding this QR, get a free flag from whatsapp group:** \<whatsapp-invite-link>
 
-Task:
+__To-Do:__
+- Once you have joined group, check description.
+- Link to cysec instagram
+- Hide flag in insta comments
+- Link to linkedIn account
 
-- Once you have joined the server, look for a specific channel called "Announcements".
-
-To-Do:
-
-Make a post on discord.
-
-Flag with emojis reactions.
-
-```
+```txt
 We apologize for the inconvenience. Unfortunately, we are unable to provide you with the full flag at this time. However, you can find the flag parts on our social media platforms. We are more than happy to give you the correct order to append the parts together to create the full flag. You can find the flag parts on our LinkedIn, Instagram.
 ```
 
@@ -107,7 +103,9 @@ Find the file, you find the flag.
 
 OSINT is like being a treasure hunter but instead of searching for gold and jewels, you're searching for information. You're given a map with a big X marked on it, but the location is not specific. Your task is to use different tools and techniques to zoom in on that X, and uncover valuable information.
 
-![WhatsApp Image 2023-01-26 at 12.37.16 PM.jpeg](Challenges%207620a8744bcb43a493b25316e6a2247d/WhatsApp_Image_2023-01-26_at_12.37.16_PM.jpeg)
+![[WhatsApp_Image_2023-01-26_at_12.37.16_PM.jpeg | 300]]
+
+
 
 **Hint:**
 
@@ -137,11 +135,13 @@ Phone number: +91 9876543210
 
 # Ask them to come to stall
 
+---
+
 # Hash-breaking
 
 A hash is like a digital fingerprint. Just like your fingerprints are unique to you and can be used to identify you, a hash is a unique string of characters that can be used to identify a specific piece of information.
 
-```
+```hash
 aa2a3035d0e3f34eeb5d18ed021e79ce5f0ef44d
 ```
 
@@ -150,4 +150,5 @@ aa2a3035d0e3f34eeb5d18ed021e79ce5f0ef44d
 - The strange looking string above is known as a hash. More specifically, it is a Secure Hash Algorithm 1 (SHA1) hash.
 - A hash can be broken using many ways, one of among is by using rainbow tables. You can use [crackstation.net](http://crackstation.net) to crack common hashes.
 
+---
 # podcast

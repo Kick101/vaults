@@ -28,5 +28,9 @@ __Four Canons:__
 	- Written and notarized affidavit using (ISC)2 form
 	- It must include, name of the accused, nature of the violation, which canon breached, reason we are reporting and evidence.
 
-__Standing to file a canon:__
-- 
+__Standing to file a complaint:__
+- Standing varies by canon involved.
+- Anyone may file a complaint under canons 1 and 2.
+- Canon 3 may be filed by employers or clients
+- Canon 4 may be filed by professionals who are subscribed or licensed.
+

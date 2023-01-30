@@ -17,3 +17,16 @@ when given examples.
 • Practice the terminology and review security principles
 
 ---
+#### (ISC)2 Code of Ethics
+__Four Canons:__
+1. Protect society and infrastructure
+2. Act honorably. (Work with laws)
+3. Serve principals diligently and competent. (responsible manner)
+4. Advance the information security profession.
+- _Failed to report violation is a violation_
+- Procedure to submit violation:
+	- Written and notarized affidavit using (ISC)2 form
+	- It must include, name of the accused, nature of the violation, which canon breached, reason we are reporting and evidence.
+
+__Standing to file a canon:__
+- 

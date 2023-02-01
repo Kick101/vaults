@@ -119,3 +119,18 @@ _Risk tolerance_ - level of risk an organization is willing to accept.
 ---
 #### Security Controls
 Reduce the likelihood or impact of a risk and help identify issues.
+
+__Defense in Depth:__
+It uses overlapping security controls.
+
+__Grouping Controls:__
+By their _Control purpose_:
+- Preventive - stop from occurring, firewall
+- Detective - require further investigation, IDS
+- Corrective -  remediate 
+
+By their _Control mechanism:
+- Technical
+- Administrative
+- Physical
+

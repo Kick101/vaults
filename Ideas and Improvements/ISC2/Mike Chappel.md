@@ -127,10 +127,43 @@ __Rj -11__
 - landlines
 
 __NFC__
-- Very near. No more than 2inches
+- Very near. No more than 2 inches
 - Payments, building access control systems
 
 #### TCP/IP
+__Internet Protocol(IP):__
+- Routes information across networks
+- Provides an addressing scheme
+- Delivers packets across network 
+- _Network Layer_
+
+__Transmission Control Protocol:__ 
+- Connection oriented: E-mail, web traffic
+- _3-way handshake flags:_ 
+	- SYN: Opens a connection
+	-  FIN: Closes a connection
+	- ACK: acknowledges a SYN or FIN packet
+	- SYN - SYN/ACK - ACK
+
+__User Datagram Protocol:__
+- Connectionless: voice, video  
+- Doesn't send acknowledgements
+
+__Open Systems Interconnection Model:__
+1. Physical Layer: Wires, radios and fiber optics
+2. Data Link Layer: Data transfers b/w two nodes
+3.  Network Layer: Internet Protocol
+4. Transport Layer:  TCP and UDP
+5. Session Layer: Exchanges  b/w systems
+6. Presentation Layer: Data translation & encryption
+7. Application Layer: User programs
+
+ ![[Pasted image 20230206121640.png | 500]]
+
+__Addressing Scheme:__
+- 
+ 
+
 
 
 

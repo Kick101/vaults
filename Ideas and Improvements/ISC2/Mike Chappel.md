@@ -1,22 +1,3 @@
-- Understand the Security Concepts of Information Assurance  
-- Understand the Risk Management Process  
-- Understand Security Controls  
-- Understand Governance Elements  
-- Understand (ISC)² Code of Ethics
-
-__Learning Objectives__
-• Discuss the foundational concepts of cybersecurity principles.  
-• Recognize foundational security concepts of information assurance.  
-• Define risk management terminology and summarize the process.  
-• Relate risk management to personal or professional practices.  
-• Classify types of security controls.  
-• Distinguish between policies, procedures, standards, regulations and laws.  
-• Demonstrate the relationship among governance elements.  
-• Analyze appropriate outcomes according to the canons of the (ISC)² Code of Ethics  
-when given examples.  
-• Practice the terminology and review security principles
-
----
 #### (ISC)2 Code of Ethics
 __Four Canons:__
 1. Protect society and infrastructure
@@ -127,10 +108,29 @@ __Grouping Controls:__
 By their _Control purpose_:
 - Preventive - stop from occurring, firewall
 - Detective - require further investigation, IDS
-- Corrective -  remediate 
+- Corrective -  remediate issues that have occurred, backup.
 
-By their _Control mechanism:
-- Technical
-- Administrative
-- Physical
+By their _Control mechanism_:
+- Technical/Logical - technology, firewall, IDS/IPS
+- Administrative - user access reviews, log monitoring, awareness training
+- Physical - locks, cameras
+
+
+---
+### Networking
+__Rj-45__
+- 8 copper pins
+- Ethernet
+
+__Rj -11__
+- 6 pins
+- landlines
+
+__NFC__
+- Very near. No more than 2inches
+- Payments, building access control systems
+
+#### TCP/IP
+
+
 

@@ -160,10 +160,37 @@ __Open Systems Interconnection Model:__
 
  ![[Pasted image 20230206121640.png | 500]]
 
-__Addressing Scheme:__
-- 
+##### Addressing Scheme
+__IPv4:__
+- 32bits
+- network address & host address
+
+__IPv6:__
+- 128bits, 8 groups of 4 hexdigits
+- hexadecimal
+
+__Network Address Translation:__
+- Translates private IP to public IP; router.
  
+__Configuring IP:__
+- Static, manually, used for servers
+- Dynamic Host Configuration protocol, end-user devices
 
+##### Ports
+- Each port represents an application.
+- 16 bit binary number; 2^16 - 65,536; 0 - 65,535
+- 0 - 1,023: well known ports
+- 1,024 - 49,151: registered ports
+- 49,152 - 65,535: dynamic ports
 
+##### Wireless Networks
+- Open Networks - No password
+- Pre Shared Key(PKI) - Password based authentication
+- Enterprise Authentication -  individual username & passwords are used to authenticate
+- Captive Portal - webpage authentication
 
-
+__Wireless Encryption:__
+- Wired Equivalent Privacy (WEP): 
+- WiFi Protected Access (WPA): Temporal Key Integrity Protocol (TKIP) changes encryption keys with temporal key for each packet.
+- WiFi Protected Access v2 (WPA2): (CCMP) Counter Mode Cipher Block Chaining Message Authentication Code Protocol based on Advanced Encryption Standard.
+- WiFi Protected Access v3 (WPA3): CCMP supported and Simultaneous Authentication of Equals (SAE) is a secure Key exchange protocol based upon the Diffie-Hellman technique.

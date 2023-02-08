@@ -185,12 +185,15 @@ __Configuring IP:__
 
 ##### Wireless Networks
 - Open Networks - No password
+- Service Set Identifier (SSID)
 - Pre Shared Key(PKI) - Password based authentication
 - Enterprise Authentication -  individual username & passwords are used to authenticate
 - Captive Portal - webpage authentication
 
 __Wireless Encryption:__
 - Wired Equivalent Privacy (WEP): 
-- WiFi Protected Access (WPA): Temporal Key Integrity Protocol (TKIP) changes encryption keys with temporal key for each packet.
+- WiFi Protected Access (WPA): Temporal Key Integrity Protocol (TKIP) changes encryption keys with temporal key for each packet. Advanced Encryption Standard (AES) is also used.
 - WiFi Protected Access v2 (WPA2): (CCMP) Counter Mode Cipher Block Chaining Message Authentication Code Protocol based on Advanced Encryption Standard.
 - WiFi Protected Access v3 (WPA3): CCMP supported and Simultaneous Authentication of Equals (SAE) is a secure Key exchange protocol based upon the Diffie-Hellman technique.
+- WPA2 Enterprise: RADIUS server
+

@@ -26,7 +26,7 @@ __Tips__
 - Tell them cybersecurity is a great field to pursue their carrier
 - Tell them that this club will help them learn about cybersecurity & also help them being a responsible  digital users.
 
-> I'm Jaswanth, pursuing 3rd yr CSE with a specialization in Cybersecurity. [Cysec info]
+> I'm Jaswanth, pursuing 3rd yr CSE with a specialization in Cybersecurity. Thank you for attending this session.
 > - Ask few questions. [3 min]
 > - What is today's agenda? [2 min ]
 > - Now, let's address the big elephant in the room: "The Need" [5 min]
@@ -44,10 +44,11 @@ __Tips__
 - Define hacking in general terms
 
 #### What is cybersecurity/information security?
-Cybersecurity and information security are similar terms that refer to the protection of digital information and systems from unauthorized access, use, disclosure, disruption, modification, or destruction.
+Cybersecurity means to the protect digital information and systems from unauthorized access, use, disclosure, disruption, modification, or destruction.
 
 #### What is the need of cybersecurity?
 The need for cybersecurity arises from the increasing reliance on technology and the internet for personal and professional activities. As more and more sensitive information is stored and transmitted online, the potential for cyber threats such as hacking, phishing, malware, and cybercrime increases.
+
 __Threats:__
 1.  _Loss of personal information and sensitive data:_ This can include personal identification information, financial data, and confidential business information.
 2.  _Financial loss:_ Cybercrime can result in theft of money from bank accounts, unauthorized charges on credit cards, and other forms of financial fraud.
@@ -65,11 +66,9 @@ __Threats:__
 
 ---
 ### Cyber Incidents
-One real-world example of a cybersecurity incident caused by weak passwords is the 2012 LinkedIn data breach. In this breach, hackers were able to obtain the login credentials of over 167 million LinkedIn users by using a simple technique called a "password reuse attack."
-
 __Real-world examples of the consequences of not following the measures:__
 1.  Use strong and unique passwords: The massive data breach of the Yahoo network in 2013 affected all 3 billion of its user accounts. This was due to the reuse of passwords and the use of easily guessable information like names and birthdates.
-2.  Enable two-factor authentication: In 2016, hackers were able to access the Twitter account of Twitter CEO Jack Dorsey by exploiting a vulnerability in his mobile carrier's voicemail system. This could have been prevented if two-factor authentication was enabled.
+2.  Enable two-factor authentication: The 2014 iCloud data breach, hackers were able to gain access to the personal data and sensitive information of celebrities and users of the iCloud service by exploiting a weakness in the password reset process. The hackers were able to trick iCloud users into providing their login credentials by using phishing emails and other social engineering tactics. The breach resulted in the theft and release of sensitive and private photos and information, causing significant damage to the victims' reputations and privacy.
 3.  Keep software up-to-date: In 2017, the _WannaCry_ ransomware attack affected hundreds of thousands of computers worldwide by exploiting a vulnerability in outdated Windows software.
 4.  Be cautious when opening attachments or clicking links: In 2020, the _SolarWinds_ supply chain attack affected multiple government agencies and corporations by infiltrating their systems through a software update. This could have been prevented by not opening attachments or clicking links from unknown sources.
 5.  Use anti-virus and anti-malware software: In 2018, the Marriott data breach affected 500 million guests' personal and financial information due to a lack of proper anti-virus and anti-malware protection.

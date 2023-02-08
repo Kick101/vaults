@@ -6,11 +6,6 @@
 - CTF writeup 10 min
 - Q/A - 10 min
 
-__Stories__
-- 9/11 Attack
-- Israel
-- NSA eternal blue
-
 __Boring__
 - Careers
 - Salaries
@@ -18,33 +13,35 @@ __Boring__
 - Red & blue teaming
 
 __Tips__
-- Take the audience on a journey
+- Take the audience on a journey: from defining basic terms to make them consider about a carrier in cybersecurity
 - What is the problem?
 - My experiences or someone else's experience
 - 
 
 
 ---
-> I'm Jaswanth, pursuing 3rd yr CSE with a specialization in Cybersecurity. [Cysec info]
-> - Ask few questions.
-> - What is today's agenda?
-> - Now, let's address the big elephant in the room: "The Need"
-> - Now, that we have addressed the need for cybersecurity, so the next question that comes into my mind is that: What can the cybersecurity practitioners and general public can do?
-> - I don't just want to educate you guys about good online practices, I am going to share you about the real incidents that took place when users failed to follow the measures that we have talked.
-> - By far, we have understood the very meaning of the cybersecurity and it's need. What can the general users do to protect themselves from the attackers rather than completely rely on ethical hackers which cannot be possible. 
-> - This is where this little session that we are having gets interesting. Now let's explore about the stories that aren't many knew about.
-> - Before I end this talk, I will explain about few of the cybersecurity techniques that can also be used by any person who wants to make their life a little easier.
-> - 
-
-#### Ask Questions
-- How many of them are from engineering: CSE and
-- 
-
 #### What is the purpose of the talk?
 - To educate people about cybersecurity and it's importance
 - Tell them crazy real world stories
 - Tell them cybersecurity is a great field to pursue their carrier
 - Tell them that this club will help them learn about cybersecurity & also help them being a responsible  digital users.
+
+> I'm Jaswanth, pursuing 3rd yr CSE with a specialization in Cybersecurity. [Cysec info]
+> - Ask few questions. [3 min]
+> - What is today's agenda? [2 min ]
+> - Now, let's address the big elephant in the room: "The Need" [5 min]
+> - Now, that we have addressed the need for cybersecurity, so the next question that comes into my mind is that: What can the cybersecurity practitioners and general public can do? [10 min]
+> - I don't just want to educate you guys about good online practices, I am going to share you about the real incidents that took place when users failed to follow the measures that we have talked. [includes in the above]
+> - By far, we have understood the very meaning of the cybersecurity and it's need. What can the general users do to protect themselves from the attackers rather than completely rely on ethical hackers which cannot be possible. []
+> - This is where this little session that we are having gets interesting. Now let's explore about the stories that aren't many knew about. [10 min ]
+> - Before I end this talk, I will explain about few of the cybersecurity techniques that can also be used by any person who wants to make their life a little easier. [10 min]
+> - Possible carriers [5 min]
+
+#### Ask Questions
+- How many of them are from engineering and other UGs/PGs
+- Have they or anyone that they know been a victim of a cybercrime?  tell about a story
+- How familiar are they with cybersecurity threats such as phishing, malware, and hacking?
+- Define hacking in general terms
 
 #### What is cybersecurity/information security?
 Cybersecurity and information security are similar terms that refer to the protection of digital information and systems from unauthorized access, use, disclosure, disruption, modification, or destruction.
@@ -79,12 +76,15 @@ __Real-world examples of the consequences of not following the measures:__
 6.  Back up important data: In 2017, the _NotPetya_ malware attack resulted in the loss of important data for multiple companies, including shipping giant Maersk, due to a failure to regularly back up data.
 7.  Be aware of social engineering tactics: In 2020, several employees of a Texas-based company were tricked into transferring large sums of money to a fraudster in a phishing scam. This could have been prevented by increased awareness of social engineering tactics.
 
-Havebeenpwned
+__Sites to check:__
+- Havebeenpwned
+- jumbo
+- 
 
 
 
 ---
-### Three crazy-ass Stories
+### Crazy-ass Stories
 #### Unit 8200
 - What's the big deal about it?
 - Why did the Israel have come to this decision?
@@ -108,7 +108,6 @@ Havebeenpwned
 - Keep up-to-date software; perhaps the hardware too
 - "No system is safe"
 
-#### How cybersecurity helped to win a war
 
 
 
@@ -153,3 +152,20 @@ Havebeenpwned
 - The downsides of using it
 - 
 
+---
+### Carriers
+- Certifications
+- CTFs / Competition
+- Projects / Github
+- Attend conferences and build network with people
+- Median salary for cybersecurity professionals in the U.S. is $135,000, according to (ISC)2
+- Global shortage of 3.4 million workers in this field, according to the 2022 (ISC)2
+
+![[Pasted image 20230208123904.png]]
+
+![[Pasted image 20230208123954.png]]
+
+![[Pasted image 20230208124016.png]]
+
+---
+### Recap

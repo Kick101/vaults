@@ -37,6 +37,7 @@ __Tips__
 > - 
 
 #### Ask Questions
+- How many of them are from engineering: CSE and
 - 
 
 #### What is the purpose of the talk?
@@ -78,28 +79,77 @@ __Real-world examples of the consequences of not following the measures:__
 6.  Back up important data: In 2017, the _NotPetya_ malware attack resulted in the loss of important data for multiple companies, including shipping giant Maersk, due to a failure to regularly back up data.
 7.  Be aware of social engineering tactics: In 2020, several employees of a Texas-based company were tricked into transferring large sums of money to a fraudster in a phishing scam. This could have been prevented by increased awareness of social engineering tactics.
 
+Havebeenpwned
+
+
 
 ---
 ### Three crazy-ass Stories
 #### Unit 8200
+- What's the big deal about it?
+- Why did the Israel have come to this decision?
+- Relate it to the remaining countries
+- Their recruitment process
+- The things that they have pulled so far
+- Why must the nations have such a unit
+- Their other units: 8100
 
 
 #### Pegasus
+- What we need to learn from this spyware
+	- _Don't click links_
+- It's videos
+- NSO Group - Sells only to government; buys 0 day exploits from hackers
+- Bad usage of the spyware
+- Introduce _Bug bounty_ - Google Reward Program
+- Snowden perhaps?
+- _0day market_
+- If you need to protect yourself from such a software: you need to leave all the tech behind [add-info]
+- Keep up-to-date software; perhaps the hardware too
+- "No system is safe"
+
+#### How cybersecurity helped to win a war
 
 
-#### war helped
 
 ---
 ### Cybersecurity Techniques
 #### Google Dorking
+- Search certain files: pdf files
+- get links from only one domain/subdomain
+- Let's say you like a girl, you wanna know info about her: 
+- Finding study materials and resources:
+    -   Search for "site:.edu filetype:pdf" to find educational resources in PDF format.
+    -   Use keywords related to your field of study followed by "lecture notes" to find relevant lecture notes.
+    -   Search for "site:.gov research papers" to find government-sponsored research papers.
+- .  Locating information about a particular subject or topic:
+    -   Use quotation marks to search for a specific phrase or quote related to your topic.
+    -   Use the site operator to search for information within a specific website, such as "site:.edu climate change".
+    -   Use the filetype operator to find information in specific file formats, such as "filetype:ppt climate change".
+-  Discovering tools and resources related to a particular field of study:
+    -   Use keywords related to your field of study followed by "tools" or "resources".
+    -   Search for "site:github [field of study]" to find open-source projects related to your field of study.
+    -   Use the inurl operator to find pages with specific keywords in the URL, such as "inurl:database [field of study]".
+-  Networking with others in the same field of study:  
+    -   Search for "site:linkedin [field of study] network" to find LinkedIn groups related to your field of study.
+    -   Use the intitle operator to find pages with specific keywords in the title, such as "intitle:[field of study] forum".
+    -   Search for "site:.edu [field of study] association" to find educational associations related to your field of study.
 
 #### Wayback Machine
-
+1.  Accessing historical versions of websites: The Wayback Machine can be used to view older versions of websites that have changed over time. This can be useful for finding information or resources that may no longer be available on the live website.
+2.  Retrieving lost or deleted content: If a website has deleted or lost information, the Wayback Machine may have a saved version of that content. This can be useful for research or projects that require access to historical information.
+3.  Preserving resources for future use: By saving a snapshot of a website through the Wayback Machine, a student can ensure that they have access to important resources even if the live website is no longer available.
+4.  Studying the evolution of a website or subject: The Wayback Machine allows students to see how websites and subjects have evolved over time, which can provide valuable insight into their development and history.
 
 
 #### OSINT
 
+- OSINT Framework
+
 
 #### ChatGPT
-
+- How cybersecurity & IT people using it?
+- How can you as a student utilize it?
+- The downsides of using it
+- 
 

@@ -247,3 +247,34 @@ __Avoid:__ Session tokens, Timestamps
 
 ##### Timing Attacks
 
+---
+### Threat Identification and Prevention
+#### IDS/IPS
+- __Signature Based detection__ - rule based detection
+	- Will fail to identify new signatures
+	- Reduce false positive rates
+- __Anomaly/Behaviour/Heuristic Detection System__
+	- Builds models of "normal" activity
+	- High false positive rates
+- __In-Band/Inline Deployment__
+	- Device sites in the path of network communications
+	- Single out of failure; may stop all traffic
+- __Out-of-band/passive Deployment__
+	- Device sites outside the path of network communications
+	- Device connects to a SPAN port on a switch
+	- It cannot stop the initial attack
+
+#### Anti-malware
+- Signature based
+- Behavior/Anomaly based detection
+	- Endpoint Detection and Response (EDR)
+	- Analyze memory, registry entries, network, other behaviours
+	- Sand-boxing: runs a suspicious software in a sandbox and watches it's behavour
+
+#### Scanners
+__Port scanner:__ Probes for open ports; 0-65535; nmap
+__Vulnerability Scanner:__ Probes for known vulnerabilities
+__Application Scanner:__ Tests for security flaws in applications
+
+#### Network Security Infrastructure
+

@@ -197,3 +197,5 @@ __Wireless Encryption:__
 - WiFi Protected Access v3 (WPA3): CCMP supported and Simultaneous Authentication of Equals (SAE) is a secure Key exchange protocol based upon the Diffie-Hellman technique.
 - WPA2 Enterprise: RADIUS server
 
+---
+### Network Security

@@ -199,3 +199,51 @@ __Wireless Encryption:__
 
 ---
 ### Network Security
+#### Malware
+__Propagation:__ Techniques malware uses to spread.
+__Payload:__ Malicious actions taken by malware
+
+##### Virus
+__Propagation:__ User actions; email attachments
+
+##### Worms
+__Propagation:__ Spread by their own by exploiting vulnerabilities
+__Avoid:__ Update with latest patches
+
+##### Trojan Horse
+Application control protects against this.
+- General application with payload inside.
+
+#### Botnets
+Collection of zombie computers used for malicious purposes
+- Renting out computing power
+- Delivering spam
+- Engaging in DDoS attacks
+- Mining Bitcoin
+- Waging brute force attacks
+- Command and control network relay orders
+	- Internet Relay Chat (IRC)
+	- Twitter
+	- Peer-to-peer within the botnet
+- Communication must be indirect and redundant
+
+#### Eavesdropping
+- Network device tapping
+- DNS poisoning
+- ARP poisoning
+- SSL Stripping
+
+#### Replay Attacks
+__Avoid:__ Session tokens, Timestamps
+
+ #### Implementation Flaws
+ ##### Fault Injection Attacks
+ - Compromise the integrity of a cryptographic device by external fault
+	 - High-voltage electricity
+	 - High/Low temperature
+- Device may not encrypt data properly and disclose un-encrypted data etc
+
+ ##### Side Channel Attacks
+
+##### Timing Attacks
+

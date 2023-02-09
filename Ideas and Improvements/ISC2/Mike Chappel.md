@@ -277,12 +277,48 @@ __Vulnerability Scanner:__ Probes for known vulnerabilities
 __Application Scanner:__ Tests for security flaws in applications
 
 #### Network Security Infrastructure
-__Environmental Threats__
+##### Environmental Threats
 - Air Temperature: 64.4F - 80.6F
 - Humidity: low - static, high - water condensation; 41.9F- 50.0F
 - _HVAC:_ Heating, Ventilation, Air Conditioning System. 
 - Fire - wet/dry pipe systems, Chemical systems, 
-- Flood - 
-- MOU - Memorandum of understanding
+- _MoU_ (Memorandum of understanding) - Type of agreement between two or more parties that outlines the terms and details of an understanding, including each party's obligations and responsibilities.
+- _SLA_ (Service Level Agreement) - A contract between a service provider and a customer that outlines the level of service that the provider will deliver to the customer.
+
+##### Network Border Firewall
+- Connect to 3 different security zones
+	- Internet (Untrusted network)
+	- DMZ (Demilitarized Zone) - Email, Web servers
+	- Internal Network (Intranet)
+
+__Zero Trust:__ Access to resources is only granted after a thorough verification process.
+
+__Extranet:__ Intranet segments accessed by external parties (VPN).
+
+__Honeynet:__ Decoy networks designed to attract attackers to study their behaviour
+
+__Ad Hoc Network:__ Temporary networks that may bypass security controls
+
+__East-West Traffic:__ Network traffic b/w systems located in the data center
+
+__North-South Traffic:__ Systems in the data center and internet
+
+##### Network Hardware
+__Conduits:__ Type of protective casing or tubing used to cover and protect electrical wiring and cables
+
+__VLAN:__ 
+- Separate systems on a network into logical groups.
+- Enable _VLAN Trunking_: To allow switches in different locations to carry the same VLAN
+- Configure each switch port to connect to the appropriate VLAN
+- Micro segments: uses very small network segments to one.
 
 
+__Firewalls__
+- _Stateless firewall:_ Evaluate each connection independently
+- _Stateful inspection:_ 
+- _Firewall Rule Contents:_
+	- Source system Address
+	- Destination system Address
+	- Port and Protocol
+	- Action (Allow or Deny)
+- 

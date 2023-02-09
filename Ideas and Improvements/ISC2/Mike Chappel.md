@@ -277,4 +277,12 @@ __Vulnerability Scanner:__ Probes for known vulnerabilities
 __Application Scanner:__ Tests for security flaws in applications
 
 #### Network Security Infrastructure
+__Environmental Threats__
+- Air Temperature: 64.4F - 80.6F
+- Humidity: low - static, high - water condensation; 41.9F- 50.0F
+- _HVAC:_ Heating, Ventilation, Air Conditioning System. 
+- Fire - wet/dry pipe systems, Chemical systems, 
+- Flood - 
+- MOU - Memorandum of understanding
+
 

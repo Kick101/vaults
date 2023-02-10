@@ -315,14 +315,19 @@ __VLAN:__
 
 __Firewalls__
 - _Stateless firewall:_ Evaluate each connection independently
-- _Stateful inspection:_ 
+- _Stateful inspection:_ When outbound is allowed, returning inbound is also allowed
 - _Firewall Rule Contents:_
 	- Source system Address
 	- Destination system Address
 	- Port and Protocol
 	- Action (Allow or Deny)
 - Implicit Deny
-- _NGFW:_ user identity, application nature, time
+- _NGFW:_ 
+	- Application level inspection
+	- IPS
+	- Threat Intelligence
+	- Unified Threat Management(UTM): URL filtering, Email scanning, Data Loss Prevention
+	- user identity, application nature, time
 - Firewall also does NAT; NAT gateway
 - Hardware appliance and virtual appliance
 
@@ -349,3 +354,15 @@ __Firewalls__
 **Security Association (SA):** SA refers to a number of protocols used for negotiating encryption keys and algorithms. One of the most common SA protocols is Internet Key Exchange (IKE).
 
 ##### Network Access Control
+NAC interceots network traffic coming from unknown devices and verifies that the system and user are authorized before allowing.
+- NAC uses _802.1x authentication_ protocol
+	- Device that wants to authenticate uses _NAC Supplicant_ software
+	- _Authenticator_ - switch/wireless controller
+	- _Authentication server_ - performs authentication
+- _RADIUS:_ Remote Authentication Dial-In User Service protocol
+	- authentication, authorization, and accounting (AAA) of network users
+	- RADIUS Access-Request
+	- RADIUS Access-Reject
+	- RADIUS Access-Accept
+- 
+

@@ -321,4 +321,31 @@ __Firewalls__
 	- Destination system Address
 	- Port and Protocol
 	- Action (Allow or Deny)
-- 
+- Implicit Deny
+- _NGFW:_ user identity, application nature, time
+- Firewall also does NAT; NAT gateway
+- Hardware appliance and virtual appliance
+
+##### VPN
+- Site-to-site
+- Remote access (often rely on SSL/TLS than IPSec)
+- __VPN Endpoints:__
+	- Firewalls
+	- Routers
+	- Servers
+	- VPN Concentrators
+- _VPN Protocols:_ PPTP, L2TP/IPSec, OpenVPN, IKEv2
+- Layer 2 Tunneling Protocol (L2TP) (Data link Layer), over IPSec connection
+- _HTML5 VPN_ - website VPN like a proxy
+- Web browser based VPN
+- Full Tunnel VPN (Recommended) and Split Tunnel VPN
+- Always On VPN - boot-up
+
+##### IPsec suite
+**Authentication Header (AH):** The AH protocol ensures that data packets are from a trusted source and that the data has not been tampered. These headers do not provide any encryption
+
+**Encapsulating Security Protocol (ESP):** ESP encrypts the IP header and the payload for each packet — unless transport mode is used, in which case it only encrypts the payload. ESP adds its own header and a trailer to each data packet.
+
+**Security Association (SA):** SA refers to a number of protocols used for negotiating encryption keys and algorithms. One of the most common SA protocols is Internet Key Exchange (IKE).
+
+##### Network Access Control

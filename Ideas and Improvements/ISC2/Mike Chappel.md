@@ -364,5 +364,12 @@ NAC interceots network traffic coming from unknown devices and verifies that the
 	- RADIUS Access-Request
 	- RADIUS Access-Reject
 	- RADIUS Access-Accept
-- 
+- Role-based: use of VLANs
+- Posture Checking: security policy; anti-virus is running
+	- Agent-based checking 
+	- Agentless checking: scans device externally
+- Inband
+- Out-of-band
+
+
 

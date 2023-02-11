@@ -98,6 +98,14 @@ _Risk tolerance_ - level of risk an organization is willing to accept.
 > The goal of risk management is to make sure that the combination of the residual risk and control risk is below the risk tolerance level. 
 
 ---
+### Governance
+- GDPR
+- PCI - Compliance is enforced by banks
+- DSS
+
+
+
+---
 ### Security Controls
 Reduce the likelihood or impact of a risk and help identify issues.
 

@@ -115,7 +115,49 @@ By their _Control mechanism_:
 - Administrative - user access reviews, log monitoring, awareness training
 - Physical - locks, cameras
 
-##### physical access controls
+##### Physical access controls
+- Gates
+- Alarm Systems
+- Bollards: stop vehicles
+- _Crime Prevention Through Environmental Design_ (CPTED)
+	- Natural Surveillance: windows, lighting, 
+	- Natural Access Control: gates
+	- Natural Territory Reinforcement
+- _Visitor Procedures_
+	- Describe allowable visit purposes
+	- Explain visit approval authority
+	- Describe requirements for un-escorted access
+	- Explain role of visitor escorts
+- _Logs_ should be maintained
+- Visitor _Identification badge_ is a must
+- _Robot sentries:_ robot security patrols
+- _Two person Integrity:_ Two people required to access a area
+- _Two person Control:_ Two people must approve sensitive action
+
+##### Logical Access Controls
+- _Job Rotation:_ moves employees through different positions/locations
+- _Mandatory Vacation policies:_ Frauds may come to light
+- _Account life-cycle:_ account and credential life-cycle should be manages
+
+ __Continuous Account Monitoring:__
+ - Watch for suspicious activity
+ - Alter administrators to anomalies
+ - _Access policy violations:_
+	 - impossible travel time logins
+	 - Unusual network location logins
+	 - Unusual time-of-day logins
+	 - Deviations from normal behaviour
+	 - Deviations in volume of data transferred
+ - _Geotagging:_ adds user location info to logs
+ - _Geofencing:_ alerts when a device leaves defines boundaries
+
+__User Account Audits:__
+- Pull permission list
+- Review with managers
+- Make adjustments
+
+
+
 
 
 ---

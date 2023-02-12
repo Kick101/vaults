@@ -105,6 +105,7 @@ _Risk tolerance_ - level of risk an organization is willing to accept.
 
 
 
+
 ---
 ### Security Controls
 Reduce the likelihood or impact of a risk and help identify issues.

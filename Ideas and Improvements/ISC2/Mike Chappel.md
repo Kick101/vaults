@@ -459,7 +459,7 @@ __Managed Security Service Providers/Security as a service:__ Vendors that provi
 - Specific task
 
 __Cloud Access Security Brokers (CASB):__ security solution that sits between an organization's users and its cloud services, monitoring and controlling access to the cloud.
-- Network Based:
+- _Network Based:_
 	- Analyzes traffic between users & cloud services and enforcing security policies
-- API Based:
+- _API Based:_
 	- 

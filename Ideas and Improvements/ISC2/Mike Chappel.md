@@ -103,8 +103,13 @@ _Risk tolerance_ - level of risk an organization is willing to accept.
 - PCI - Compliance is enforced by banks
 - DSS
 
-
-
+__Policies:__
+_AUP:_ What is acceptable to do; technology & usage; unauthorized
+_Data handling Policies:_ types of sensitive information, how they should be handled
+_Password policies:_ password expiration, length, requirements
+_BYOD:_ covers the use of personal devices
+_Privacy Policy:_  what info about users/employees the org retains about them
+_Change management policy:_ covers the documentation, approval and rollback of tech changes
 
 ---
 ### Security Controls
@@ -424,5 +429,37 @@ NAC interceots network traffic coming from unknown devices and verifies that the
 - Inband
 - Out-of-band
 
+---
+### Cloud Computing
+Delivering computing resources to a remote customer over a network
+
+- SaaS - wix, wordpress, microsoft 365, shopify
+	- _Vendor Responsibility:_ Hardware, Data center, App, OS
+	- _Customer Responsibility:_ Data
+- IaaS - AWS, Azure, Google compute 
+	- _Vendor Responsibility:_ Hardware, Data center 
+	- _Customer Responsibility:_ Data, App, OS
+- PaaS - Heroku
+	- _Vendor Responsibility:_ OS, Hardware, Data center 
+	- _Customer Responsibility:_ Data, App
 
 
+__Cloud Deployment Models:__
+- Private - flexibility, scalability, agility and cost effectiveness
+- Public - Multi-tenancy infrastructure 
+	- Shared responsibility model
+- Hybrid - Both; if data is sensitive
+- Multi - Combines resources from more than one cloud vendor
+- Community Cloud - shared among orgs
+
+__Managed Service Providers:__ Offer tech service to customers
+
+__Managed Security Service Providers/Security as a service:__ Vendors that provide security services
+- Complete
+- Specific task
+
+__Cloud Access Security Brokers (CASB):__ security solution that sits between an organization's users and its cloud services, monitoring and controlling access to the cloud.
+- Network Based:
+	- Analyzes traffic between users & cloud services and enforcing security policies
+- API Based:
+	- 

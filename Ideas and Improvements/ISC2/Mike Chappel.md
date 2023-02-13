@@ -113,7 +113,85 @@ _Change management policy:_ covers the documentation, approval and rollback of t
 
 ---
 ### Business Continuity Plan
-A collection of activities  designed to keep running a business.
+A collection of activities  designed to keep a business running in the face of adversity.
+- To keep _Continuity of Operations Planning(COOP)
+
+__Defining the BCP Scope__
+- What _business activities_ will the plan cover?
+- What _systems_ will it cover?
+- What _controls_ will it consider?
+
+__Business Impact Assessment:__ _Identifies & prioritizes risks_
+- Follows either quantitative or qualitative
+-  Cloud BCP: collaboration b/w providers & customers
+- Customer can  use redundancy in cloud as BCP
+- Provider can implement physical operations
+
+__Availability:__ Redundant
+__Single Point  of Failure Analysis:__ Identify and remediate _spof_
+
+__IT Contingency Scenarios__
+- Sudden bankruptcy
+- Insufficient storage or compute capacity
+- Failure  of utility service
+-  _Personnel succession planning_ - highly skilled team members, potential replacements 
+
+__High Availability__
+- Uses multiple systems to protect against service failure
+- Operationally redundant systems
+
+__Fault Tolerance__
+- Makes a single system resilient against technical failures
+- Load balancing
+
+__Common points of failure__
+- Power supply (Dual power supply, UPS, PDUs)
+- Storage media (Redundant Array of Inexpensive Disks (_RAID_)) (_Fault tolerance_)
+	- _mirroring_ - each disk has identical contents, two disk are written at once
+	- _Striping_ - (RAID 5) 3 or more disks but it also includes additional info as parity blocks that are spread across the disks. In failure, system can regenerate disk contents using these blocks.
+- Network Redundancy: multiple ISP, multiple interface cards & critical servers
+-  _Using more than one NIC is NIC teaming_
+-  _Multipath_
+- Redundancy through diversity: if one type is failing
+	- Different vendors
+	- Different tech
+	- Cryptography
+
+---
+### Incidence Response
+Incidence response plan that outlines the polices, procedures and guidelines that the organization will follow when an incidence take place.
+
+##### Incident response plan elements
+- Statement of purpose (what incident)
+- Strategies and goals for incident response
+- Approach to incident response (who's responsible & their authority)
+- Communication with other groups
+- Senior management
+
+##### Building and staffing Incidence response team
+- Management
+- Information security
+- Subject matter experts (Developers, system engineers etc)
+- Legal counsel
+- Public affairs
+- Human resources
+- Physical security
+Use incident response service providers if necessary. 
+
+__Incident Data sources__
+- IDS/IPS
+- Firewall
+- Authentication system
+- Integrity monitors
+- Vulnerability scanners
+- System event logs
+- Netflow records
+- Anti-malware packages
+
+__Security Incident and Event Management(SIEM)__
+Security solution that collects information from diverse sources, analyzes it for signs for security incidents and retains it for later use 
+
+> The highest priority of a _first responder_ must be _containing damage through isolation_.
 
 
 

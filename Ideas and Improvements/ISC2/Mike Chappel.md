@@ -462,4 +462,36 @@ __Cloud Access Security Brokers (CASB):__ security solution that sits between an
 - _Network Based:_
 	- Analyzes traffic between users & cloud services and enforcing security policies
 - _API Based:_
-	- 
+	- CASB solution that integrates with cloud services using APIs
+
+##### Vendor Management Life-cycle
+- Vendor Selection (Formal Request for Proposal or informal)
+- On-boarding (Verify contract details) 
+- Monitoring (Customer monitors vendors)
+- Off-boarding (Vendor destroys confidential information, disposal of relation)
+
+##### Agreements
+__Non-disclosure Agreement (NDA):__ Protects the confidentiality of information.
+
+__Service-Level Requirements(SLR):__ Specifies requirements that a customer has from vendor
+- System Response time
+- Availability of service
+- Data preservation
+
+__Service-Level Agreement(SLA):__ Contract b/w vendor and customer; penalties on vendor
+
+__Memorandum of understanding(MoU):__ Used when legal dispute is unlikely; but sill use as a formal documentation
+
+__Business Partnership Agreement(BPA):__ Two companies doing business & division of profits
+
+__Interconnection security Agreement(ISA):__ Details of how orgs interconnect their networks, systems and data
+- Encryption standard
+- Transfer protocols
+
+__Master services agreement(MSA):__ Many projects with a vendor
+
+__Statement of work(SOW):__ Specific terms of an engagement; governed by the terms of MSA
+
+---
+### 
+

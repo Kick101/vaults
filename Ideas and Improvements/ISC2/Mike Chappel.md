@@ -112,6 +112,12 @@ _Privacy Policy:_  what info about users/employees the org retains about them
 _Change management policy:_ covers the documentation, approval and rollback of tech changes
 
 ---
+### Business Continuity Plan
+A collection of activities  designed to keep running a business.
+
+
+
+---
 ### Security Controls
 Reduce the likelihood or impact of a risk and help identify issues.
 

@@ -439,7 +439,7 @@ __Avoid:__ Session tokens, Timestamps
 
  #### Implementation Flaws
  ##### Fault Injection Attacks
- - Compromise the integrity of a cryptographic device by external fault
+ - _Compromise the integrity of a cryptographic device by external fault_
 	 - High-voltage electricity
 	 - High/Low temperature
 - Device may not encrypt data properly and disclose un-encrypted data etc
@@ -544,7 +544,7 @@ __Firewalls__
 - Layer 2 Tunneling Protocol (L2TP) (Data link Layer), over IPSec connection
 - _HTML5 VPN_ - website VPN like a proxy
 - Web browser based VPN
-- Full Tunnel VPN (Recommended) and Split Tunnel VPN
+- _Full Tunnel VPN (Recommended) and Split Tunnel VPN_
 - Always On VPN - boot-up
 
 ##### IPsec suite
@@ -555,7 +555,7 @@ __Firewalls__
 **Security Association (SA):** SA refers to a number of protocols used for negotiating encryption keys and algorithms. One of the most common SA protocols is Internet Key Exchange (IKE).
 
 ##### Network Access Control
-NAC interceots network traffic coming from unknown devices and verifies that the system and user are authorized before allowing.
+NAC intercepts network traffic coming from unknown devices and verifies that the system and user are authorized before allowing.
 - NAC uses _802.1x authentication_ protocol
 	- Device that wants to authenticate uses _NAC Supplicant_ software
 	- _Authenticator_ - switch/wireless controller
@@ -661,7 +661,7 @@ __Classification:__ Process of recognizing the organizational impacts if the inf
  __Retention:__ 
  -   Data and information should be kept only for _as long as it serves a purpose_, defined by industry standards, laws, and regulations.
 -   Organizations should have their own data retention policies, apply to both hard copies and electronic data, and _regularly review retained records_ to reduce storage and ensure necessary information is preserved.
--   Security professionals should _maintain accurate inventory_ and ensure data destruction when retention limit is reached.
+-   Security professionals should _maintain accurate inventory and ensure data destruction_ when retention limit is reached.
 -   _Retention policies should guarantee:_
     -   Understanding of retention requirements for different types of data throughout the organization.
     -   Appropriate documentation of retention requirements for each type of information.
@@ -739,6 +739,15 @@ Logging is the process of _capturing and recording information about events_ tha
 #### Configuration management 
 It ensures that systems are configured similarly, configurations are known and documented.
 It consists of identification, baseline, change control, and verification and audit.
+- __identification:__ Baseline identification of a system and all its components, interfaces and documentation.
+- __Change control:__ An update process for requesting changes to a baseline, by means of making changes to one or more components in that baseline. A review and approval process for all changes. This includes updates and patches.
+- __Verification and audit:__ A regression and validation process, which may involve testing and analysis, to verify that nothing in the system was broken by a newly applied set of changes. An audit process can validate that the currently in-use baseline matches the sum total of its initial baseline plus all approved changes applied in sequence.
 - __baselines:__ ensures that systems are deployed with a common baseline or starting point, and imaging is a common baselining method.
 - __updates:__
 - __patches:__
+
+#### Change Management
+- Request for change
+- Approval
+- Rollback
+

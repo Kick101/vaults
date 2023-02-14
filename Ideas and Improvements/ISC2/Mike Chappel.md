@@ -1,3 +1,4 @@
+sc2
 #### (ISC)2 Code of Ethics
 __Four Canons:__
 1. Protect society and infrastructure

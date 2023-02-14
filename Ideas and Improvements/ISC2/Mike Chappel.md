@@ -1,4 +1,3 @@
-sc2
 #### (ISC)2 Code of Ethics
 __Four Canons:__
 1. Protect society and infrastructure
@@ -33,7 +32,6 @@ __Single Sign On(SSO):__
 - Shares authenticated sessions across systems. (Google SSO)
 - User logs on to the first SSO enabled system, then that login session persists across other systems until it expires.  
 
----
 __Non-repudiation:__
 - Physical, electronic, digital signatures and biometrics provide non-repudiation.
 
@@ -53,7 +51,7 @@ The main responsibility of a cybersecurity professional is to identify, assess a
 __Internal Risk:__
 - Risks that arise within the organization
 -  Improper processing of checks may provide opportunity for accounting department to commit fraud.
-- This can be addressed by adding internal controls; like by adding two-person control to process a check, might reduce the risk.
+- This can be addressed by adding internal controls; like by adding _two-person control_ to process a check, might reduce the risk.
 
 __External Risk:__
 - Risks that arise outside the organization
@@ -115,7 +113,7 @@ _Change management policy:_ covers the documentation, approval and rollback of t
 ---
 ### Business Continuity Plan
 A collection of activities  designed to keep a business running in the face of adversity.
-- To keep _Continuity of Operations Planning(COOP)
+- To keep _Continuity of Operations Planning(COOP)_
 
 __Defining the BCP Scope__
 - What _business activities_ will the plan cover?
@@ -153,7 +151,7 @@ __Common points of failure__
 - Network Redundancy: multiple ISP, multiple interface cards & critical servers
 -  _Using more than one NIC is NIC teaming_
 -  _Multipath_
-- Redundancy through diversity: if one type is failing
+- _Redundancy through diversity_: if one type is failing
 	- Different vendors
 	- Different tech
 	- Cryptography
@@ -161,14 +159,13 @@ __Common points of failure__
 ---
 ### Disaster Recovery
 __Initial Response Goals__
-- Contain the damage
-- Recover normal operations
-After the immediate danger to the org clears, the disaster recovery team shifts from _immediate response mode to assessment mode_. 
+- _Contain the damage_
+- _Recover normal operations_
+After the danger to the org clears, the disaster recovery team shifts from _immediate response mode to assessment mode_. 
 
+##### Metrics
 __Recovery Time Objective (RTO)__ is the amount of time to restore service.
-
 __Recovery Point Objective (RPO)__ is amount of data to recover.
-
 __Recovery Service Level (RSL)__ is the percentage of service to restore.
 
 ##### Backups
@@ -206,7 +203,7 @@ Provides alternate data processing
 	- Manual transfer or site replication through SAN or VM
 	- Online or offline backups
 
-_Alternate business processes allow businesses to remain flexible in the event of a disaster_
+_**Alternate business** processes allow businesses to remain flexible in the event of a disaster_
 
 ##### Disaster Recovery Test Types
 - _Read-through_
@@ -239,6 +236,7 @@ Incidence response plan that outlines the polices, procedures and guidelines tha
 - Public affairs
 - Human resources
 - Physical security
+
 Use incident response service providers if necessary. 
 
 ##### Incident Data sources
@@ -293,14 +291,14 @@ __By their Control mechanism__
 - _Two person Integrity:_ Two people required to access a area
 - _Two person Control:_ Two people must approve sensitive action
 
-#### Logical/Technical Access Controls
+#### Administrative Access Controls
 - _Job Rotation:_ moves employees through different positions/locations
 - _Mandatory Vacation policies:_ Frauds may come to light
-- _Account life-cycle:_ account and credential life-cycle should be manages
+- _Account life-cycle:_ account and credential life-cycle should be managed
 
 ##### Continuous Account Monitoring
  - Watch for suspicious activity
- - Alter administrators to anomalies
+ - Alert administrators to anomalies
  - _Access policy violations:_
 	 - impossible travel time logins
 	 - Unusual network location logins

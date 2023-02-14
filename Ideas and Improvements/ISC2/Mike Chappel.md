@@ -172,7 +172,53 @@ __Recovery Point Objective (RPO)__ is amount of data to recover.
 __Recovery Service Level (RSL)__ is the percentage of service to restore.
 
 ##### Backups
+__Backup Media__
+- Tape backup
+- Disk-to-disk backups
+- Cloud backups
 
+__Backup types__
+- _Full Backups:_ include a complete copy of all data; ex: snapshots & images
+- _Differential Backups:_ includes only data that is modified since the last full backup
+- _Incremental Backups:_ includes only data that is changed since the last full backup or last incremental backup
+
+##### Disaster Recovery Sites
+Provides alternate data processing
+- _Hot Site_ 
+	- Fully operational data centers
+	- Stocked with equipment and data
+	- Available at a moment's notice
+	- Very expensive
+- _Cold Site_
+	- Empty data centers
+	- Stocked with core equipment, network and environmental controls
+	- Doesn't have servers and data
+	- Operational in weeks or months
+	- Relatively inexpensive
+- _Warm Site_
+	- Similar to hot site
+	- Not maintained in parallel fashion
+	- Available in hours or days
+	- As expensive as hot site
+- _Offsite Storage_
+	- Geographically distant
+	- Site resiliency
+	- Manual transfer or site replication through SAN or VM
+	- Online or offline backups
+
+_Alternate business processes allow businesses to remain flexible in the event of a disaster_
+
+##### Disaster Recovery Test Types
+- _Read-through_
+	- Checklist reviews; every team member receives their copy and gives feedback
+- _Walk-through or table-top exercise_
+	- Gather team for a meeting
+- _Simulation_
+	- Uses a practice scenarios to test the DR plan
+- _Parallel test_
+	- Activate DR plan in response to simulated disaster but do not switch operations to DR sites
+- _Full interruption test_
+	- Shuts down primary environment and uses DR site
 
 ---
 ### Incidence Response

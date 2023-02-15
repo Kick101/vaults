@@ -479,12 +479,10 @@ __Application Scanner:__ Tests for security flaws in applications
 
 #### Network Security Infrastructure
 ##### Environmental Threats
-- Air Temperature: 64.4F - 80.6F
-- Humidity: low - static, high - water condensation; 41.9F- 50.0F
+- _Air Temperature:_ 64.4F - 80.6F
+- _Humidity:_ low - static, high - water condensation; 41.9F- 50.0F
 - _HVAC:_ Heating, Ventilation, Air Conditioning System. 
-- Fire - wet/dry pipe systems, Chemical systems, 
-- _MoU_ (Memorandum of understanding) - Type of agreement between two or more parties that outlines the terms and details of an understanding, including each party's obligations and responsibilities.
-- _SLA_ (Service Level Agreement) - A contract between a service provider and a customer that outlines the level of service that the provider will deliver to the customer.
+- _Fire_ - wet/dry pipe systems, Chemical systems, 
 
 ##### Network Border Firewall
 - Connect to 3 different security zones
@@ -557,7 +555,7 @@ __Firewalls__
 ##### Network Access Control
 NAC intercepts network traffic coming from unknown devices and verifies that the system and user are authorized before allowing.
 - NAC uses _802.1x authentication_ protocol
-	- Device that wants to authenticate uses _NAC Supplicant_ software
+	- _NAC Supplicant_ - Device that wants to authenticate uses software
 	- _Authenticator_ - switch/wireless controller
 	- _Authentication server_ - performs authentication
 - _RADIUS:_ Remote Authentication Dial-In User Service protocol
@@ -576,13 +574,13 @@ NAC intercepts network traffic coming from unknown devices and verifies that the
 ### Cloud Computing
 Delivering computing resources to a remote customer over a network
 
-- SaaS - wix, wordpress, microsoft 365, shopify
+- __SaaS__ - wix, wordpress, microsoft 365, shopify
 	- _Vendor Responsibility:_ Hardware, Data center, App, OS
 	- _Customer Responsibility:_ Data
-- IaaS - AWS, Azure, Google compute 
+- __IaaS__ - AWS, Azure, Google compute 
 	- _Vendor Responsibility:_ Hardware, Data center 
 	- _Customer Responsibility:_ Data, App, OS
-- PaaS - Heroku
+- __PaaS__ - Heroku
 	- _Vendor Responsibility:_ OS, Hardware, Data center 
 	- _Customer Responsibility:_ Data, App
 

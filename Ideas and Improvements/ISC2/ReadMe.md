@@ -1,4 +1,4 @@
-[Glossary](https://learn.isc2.org/content/enforced/9541-CC-SPT-GLOBAL-1ED-1M/build/glossary/gloss_m00_Glossary.html?ou=9541&d2l_body_type=3)
+[[Glossary]]
 
 ---
 ### Acronyms

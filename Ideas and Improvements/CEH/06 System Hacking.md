@@ -1,0 +1,142 @@
+- Techniques of gaining access
+- Privilege Escalation
+- Gaining remote access
+- Rootkits
+- Stenography and Steganalysis
+- Covering tracks
+- Countermeasures
+---
+# Gaining Access
+### Cracking Passwords
+#### Microsoft Authentication
+When user logs into a windows system. Windows OS authenticates it's users with three mechanisms.
+
+##### Security Accounts Manager (SAM) Database
+- Passwords are stored in hash format
+- SAM database is a _registry file_ and windows kernel keeps a filesystem lock on SAM file.
+- SAM file cannot be moved/copied while the OS is running
+	- Lock doesn't release until system throws a blue screen exception, or the OS has shutdown
+- SAM file uses an _SYSKEY_ function to partially encrypt the password hashes.
+- _Attackers can dump the SAM file._
+- File location: `%SystemRoot%/system32/config/SAM`
+- Registry Location: `HKLM/SAM` - LM or NTLM hashes passwords.
+
+##### NT LAN Manager (NTLM) Authentication
+- Authentication is done by using _challenge/response_ method.
+- NTLM authentication uses two protocols used:
+	- _NTLM_ and _LAN Manager (LM)_
+- Passwords are stored in SAM
+
+__Authentication Process__
+- The client types the username and password into the logon window.
+- Windows _generates a hash_ for the password.
+- The client computer _sends a login request_ along with a domain name to the domain controller.
+- The domain controller generates a _16-byte random character string called a "nonce,"_ which it sends to the client computer.
+- The client computer _encrypts the nonce with a hash_ of the user password and sends it back to the domain controller.
+- The domain controller retrieves the hash of the user password from the SAM and uses it to encrypt the nonce. The domain controller then _compares the encrypted value with the value received from the client_. A matching value authenticates the client, and the logon is successful.
+
+##### Kerberos Authentication
+- Authentication is done by using _secret-key_ cryptography.
+- It's a _mutual authentication_: each other identity is verified
+- This protects against _replay attacks_ and _evaesdropping_
+- User identity is verified by _tickets_
+- _Key Distribution Center (KDC):_ trusted third party. It has:
+	- Authentication Server (AS)
+	- Ticket-Granting Server (TGS)
+
+#### Hashing Algorithms
+##### LM/NTLM
+- LM, NTLMv1, and NTLMv2, all of which use the same technique for authentication. The only difference is the level of encryption.
+- _LM hash splits the password into two 7-byte parts_ and then hashes them separately.
+- LM hashes doesn't support more than 14 password characters.
+- _LM is disabled in VIsta & higher_, blank in SAM.
+
+#### Classification of Password Attacks
+- Non-Electronic Attacks
+- Active Online Attacks
+- Passive Online Attacks: sniffing, MiTM, replay
+- Offline Attacks: Rainbow tables, brute-force on hashes
+
+##### Non-Electronic Attacks
+- Social Engineering
+- Dumpster diving
+- Shoulder surfing
+
+##### Active Online Attacks
+__Dictionary Attack__
+- Used in two situations:
+	- Discover decryption key
+	- Cracking password
+- Methods to improve the success
+	- Use different types of dictionaries
+	- Use string manipulation. Ex: system -> metsys
+
+__Brute-Force Attack__
+- Every combination of characters until password is broken.
+- It is a time-consuming process
+- All passwords will eventually be found
+
+__Rule-base Attack__
+- Used when some information of password is known or hunch
+- _Hybrid Attack_
+	- Additional characters are added to the words in the dictionary
+	- Ex: john@2021 -> john@2022 or john@2023
+- _Syllable Attack_
+	- Dictionary of syllables are used and combinations of them
+	- Ex: a, ap, app, appl, b, ba, ban, c, ca, car, d, do, dog
+
+__Password Spraying Attack__
+- Targets multiple user accounts simultaneously using one or a small set of commonly used passwords. 
+- Tools:
+	- crackmapexec, kerbrute, invoke-DomainPasswordSpray, Omnispray, Spray
+
+```bash
+crackmapexec smb $IP -u users.txt -p passwords.txt
+```
+
+__Mask Attack__
+- Pattern of the password is used
+
+__Password Guessing__
+- Wordlist is created manually after gaining some information
+- Failure rate is high
+
+__Default Passwords__
+- Passwords that come with equipment
+- Ex: routers, switches
+- Online Tools:
+	- https://open-sez.me 
+	- https://www.fortypoundhead.com 
+	- https://cirt.net 
+	- http://www.defaultpassword.us 
+	- https://www.routerpasswords.com 
+	- https://default-password.info 
+	- https://192-168-1-1ip.mobi
+
+__Trojan/Spyware/Keyloggers__
+- Malware runs in the background and send back all user credentials to the attacker
+
+__Hash Injection/Pass-the-Hash (PtH) Attack__
+
+__LLMNR/NBT-NS Poisoning__
+
+__Internal Monologue Attack__
+
+__Cracking Kerberos Password__
+
+__Pass-the-Ticket Attack__
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -4,35 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "ae845a22cc24b4be",
+        "id": "0a57edea922401ae",
         "type": "tabs",
         "children": [
           {
-            "id": "b0aca232b5bd666c",
+            "id": "8055e53a400529df",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "InfoSec/System Pentesting/windows/SMTP.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "806f4859294330d3",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "InfoSec/System Pentesting/windows/MySQL.md",
-                "mode": "source",
+                "file": "CEH/06 System Hacking.md",
+                "mode": "preview",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -99,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "InfoSec/System Pentesting/windows/MySQL.md",
+                "file": "CEH/06 System Hacking.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -116,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "InfoSec/System Pentesting/windows/MySQL.md",
+                "file": "CEH/06 System Hacking.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -139,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "InfoSec/System Pentesting/windows/MySQL.md"
+                "file": "CEH/06 System Hacking.md"
               }
             }
           }
@@ -160,17 +147,17 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "806f4859294330d3",
+  "active": "8055e53a400529df",
   "lastOpenFiles": [
-    "InfoSec/System Pentesting/windows/SMTP.md",
-    "InfoSec/WebApp Pentesting/CRLF.md",
-    "ISC2/Glossary.md",
-    "InfoSec/Certs/SmartKnower.md",
-    "InfoSec/System Pentesting/windows/NFS.md",
-    "InfoSec/System Pentesting/Privilege Escalation/Privesc.md",
-    "InfoSec/System Pentesting/windows/SMB.md",
-    "InfoSec/System Pentesting/windows/Telent.md",
+    "CEH/THM Jr Penetration Tester.md",
+    "CEH/06 System Hacking.md",
+    "CEH/02 Foot Printing and Reconnaissance.md",
+    "CEH/CEH v12 - Module02.pdf",
+    "InfoSec/System Pentesting/windows/101.md",
+    "InfoSec/System Pentesting/windows/Active Directory/Active Directory.md",
     "InfoSec/System Pentesting/windows/FTP.md",
-    "InfoSec/System Pentesting/Risk Management.md"
+    "InfoSec/System Pentesting/Privilege Escalation/Windows.md",
+    "InfoSec/System Pentesting/Privilege Escalation/0.md",
+    "CySec/MCQs.md"
   ]
 }

@@ -98,7 +98,7 @@ __Mask Attack__
 - Pattern of the password is used
 
 ```bash
-hashcat -a 3 -m 0 md5_hashes.txt ?l?l?l?d?d?d 
+hashcat -a 3 -m 0 md5_hashes.txt -l ?l?l?l?d?d?d 
 ```
 
 __Password Guessing__
@@ -134,6 +134,11 @@ __Internal Monologue Attack__
 __Cracking Kerberos Password__
 
 __Pass-the-Ticket Attack__
+
+##### Passive Online Attacks
+
+##### Offline Attacks
+
 
 
 

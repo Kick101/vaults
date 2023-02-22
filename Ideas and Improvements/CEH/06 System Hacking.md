@@ -149,6 +149,11 @@ rtgen hash_algorithm charset plaintext_len_min plaintext_len_max table_index cha
 ```
 
 __Distributed Network Attack__
+- DNA manager installed in a central location where machines running DNA clients can access it over a network. 
+- A DNA manager coordinates the attack and assigns small portions of the key search to machines distributed throughout the network. 
+- The DNA client runs in the background, only taking the processor time that was unused. 
+
+
 
 
 

@@ -155,6 +155,14 @@ __Distributed Network Attack__
 
 
 ##### Password Recovery Tools
+- https://www.elcomsoft.com
+- Password Recovery Toolkit (https://accessdata.com)
+- Passware Kit Forensic (https://www.passware.com)
+- hashcat (https://hashcat.net)
+- Windows Password Recovery Tool (https://www.windowspasswordsrecovery.com)
+- PCUnlocker (https://www.top-password.com)
+
+
 
 
 

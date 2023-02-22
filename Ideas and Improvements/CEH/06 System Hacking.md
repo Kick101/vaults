@@ -97,8 +97,17 @@ crackmapexec smb $IP -u users.txt -p passwords.txt
 __Mask Attack__
 - Pattern of the password is used
 
+```bash
+hashcat -a 3 -m 0 md5_hashes.txt ?l?l?l?d?d?d 
+```
+
 __Password Guessing__
 - Wordlist is created manually after gaining some information
+- Process:
+	- Find valid user
+	- Create list of possible passwords
+	- Rank passwords from high to low probability
+	- Crack
 - Failure rate is high
 
 __Default Passwords__

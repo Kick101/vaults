@@ -142,9 +142,15 @@ Time-consuming but have a high success rate
 
 __Rainbow Table Attack__
 - Pre-computed hash tables are used to compare the hash
-- 
+- Tools:  http://project-rainbowcrack.com
 
-__Distri
+```bash
+rtgen hash_algorithm charset plaintext_len_min plaintext_len_max table_index chain_len chain_num part_index
+```
+
+__Distributed Network Attack__
+
+
 
 
 

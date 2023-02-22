@@ -138,8 +138,13 @@ __Pass-the-Ticket Attack__
 ##### Passive Online Attacks
 
 ##### Offline Attacks
+Time-consuming but have a high success rate
 
+__Rainbow Table Attack__
+- Pre-computed hash tables are used to compare the hash
+- 
 
+__Distri
 
 
 

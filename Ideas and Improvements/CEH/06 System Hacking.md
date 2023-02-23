@@ -169,6 +169,29 @@ __Distributed Network Attack__
 - DSInternals PowerShell
 - Ntdsxtract
 
+---
+### Tools
+#### Password Cracking
+##### Hashcat
+
+__Di
+```bash
+hashcat -m 0 -a 0 $hash $dictionary
+```
+- `m` : hash type
+	- 0: MD5
+	- 1000: NT hash
+	- 
+- `a` : attack type
+	- 0 | Straight
+	- 1 | Combination
+	- 3 | Brute-force
+	- 6 | Hybrid Wordlist + Mask
+	- 7 | Hybrid Mask + Wordlist
+	- 9 | Association
+- _cracked hashes location:_ ~/.hashcat/hashcat.potfile
+
+
 
 
 

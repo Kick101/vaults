@@ -48,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "find ",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -147,7 +147,7 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "8055e53a400529df",
+  "active": "e985295c9ac7b16f",
   "lastOpenFiles": [
     "InfoSec/Tech & Languages/Linux & Bash.md",
     "CEH/06 System Hacking.md",

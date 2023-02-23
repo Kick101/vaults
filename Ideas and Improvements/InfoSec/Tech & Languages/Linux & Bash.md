@@ -189,3 +189,10 @@ sudo dd if=<iso-path> of=/dev/sdb bs=4M status=progress
 ---
 ### Fixes
 [qemu setup](https://christitus.com/vm-setup-in-linux/)
+[hashcat amd fix](https://stackoverflow.com/questions/50000621/clgetplatformids-cl-platform-not-found-khr-hashcat)
+
+```bash
+pacman -S clinfo
+pacman -S pocl # Main thing
+hashcat -b
+```

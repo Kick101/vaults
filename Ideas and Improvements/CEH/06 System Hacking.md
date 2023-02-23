@@ -162,6 +162,13 @@ __Distributed Network Attack__
 - Windows Password Recovery Tool (https://www.windowspasswordsrecovery.com)
 - PCUnlocker (https://www.top-password.com)
 
+##### Password Extracting Tools
+- pwdump7
+- mimikatz
+- powershell empire
+- DSInternals PowerShell
+- Ntdsxtract
+
 
 
 

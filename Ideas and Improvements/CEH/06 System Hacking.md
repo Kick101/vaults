@@ -169,6 +169,15 @@ __Distributed Network Attack__
 - DSInternals PowerShell
 - Ntdsxtract
 
+__Local Security Authority Subsystem Service (LSASS)__
+Responsible for _authentication, password management, active directory, security policy enforcement_.
+- _Loaded into memory_ when a user logs in to the system
+- "Pass-the-Hash" attack
+- Dumping password hashes
+
+
+
+
 ---
 ### Tools
 #### Password Cracking

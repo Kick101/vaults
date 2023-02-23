@@ -199,12 +199,20 @@ hashcat -m 0 -a 0 -r /usr/share/doc/hashcat/rules/best64.rule $hash $wordlist
 
 __Mask__
 ```bash
-hashcat -m 0 -a 0 
+hashcat -m 0 -a 3 $hash ?u?a?a?d
 ```
 
+__Mask - increment__
+```bash
+hashcat -m 0 -a 3 $hash --increment-min=3 --increment-max=5 ?u?a?a?d
+```
+
+__Combinator__
+
+```bash
 
 
-
+```
 
 
 

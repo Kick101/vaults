@@ -173,11 +173,6 @@ __Distributed Network Attack__
 ### Tools
 #### Password Cracking
 ##### Hashcat
-
-__Di
-```bash
-hashcat -m 0 -a 0 $hash $dictionary
-```
 - `m` : hash type
 	- 0: MD5
 	- 1000: NT hash
@@ -191,7 +186,21 @@ hashcat -m 0 -a 0 $hash $dictionary
 	- 9 | Association
 - _cracked hashes location:_ ~/.hashcat/hashcat.potfile
 
+__Dictionary__
+```bash
+hashcat -m 0 -a 0 $hash $dictionary
+```
 
+
+__Rule Based__
+```bash
+hashcat -m 0 -a 0 -r /usr/share/doc/hashcat/rules/best64.rule $hash $wordlist
+```
+
+__Mask__
+```bash
+hashcat -m 0 -a 0 
+```
 
 
 

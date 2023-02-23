@@ -48,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "smtp",
+                "query": "john",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -65,12 +65,12 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "fe286dd04d32f6ac",
@@ -147,7 +147,7 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "8055e53a400529df",
+  "active": "31b872dbdb4dc77d",
   "lastOpenFiles": [
     "CEH/THM Jr Penetration Tester.md",
     "CEH/06 System Hacking.md",

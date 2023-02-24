@@ -162,7 +162,7 @@ __Distributed Network Attack__
 - Windows Password Recovery Tool (https://www.windowspasswordsrecovery.com)
 - PCUnlocker (https://www.top-password.com)
 
-##### Password Extracting Tools
+##### Password Extracting / Hash Dumping
 - pwdump7
 - mimikatz
 - powershell empire
@@ -174,6 +174,11 @@ Responsible for _authentication, password management, active directory, security
 - _Loaded into memory_ when a user logs in to the system
 - "Pass-the-Hash" attack
 - Dumping password hashes
+
+__samdump2__
+- This tool is designed to dump Windows 2k/NT/XP password hashes from a SAM file, _using the syskey bootkey from the system hive_.
+- This package also provides the functionality of bkhive, which recovers the syskey bootkey from a Windows NT/2K/XP system hive.
+- __Syskey__ is a Windows feature that _adds an additional encryption layer to the password hashes stored in the SAM database.
 
 
 

@@ -192,6 +192,7 @@ __Mimikatz__
 sekurlsa:logonpasswords
 ```
 
+__Cracking__
 ```hash
 hashcat -m 1000 -a 0 hashes.txt $wordlist -O
 ```

@@ -163,11 +163,7 @@ __Distributed Network Attack__
 - PCUnlocker (https://www.top-password.com)
 
 ##### Password Extracting / Hash Dumping
-- pwdump7
-- mimikatz
-- powershell empire
-- DSInternals PowerShell
-- Ntdsxtract
+- pwdump7, mimikatz, powershell empire, DSInternals PowerShell, Ntdsxtract
 
 __Local Security Authority Subsystem Service (LSASS)__
 Responsible for _authentication, password management, active directory, security policy enforcement_.
@@ -176,11 +172,16 @@ Responsible for _authentication, password management, active directory, security
 - Dumping password hashes
 
 __samdump2 tool__
-- This tool is designed to dump Windows 2k/NT/XP password hashes from a SAM file, _using the syskey bootkey from the system hive_.
-- This package also provides the functionality of bkhive, which recovers the syskey bootkey from a Windows NT/2K/XP system hive.
+- This tool is designed to dump Windows password hashes from a SAM file, _using the syskey bootkey from the system hive_.
+- Recovers the syskey bootkey from a Windows system hive.
 - __Syskey__ is a Windows feature that _adds an additional encryption layer to the password hashes_ stored in the SAM database.
 
-
+```bash
+samdump2 sys sam
+```
+```hash
+hashcat -m 1000 -a 0 hashes.txt $wordlist -O
+```
 
 
 ---

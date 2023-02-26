@@ -23,7 +23,7 @@ When user logs into a windows system. Windows OS authenticates it's users with t
 
 ##### [[InfoSec/System Pentesting/windows/Active Directory/101#NTLM Authentication]]
 
-##### Kerberos Authentication
+##### [[InfoSec/System Pentesting/windows/Active Directory/101#Kerberos Authentication]]
 - Authentication is done by using _secret-key_ cryptography.
 - It's a _mutual authentication_: each other identity is verified
 - This protects against _replay attacks_ and _evaesdropping_
@@ -31,13 +31,6 @@ When user logs into a windows system. Windows OS authenticates it's users with t
 - _Key Distribution Center (KDC):_ trusted third party. It has:
 	- Authentication Server (AS)
 	- Ticket-Granting Server (TGS)
-
-#### Hashing Algorithms
-##### LM/NTLM
-- LM, NTLMv1, and NTLMv2, all of which use the same technique for authentication. The only difference is the level of encryption.
-- _LM hash splits the password into two 7-byte parts_ and then hashes them separately.
-- LM hashes doesn't support more than 14 password characters.
-- _LM is disabled in VIsta & higher_, blank in SAM.
 
 #### Classification of Password Attacks
 - Non-Electronic Attacks

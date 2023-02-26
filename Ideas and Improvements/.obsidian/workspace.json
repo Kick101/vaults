@@ -8,13 +8,25 @@
         "type": "tabs",
         "children": [
           {
-            "id": "4cfe6ebac6f417b2",
+            "id": "a7d6b910f269f230",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
                 "file": "InfoSec/System Pentesting/windows/Active Directory/101.md",
                 "mode": "preview",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "4cfe6ebac6f417b2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Certs/CEH/06 System Hacking.md",
+                "mode": "source",
                 "source": false
               }
             }
@@ -147,14 +159,15 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "4cfe6ebac6f417b2",
+  "active": "a7d6b910f269f230",
   "lastOpenFiles": [
+    "Certs/CEH/06 System Hacking.md",
+    "InfoSec/System Pentesting/windows/Active Directory/101.md",
     "Pasted image 20230226162802.png",
     "Pasted image 20230226162607.png",
     "Pasted image 20230226153809.png",
     "Pasted image 20230226153146.png",
     "Pasted image 20230225013725.png",
-    "InfoSec/System Pentesting/windows/Active Directory/101.md",
     "InfoSec/System Pentesting/windows/Active Directory/Active Directory.md",
     "InfoSec/System Pentesting/windows/101.md",
     "CySec/Recuritements.md",
@@ -166,7 +179,6 @@
     "Certs/CEH/02 Foot Printing and Reconnaissance.md",
     "Certs/CEH/THM Jr Penetration Tester.md",
     "Certs/CEH/CEH v12 - Module02.pdf",
-    "Certs/CEH/06 System Hacking.md",
     "InfoSec/Tech & Languages/Linux & Bash.md",
     "InfoSec/System Pentesting/windows/FTP.md",
     "InfoSec/System Pentesting/Privilege Escalation/Windows.md",

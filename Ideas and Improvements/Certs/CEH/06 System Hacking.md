@@ -21,19 +21,7 @@ When user logs into a windows system. Windows OS authenticates it's users with t
 - File location: `%SystemRoot%/system32/config/SAM`
 - Registry Location: `HKLM/SAM` - LM or NTLM hashes passwords.
 
-##### NT LAN Manager (NTLM) Authentication
-- Authentication is done by using _challenge/response_ method.
-- NTLM authentication uses two protocols used:
-	- _NTLM_ and _LAN Manager (LM)_
-- Passwords are stored in SAM
-
-__Authentication Process__
-- The client types the username and password into the logon window.
-- Windows _generates a hash_ for the password.
-- The client computer _sends a login request_ along with a domain name to the domain controller.
-- The domain controller generates a _16-byte random character string called a "nonce,"_ which it sends to the client computer.
-- The client computer _encrypts the nonce with a hash_ of the user password and sends it back to the domain controller.
-- The domain controller retrieves the hash of the user password from the SAM and uses it to encrypt the nonce. The domain controller then _compares the encrypted value with the value received from the client_. A matching value authenticates the client, and the logon is successful.
+##### [[InfoSec/System Pentesting/windows/Active Directory/101#NTLM Authentication]]
 
 ##### Kerberos Authentication
 - Authentication is done by using _secret-key_ cryptography.

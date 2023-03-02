@@ -8,18 +8,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "d4b1ed9e2f45fc88",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "InfoSec/System Pentesting/windows/Active Directory/101.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "09d9eba93bf489f3",
             "type": "leaf",
             "state": {
@@ -42,21 +30,9 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "77410406c521f650",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "InfoSec/System Pentesting/windows/Active Directory/Attacktive Directory.md",
-                "mode": "preview",
-                "source": false
-              }
-            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -187,9 +163,9 @@
   "active": "844eceae840d0fca",
   "lastOpenFiles": [
     "InfoSec/System Pentesting/windows/Active Directory/Kerberos.md",
+    "InfoSec/System Pentesting/windows/Active Directory/101.md",
     "InfoSec/System Pentesting/windows/Active Directory/Post Exploitation.md",
     "InfoSec/System Pentesting/windows/Active Directory/Attacktive Directory.md",
-    "InfoSec/System Pentesting/windows/Active Directory/101.md",
     "InfoSec/System Pentesting/windows/Active Directory/Active Directory.md",
     "Certs/CEH/06 System Hacking.md",
     "Pasted image 20230226162802.png",

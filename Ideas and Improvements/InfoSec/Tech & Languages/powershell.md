@@ -8,3 +8,4 @@
 |`Copy-Item`|cp, copy|
 |`Remove-Item`|rm, del|
 |`Invoke-WebRequest`|curl|
+

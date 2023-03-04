@@ -18,6 +18,30 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "0678e68dd4da7b26",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "InfoSec/System Pentesting/windows/Active Directory/Enumeration.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "a763d388f3977036",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "InfoSec/Tech & Languages/powershell.md",
+                "mode": "preview",
+                "source": false
+              }
+            }
           }
         ]
       }
@@ -147,10 +171,12 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "e985295c9ac7b16f",
+  "active": "cc9183809c60a289",
   "lastOpenFiles": [
-    "InfoSec/System Pentesting/windows/Active Directory/Post Exploitation.md",
+    "InfoSec/System Pentesting/windows/Active Directory/Enumeration.md",
     "InfoSec/System Pentesting/windows/Active Directory/Theory.md",
+    "InfoSec/Tech & Languages/powershell.md",
+    "InfoSec/System Pentesting/windows/Active Directory/Post Exploitation.md",
     "Pasted image 20230304114246.png",
     "Pasted image 20230304105701.png",
     "Pasted image 20230304101956.png",

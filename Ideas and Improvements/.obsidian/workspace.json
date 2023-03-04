@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "InfoSec/Machines/HTB/Untitled.md",
+                "file": "InfoSec/Machines/HTB/Active Directory/Forest.md",
                 "mode": "source",
                 "source": false
               }
@@ -82,7 +82,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "fe286dd04d32f6ac",
@@ -98,7 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "InfoSec/Machines/HTB/Untitled.md",
+                "file": "InfoSec/Machines/HTB/Active Directory/Forest.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +116,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "InfoSec/Machines/HTB/Untitled.md",
+                "file": "InfoSec/Machines/HTB/Active Directory/Forest.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +139,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "InfoSec/Machines/HTB/Untitled.md"
+                "file": "InfoSec/Machines/HTB/Active Directory/Forest.md"
               }
             }
           }
@@ -159,11 +160,11 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "e985295c9ac7b16f",
+  "active": "aeb42104a4a547da",
   "lastOpenFiles": [
     "InfoSec/Machines/HTB/Active Directory",
     "InfoSec/System Pentesting/windows/Active Directory/Enumeration.md",
-    "InfoSec/Machines/HTB/Untitled.md",
+    "InfoSec/Machines/HTB/Active Directory/Forest.md",
     "InfoSec/Machines/HTB",
     "InfoSec/Machines",
     "InfoSec/System Pentesting/windows/Active Directory/Theory.md",

@@ -8,25 +8,13 @@
         "type": "tabs",
         "children": [
           {
-            "id": "cc9183809c60a289",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "InfoSec/System Pentesting/windows/Active Directory/Theory.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "0678e68dd4da7b26",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
                 "file": "InfoSec/System Pentesting/windows/Active Directory/Enumeration.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": false
               }
             }
@@ -110,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "InfoSec/System Pentesting/windows/Active Directory/Theory.md",
+                "file": "InfoSec/System Pentesting/windows/Active Directory/Enumeration.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "InfoSec/System Pentesting/windows/Active Directory/Theory.md",
+                "file": "InfoSec/System Pentesting/windows/Active Directory/Enumeration.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "InfoSec/System Pentesting/windows/Active Directory/Theory.md"
+                "file": "InfoSec/System Pentesting/windows/Active Directory/Enumeration.md"
               }
             }
           }
@@ -171,11 +159,11 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "cc9183809c60a289",
+  "active": "0678e68dd4da7b26",
   "lastOpenFiles": [
-    "InfoSec/System Pentesting/windows/Active Directory/Enumeration.md",
     "InfoSec/System Pentesting/windows/Active Directory/Theory.md",
     "InfoSec/Tech & Languages/powershell.md",
+    "InfoSec/System Pentesting/windows/Active Directory/Enumeration.md",
     "InfoSec/System Pentesting/windows/Active Directory/Post Exploitation.md",
     "Pasted image 20230304114246.png",
     "Pasted image 20230304105701.png",

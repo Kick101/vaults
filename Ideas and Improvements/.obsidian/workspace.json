@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "3b21f29a1da4739f",
+        "id": "8b4b770dc5aba3b5",
         "type": "tabs",
         "children": [
           {
-            "id": "93d16fac7130e8e1",
+            "id": "0d954847ae045ee9",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -48,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "kerberoast",
+                "query": "powershell -",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -147,10 +147,11 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "93d16fac7130e8e1",
+  "active": "0d954847ae045ee9",
   "lastOpenFiles": [
-    "InfoSec/System Pentesting/windows/Active Directory/Kerberos.md",
+    "InfoSec/System Pentesting/Privilege Escalation/Windows.md",
     "InfoSec/System Pentesting/windows/Active Directory/Enumeration.md",
+    "InfoSec/System Pentesting/windows/Active Directory/Kerberos.md",
     "InfoSec/System Pentesting/windows/Active Directory/Theory.md",
     "InfoSec/System Pentesting/windows/Active Directory/Attacks.md",
     "InfoSec/System Pentesting/windows/Active Directory/Attacktive Directory.md",
@@ -185,7 +186,6 @@
     "Certs/CEH/CEH v12 - Module02.pdf",
     "InfoSec/Tech & Languages/Linux & Bash.md",
     "InfoSec/System Pentesting/windows/FTP.md",
-    "InfoSec/System Pentesting/Privilege Escalation/Windows.md",
     "InfoSec/System Pentesting/Privilege Escalation/0.md"
   ]
 }

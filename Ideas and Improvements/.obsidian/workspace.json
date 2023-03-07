@@ -18,8 +18,33 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "d38bf562945702d5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "InfoSec/System Pentesting/windows/Active Directory/Theory.md",
+                "mode": "preview",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "03a39225d8a6f5fd",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "InfoSec/Tech & Languages/powershell.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -86,7 +111,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "InfoSec/System Pentesting/windows/Active Directory/Enumeration.md",
+                "file": "InfoSec/System Pentesting/windows/Active Directory/Theory.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +128,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "InfoSec/System Pentesting/windows/Active Directory/Enumeration.md",
+                "file": "InfoSec/System Pentesting/windows/Active Directory/Theory.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +151,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "InfoSec/System Pentesting/windows/Active Directory/Enumeration.md"
+                "file": "InfoSec/System Pentesting/windows/Active Directory/Theory.md"
               }
             }
           }
@@ -147,15 +172,15 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "0678e68dd4da7b26",
+  "active": "d38bf562945702d5",
   "lastOpenFiles": [
-    "InfoSec/Machines/HTB/Active Directory/Forest.md",
-    "InfoSec/Machines/HTB/Active Directory",
     "InfoSec/System Pentesting/windows/Active Directory/Enumeration.md",
-    "InfoSec/Machines/HTB",
-    "InfoSec/Machines",
     "InfoSec/System Pentesting/windows/Active Directory/Theory.md",
     "InfoSec/Tech & Languages/powershell.md",
+    "InfoSec/Machines/HTB/Active Directory/Forest.md",
+    "InfoSec/Machines/HTB/Active Directory",
+    "InfoSec/Machines/HTB",
+    "InfoSec/Machines",
     "InfoSec/System Pentesting/windows/Active Directory/Post Exploitation.md",
     "Pasted image 20230304114246.png",
     "Pasted image 20230304105701.png",

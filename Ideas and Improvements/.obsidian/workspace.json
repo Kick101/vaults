@@ -72,7 +72,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "asrep",
+                "query": "kerberoast",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -89,7 +89,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -174,11 +175,11 @@
   "active": "0678e68dd4da7b26",
   "lastOpenFiles": [
     "InfoSec/System Pentesting/windows/Active Directory/Theory.md",
+    "InfoSec/System Pentesting/windows/Active Directory/Kerberos.md",
+    "InfoSec/System Pentesting/windows/Active Directory/Enumeration.md",
     "InfoSec/System Pentesting/windows/Active Directory/Attacks.md",
     "InfoSec/System Pentesting/windows/Active Directory/Attacktive Directory.md",
     "InfoSec/System Pentesting/windows/Active Directory/Mimikatz.md",
-    "InfoSec/System Pentesting/windows/Active Directory/Kerberos.md",
-    "InfoSec/System Pentesting/windows/Active Directory/Enumeration.md",
     "InfoSec/Tech & Languages/powershell.md",
     "InfoSec/Machines/HTB/Active Directory/Forest.md",
     "InfoSec/Machines/HTB/Active Directory",

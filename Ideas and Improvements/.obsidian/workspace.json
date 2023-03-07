@@ -14,25 +14,12 @@
               "type": "markdown",
               "state": {
                 "file": "InfoSec/System Pentesting/windows/Active Directory/Attacks.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "53f6364c1a294230",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "InfoSec/System Pentesting/windows/Telent.md",
                 "mode": "preview",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -82,7 +69,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "fe286dd04d32f6ac",
@@ -98,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "InfoSec/System Pentesting/windows/Telent.md",
+                "file": "InfoSec/System Pentesting/windows/Active Directory/Attacks.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "InfoSec/System Pentesting/windows/Telent.md",
+                "file": "InfoSec/System Pentesting/windows/Active Directory/Attacks.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "InfoSec/System Pentesting/windows/Telent.md"
+                "file": "InfoSec/System Pentesting/windows/Active Directory/Attacks.md"
               }
             }
           }
@@ -159,8 +147,10 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "53f6364c1a294230",
+  "active": "dd0661707eb0a73e",
   "lastOpenFiles": [
+    "InfoSec/System Pentesting/windows/Active Directory/Active Directory.md",
+    "InfoSec/System Pentesting/windows/Telent.md",
     "InfoSec/System Pentesting/windows/SMTP.md",
     "InfoSec/System Pentesting/windows/SMB & SAMBA.md",
     "InfoSec/System Pentesting/windows/NFS.md",
@@ -188,7 +178,6 @@
     "Pasted image 20230304033044.png",
     "Pasted image 20230304032625.png",
     "Pasted image 20230304023824.png",
-    "InfoSec/System Pentesting/windows/Active Directory/Active Directory.md",
     "Certs/CEH/06 System Hacking.md",
     "Pasted image 20230226162802.png",
     "Pasted image 20230226162607.png",
@@ -200,7 +189,6 @@
     "InfoSec/Certs/NSD Bug Bounty.md",
     "Certs",
     "Certs/CEH/02 Foot Printing and Reconnaissance.md",
-    "Certs/CEH/THM Jr Penetration Tester.md",
     "Certs/CEH/CEH v12 - Module02.pdf"
   ]
 }

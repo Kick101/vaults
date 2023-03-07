@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "InfoSec/System Pentesting/windows/Active Directory/Enumeration.md",
+                "file": "InfoSec/System Pentesting/windows/Active Directory/Attacktive Directory.md",
                 "mode": "preview",
                 "source": false
               }
@@ -38,7 +38,7 @@
               "type": "markdown",
               "state": {
                 "file": "InfoSec/Tech & Languages/powershell.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": false
               }
             }
@@ -73,7 +73,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "whoami /priv",
+                "query": "asrep",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -90,7 +90,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -174,6 +175,7 @@
   },
   "active": "9f0248fe94837dc6",
   "lastOpenFiles": [
+    "InfoSec/System Pentesting/windows/Active Directory/Attacktive Directory.md",
     "InfoSec/System Pentesting/windows/Active Directory/Enumeration.md",
     "InfoSec/System Pentesting/windows/Active Directory/Attacks.md",
     "InfoSec/Tech & Languages/powershell.md",
@@ -193,7 +195,6 @@
     "InfoSec/System Pentesting/windows/Active Directory/Mimikatz.md",
     "InfoSec/System Pentesting/windows/Active Directory/Active Directory.md",
     "InfoSec/System Pentesting/windows/Active Directory/Kerberos.md",
-    "InfoSec/System Pentesting/windows/Active Directory/Attacktive Directory.md",
     "Certs/CEH/06 System Hacking.md",
     "Pasted image 20230226162802.png",
     "Pasted image 20230226162607.png",

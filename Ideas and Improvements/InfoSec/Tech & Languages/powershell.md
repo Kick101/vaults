@@ -24,3 +24,14 @@ __Mount the SMB share__
 ```powershell
 New-PSDrive -Name -PSProvider FileSystem -Credential $creds -Root \\$IP\kick-share
 ```
+
+##### Create and add user to a group
+__Create User acct__
+```powershell
+net user kickass101 Password321 /add /domain
+```
+__Add user to a group__
+```powershell
+net group "Windows Exchange Permissions" /add kickass101
+```
+

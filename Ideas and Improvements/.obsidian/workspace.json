@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "InfoSec/System Pentesting/windows/Active Directory/Attacks.md",
+                "file": "InfoSec/Tech & Languages/powershell.md",
                 "mode": "preview",
                 "source": false
               }
@@ -48,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "rdp",
+                "query": "powershell.",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -65,7 +65,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -86,7 +87,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "InfoSec/System Pentesting/windows/Active Directory/Attacks.md",
+                "file": "InfoSec/Tech & Languages/powershell.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +104,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "InfoSec/System Pentesting/windows/Active Directory/Attacks.md",
+                "file": "InfoSec/Tech & Languages/powershell.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +127,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "InfoSec/System Pentesting/windows/Active Directory/Attacks.md"
+                "file": "InfoSec/Tech & Languages/powershell.md"
               }
             }
           }
@@ -149,6 +150,7 @@
   },
   "active": "dd0661707eb0a73e",
   "lastOpenFiles": [
+    "InfoSec/System Pentesting/windows/Active Directory/Attacks.md",
     "InfoSec/System Pentesting/windows/Active Directory/Active Directory.md",
     "InfoSec/System Pentesting/windows/Telent.md",
     "InfoSec/System Pentesting/windows/SMTP.md",
@@ -156,7 +158,6 @@
     "InfoSec/System Pentesting/windows/NFS.md",
     "InfoSec/System Pentesting/windows/MySQL.md",
     "InfoSec/System Pentesting/windows/FTP.md",
-    "InfoSec/System Pentesting/windows/Active Directory/Attacks.md",
     "InfoSec/System Pentesting/windows/101.md",
     "InfoSec/System Pentesting/windows/Active Directory/cheatsheat-AD-PowerView.md",
     "InfoSec/System Pentesting/windows/Active Directory/Enumeration.md",

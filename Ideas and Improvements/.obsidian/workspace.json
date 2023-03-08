@@ -4,17 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "8ed5332bc9c8ab96",
+        "id": "3ffee93cf980f0aa",
         "type": "tabs",
         "children": [
           {
-            "id": "dd0661707eb0a73e",
+            "id": "bd835a36354709dd",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "InfoSec/Tech & Languages/powershell.md",
-                "mode": "preview",
+                "file": "InfoSec/WebApp Pentesting/CSP.md",
+                "mode": "source",
                 "source": false
               }
             }
@@ -65,8 +65,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -87,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "InfoSec/Tech & Languages/powershell.md",
+                "file": "InfoSec/WebApp Pentesting/CSP.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "InfoSec/Tech & Languages/powershell.md",
+                "file": "InfoSec/WebApp Pentesting/CSP.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -127,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "InfoSec/Tech & Languages/powershell.md"
+                "file": "InfoSec/WebApp Pentesting/CSP.md"
               }
             }
           }
@@ -148,8 +147,10 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "dd0661707eb0a73e",
+  "active": "bd835a36354709dd",
   "lastOpenFiles": [
+    "InfoSec/WebApp Pentesting/CSP.md",
+    "InfoSec/Tech & Languages/powershell.md",
     "InfoSec/System Pentesting/windows/Active Directory/Attacks.md",
     "InfoSec/System Pentesting/windows/Active Directory/Active Directory.md",
     "InfoSec/System Pentesting/windows/Telent.md",
@@ -166,7 +167,6 @@
     "InfoSec/System Pentesting/windows/Active Directory/Theory.md",
     "InfoSec/System Pentesting/windows/Active Directory/Attacktive Directory.md",
     "InfoSec/System Pentesting/windows/Active Directory/Mimikatz.md",
-    "InfoSec/Tech & Languages/powershell.md",
     "InfoSec/Machines/HTB/Active Directory/Forest.md",
     "InfoSec/Machines/HTB/Active Directory",
     "InfoSec/Machines/HTB",
@@ -189,7 +189,6 @@
     "CySec/2nd Year/Batch 101.md",
     "InfoSec/Certs/NSD Bug Bounty.md",
     "Certs",
-    "Certs/CEH/02 Foot Printing and Reconnaissance.md",
     "Certs/CEH/CEH v12 - Module02.pdf"
   ]
 }

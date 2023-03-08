@@ -42,9 +42,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "5edf6601cb59edbf",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "InfoSec/WebApp Pentesting/CSP.md",
+                "mode": "preview",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -90,8 +102,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -112,7 +123,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "InfoSec/Machines/HTB/Active Directory/Forest.md",
+                "file": "InfoSec/WebApp Pentesting/CSP.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -129,7 +140,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "InfoSec/Machines/HTB/Active Directory/Forest.md",
+                "file": "InfoSec/WebApp Pentesting/CSP.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -152,7 +163,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "InfoSec/Machines/HTB/Active Directory/Forest.md"
+                "file": "InfoSec/WebApp Pentesting/CSP.md"
               }
             }
           }
@@ -173,11 +184,11 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "4edfe4646ab714cd",
+  "active": "5edf6601cb59edbf",
   "lastOpenFiles": [
+    "InfoSec/Machines/HTB/Active Directory/Forest.md",
     "InfoSec/System Pentesting/windows/Active Directory/Enumeration.md",
     "InfoSec/Tech & Languages/powershell.md",
-    "InfoSec/Machines/HTB/Active Directory/Forest.md",
     "InfoSec/System Pentesting/windows/Active Directory/Attacks.md",
     "InfoSec/System Pentesting/windows/Active Directory/Attacktive Directory.md",
     "InfoSec/System Pentesting/windows/SMB & SAMBA.md",

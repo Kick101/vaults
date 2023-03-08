@@ -22,9 +22,11 @@ $creds = New-Object System.Management.Automation.PSCredential('kickass101', $pas
 ```
 __Mount the SMB share__
 ```powershell
-New-PSDrive -Name -PSProvider FileSystem -Credential $creds -Root \\$IP\kick-share
+New-PSDrive -Name kick-share -PSProvider FileSystem -Credential $creds -Root \\$IP\kick-share
 ```
-
+```powershell
+cd kick-share:
+```
 ##### Create and add user to a group
 __Create User acct__
 ```powershell

@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "3ffee93cf980f0aa",
+        "id": "5a9c3d83a7e1fdf5",
         "type": "tabs",
         "children": [
           {
-            "id": "bd835a36354709dd",
+            "id": "2f9f6f57055a7d43",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "InfoSec/WebApp Pentesting/CSP.md",
+                "file": "InfoSec/Machines/HTB/Active Directory/Forest.md",
                 "mode": "preview",
                 "source": false
               }
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "InfoSec/WebApp Pentesting/CSP.md",
+                "file": "InfoSec/Machines/HTB/Active Directory/Forest.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "InfoSec/WebApp Pentesting/CSP.md",
+                "file": "InfoSec/Machines/HTB/Active Directory/Forest.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "InfoSec/WebApp Pentesting/CSP.md"
+                "file": "InfoSec/Machines/HTB/Active Directory/Forest.md"
               }
             }
           }
@@ -147,10 +147,10 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "bd835a36354709dd",
+  "active": "2f9f6f57055a7d43",
   "lastOpenFiles": [
-    "InfoSec/WebApp Pentesting/CRLF.md",
     "InfoSec/WebApp Pentesting/CSP.md",
+    "InfoSec/WebApp Pentesting/CRLF.md",
     "InfoSec/WebApp Pentesting/THM  Learnings.md",
     "InfoSec/WebApp Pentesting/Broken Access Controls.md",
     "InfoSec/Tech & Languages/powershell.md",

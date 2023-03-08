@@ -34,7 +34,7 @@ net user kickass101 Password321 /add /domain
 ```
 __Add user to a group__
 ```powershell
-net group "Windows Exchange Permissions" /add kickass101
+net group "Exchange Windows Permissions" /add kickass101
 ```
 
 ##### Download files from server

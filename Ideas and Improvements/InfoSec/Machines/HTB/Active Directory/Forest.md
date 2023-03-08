@@ -18,4 +18,8 @@ __LDAP__
 windapsearch --dc-ip $IP -u "" --functionality
 ```
 
+```bash
+windapsearch --dc-ip $IP -u "" --full | tee -a windapsearch.log
+```
+
 

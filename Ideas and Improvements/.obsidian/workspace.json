@@ -18,8 +18,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "cb6bf5aab9722db4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "InfoSec/System Pentesting/windows/SMB & SAMBA.md",
+                "mode": "preview",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -48,7 +61,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "powershell.",
+                "query": "smbclie",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -65,7 +78,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -86,7 +100,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "InfoSec/Machines/HTB/Active Directory/Forest.md",
+                "file": "InfoSec/System Pentesting/windows/SMB & SAMBA.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +117,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "InfoSec/Machines/HTB/Active Directory/Forest.md",
+                "file": "InfoSec/System Pentesting/windows/SMB & SAMBA.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +140,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "InfoSec/Machines/HTB/Active Directory/Forest.md"
+                "file": "InfoSec/System Pentesting/windows/SMB & SAMBA.md"
               }
             }
           }
@@ -147,8 +161,12 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "2f9f6f57055a7d43",
+  "active": "cb6bf5aab9722db4",
   "lastOpenFiles": [
+    "InfoSec/Machines/HTB/Active Directory/Forest.md",
+    "InfoSec/System Pentesting/windows/SMB & SAMBA.md",
+    "InfoSec/System Pentesting/windows/Active Directory/Attacktive Directory.md",
+    "InfoSec/System Pentesting/windows/Active Directory/Enumeration.md",
     "InfoSec/WebApp Pentesting/CSP.md",
     "InfoSec/WebApp Pentesting/CRLF.md",
     "InfoSec/WebApp Pentesting/THM  Learnings.md",
@@ -158,19 +176,15 @@
     "InfoSec/System Pentesting/windows/Active Directory/Active Directory.md",
     "InfoSec/System Pentesting/windows/Telent.md",
     "InfoSec/System Pentesting/windows/SMTP.md",
-    "InfoSec/System Pentesting/windows/SMB & SAMBA.md",
     "InfoSec/System Pentesting/windows/NFS.md",
     "InfoSec/System Pentesting/windows/MySQL.md",
     "InfoSec/System Pentesting/windows/FTP.md",
     "InfoSec/System Pentesting/windows/101.md",
     "InfoSec/System Pentesting/windows/Active Directory/cheatsheat-AD-PowerView.md",
-    "InfoSec/System Pentesting/windows/Active Directory/Enumeration.md",
     "InfoSec/System Pentesting/Privilege Escalation/Windows.md",
     "InfoSec/System Pentesting/windows/Active Directory/Kerberos.md",
     "InfoSec/System Pentesting/windows/Active Directory/Theory.md",
-    "InfoSec/System Pentesting/windows/Active Directory/Attacktive Directory.md",
     "InfoSec/System Pentesting/windows/Active Directory/Mimikatz.md",
-    "InfoSec/Machines/HTB/Active Directory/Forest.md",
     "InfoSec/Machines/HTB/Active Directory",
     "InfoSec/Machines/HTB",
     "InfoSec/Machines",

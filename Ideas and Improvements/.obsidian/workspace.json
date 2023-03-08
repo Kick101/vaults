@@ -18,8 +18,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "29439b2892aea6e6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "InfoSec/WebApp Pentesting/CRLF.md",
+                "mode": "preview",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -86,7 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "InfoSec/WebApp Pentesting/CSP.md",
+                "file": "InfoSec/WebApp Pentesting/CRLF.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +116,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "InfoSec/WebApp Pentesting/CSP.md",
+                "file": "InfoSec/WebApp Pentesting/CRLF.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +139,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "InfoSec/WebApp Pentesting/CSP.md"
+                "file": "InfoSec/WebApp Pentesting/CRLF.md"
               }
             }
           }
@@ -147,10 +160,11 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "bd835a36354709dd",
+  "active": "29439b2892aea6e6",
   "lastOpenFiles": [
-    "InfoSec/WebApp Pentesting/Broken Access Controls.md",
     "InfoSec/WebApp Pentesting/CSP.md",
+    "InfoSec/WebApp Pentesting/THM  Learnings.md",
+    "InfoSec/WebApp Pentesting/Broken Access Controls.md",
     "InfoSec/Tech & Languages/powershell.md",
     "InfoSec/System Pentesting/windows/Active Directory/Attacks.md",
     "InfoSec/System Pentesting/windows/Active Directory/Active Directory.md",
@@ -187,7 +201,6 @@
     "CySec/Recuritements.md",
     "CySec/MCQs.md",
     "CySec/Interest Session.md",
-    "CySec/2nd Year/Batch 101.md",
     "Certs",
     "Certs/CEH/CEH v12 - Module02.pdf"
   ]

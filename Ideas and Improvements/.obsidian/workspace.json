@@ -56,7 +56,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -123,7 +123,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "InfoSec/WebApp Pentesting/CSP.md",
+                "file": "InfoSec/Machines/HTB/Active Directory/Forest.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -140,7 +140,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "InfoSec/WebApp Pentesting/CSP.md",
+                "file": "InfoSec/Machines/HTB/Active Directory/Forest.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -163,7 +163,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "InfoSec/WebApp Pentesting/CSP.md"
+                "file": "InfoSec/Machines/HTB/Active Directory/Forest.md"
               }
             }
           }
@@ -184,15 +184,15 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "5edf6601cb59edbf",
+  "active": "4edfe4646ab714cd",
   "lastOpenFiles": [
-    "InfoSec/Machines/HTB/Active Directory/Forest.md",
     "InfoSec/System Pentesting/windows/Active Directory/Enumeration.md",
     "InfoSec/Tech & Languages/powershell.md",
+    "InfoSec/WebApp Pentesting/CSP.md",
+    "InfoSec/Machines/HTB/Active Directory/Forest.md",
     "InfoSec/System Pentesting/windows/Active Directory/Attacks.md",
     "InfoSec/System Pentesting/windows/Active Directory/Attacktive Directory.md",
     "InfoSec/System Pentesting/windows/SMB & SAMBA.md",
-    "InfoSec/WebApp Pentesting/CSP.md",
     "InfoSec/WebApp Pentesting/CRLF.md",
     "InfoSec/WebApp Pentesting/THM  Learnings.md",
     "InfoSec/WebApp Pentesting/Broken Access Controls.md",

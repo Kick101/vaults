@@ -10,16 +10,23 @@ __SMB__
 ```bash
 smbclient -L //$IP/
 ```
+- Account Lockout Threshold: None
+```bash
+crackmapexec smb $IP --pass-pol
+```
 
 __LDAP__
 - Anonymous bind successful
-
 ```bash
 windapsearch --dc-ip $IP -u "" --functionality
 ```
-
+- Enumerate all users
 ```bash
-windapsearch --dc-ip $IP -u "" --full | tee -a windapsearch.log
+windapsearch --dc-ip $IP -u "" -U | tee windasearch-users.log
+```
+- Enumerate all objects
+```bash
+windapsearch --dc-ip $IP -u "" --custom "ObjectClass=*" | tee windasearch-objects.log
 ```
 
 

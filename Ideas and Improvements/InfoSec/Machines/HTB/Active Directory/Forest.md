@@ -4,7 +4,7 @@
 rustscan -a $IP -- -A -T4 -oN nmap.log
 ```
 
-__SMB__
+##### SMB
 - Anonymous logic successful but no shares found
 
 ```bash
@@ -15,7 +15,7 @@ smbclient -L //$IP/
 crackmapexec smb $IP --pass-pol
 ```
 
-__LDAP__
+##### LDAP
 - Anonymous bind successful
 ```bash
 windapsearch --dc-ip $IP -u "" --functionality
@@ -28,5 +28,10 @@ windapsearch --dc-ip $IP -u "" -U | tee windasearch-users.log
 ```bash
 windapsearch --dc-ip $IP -u "" --custom "ObjectClass=*" | tee windasearch-objects.log
 ```
+
+__Findings__
+- Found: _svc-alfresco_ service account
+- Found: 5 domain users
+
 
 

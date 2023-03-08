@@ -14,7 +14,7 @@
               "type": "markdown",
               "state": {
                 "file": "InfoSec/Machines/HTB/Active Directory/Forest.md",
-                "mode": "preview",
+                "mode": "source",
                 "source": false
               }
             }
@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "InfoSec/System Pentesting/windows/SMB & SAMBA.md",
+                "file": "InfoSec/System Pentesting/windows/Active Directory/Enumeration.md",
                 "mode": "preview",
                 "source": false
               }
@@ -78,8 +78,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -100,7 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "InfoSec/System Pentesting/windows/SMB & SAMBA.md",
+                "file": "InfoSec/System Pentesting/windows/Active Directory/Enumeration.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -117,7 +116,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "InfoSec/System Pentesting/windows/SMB & SAMBA.md",
+                "file": "InfoSec/System Pentesting/windows/Active Directory/Enumeration.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -140,7 +139,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "InfoSec/System Pentesting/windows/SMB & SAMBA.md"
+                "file": "InfoSec/System Pentesting/windows/Active Directory/Enumeration.md"
               }
             }
           }
@@ -164,9 +163,9 @@
   "active": "cb6bf5aab9722db4",
   "lastOpenFiles": [
     "InfoSec/Machines/HTB/Active Directory/Forest.md",
+    "InfoSec/System Pentesting/windows/Active Directory/Enumeration.md",
     "InfoSec/System Pentesting/windows/SMB & SAMBA.md",
     "InfoSec/System Pentesting/windows/Active Directory/Attacktive Directory.md",
-    "InfoSec/System Pentesting/windows/Active Directory/Enumeration.md",
     "InfoSec/WebApp Pentesting/CSP.md",
     "InfoSec/WebApp Pentesting/CRLF.md",
     "InfoSec/WebApp Pentesting/THM  Learnings.md",

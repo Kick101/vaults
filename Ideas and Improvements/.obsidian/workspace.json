@@ -8,24 +8,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "2f9f6f57055a7d43",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "InfoSec/System Pentesting/windows/Active Directory/Attacktive Directory.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "cb6bf5aab9722db4",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "InfoSec/System Pentesting/windows/Active Directory/Enumeration.md",
+                "file": "InfoSec/System Pentesting/windows/Active Directory/Attacks.md",
                 "mode": "preview",
                 "source": false
               }
@@ -77,8 +65,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -99,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "InfoSec/System Pentesting/windows/Active Directory/Attacktive Directory.md",
+                "file": "InfoSec/System Pentesting/windows/Active Directory/Attacks.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -116,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "InfoSec/System Pentesting/windows/Active Directory/Attacktive Directory.md",
+                "file": "InfoSec/System Pentesting/windows/Active Directory/Attacks.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -139,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "InfoSec/System Pentesting/windows/Active Directory/Attacktive Directory.md"
+                "file": "InfoSec/System Pentesting/windows/Active Directory/Attacks.md"
               }
             }
           }
@@ -160,12 +147,12 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "2f9f6f57055a7d43",
+  "active": "cb6bf5aab9722db4",
   "lastOpenFiles": [
-    "InfoSec/Machines/HTB/Active Directory/Forest.md",
     "InfoSec/System Pentesting/windows/Active Directory/Enumeration.md",
-    "InfoSec/System Pentesting/windows/SMB & SAMBA.md",
     "InfoSec/System Pentesting/windows/Active Directory/Attacktive Directory.md",
+    "InfoSec/Machines/HTB/Active Directory/Forest.md",
+    "InfoSec/System Pentesting/windows/SMB & SAMBA.md",
     "InfoSec/WebApp Pentesting/CSP.md",
     "InfoSec/WebApp Pentesting/CRLF.md",
     "InfoSec/WebApp Pentesting/THM  Learnings.md",

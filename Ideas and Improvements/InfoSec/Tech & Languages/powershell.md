@@ -15,11 +15,10 @@
 |`Out-File`|echo test | tee file.txt|
 |`WriteOut`|echo|
 
-### Special Files
 ##### Profile file
 `C:\Users\Bob\Documents\WindowsPowerShell\Microsoft.PowerShell_profile.ps1` 
 
-### Code Snipptes
+### Code Snippets
 ##### Write stdout to a file
 ```powershell
 Write-Output hello | Out-File .\test.txt
@@ -35,7 +34,13 @@ Required administration privileges
 ```powershell
 Set-ExecutionPolicy RemoteSigned
 ```
-
+##### PSDrive powershell Drive
+```powershell
+Get-PSDrive
+```
+```powershell
+cd variable:
+```
 
 ---
 ### 

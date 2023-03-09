@@ -25,6 +25,17 @@
 Write-Output hello | Out-File .\test.txt
 ```
 
+##### Execution Policies
+__Get Execution Policy__
+```powershell
+Get-ExecutionPolicy -List
+```
+__Set Execution Policy__
+Required administration privileges
+```powershell
+Set-ExecutionPolicy RemoteSigned
+```
+
 
 ---
 ### 

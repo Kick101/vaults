@@ -8,6 +8,9 @@
 |`Copy-Item`|cp, copy|
 |`Remove-Item`|rm, del|
 |`Invoke-WebRequest`|curl|
+|`Out-Null`|/dev/null|
+|`WriteOut`|echo|
+
 
 
 ---

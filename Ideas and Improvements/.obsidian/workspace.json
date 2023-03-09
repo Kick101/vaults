@@ -14,12 +14,37 @@
               "type": "markdown",
               "state": {
                 "file": "InfoSec/Tech & Languages/powershell.md",
+                "mode": "preview",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "2b7c87556ac488a3",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "InfoSec/System Pentesting/windows/Active Directory/Enumeration.md",
+                "mode": "preview",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "08d9d20d380a76bc",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "InfoSec/System Pentesting/windows/Active Directory/cheatsheat-AD-PowerView.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -86,7 +111,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "InfoSec/Tech & Languages/powershell.md",
+                "file": "InfoSec/System Pentesting/windows/Active Directory/Enumeration.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +128,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "InfoSec/Tech & Languages/powershell.md",
+                "file": "InfoSec/System Pentesting/windows/Active Directory/Enumeration.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +151,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "InfoSec/Tech & Languages/powershell.md"
+                "file": "InfoSec/System Pentesting/windows/Active Directory/Enumeration.md"
               }
             }
           }
@@ -147,11 +172,12 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "c45d84b50a822196",
+  "active": "2b7c87556ac488a3",
   "lastOpenFiles": [
-    "InfoSec/Machines/HTB/Active Directory/Forest.md",
-    "InfoSec/Tech & Languages/powershell.md",
+    "InfoSec/System Pentesting/windows/Active Directory/cheatsheat-AD-PowerView.md",
     "InfoSec/System Pentesting/windows/Active Directory/Enumeration.md",
+    "InfoSec/Tech & Languages/powershell.md",
+    "InfoSec/Machines/HTB/Active Directory/Forest.md",
     "InfoSec/WebApp Pentesting/CSP.md",
     "InfoSec/System Pentesting/windows/Active Directory/Attacks.md",
     "InfoSec/System Pentesting/windows/Active Directory/Attacktive Directory.md",
@@ -166,7 +192,6 @@
     "InfoSec/System Pentesting/windows/MySQL.md",
     "InfoSec/System Pentesting/windows/FTP.md",
     "InfoSec/System Pentesting/windows/101.md",
-    "InfoSec/System Pentesting/windows/Active Directory/cheatsheat-AD-PowerView.md",
     "InfoSec/System Pentesting/Privilege Escalation/Windows.md",
     "InfoSec/System Pentesting/windows/Active Directory/Kerberos.md",
     "InfoSec/System Pentesting/windows/Active Directory/Theory.md",

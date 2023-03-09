@@ -12,10 +12,18 @@
 |`Remove-Item`|rm, del, rmdir|
 |`Invoke-WebRequest`|curl|
 |`Out-Null`|/dev/null|
-|`Out-File`|echo test > file.txt|
+|`Out-File`|echo test | tee file.txt|
 |`WriteOut`|echo|
 
+### Special Files
+##### Profile file
+`C:\Users\Bob\Documents\WindowsPowerShell\Microsoft.PowerShell_profile.ps1` 
 
+### Code Snipptes
+##### Write stdout to a file
+```powershell
+Write-Output hello | Out-File .\test.txt
+```
 
 
 ---

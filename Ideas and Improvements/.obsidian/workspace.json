@@ -18,45 +18,8 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "6f9db9372e775f6c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "InfoSec/System Pentesting/windows/Active Directory/Enumeration.md",
-                "mode": "preview",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "4edfe4646ab714cd",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "InfoSec/Machines/HTB/Active Directory/Forest.md",
-                "mode": "preview",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "5edf6601cb59edbf",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "InfoSec/WebApp Pentesting/CSP.md",
-                "mode": "preview",
-                "source": false
-              }
-            }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -123,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "InfoSec/Machines/HTB/Active Directory/Forest.md",
+                "file": "InfoSec/Tech & Languages/powershell.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -140,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "InfoSec/Machines/HTB/Active Directory/Forest.md",
+                "file": "InfoSec/Tech & Languages/powershell.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -163,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "InfoSec/Machines/HTB/Active Directory/Forest.md"
+                "file": "InfoSec/Tech & Languages/powershell.md"
               }
             }
           }
@@ -184,12 +147,12 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "4edfe4646ab714cd",
+  "active": "c45d84b50a822196",
   "lastOpenFiles": [
-    "InfoSec/System Pentesting/windows/Active Directory/Enumeration.md",
-    "InfoSec/Tech & Languages/powershell.md",
-    "InfoSec/WebApp Pentesting/CSP.md",
     "InfoSec/Machines/HTB/Active Directory/Forest.md",
+    "InfoSec/Tech & Languages/powershell.md",
+    "InfoSec/System Pentesting/windows/Active Directory/Enumeration.md",
+    "InfoSec/WebApp Pentesting/CSP.md",
     "InfoSec/System Pentesting/windows/Active Directory/Attacks.md",
     "InfoSec/System Pentesting/windows/Active Directory/Attacktive Directory.md",
     "InfoSec/System Pentesting/windows/SMB & SAMBA.md",

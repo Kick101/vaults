@@ -8,6 +8,10 @@
 |`Copy-Item`|cp, copy|
 |`Remove-Item`|rm, del|
 |`Invoke-WebRequest`|curl|
+
+
+---
+### 
 ##### Mount SMB on Windows from Linux
 __Start Impacket's SMB server__
 ```bash

@@ -5,6 +5,8 @@
 |`Set-Location`|cd|
 |`Get-Content`|cat, type|
 |`Clear-Host`|cls, clear|
+|`New-Item -ItemType File test.txt`|touch test.txt|
+|`New-Item -ItemType Directory test`|mkdir test|
 |`Copy-Item`|cp, copy|
 |`Move-Item`|mv|
 |`Remove-Item`|rm, del, rmdir|

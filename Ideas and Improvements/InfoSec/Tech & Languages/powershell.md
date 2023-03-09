@@ -38,9 +38,13 @@ Set-ExecutionPolicy RemoteSigned
 ```powershell
 Get-PSDrive
 ```
+__All variabels__
 ```powershell
 cd variable:
+cd Env:
 ```
+
+
 
 ---
 ### 

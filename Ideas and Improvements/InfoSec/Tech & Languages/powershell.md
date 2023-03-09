@@ -1,15 +1,18 @@
 |Command let|Description/Alias|
 |-|-|
 |`Get-ChildItem`|ls, dir|
-|`Get-Alias`|Display all alias|
+|`Get-Alias` or `gal`|Display all alias|
 |`Set-Location`|cd|
 |`Get-Content`|cat, type|
 |`Clear-Host`|cls, clear|
 |`Copy-Item`|cp, copy|
-|`Remove-Item`|rm, del|
+|`Move-Item`|mv|
+|`Remove-Item`|rm, del, rmdir|
 |`Invoke-WebRequest`|curl|
 |`Out-Null`|/dev/null|
+|`Out-File`|echo test > file.txt|
 |`WriteOut`|echo|
+
 
 
 

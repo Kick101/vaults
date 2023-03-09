@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "InfoSec/System Pentesting/windows/Active Directory/Enumeration.md",
+                "file": "InfoSec/WebApp Pentesting/Account Takeover.md",
                 "mode": "preview",
                 "source": false
               }
@@ -73,7 +73,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "enumerate groups",
+                "query": "idor",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -90,12 +90,12 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "fe286dd04d32f6ac",
@@ -111,7 +111,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "InfoSec/System Pentesting/windows/Active Directory/Enumeration.md",
+                "file": "InfoSec/WebApp Pentesting/Account Takeover.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -128,7 +128,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "InfoSec/System Pentesting/windows/Active Directory/Enumeration.md",
+                "file": "InfoSec/WebApp Pentesting/Account Takeover.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -151,7 +151,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "InfoSec/System Pentesting/windows/Active Directory/Enumeration.md"
+                "file": "InfoSec/WebApp Pentesting/Account Takeover.md"
               }
             }
           }
@@ -174,8 +174,10 @@
   },
   "active": "2b7c87556ac488a3",
   "lastOpenFiles": [
-    "InfoSec/System Pentesting/windows/Active Directory/cheatsheat-AD-PowerView.md",
+    "InfoSec/WebApp Pentesting/THM  Learnings.md",
+    "InfoSec/WebApp Pentesting/IDOR.md",
     "InfoSec/System Pentesting/windows/Active Directory/Enumeration.md",
+    "InfoSec/System Pentesting/windows/Active Directory/cheatsheat-AD-PowerView.md",
     "InfoSec/Tech & Languages/powershell.md",
     "InfoSec/Machines/HTB/Active Directory/Forest.md",
     "InfoSec/WebApp Pentesting/CSP.md",
@@ -183,7 +185,6 @@
     "InfoSec/System Pentesting/windows/Active Directory/Attacktive Directory.md",
     "InfoSec/System Pentesting/windows/SMB & SAMBA.md",
     "InfoSec/WebApp Pentesting/CRLF.md",
-    "InfoSec/WebApp Pentesting/THM  Learnings.md",
     "InfoSec/WebApp Pentesting/Broken Access Controls.md",
     "InfoSec/System Pentesting/windows/Active Directory/Active Directory.md",
     "InfoSec/System Pentesting/windows/Telent.md",
@@ -212,7 +213,6 @@
     "Pasted image 20230226162607.png",
     "Pasted image 20230226153809.png",
     "CySec/Recuritements.md",
-    "CySec/MCQs.md",
     "Certs",
     "Certs/CEH/CEH v12 - Module02.pdf"
   ]

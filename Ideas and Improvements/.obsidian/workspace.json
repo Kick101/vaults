@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "InfoSec/Tech & Languages/powershell.md",
-                "mode": "preview",
+                "file": "InfoSec/System Pentesting/windows/Active Directory/Enumeration.md",
+                "mode": "source",
                 "source": false
               }
             }
@@ -65,8 +65,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -87,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "InfoSec/Tech & Languages/powershell.md",
+                "file": "InfoSec/System Pentesting/windows/Active Directory/Enumeration.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "InfoSec/Tech & Languages/powershell.md",
+                "file": "InfoSec/System Pentesting/windows/Active Directory/Enumeration.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -127,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "InfoSec/Tech & Languages/powershell.md"
+                "file": "InfoSec/System Pentesting/windows/Active Directory/Enumeration.md"
               }
             }
           }
@@ -150,9 +149,9 @@
   },
   "active": "c45d84b50a822196",
   "lastOpenFiles": [
+    "InfoSec/Tech & Languages/powershell.md",
     "InfoSec/WebApp Pentesting/CORS.md",
     "InfoSec/System Pentesting/windows/Active Directory/Enumeration.md",
-    "InfoSec/Tech & Languages/powershell.md",
     "InfoSec/System Pentesting/windows/Active Directory/cheatsheat-AD-PowerView.md",
     "InfoSec/WebApp Pentesting/Account Takeover.md",
     "InfoSec/WebApp Pentesting/THM  Learnings.md",

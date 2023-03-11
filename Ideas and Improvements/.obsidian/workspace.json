@@ -18,33 +18,8 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "33428232a725bd9f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "InfoSec/System Pentesting/windows/Active Directory/Enumeration.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "b60d2248b1a4ea5f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "InfoSec/System Pentesting/windows/Active Directory/cheatsheat-AD-PowerView.md",
-                "mode": "preview",
-                "source": false
-              }
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -73,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "idor",
+                "query": "cors",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -90,7 +65,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -111,7 +87,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "InfoSec/System Pentesting/windows/Active Directory/Enumeration.md",
+                "file": "InfoSec/Tech & Languages/powershell.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -128,7 +104,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "InfoSec/System Pentesting/windows/Active Directory/Enumeration.md",
+                "file": "InfoSec/Tech & Languages/powershell.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -151,7 +127,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "InfoSec/System Pentesting/windows/Active Directory/Enumeration.md"
+                "file": "InfoSec/Tech & Languages/powershell.md"
               }
             }
           }
@@ -172,10 +148,11 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "33428232a725bd9f",
+  "active": "c45d84b50a822196",
   "lastOpenFiles": [
-    "InfoSec/Tech & Languages/powershell.md",
+    "InfoSec/WebApp Pentesting/CORS.md",
     "InfoSec/System Pentesting/windows/Active Directory/Enumeration.md",
+    "InfoSec/Tech & Languages/powershell.md",
     "InfoSec/System Pentesting/windows/Active Directory/cheatsheat-AD-PowerView.md",
     "InfoSec/WebApp Pentesting/Account Takeover.md",
     "InfoSec/WebApp Pentesting/THM  Learnings.md",
@@ -209,7 +186,6 @@
     "Pasted image 20230304033044.png",
     "Pasted image 20230304032625.png",
     "Pasted image 20230304023824.png",
-    "Certs/CEH/06 System Hacking.md",
     "Pasted image 20230226162802.png",
     "Pasted image 20230226162607.png",
     "Pasted image 20230226153809.png",

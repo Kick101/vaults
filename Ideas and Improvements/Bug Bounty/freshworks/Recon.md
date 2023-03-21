@@ -6,5 +6,5 @@
 -   *.freshcaller.com
 -   *.freshchat.com
 -   *.freshmarketer.com
--   *.freshconnect.io ()
+-   *.freshconnect.io (Used to connect other orgs to freshworks workspace)
 -   *.freshping.io

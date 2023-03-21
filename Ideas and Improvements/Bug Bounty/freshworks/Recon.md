@@ -7,4 +7,5 @@
 -   *.freshchat.com (Live chat solution for orgs to interact with their customers)
 -   *.freshmarketer.com (Down?!)
 -   *.freshconnect.io (Used to connect other orgs to freshworks workspace)
--   *.freshping.io ()
+-   *.freshping.io (Website monitoring)
+

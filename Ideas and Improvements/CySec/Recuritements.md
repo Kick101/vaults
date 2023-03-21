@@ -1,7 +1,7 @@
 __Basic Ques__
 1. When was the last time you used your computer and why?
 2. What interests you in the field of cybersecurity?
-3. Have tried anything related to hacking if so, what tools did you use? Or have you heard about any hacking tools/techniques?
+3. Have you tried anything related to hacking if so, what tools did you use? Or have you heard about any hacking tools/techniques?
 4. Have you participated in any computer related competitions? If so, What was your experience?
 5. Do you think cybersecurity is important? Explain.
 6. What is your main motive to join the club?

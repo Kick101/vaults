@@ -8,6 +8,18 @@
         "type": "tabs",
         "children": [
           {
+            "id": "1f6c39e0005a1fe6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Bug Bounty/freshworks/Recon.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
             "id": "ba54c71e6039ee9b",
             "type": "leaf",
             "state": {
@@ -86,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "CySec/Recuritements.md",
+                "file": "Bug Bounty/freshworks/Recon.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "CySec/Recuritements.md",
+                "file": "Bug Bounty/freshworks/Recon.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "CySec/Recuritements.md"
+                "file": "Bug Bounty/freshworks/Recon.md"
               }
             }
           }
@@ -147,8 +159,9 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "ba54c71e6039ee9b",
+  "active": "1f6c39e0005a1fe6",
   "lastOpenFiles": [
+    "CySec/Recuritements.md",
     "Bug Bounty/freshworks/Recon.md",
     "Bug Bounty/freshworks/Untitled.md",
     "Bug Bounty/freshworks",
@@ -179,7 +192,6 @@
     "InfoSec/System Pentesting/windows/Active Directory/Active Directory.md",
     "InfoSec/System Pentesting/windows/Active Directory/Mimikatz.md",
     "InfoSec/System Pentesting/windows/Active Directory/Kerberos.md",
-    "InfoSec/System Pentesting/windows/Basics.md",
     "InfoSec/Machines/HTB/Active Directory",
     "InfoSec/Machines/HTB",
     "InfoSec/Machines",

@@ -20,6 +20,18 @@
             }
           },
           {
+            "id": "ef9ef96a3d022e4f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Bug Bounty/freshworks/freshping.io.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
             "id": "ba54c71e6039ee9b",
             "type": "leaf",
             "state": {
@@ -31,7 +43,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -98,7 +111,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Bug Bounty/freshworks/Recon.md",
+                "file": "Bug Bounty/freshworks/freshping.io.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +128,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Bug Bounty/freshworks/Recon.md",
+                "file": "Bug Bounty/freshworks/freshping.io.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +151,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Bug Bounty/freshworks/Recon.md"
+                "file": "Bug Bounty/freshworks/freshping.io.md"
               }
             }
           }
@@ -159,11 +172,11 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "1f6c39e0005a1fe6",
+  "active": "ef9ef96a3d022e4f",
   "lastOpenFiles": [
-    "CySec/Recuritements.md",
     "Bug Bounty/freshworks/Recon.md",
-    "Bug Bounty/freshworks/Untitled.md",
+    "Bug Bounty/freshworks/freshping.io.md",
+    "CySec/Recuritements.md",
     "Bug Bounty/freshworks",
     "InfoSec/System Pentesting/windows/Active Directory/Enumeration.md",
     "InfoSec/System Pentesting/FIle Transfers.md",

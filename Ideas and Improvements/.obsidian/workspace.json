@@ -4,41 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "e189e41a2a7325d0",
+        "id": "9cff2d03978bdc26",
         "type": "tabs",
         "children": [
           {
-            "id": "6e1952411efcd4c3",
+            "id": "ba54c71e6039ee9b",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "InfoSec/Machines/HTB/Active Directory/Resolute.md",
-                "mode": "preview",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "3aa7bf242713fa95",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "InfoSec/System Pentesting/FIle Transfers.md",
-                "mode": "preview",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "2093e6d4b1a23347",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "InfoSec/System Pentesting/windows/Active Directory/Enumeration.md",
-                "mode": "preview",
+                "file": "Bug Bounty/freshworks/Recon.md",
+                "mode": "source",
                 "source": false
               }
             }
@@ -110,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "InfoSec/Machines/HTB/Active Directory/Resolute.md",
+                "file": "Bug Bounty/freshworks/Recon.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "InfoSec/Machines/HTB/Active Directory/Resolute.md",
+                "file": "Bug Bounty/freshworks/Recon.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "InfoSec/Machines/HTB/Active Directory/Resolute.md"
+                "file": "Bug Bounty/freshworks/Recon.md"
               }
             }
           }
@@ -171,11 +147,14 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "6e1952411efcd4c3",
+  "active": "ba54c71e6039ee9b",
   "lastOpenFiles": [
+    "Bug Bounty/freshworks/Untitled.md",
+    "Bug Bounty/freshworks/Recon.md",
+    "Bug Bounty/freshworks",
+    "InfoSec/System Pentesting/windows/Active Directory/Enumeration.md",
     "InfoSec/System Pentesting/FIle Transfers.md",
     "InfoSec/Machines/HTB/Active Directory/Resolute.md",
-    "InfoSec/System Pentesting/windows/Active Directory/Enumeration.md",
     "InfoSec/System Pentesting/windows/Active Directory/Basics.md",
     "InfoSec/System Pentesting/windows/Active Directory/Attacks.md",
     "Bug Bounty/vtiger.com/Recon.md",
@@ -201,8 +180,6 @@
     "InfoSec/System Pentesting/windows/Active Directory/Mimikatz.md",
     "InfoSec/System Pentesting/windows/Active Directory/Kerberos.md",
     "InfoSec/System Pentesting/windows/Basics.md",
-    "InfoSec/System Pentesting/windows/FTP.md",
-    "InfoSec/System Pentesting/windows/MySQL.md",
     "InfoSec/Machines/HTB/Active Directory",
     "InfoSec/Machines/HTB",
     "InfoSec/Machines",

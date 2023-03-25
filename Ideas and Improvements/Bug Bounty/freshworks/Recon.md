@@ -9,3 +9,8 @@
 -   *.freshconnect.io (Used to connect other orgs to freshworks workspace)
 -   *.freshping.io (Website monitoring)
 
+### freshmarketer.com
+#### 404 
+http://fmtracks.freshmarketer.com/
+http://fwtracks.freshmarketer.com/
+

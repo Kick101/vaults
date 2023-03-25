@@ -63,3 +63,7 @@ __/en/support/discussions/topics/{ID}__
 	- Attack file
 
 
+__/en/support/discussions/forums/291150*__
+__/en/support/discussions/topics/322926*__
+- Possible sqli
+

@@ -6,15 +6,13 @@ nithin - 122010304031
 - vmware
 
 G SAI RoHIT VARMA - VU21CSEN0300131 AI/ML
-- How website develops
+- How website are developed
 - GET/POST
 - 
 
-Abhinay - 122010310002
+Abhinay - 122010310002, CSE core
 - Digital marketing
 - Python little
 - 
-
-
 
 

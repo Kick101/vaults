@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CySec/interview.md",
+                "file": "CySec/Interview.md",
                 "mode": "source",
                 "source": false
               }
@@ -123,7 +123,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "CySec/interview.md",
+                "file": "CySec/Interview.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -140,7 +140,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "CySec/interview.md",
+                "file": "CySec/Interview.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -163,7 +163,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "CySec/interview.md"
+                "file": "CySec/Interview.md"
               }
             }
           }
@@ -187,7 +187,7 @@
   "active": "4ad2fdb19a3eb143",
   "lastOpenFiles": [
     "Bug Bounty/freshworks/Recon.md",
-    "CySec/interview.md",
+    "CySec/Interview.md",
     "Bug Bounty/freshworks/freshping.io.md",
     "CySec/Recuritements.md",
     "Bug Bounty/freshworks",

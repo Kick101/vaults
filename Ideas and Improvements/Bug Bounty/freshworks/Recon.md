@@ -56,3 +56,10 @@ __/en/support/tickets/new__
 Liquid error: Mysql2::Error: [mysql_shard_35.master_proxy] Lost connection to MySQL server during query: SELECT `users`.* FROM `users` INNER JOIN `user_companies` ON `users`.`id` = `user_companies`.`user_id` WHERE `users`.`account_id` = 2 AND `user_companies`.`account_id` = 2 AND `user_companies`.`company_id` = 50000222690 AND (`users`.`deleted` = 0) ORDER BY name /*request_id:54acfa3a-61e3-44c1-946d-50b8615d81a7,replica:primary*/
 ```
 
+__/en/support/discussions/topics/{ID}__
+- Sort functionality
+- Comment
+	- Text editor
+	- Attack file
+
+

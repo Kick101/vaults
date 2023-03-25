@@ -10,6 +10,10 @@ G SAI RoHIT VARMA - VU21CSEN0300131 AI/ML
 - GET/POST
 - 
 
+Abhinay - 122010310002
+- Digital marketing
+- Python little
+- 
 
 
 

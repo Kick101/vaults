@@ -21,3 +21,15 @@ http://fwtracks.freshmarketer.com/
 http://fmtracks.freshping.io/
 
 #### support.freshping.io
+__/en/support/discussions/topics/new__
+Post a new topic
+- Topic title
+- Message
+- Post topic in
+	- Community Discussions
+	- Ideas
+- Attach files
+- Catcha
+- Save button
+
+__/en/support/tickets__

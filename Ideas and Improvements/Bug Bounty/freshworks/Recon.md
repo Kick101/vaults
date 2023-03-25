@@ -17,3 +17,6 @@ http://fwtracks.freshmarketer.com/
 
 ---
 ### freshping.io
+#### 404
+http://fmtracks.freshping.io/
+

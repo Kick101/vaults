@@ -17,6 +17,9 @@ http://fwtracks.freshmarketer.com/
 
 ---
 ### freshping.io
+#### Ports
+80, 443
+
 #### 404
 http://fmtracks.freshping.io/
 

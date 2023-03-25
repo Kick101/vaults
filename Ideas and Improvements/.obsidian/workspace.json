@@ -4,59 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "9cff2d03978bdc26",
+        "id": "0915f736e2f7e90d",
         "type": "tabs",
         "children": [
           {
-            "id": "1f6c39e0005a1fe6",
+            "id": "c09afe82be927322",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Bug Bounty/freshworks/Recon.md",
+                "file": "InfoSec/Tech & Languages/Django.md",
                 "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "4ad2fdb19a3eb143",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "CySec/Interview.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "ef9ef96a3d022e4f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Bug Bounty/freshworks/freshping.io.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "ba54c71e6039ee9b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "CySec/Recuritements.md",
-                "mode": "preview",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -106,8 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 282.5086555480957,
-    "collapsed": true
+    "width": 282.5086555480957
   },
   "right": {
     "id": "fe286dd04d32f6ac",
@@ -123,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "CySec/Interview.md",
+                "file": "InfoSec/Tech & Languages/Django.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -140,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "CySec/Interview.md",
+                "file": "InfoSec/Tech & Languages/Django.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -163,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "CySec/Interview.md"
+                "file": "InfoSec/Tech & Languages/Django.md"
               }
             }
           }
@@ -184,12 +146,14 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "4ad2fdb19a3eb143",
+  "active": "e985295c9ac7b16f",
   "lastOpenFiles": [
-    "Bug Bounty/freshworks/Recon.md",
-    "CySec/Interview.md",
+    "Projects/Untitled",
+    "Projects",
     "Bug Bounty/freshworks/freshping.io.md",
+    "Bug Bounty/freshworks/Recon.md",
     "CySec/Recuritements.md",
+    "CySec/Interview.md",
     "Bug Bounty/freshworks",
     "InfoSec/System Pentesting/windows/Active Directory/Enumeration.md",
     "InfoSec/System Pentesting/FIle Transfers.md",
@@ -198,7 +162,6 @@
     "InfoSec/System Pentesting/windows/Active Directory/Attacks.md",
     "Bug Bounty/vtiger.com/Recon.md",
     "Bug Bounty/vtiger.com",
-    "Untitled",
     "Bug Bounty",
     "InfoSec/System Pentesting/windows/SMTP.md",
     "InfoSec/WebApp Pentesting/E-mail Spoofing.md",
@@ -216,7 +179,6 @@
     "InfoSec/System Pentesting/windows/Active Directory/AD Enum.md",
     "InfoSec/System Pentesting/windows/Active Directory/Attacktive Directory.md",
     "InfoSec/System Pentesting/windows/Active Directory/Active Directory.md",
-    "InfoSec/System Pentesting/windows/Active Directory/Mimikatz.md",
     "InfoSec/Machines/HTB/Active Directory",
     "InfoSec/Machines/HTB",
     "InfoSec/Machines",

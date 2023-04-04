@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Projects/CSD/Description.md",
+                "file": "InfoSec/Tech & Languages/Linux & Bash.md",
                 "mode": "preview",
                 "source": false
               }
@@ -61,7 +61,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "linux",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -82,8 +82,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 282.5086555480957,
-    "collapsed": true
+    "width": 282.5086555480957
   },
   "right": {
     "id": "fe286dd04d32f6ac",
@@ -99,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Projects/CSD/Description.md",
+                "file": "InfoSec/Tech & Languages/Linux & Bash.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -116,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Projects/CSD/Description.md",
+                "file": "InfoSec/Tech & Languages/Linux & Bash.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -139,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Projects/CSD/Description.md"
+                "file": "InfoSec/Tech & Languages/Linux & Bash.md"
               }
             }
           }
@@ -162,8 +161,8 @@
   },
   "active": "27603f1827fcba2a",
   "lastOpenFiles": [
-    "InfoSec/Tech & Languages/Django.md",
     "Projects/CSD/Description.md",
+    "InfoSec/Tech & Languages/Django.md",
     "Projects/CSD",
     "Projects",
     "Bug Bounty/freshworks/freshping.io.md",

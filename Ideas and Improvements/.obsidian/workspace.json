@@ -30,9 +30,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "a62dfd344c660a86",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "InfoSec/System Pentesting/Privilege Escalation/Linux.md",
+                "mode": "preview",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -82,7 +94,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 282.5086555480957
+    "width": 282.5086555480957,
+    "collapsed": true
   },
   "right": {
     "id": "fe286dd04d32f6ac",
@@ -98,7 +111,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "InfoSec/Tech & Languages/Linux & Bash.md",
+                "file": "InfoSec/System Pentesting/Privilege Escalation/Linux.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +128,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "InfoSec/Tech & Languages/Linux & Bash.md",
+                "file": "InfoSec/System Pentesting/Privilege Escalation/Linux.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +151,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "InfoSec/Tech & Languages/Linux & Bash.md"
+                "file": "InfoSec/System Pentesting/Privilege Escalation/Linux.md"
               }
             }
           }
@@ -159,8 +172,9 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "27603f1827fcba2a",
+  "active": "a62dfd344c660a86",
   "lastOpenFiles": [
+    "InfoSec/Tech & Languages/Linux & Bash.md",
     "Projects/CSD/Description.md",
     "InfoSec/Tech & Languages/Django.md",
     "Projects/CSD",
@@ -192,7 +206,6 @@
     "InfoSec/Machines/HTB/Active Directory/Sauna.md",
     "InfoSec/System Pentesting/windows/Tools.md",
     "InfoSec/System Pentesting/windows/Active Directory/AD Enum.md",
-    "InfoSec/System Pentesting/windows/Active Directory/Attacktive Directory.md",
     "InfoSec/Machines/HTB/Active Directory",
     "InfoSec/Machines/HTB",
     "InfoSec/Machines",

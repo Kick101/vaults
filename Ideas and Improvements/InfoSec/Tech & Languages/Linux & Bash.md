@@ -83,8 +83,12 @@ ____________
 ```bash
 find / -name Documents -type d
 ```
+__set uid__
+```bash
+ find / -perm -u=s -type f -exec ls -l  {} \; 2>/dev/null
+```
 
------
+---
 ### Striping strings
 |Command|Description|
 |--|--|

@@ -26,7 +26,7 @@
               "type": "markdown",
               "state": {
                 "file": "InfoSec/Tech & Languages/Linux & Bash.md",
-                "mode": "preview",
+                "mode": "source",
                 "source": false
               }
             }
@@ -82,7 +82,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 282.5086555480957
+    "width": 282.5086555480957,
+    "collapsed": true
   },
   "right": {
     "id": "fe286dd04d32f6ac",

@@ -80,6 +80,10 @@ ____________
 |`# locate`|Locates files and folders indexed in locate.db `# sudo updatedb`|
 |`# find`|Finds files and folders with advanced options like: permissions, owner, time-stamp, age, size, filetype etc.|
 
+```bash
+find / -name Documents -type d
+```
+
 -----
 ### Striping strings
 |Command|Description|

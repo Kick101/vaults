@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "aad096abcea91426",
+        "id": "e55850bcf64da9b4",
         "type": "tabs",
         "children": [
           {
-            "id": "87970956a29afb23",
+            "id": "a46787d7ec74d368",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Bug Bounty/gitambloodbank/Recon.md",
+                "file": "Bug Bounty/duocircle.com/Recon.md",
                 "mode": "source",
                 "source": false
               }
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Bug Bounty/gitambloodbank/Recon.md",
+                "file": "Bug Bounty/duocircle.com/Recon.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Bug Bounty/gitambloodbank/Recon.md",
+                "file": "Bug Bounty/duocircle.com/Recon.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Bug Bounty/gitambloodbank/Recon.md"
+                "file": "Bug Bounty/duocircle.com/Recon.md"
               }
             }
           }
@@ -147,10 +147,12 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "87970956a29afb23",
+  "active": "a46787d7ec74d368",
   "lastOpenFiles": [
-    "Bug Bounty/freshworks/Recon.md",
+    "Bug Bounty/duocircle.com/Recon.md",
+    "Bug Bounty/duocircle.com",
     "Bug Bounty/gitambloodbank/Recon.md",
+    "Bug Bounty/freshworks/Recon.md",
     "Bug Bounty/gitambloodbank",
     "InfoSec/System Pentesting/Privilege Escalation/Linux.md",
     "InfoSec/Tech & Languages/Linux & Bash.md",
@@ -181,10 +183,8 @@
     "Red Teaming/Engagement.md",
     "Red Teaming",
     "InfoSec/Machines/HTB/Active Directory/Forest.md",
-    "InfoSec/Machines/HTB/Active Directory/Sauna.md",
     "InfoSec/Machines/HTB/Active Directory",
     "InfoSec/Machines/HTB",
-    "InfoSec/Machines",
     "Pasted image 20230304114246.png",
     "Pasted image 20230304105701.png",
     "Pasted image 20230304101956.png",

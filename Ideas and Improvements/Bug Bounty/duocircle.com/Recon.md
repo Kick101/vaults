@@ -1,3 +1,10 @@
+#### Tech
+- WHMCS
+- Clouflare
+- PHP
+- Apache
+
+---
 
 #### duocircle.com
 
@@ -8,8 +15,8 @@
 #### logs.duocircle.com
 
 #### portal.duocircle.com
-- /cart.php?a=view
+- /cart.php
 - 
-
+#### status.duocircle.com
 #### api.duocircle.com
 #### proxy2.duocircle.com

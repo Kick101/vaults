@@ -26,6 +26,10 @@
 - `GLOBALS` -> "Hacking attempt"
 - `X-Original-Url: /admin/login.php` -> WHMCS Panel
 
+##### X-Original-Url Paths
+- /announcements
+- /download
+
 ##### Paths
 - /cart.php
 - 

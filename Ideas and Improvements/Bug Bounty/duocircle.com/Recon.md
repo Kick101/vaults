@@ -19,9 +19,10 @@
 ##### Intresting
 - `style` cookie -> 403
 - `X-Forwarded-For: ` -> DNS interaction
-- `/cart.php?gid=1--` -> 403
+- `/cart.php?gid=1--` -> 403 (Load-balancer)
 - `sqltype` - Get param, cookie -> "Critical Error" "Invalid Request Input"
 - `incorrect` -> "Login Details Incorrect. Please try again."
+- `this` -> "Something went wrong and we couldn't process your request."
 
 ##### Paths
 - /cart.php

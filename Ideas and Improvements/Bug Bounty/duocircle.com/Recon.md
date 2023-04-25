@@ -15,8 +15,14 @@
 #### logs.duocircle.com
 
 #### portal.duocircle.com
+##### Issues Found
+- `style` cookie -> 403
+- `X-Forwarded-For: ` -> DNS interaction
+
+##### Paths
 - /cart.php
 - 
+
 #### status.duocircle.com
 #### api.duocircle.com
 #### proxy2.duocircle.com

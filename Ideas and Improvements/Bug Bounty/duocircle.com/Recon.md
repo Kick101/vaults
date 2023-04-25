@@ -24,7 +24,7 @@
 - `incorrect` -> "Login Details Incorrect. Please try again."
 - `this` -> "Something went wrong and we couldn't process your request."
 - `GLOBALS` -> "Hacking attempt"
-- `X-Original-Url: /admin/dologin.php` -> WHMCS Panel
+- `X-Original-Url: /admin/login.php` -> WHMCS Panel
 
 ##### Paths
 - /cart.php

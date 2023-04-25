@@ -3,6 +3,7 @@
 - Clouflare
 - PHP
 - Apache
+- Load Balancer: awselb/2.0
 
 ---
 
@@ -19,6 +20,7 @@
 - `style` cookie -> 403
 - `X-Forwarded-For: ` -> DNS interaction
 - `/cart.php?gid=1--` -> 403
+- `sqltype` - Get param, cookie -> "Critical Error" "Invalid Request Input"
 
 ##### Paths
 - /cart.php

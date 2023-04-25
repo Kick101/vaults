@@ -18,6 +18,7 @@
 ##### Issues Found
 - `style` cookie -> 403
 - `X-Forwarded-For: ` -> DNS interaction
+- `/cart.php?gid=1--` -> 403
 
 ##### Paths
 - /cart.php

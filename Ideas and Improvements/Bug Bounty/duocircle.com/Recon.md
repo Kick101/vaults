@@ -23,6 +23,8 @@
 - `sqltype` - Get param, cookie -> "Critical Error" "Invalid Request Input"
 - `incorrect` -> "Login Details Incorrect. Please try again."
 - `this` -> "Something went wrong and we couldn't process your request."
+- `GLOBALS` -> "Hacking attempt"
+- 
 
 ##### Paths
 - /cart.php

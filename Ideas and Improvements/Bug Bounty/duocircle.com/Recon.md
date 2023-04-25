@@ -16,11 +16,12 @@
 #### logs.duocircle.com
 
 #### portal.duocircle.com
-##### Issues Found
+##### Intresting
 - `style` cookie -> 403
 - `X-Forwarded-For: ` -> DNS interaction
 - `/cart.php?gid=1--` -> 403
 - `sqltype` - Get param, cookie -> "Critical Error" "Invalid Request Input"
+- `incorrect` -> "Login Details Incorrect. Please try again."
 
 ##### Paths
 - /cart.php

@@ -29,9 +29,15 @@ __Scope__
 - 
 
 ##### JWT Test
-__Cookie__
+__X-Login-Token Header__
+- Pre-auth token -> `/api/internal-perl-rest/auth/login-token`
 
-__
+__access-token Cookie__
+- Session -> `/api/internal-perl-rest/auth`
+- 
+
+__Authorization Header__
+- Token -> `/api/internal-perl-rest/auth`
 
 ##### REST API
 /api/rest/v2/documents/latest/search-requests

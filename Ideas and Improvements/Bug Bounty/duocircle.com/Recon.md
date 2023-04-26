@@ -29,8 +29,11 @@
 ##### X-Original-Url Paths
 - /announcements
 - /download
-- /index.php
+- /index.php -> clientarea.php
+- /store -> cart.php
 - /api -> "result=error;message=Invalid IP 103.170.226.94"
+- /upgrade - "Method Not Allowed"
+- /subscription
 
 ##### Paths
 - /cart.php

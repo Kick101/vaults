@@ -39,6 +39,10 @@
 - /cart.php
 - 
 
+##### Similar reports
+https://hackerone.com/reports/737323
+
+
 #### status.duocircle.com
 #### api.duocircle.com
 #### proxy2.duocircle.com

@@ -29,16 +29,16 @@ __Scope__
 - 
 
 ##### JWT Test
-__X-Login-Token Header__
+__X-Login-Token Header__ -> Pre-auth token
 - `/api/internal-perl-rest/auth/login-token`
 - exp, jti
 
 __access-token Cookie__ -> session management
 -  `/api/internal-perl-rest/auth`
-- jti, sid, exp, 
+- jti, sid, exp
 
 __Authorization Header__ -> API Access
-- Token -> `/api/internal-perl-rest/auth`
+- `/api/internal-perl-rest/auth`
 - roles, client{id, fkis_customer_id, entitlements[]}, name, exp, jti, session_id (sid), id
 
 ##### REST API

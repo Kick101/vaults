@@ -39,7 +39,7 @@ __access-token Cookie__
 
 __Authorization Header__
 - Token -> `/api/internal-perl-rest/auth`
-- roles, client{id, fkis_customer_id, entitlements[]}, name, exp, jti, session_id, id
+- roles, client{id, fkis_customer_id, entitlements[]}, name, exp, jti, session_id (sid), id
 
 ##### REST API
 /api/rest/v2/documents/latest/search-requests

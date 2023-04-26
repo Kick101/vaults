@@ -29,6 +29,7 @@
 ##### X-Original-Url Paths
 - /announcements
 - /download
+- /index.php
 - /api -> "result=error;message=Invalid IP 103.170.226.94"
 
 ##### Paths

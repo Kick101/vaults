@@ -22,7 +22,8 @@ __Scope__
 
 ---
 #### test.six-dochub.com
-
+- /en/widgets/FUZZ - "Page not found"
+- 
 
 #### bolsasymercados.es
 

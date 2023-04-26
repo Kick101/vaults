@@ -28,6 +28,20 @@ __Scope__
 - /en/widgets/FUZZ - "Page not found"
 - 
 
+##### REST API
+/api/rest/v2/documents/latest/search-requests
+/api/rest/v2/documents/archived/search-requests
+/api/rest/v1/instruments/isin/isinValue}/pib/content-requests
+/api/rest/v1/documents/latest/documentId}/content-requests
+/api/rest/v1/documents/latest/search-requests
+/api/rest/v1/documents/archived/archiveId}/content-requests
+/api/rest/v1/documents/archived/search-requests
+/api/rest/v1/authentication/authorization-tokens
+/api/rest/v1/instruments/valor/identifier}/six-status-information
+/api/rest/v1/instruments/isin/identifier}/six-status-information
+/api/rest/v1/healthcheck/ping
+
+
 #### bolsasymercados.es
 
 

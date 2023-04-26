@@ -1,6 +1,6 @@
 #### Program Info
 __Creds__
-bb1101_gui_test_sup_02 (Supplier)
+bb1101_gui_test_sup_02 [SIX Bug Bounty Supplier 1 (1101)]
 CrqY0FYjRmqs
 
 __Roles__

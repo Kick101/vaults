@@ -28,6 +28,11 @@ __Scope__
 - /en/widgets/FUZZ - "Page not found"
 - 
 
+##### JWT Test
+__Cookie__
+
+__
+
 ##### REST API
 /api/rest/v2/documents/latest/search-requests
 /api/rest/v2/documents/archived/search-requests

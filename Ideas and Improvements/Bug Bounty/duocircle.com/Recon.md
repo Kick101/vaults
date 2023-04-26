@@ -34,6 +34,7 @@
 - /api -> "result=error;message=Invalid IP 103.170.226.94"
 - /upgrade -> "Method Not Allowed"
 - /subscription
+- /knowledgebase
 
 ##### Paths
 - /cart.php

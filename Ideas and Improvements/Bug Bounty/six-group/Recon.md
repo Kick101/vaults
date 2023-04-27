@@ -26,7 +26,11 @@ __Scope__
 ---
 #### test.six-dochub.com
 - /en/widgets/FUZZ - "Page not found"
-- 
+-  Private IP in 
+
+```js
+NODE_ENV:"production",VUE_APP_ENV:"PROD",VUE_APP_PROXY_PERL_API:"172.17.133.10",VUE_APP_PROXY_JAVA_API:"172.17.133.10:8090",BASE_URL:"/
+```
 
 ##### JWT Test
 __X-Login-Token Header__ -> Pre-auth token

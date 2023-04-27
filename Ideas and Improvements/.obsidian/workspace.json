@@ -18,8 +18,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "4a130d50a82d5fc2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "InfoSec/API Pentesting/APISec University/Penetration Testing.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -69,7 +82,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 203.5086555480957
+    "width": 203.5086555480957,
+    "collapsed": true
   },
   "right": {
     "id": "fe286dd04d32f6ac",
@@ -85,7 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "InfoSec/API Pentesting/APISec University/Fundamentals.md",
+                "file": "InfoSec/API Pentesting/APISec University/Penetration Testing.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +116,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "InfoSec/API Pentesting/APISec University/Fundamentals.md",
+                "file": "InfoSec/API Pentesting/APISec University/Penetration Testing.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +139,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "InfoSec/API Pentesting/APISec University/Fundamentals.md"
+                "file": "InfoSec/API Pentesting/APISec University/Penetration Testing.md"
               }
             }
           }
@@ -146,11 +160,12 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "e985295c9ac7b16f",
+  "active": "4a130d50a82d5fc2",
   "lastOpenFiles": [
+    "InfoSec/API Pentesting/APISec University/Fundamentals.md",
+    "InfoSec/API Pentesting/APISec University/Penetration Testing.md",
     "InfoSec/API Pentesting/APISec University/Untitled",
     "Bug Bounty/six-group/Recon.md",
-    "InfoSec/API Pentesting/APISec University/Fundamentals.md",
     "InfoSec/API Pentesting/API Recon Mindmap.pdf",
     "InfoSec/API Pentesting/APISec University",
     "InfoSec/API Pentesting/owasp-api-security-top-10.pdf",
@@ -172,7 +187,6 @@
     "InfoSec/Tech & Languages/Linux & Bash.md",
     "Projects/CSD/Description.md",
     "InfoSec/Tech & Languages/Django.md",
-    "Projects/CSD",
     "Bug Bounty/freshworks/freshping.io.md",
     "CySec/Recuritements.md",
     "CySec/Interview.md",

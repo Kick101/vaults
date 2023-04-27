@@ -8,29 +8,18 @@
         "type": "tabs",
         "children": [
           {
-            "id": "dd9a16ca283f062a",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "InfoSec/API Pentesting/API Recon Mindmap.pdf"
-              }
-            }
-          },
-          {
             "id": "5eec5e070dcd9dae",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "InfoSec/API Pentesting/APISec University/Fundamentals.md",
+                "file": "Bug Bounty/six-group/Recon.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -80,8 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 203.5086555480957,
-    "collapsed": true
+    "width": 203.5086555480957
   },
   "right": {
     "id": "fe286dd04d32f6ac",
@@ -97,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "InfoSec/API Pentesting/APISec University/Fundamentals.md",
+                "file": "Bug Bounty/six-group/Recon.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "InfoSec/API Pentesting/APISec University/Fundamentals.md",
+                "file": "Bug Bounty/six-group/Recon.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "InfoSec/API Pentesting/APISec University/Fundamentals.md"
+                "file": "Bug Bounty/six-group/Recon.md"
               }
             }
           }
@@ -160,8 +148,8 @@
   },
   "active": "5eec5e070dcd9dae",
   "lastOpenFiles": [
-    "InfoSec/API Pentesting/API Recon Mindmap.pdf",
     "InfoSec/API Pentesting/APISec University/Fundamentals.md",
+    "InfoSec/API Pentesting/API Recon Mindmap.pdf",
     "InfoSec/API Pentesting/APISec University",
     "InfoSec/API Pentesting/owasp-api-security-top-10.pdf",
     "InfoSec/API Pentesting/API Pentesting Mindmap ATTACK.pdf",

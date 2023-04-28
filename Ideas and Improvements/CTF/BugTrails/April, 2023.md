@@ -14,7 +14,8 @@ __Hints__
 - Possible attacks: LFI, Command Injection, SSRF
 
 __Test LFI__
-- HTTPS protocol is appended by default
+- HTTP/HTTPS protocol is appended by default
+- file, ftp is blocked
 
 
 ---

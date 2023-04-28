@@ -28,4 +28,10 @@ __Test SSRF__
 - 
 
 
+
 ---
+### WHAAS
+__Endpoints__
+- /bugs
+- /admin - 403
+

@@ -22,5 +22,8 @@ __Test LFI__
 __Test Command Injection__
 - 
 
+__Test SSRF__
+- 
+
 
 ---

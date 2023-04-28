@@ -31,7 +31,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -98,7 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "CTF/BugTrails/April, 2023.md",
+                "file": "InfoSec/WebApp Pentesting/SSRF/SSRF.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +116,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "CTF/BugTrails/April, 2023.md",
+                "file": "InfoSec/WebApp Pentesting/SSRF/SSRF.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +139,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "CTF/BugTrails/April, 2023.md"
+                "file": "InfoSec/WebApp Pentesting/SSRF/SSRF.md"
               }
             }
           }
@@ -159,10 +160,10 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "e9e51ca0be0c4a41",
+  "active": "a340f309a4a8f688",
   "lastOpenFiles": [
-    "InfoSec/WebApp Pentesting/SSRF/SSRF.md",
     "CTF/BugTrails/April, 2023.md",
+    "InfoSec/WebApp Pentesting/SSRF/SSRF.md",
     "InfoSec/WebApp Pentesting/OS command Injection.md",
     "InfoSec/WebApp Pentesting/File Inclusion.md",
     "CTF/BugTrails",

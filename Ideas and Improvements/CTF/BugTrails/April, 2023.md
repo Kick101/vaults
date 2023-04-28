@@ -16,6 +16,10 @@ __Hints__
 __Test LFI__
 - HTTP/HTTPS protocol is appended by default
 - file, ftp is blocked
+- JHaddix list did not work
+
+__Test Command Injection__
+- 
 
 
 ---

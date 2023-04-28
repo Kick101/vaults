@@ -20,7 +20,7 @@ __Test LFI__
 - JHaddix list did not work
 
 __Test Command Injection__
-- 
+- Used seclists -> did not work
 
 __Test SSRF__
 - Port number enumerated -> 8081

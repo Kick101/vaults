@@ -23,6 +23,8 @@ __Test Command Injection__
 - 
 
 __Test SSRF__
+- Port number enumerated -> 8081
+- Paths enumerated -> Nothing
 - 
 
 

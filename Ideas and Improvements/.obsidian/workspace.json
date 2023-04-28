@@ -31,7 +31,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -98,7 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "CTF/BugTrails/April, 2023.md",
+                "file": "InfoSec/WebApp Pentesting/File Inclusion.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +116,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "CTF/BugTrails/April, 2023.md",
+                "file": "InfoSec/WebApp Pentesting/File Inclusion.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +139,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "CTF/BugTrails/April, 2023.md"
+                "file": "InfoSec/WebApp Pentesting/File Inclusion.md"
               }
             }
           }
@@ -159,10 +160,10 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "a340f309a4a8f688",
+  "active": "f0dbae1cc0314286",
   "lastOpenFiles": [
-    "InfoSec/WebApp Pentesting/File Inclusion.md",
     "CTF/BugTrails/April, 2023.md",
+    "InfoSec/WebApp Pentesting/File Inclusion.md",
     "CTF/BugTrails",
     "CTF",
     "InfoSec/API Pentesting/APISec University/Penetration Testing.md",

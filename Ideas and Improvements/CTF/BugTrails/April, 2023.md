@@ -7,6 +7,7 @@ _URL:_ http://165.232.190.5:8081/
 
 __Hints__
 1.  They said he is using a very weak password.
+2. The dark figure cast upon a surface by a body intercepting the rays from a source of light,...etc.
 
 #### Notes
 `Server: Werkzeug/2.3.0 Python/3.8.16`

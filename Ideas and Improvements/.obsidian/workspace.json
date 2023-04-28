@@ -18,8 +18,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "44a7424801cafc5f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "InfoSec/Cloud Pentesting/AWS S3 Misconfigurations.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -86,7 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "CTF/BugTrails/April, 2023.md",
+                "file": "InfoSec/Cloud Pentesting/AWS S3 Misconfigurations.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +116,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "CTF/BugTrails/April, 2023.md",
+                "file": "InfoSec/Cloud Pentesting/AWS S3 Misconfigurations.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +139,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "CTF/BugTrails/April, 2023.md"
+                "file": "InfoSec/Cloud Pentesting/AWS S3 Misconfigurations.md"
               }
             }
           }
@@ -147,10 +160,11 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "e9e51ca0be0c4a41",
+  "active": "44a7424801cafc5f",
   "lastOpenFiles": [
-    "InfoSec/WebApp Pentesting/SSRF/SSRF.md",
     "CTF/BugTrails/April, 2023.md",
+    "InfoSec/Cloud Pentesting/AWS S3 Misconfigurations.md",
+    "InfoSec/WebApp Pentesting/SSRF/SSRF.md",
     "InfoSec/WebApp Pentesting/OS command Injection.md",
     "InfoSec/WebApp Pentesting/File Inclusion.md",
     "CTF/BugTrails",
@@ -184,7 +198,6 @@
     "InfoSec/System Pentesting/windows/Active Directory/Enumeration.md",
     "InfoSec/System Pentesting/FIle Transfers.md",
     "InfoSec/Machines/HTB/Active Directory/Resolute.md",
-    "InfoSec/System Pentesting/windows/Active Directory/Basics.md",
     "Pasted image 20230304114246.png",
     "Pasted image 20230304105701.png",
     "Pasted image 20230304101956.png",

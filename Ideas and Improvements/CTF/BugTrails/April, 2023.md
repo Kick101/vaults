@@ -11,7 +11,7 @@ __Hints__
 
 #### Notes
 `Server: Werkzeug/2.3.0 Python/3.8.16`
-- Seems like `curl` is used
+- `curl` is used
 - Possible attacks: LFI, Command Injection, SSRF
 
 __Test LFI__

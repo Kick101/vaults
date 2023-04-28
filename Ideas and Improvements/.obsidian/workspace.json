@@ -14,7 +14,7 @@
               "type": "markdown",
               "state": {
                 "file": "CTF/BugTrails/April, 2023.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": false
               }
             }
@@ -31,8 +31,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -99,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "InfoSec/Cloud Pentesting/AWS S3 Misconfigurations.md",
+                "file": "CTF/BugTrails/April, 2023.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -116,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "InfoSec/Cloud Pentesting/AWS S3 Misconfigurations.md",
+                "file": "CTF/BugTrails/April, 2023.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -139,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "InfoSec/Cloud Pentesting/AWS S3 Misconfigurations.md"
+                "file": "CTF/BugTrails/April, 2023.md"
               }
             }
           }
@@ -160,10 +159,10 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "44a7424801cafc5f",
+  "active": "e9e51ca0be0c4a41",
   "lastOpenFiles": [
-    "CTF/BugTrails/April, 2023.md",
     "InfoSec/Cloud Pentesting/AWS S3 Misconfigurations.md",
+    "CTF/BugTrails/April, 2023.md",
     "InfoSec/WebApp Pentesting/SSRF/SSRF.md",
     "InfoSec/WebApp Pentesting/OS command Injection.md",
     "InfoSec/WebApp Pentesting/File Inclusion.md",

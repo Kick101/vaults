@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CTF/BugTrails/April, 2023.md",
+                "file": "InfoSec/Cloud Pentesting/Cloud Security.md",
                 "mode": "preview",
                 "source": false
               }
@@ -48,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "fix hashcat",
+                "query": "meta-data",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -65,12 +65,12 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 203.5086555480957,
-    "collapsed": true
+    "width": 203.5086555480957
   },
   "right": {
     "id": "fe286dd04d32f6ac",
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "CTF/BugTrails/April, 2023.md",
+                "file": "InfoSec/Cloud Pentesting/Cloud Security.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "CTF/BugTrails/April, 2023.md",
+                "file": "InfoSec/Cloud Pentesting/Cloud Security.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "CTF/BugTrails/April, 2023.md"
+                "file": "InfoSec/Cloud Pentesting/Cloud Security.md"
               }
             }
           }
@@ -150,8 +150,8 @@
   "active": "6085c1874a18f006",
   "lastOpenFiles": [
     "InfoSec/Cloud Pentesting/AWS S3 Misconfigurations.md",
-    "InfoSec/Tech & Languages/Linux & Bash.md",
     "CTF/BugTrails/April, 2023.md",
+    "InfoSec/Tech & Languages/Linux & Bash.md",
     "InfoSec/WebApp Pentesting/SSRF/SSRF.md",
     "InfoSec/WebApp Pentesting/OS command Injection.md",
     "InfoSec/WebApp Pentesting/File Inclusion.md",

@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "InfoSec/WebApp Pentesting/CORS.md",
+                "file": "InfoSec/Wireless Pentesting/WiFi Hacking.md",
                 "mode": "preview",
                 "source": false
               }
@@ -48,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "cors",
+                "query": "wifi hac",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "InfoSec/WebApp Pentesting/CORS.md",
+                "file": "InfoSec/Wireless Pentesting/WiFi Hacking.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "InfoSec/WebApp Pentesting/CORS.md",
+                "file": "InfoSec/Wireless Pentesting/WiFi Hacking.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "InfoSec/WebApp Pentesting/CORS.md"
+                "file": "InfoSec/Wireless Pentesting/WiFi Hacking.md"
               }
             }
           }
@@ -149,11 +149,11 @@
   },
   "active": "6085c1874a18f006",
   "lastOpenFiles": [
+    "InfoSec/WebApp Pentesting/CORS.md",
     "InfoSec/WebApp Pentesting/XSS.md",
     "InfoSec/WebApp Pentesting/Methodologies/JHaddix App Analysis.md",
     "InfoSec/WebApp Pentesting/File uploads.md",
     "InfoSec/WebApp Pentesting/CRLF.md",
-    "InfoSec/WebApp Pentesting/CORS.md",
     "Certs/Security+/Attacks, Threats, and Vulnerabilities.md",
     "InfoSec/WebApp Pentesting/THM  Learnings.md",
     "InfoSec/WebApp Pentesting/Account Takeover.md",

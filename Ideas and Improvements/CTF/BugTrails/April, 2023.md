@@ -42,6 +42,12 @@ We've made a simple application for generating welcome messages for hackers. Fee
 __Challenge Links__
 http://54.180.108.161/
 
+__Hints__
+1. Flag is in our secret file storage.
+2. Flag is in the s3 bucket
+3. Admin has a secret interface for internal works. However, only admin can see this.
+4. Data about data
+
 #### Notes
 __Endpoints__
 - /bugs

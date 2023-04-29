@@ -4,31 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "02843370c92bbce3",
+        "id": "70265742967c9882",
         "type": "tabs",
         "children": [
           {
-            "id": "e9e51ca0be0c4a41",
+            "id": "6085c1874a18f006",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "InfoSec/Tech & Languages/Linux & Bash.md",
-                "mode": "preview",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "44a7424801cafc5f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "InfoSec/Cloud Pentesting/AWS S3 Misconfigurations.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -98,7 +82,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "InfoSec/Tech & Languages/Linux & Bash.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +98,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "InfoSec/Tech & Languages/Linux & Bash.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,9 +119,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "InfoSec/Tech & Languages/Linux & Bash.md"
-              }
+              "state": {}
             }
           }
         ]
@@ -159,10 +139,11 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "e9e51ca0be0c4a41",
+  "active": "6085c1874a18f006",
   "lastOpenFiles": [
-    "CTF/BugTrails/April, 2023.md",
     "InfoSec/Cloud Pentesting/AWS S3 Misconfigurations.md",
+    "InfoSec/Tech & Languages/Linux & Bash.md",
+    "CTF/BugTrails/April, 2023.md",
     "InfoSec/WebApp Pentesting/SSRF/SSRF.md",
     "InfoSec/WebApp Pentesting/OS command Injection.md",
     "InfoSec/WebApp Pentesting/File Inclusion.md",
@@ -188,7 +169,6 @@
     "Bug Bounty/gitambloodbank/Recon.md",
     "Bug Bounty/freshworks/Recon.md",
     "InfoSec/System Pentesting/Privilege Escalation/Linux.md",
-    "InfoSec/Tech & Languages/Linux & Bash.md",
     "Projects/CSD/Description.md",
     "InfoSec/Tech & Languages/Django.md",
     "Bug Bounty/freshworks/freshping.io.md",

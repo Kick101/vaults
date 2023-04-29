@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "InfoSec/WebApp Pentesting/THM  Learnings.md",
+                "file": "InfoSec/WebApp Pentesting/XSS.md",
                 "mode": "preview",
                 "source": false
               }
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "InfoSec/WebApp Pentesting/THM  Learnings.md",
+                "file": "InfoSec/WebApp Pentesting/XSS.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "InfoSec/WebApp Pentesting/THM  Learnings.md",
+                "file": "InfoSec/WebApp Pentesting/XSS.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "InfoSec/WebApp Pentesting/THM  Learnings.md"
+                "file": "InfoSec/WebApp Pentesting/XSS.md"
               }
             }
           }
@@ -149,6 +149,7 @@
   },
   "active": "6085c1874a18f006",
   "lastOpenFiles": [
+    "InfoSec/WebApp Pentesting/THM  Learnings.md",
     "InfoSec/WebApp Pentesting/Account Takeover.md",
     "InfoSec/Cloud Pentesting/Cloud Security.md",
     "InfoSec/Cloud Pentesting/AWS S3 Misconfigurations.md",
@@ -184,7 +185,6 @@
     "Bug Bounty/freshworks/freshping.io.md",
     "CySec/Recuritements.md",
     "CySec/Interview.md",
-    "InfoSec/System Pentesting/windows/Active Directory/Enumeration.md",
     "Pasted image 20230304114246.png",
     "Pasted image 20230304105701.png",
     "Pasted image 20230304101956.png",

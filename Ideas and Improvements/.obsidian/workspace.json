@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "InfoSec/WebApp Pentesting/CORS.md",
+                "file": "InfoSec/WebApp Pentesting/XSS.md",
                 "mode": "preview",
                 "source": false
               }
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "InfoSec/WebApp Pentesting/CORS.md",
+                "file": "InfoSec/WebApp Pentesting/XSS.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "InfoSec/WebApp Pentesting/CORS.md",
+                "file": "InfoSec/WebApp Pentesting/XSS.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "InfoSec/WebApp Pentesting/CORS.md"
+                "file": "InfoSec/WebApp Pentesting/XSS.md"
               }
             }
           }
@@ -149,6 +149,10 @@
   },
   "active": "6085c1874a18f006",
   "lastOpenFiles": [
+    "InfoSec/WebApp Pentesting/Methodologies/JHaddix App Analysis.md",
+    "InfoSec/WebApp Pentesting/File uploads.md",
+    "InfoSec/WebApp Pentesting/CRLF.md",
+    "InfoSec/WebApp Pentesting/CORS.md",
     "Certs/Security+/Attacks, Threats, and Vulnerabilities.md",
     "InfoSec/WebApp Pentesting/THM  Learnings.md",
     "InfoSec/WebApp Pentesting/XSS.md",
@@ -181,10 +185,6 @@
     "Bug Bounty/duocircle.com/Recon.md",
     "Bug Bounty/gitambloodbank/Recon.md",
     "Bug Bounty/freshworks/Recon.md",
-    "InfoSec/System Pentesting/Privilege Escalation/Linux.md",
-    "Projects/CSD/Description.md",
-    "InfoSec/Tech & Languages/Django.md",
-    "Bug Bounty/freshworks/freshping.io.md",
     "Pasted image 20230304114246.png",
     "Pasted image 20230304105701.png",
     "Pasted image 20230304101956.png",

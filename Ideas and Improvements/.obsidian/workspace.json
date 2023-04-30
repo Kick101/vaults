@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "InfoSec/Wireless Pentesting/WiFi Hacking.md",
-                "mode": "preview",
+                "file": "CTF/BugTrails/April, 2023.md",
+                "mode": "source",
                 "source": false
               }
             }
@@ -65,12 +65,12 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 203.5086555480957
+    "width": 203.5086555480957,
+    "collapsed": true
   },
   "right": {
     "id": "fe286dd04d32f6ac",
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "InfoSec/Wireless Pentesting/WiFi Hacking.md",
+                "file": "CTF/BugTrails/April, 2023.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "InfoSec/Wireless Pentesting/WiFi Hacking.md",
+                "file": "CTF/BugTrails/April, 2023.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "InfoSec/Wireless Pentesting/WiFi Hacking.md"
+                "file": "CTF/BugTrails/April, 2023.md"
               }
             }
           }
@@ -149,6 +149,7 @@
   },
   "active": "6085c1874a18f006",
   "lastOpenFiles": [
+    "InfoSec/Wireless Pentesting/WiFi Hacking.md",
     "InfoSec/WebApp Pentesting/CORS.md",
     "InfoSec/WebApp Pentesting/XSS.md",
     "InfoSec/WebApp Pentesting/Methodologies/JHaddix App Analysis.md",
@@ -184,7 +185,6 @@
     "Bug Bounty/six-group",
     "Bug Bounty/duocircle.com/Recon.md",
     "Bug Bounty/gitambloodbank/Recon.md",
-    "Bug Bounty/freshworks/Recon.md",
     "Pasted image 20230304114246.png",
     "Pasted image 20230304105701.png",
     "Pasted image 20230304101956.png",

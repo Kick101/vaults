@@ -50,8 +50,11 @@ __Hints__
 
 #### Notes
 __Endpoints__
+- /?alias=XSS
 - /bugs
 - /admin - 403
+
+
 
 ---
 ### Ping Pong

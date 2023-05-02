@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "InfoSec/WebApp Pentesting/CRLF.md",
+                "file": "Bug Bounty/duocircle.com/Recon.md",
                 "mode": "preview",
                 "source": false
               }
@@ -65,8 +65,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -86,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "InfoSec/WebApp Pentesting/CRLF.md",
+                "file": "Bug Bounty/duocircle.com/Recon.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "InfoSec/WebApp Pentesting/CRLF.md",
+                "file": "Bug Bounty/duocircle.com/Recon.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "InfoSec/WebApp Pentesting/CRLF.md"
+                "file": "Bug Bounty/duocircle.com/Recon.md"
               }
             }
           }
@@ -149,6 +148,7 @@
   },
   "active": "d523e85402971c6b",
   "lastOpenFiles": [
+    "InfoSec/WebApp Pentesting/CRLF.md",
     "Bug Bounty/duocircle.com/Recon.md",
     "InfoSec/Tech & Languages/Linux & Bash.md",
     "Bug Bounty/freshworks/Recon.md",
@@ -160,7 +160,6 @@
     "InfoSec/WebApp Pentesting/XSS.md",
     "InfoSec/WebApp Pentesting/Methodologies/JHaddix App Analysis.md",
     "InfoSec/WebApp Pentesting/File uploads.md",
-    "InfoSec/WebApp Pentesting/CRLF.md",
     "Certs/Security+/Attacks, Threats, and Vulnerabilities.md",
     "InfoSec/WebApp Pentesting/THM  Learnings.md",
     "InfoSec/WebApp Pentesting/Account Takeover.md",

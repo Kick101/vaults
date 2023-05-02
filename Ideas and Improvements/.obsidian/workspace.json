@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Bug Bounty/duocircle.com/Recon.md",
-                "mode": "source",
+                "file": "InfoSec/WebApp Pentesting/CRLF.md",
+                "mode": "preview",
                 "source": false
               }
             }
@@ -48,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "cl",
+                "query": "crlf",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Bug Bounty/duocircle.com/Recon.md",
+                "file": "InfoSec/WebApp Pentesting/CRLF.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Bug Bounty/duocircle.com/Recon.md",
+                "file": "InfoSec/WebApp Pentesting/CRLF.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Bug Bounty/duocircle.com/Recon.md"
+                "file": "InfoSec/WebApp Pentesting/CRLF.md"
               }
             }
           }
@@ -147,10 +147,10 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "31b872dbdb4dc77d",
+  "active": "d523e85402971c6b",
   "lastOpenFiles": [
-    "InfoSec/Tech & Languages/Linux & Bash.md",
     "Bug Bounty/duocircle.com/Recon.md",
+    "InfoSec/Tech & Languages/Linux & Bash.md",
     "Bug Bounty/freshworks/Recon.md",
     "Bug Bounty/gitambloodbank/Recon.md",
     "Bug Bounty/six-group/Recon.md",

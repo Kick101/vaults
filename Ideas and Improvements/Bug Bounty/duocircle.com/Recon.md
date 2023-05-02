@@ -53,3 +53,8 @@ __Similar reports__
 #### hiring.duocircle.com
 
 #### launchpad.duocircle.com
+#### release.duocircle.com
+#### send.duocircle.com
+#### shell.duocircle.com
+#### vendorsecurity.duocircle.com
+#### 

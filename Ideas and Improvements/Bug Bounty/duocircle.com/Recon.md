@@ -49,3 +49,7 @@ __Similar reports__
 #### status.duocircle.com
 #### api.duocircle.com
 #### proxy2.duocircle.com
+
+#### hiring.duocircle.com
+
+#### launchpad.duocircle.com

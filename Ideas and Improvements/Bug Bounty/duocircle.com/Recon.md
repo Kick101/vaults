@@ -36,13 +36,15 @@
 - /subscription
 - /knowledgebase
 
+__Similar reports__
+- https://hackerone.com/reports/737323
+
+
 ##### Paths
 - /cart.php
 - 
 
-##### Similar reports
-https://hackerone.com/reports/737323
-
+##### 
 
 #### status.duocircle.com
 #### api.duocircle.com

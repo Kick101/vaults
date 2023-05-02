@@ -48,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "args",
+                "query": "cl",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -65,12 +65,12 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 203.5086555480957,
-    "collapsed": true
+    "width": 203.5086555480957
   },
   "right": {
     "id": "fe286dd04d32f6ac",
@@ -147,7 +147,7 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "d523e85402971c6b",
+  "active": "31b872dbdb4dc77d",
   "lastOpenFiles": [
     "InfoSec/Tech & Languages/Linux & Bash.md",
     "Bug Bounty/duocircle.com/Recon.md",

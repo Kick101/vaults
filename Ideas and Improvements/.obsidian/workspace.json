@@ -14,7 +14,7 @@
               "type": "markdown",
               "state": {
                 "file": "InfoSec/API Pentesting/APISec University/Penetration Testing.md",
-                "mode": "preview",
+                "mode": "source",
                 "source": false
               }
             }
@@ -147,7 +147,7 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "e985295c9ac7b16f",
+  "active": "d523e85402971c6b",
   "lastOpenFiles": [
     "InfoSec/API Pentesting/APISec University/Fundamentals.md",
     "InfoSec/API Pentesting/API.md",

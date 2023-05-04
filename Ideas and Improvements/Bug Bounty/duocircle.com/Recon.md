@@ -20,6 +20,7 @@
 #### logs.duocircle.com
 - IP - 52.28.87.204
 - /api -> /v2 [404]
+- /api/ [200]
 - /enduser
 - 
 

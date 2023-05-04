@@ -31,7 +31,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -106,7 +107,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "InfoSec/API Pentesting/APISec University/Penetration Testing.md",
+                "file": "Bug Bounty/duocircle.com/Recon.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -123,7 +124,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "InfoSec/API Pentesting/APISec University/Penetration Testing.md",
+                "file": "Bug Bounty/duocircle.com/Recon.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -146,7 +147,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "InfoSec/API Pentesting/APISec University/Penetration Testing.md"
+                "file": "Bug Bounty/duocircle.com/Recon.md"
               }
             }
           }
@@ -167,10 +168,10 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "d523e85402971c6b",
+  "active": "ab13a412a5ca707c",
   "lastOpenFiles": [
-    "Bug Bounty/duocircle.com/Recon.md",
     "InfoSec/API Pentesting/APISec University/Penetration Testing.md",
+    "Bug Bounty/duocircle.com/Recon.md",
     "InfoSec/API Pentesting/APISec University/Fundamentals.md",
     "InfoSec/API Pentesting/API.md",
     "InfoSec/WebApp Pentesting/CRLF.md",

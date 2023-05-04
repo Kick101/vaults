@@ -14,6 +14,9 @@
 #### release.duocircle.com
 #### support.duocircle.com
 #### logs.duocircle.com
+- IP - 52.28.87.204
+- /api -> /v2 [404]
+
 
 #### portal.duocircle.com
 ##### Intresting

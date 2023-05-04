@@ -10,12 +10,18 @@
 #### duocircle.com
 
 #### halonapi.duocircle.com
+
 #### proxy1.duocircle.com
+
 #### release.duocircle.com
+
 #### support.duocircle.com
+
 #### logs.duocircle.com
 - IP - 52.28.87.204
 - /api -> /v2 [404]
+- /enduser
+- 
 
 
 #### portal.duocircle.com
@@ -50,14 +56,21 @@ __Similar reports__
 ##### 
 
 #### status.duocircle.com
+
 #### api.duocircle.com
+
 #### proxy2.duocircle.com
 
 #### hiring.duocircle.com
 
 #### launchpad.duocircle.com
+
 #### release.duocircle.com
+
 #### send.duocircle.com
+
 #### shell.duocircle.com
+
 #### vendorsecurity.duocircle.com
+
 #### 

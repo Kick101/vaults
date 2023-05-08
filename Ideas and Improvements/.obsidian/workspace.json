@@ -31,8 +31,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -107,7 +106,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "InfoSec/WebApp Pentesting/JWT.md",
+                "file": "InfoSec/API Pentesting/APISec University/Penetration Testing.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -124,7 +123,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "InfoSec/WebApp Pentesting/JWT.md",
+                "file": "InfoSec/API Pentesting/APISec University/Penetration Testing.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -147,7 +146,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "InfoSec/WebApp Pentesting/JWT.md"
+                "file": "InfoSec/API Pentesting/APISec University/Penetration Testing.md"
               }
             }
           }
@@ -168,10 +167,12 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "f4735a9760ea0f3f",
+  "active": "d523e85402971c6b",
   "lastOpenFiles": [
-    "InfoSec/API Pentesting/APISec University/Penetration Testing.md",
+    "Pasted image 20230508201843.png",
+    "Pasted image 20230508201753.png",
     "InfoSec/WebApp Pentesting/JWT.md",
+    "InfoSec/API Pentesting/APISec University/Penetration Testing.md",
     "Pasted image 20230505004640.png",
     "Pasted image 20230505004502.png",
     "Bug Bounty/duocircle.com/Recon.md",
@@ -213,7 +214,6 @@
     "Pasted image 20230304101956.png",
     "Pasted image 20230304101726.png",
     "Pasted image 20230304033044.png",
-    "Pasted image 20230304032625.png",
-    "Pasted image 20230304023824.png"
+    "Pasted image 20230304032625.png"
   ]
 }

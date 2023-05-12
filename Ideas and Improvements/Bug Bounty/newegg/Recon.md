@@ -28,3 +28,10 @@ site:newegg.com "ext:xls | ext:xlsx | ext:csv" intext:credit card
 #### 403
 http://e11ssltestm.newegg.ca/
 http://e11stgtest.newegg.ca/
+http://e11ssltest.newegg.ca/
+http://e11stgtest-secure-m.newegg.ca/
+http://e11wwwtest.newegg.ca/
+http://e11stgtest-secure.newegg.ca/
+
+#### Subs
+https://kb.newegg.ca/contact-us

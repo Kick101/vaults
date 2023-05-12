@@ -48,3 +48,8 @@ https://promotions.newegg.com
 https://images10.newegg.com
 https://ec-apis.newegg.com
 https://staffing.newegg.com
+https://partner.newegg.com
+https://vendorportal.newegg.com
+https://secure.newegg.com
+
+

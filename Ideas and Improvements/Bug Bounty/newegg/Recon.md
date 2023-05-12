@@ -16,3 +16,7 @@ site:newegg.com "ext:asp | ext:aspx | ext:php | ext:jsp" intext:password
 ```
 - Landpages of products, for mobile view?
 - `/LandingPage/OverviewContent4Moblie.aspx?ItemNumber=0BD-001N-002F5&device=site`
+
+```txt
+site:newegg.com "ext:doc | ext:docx | ext:odt | ext:pdf" intext:confidential
+```

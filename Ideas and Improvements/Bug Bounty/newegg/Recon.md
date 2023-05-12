@@ -56,5 +56,16 @@ https://partner.newegg.com
 https://vendorportal.newegg.com
 https://secure.newegg.com
 
+#### API subs
+- https://stagingapis.newegg.com/ [403]
+- sandboxapis.newegg.com
+- api.newegg.com
+- apis.newegg.com
+
 ---
+
+
+
+---
+### API Testing
 

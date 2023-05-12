@@ -3,7 +3,10 @@
 
 ---
 #### Tech
-- AkamaiGHost
+Akamai Fastly Netscaler Nginx+Lua Nginx Kubernetes NGM API Cassandra Canary Solr Varnish Redis SQL "Spark Streaming" Kafka "Apache Hbase"
+
+__Languages__
+.net, Node.js, Java, php
 
 ---
 ### Dorking

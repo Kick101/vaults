@@ -32,6 +32,13 @@ http://e11ssltest.newegg.ca/
 http://e11stgtest-secure-m.newegg.ca/
 http://e11wwwtest.newegg.ca/
 http://e11stgtest-secure.newegg.ca/
+http://i.promo.newegg.ca/
+
+#### Blank
+https://l.promo.newegg.ca/ats/
+https://s.promo.newegg.ca/ats/
+https://w.promo.newegg.ca/ats/
+https://x.promo.newegg.ca/ats/
 
 #### Subs
 https://kb.newegg.ca/contact-us

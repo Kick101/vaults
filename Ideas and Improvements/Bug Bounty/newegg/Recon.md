@@ -23,3 +23,8 @@ site:newegg.com "ext:doc | ext:docx | ext:odt | ext:pdf" intext:confidential
 ```txt
 site:newegg.com "ext:xls | ext:xlsx | ext:csv" intext:credit card
 ```
+
+---
+#### 403
+http://e11ssltestm.newegg.ca/
+http://e11stgtest.newegg.ca/

@@ -42,3 +42,9 @@ https://x.promo.newegg.ca/ats/
 
 #### Subs
 https://kb.newegg.ca/contact-us
+https://partner.newegg.com/
+https://developer.newegg.com/
+https://promotions.newegg.com
+https://images10.newegg.com
+https://ec-apis.newegg.com
+https://staffing.newegg.com

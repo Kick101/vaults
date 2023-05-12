@@ -31,8 +31,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -107,7 +106,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "InfoSec/API Pentesting/APISec University/Penetration Testing.md",
+                "file": "Bug Bounty/newegg/Recon.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -124,7 +123,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "InfoSec/API Pentesting/APISec University/Penetration Testing.md",
+                "file": "Bug Bounty/newegg/Recon.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -147,7 +146,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "InfoSec/API Pentesting/APISec University/Penetration Testing.md"
+                "file": "Bug Bounty/newegg/Recon.md"
               }
             }
           }
@@ -168,11 +167,11 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "2d40613b6ad30ee9",
+  "active": "c5964a98d07cb32f",
   "lastOpenFiles": [
+    "InfoSec/API Pentesting/APISec University/Penetration Testing.md",
     "InfoSec/WebApp Pentesting/Methodologies/Recon tips.md",
     "InfoSec/WebApp Pentesting/Methodologies/My Methodology.md",
-    "InfoSec/API Pentesting/APISec University/Penetration Testing.md",
     "Bug Bounty/newegg/Recon.md",
     "InfoSec/WebApp Pentesting/CORS.md",
     "Pasted image 20230512111709.png",

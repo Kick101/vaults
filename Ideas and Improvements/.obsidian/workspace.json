@@ -155,8 +155,9 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "e985295c9ac7b16f",
+  "active": "c5964a98d07cb32f",
   "lastOpenFiles": [
+    "Pasted image 20230512111709.png",
     "Bug Bounty/newegg/Recon.md",
     "Bug Bounty/newegg",
     "InfoSec/API Pentesting/APISec University/Penetration Testing.md",
@@ -190,7 +191,6 @@
     "InfoSec/Cloud Pentesting/AWS S3 Misconfigurations.md",
     "InfoSec/WebApp Pentesting/SSRF/SSRF.md",
     "InfoSec/WebApp Pentesting/OS command Injection.md",
-    "InfoSec/WebApp Pentesting/File Inclusion.md",
     "CTF/BugTrails",
     "CTF",
     "InfoSec/API Pentesting/APISec University/Untitled",

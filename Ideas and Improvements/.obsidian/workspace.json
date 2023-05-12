@@ -11,8 +11,12 @@
             "id": "c5964a98d07cb32f",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Bug Bounty/newegg/Recon.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -73,7 +77,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 282.5026054382324
+    "width": 282.5026054382324,
+    "collapsed": true
   },
   "right": {
     "id": "fe286dd04d32f6ac",
@@ -89,6 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Bug Bounty/newegg/Recon.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -105,6 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Bug Bounty/newegg/Recon.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +133,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Bug Bounty/newegg/Recon.md"
+              }
             }
           }
         ]
@@ -148,6 +157,8 @@
   },
   "active": "e985295c9ac7b16f",
   "lastOpenFiles": [
+    "Bug Bounty/newegg/Recon.md",
+    "Bug Bounty/newegg",
     "InfoSec/API Pentesting/APISec University/Penetration Testing.md",
     "Bug Bounty/duocircle.com/Recon.md",
     "Pasted image 20230511154818.png",
@@ -189,7 +200,6 @@
     "InfoSec/API Pentesting/API Pentesting Mindmap ATTACK.pdf",
     "InfoSec/API Pentesting/API GraphQL Mindmap.pdf",
     "InfoSec/API Pentesting/API Go Fuzz yourself.pdf",
-    "Bug Bounty/six-group",
     "Pasted image 20230304114246.png",
     "Pasted image 20230304105701.png",
     "Pasted image 20230304101956.png"

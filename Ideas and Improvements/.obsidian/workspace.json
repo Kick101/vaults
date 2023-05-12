@@ -56,7 +56,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -131,7 +131,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "InfoSec/WebApp Pentesting/CORS.md",
+                "file": "InfoSec/WebApp Pentesting/Methodologies/Recon tips.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -148,7 +148,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "InfoSec/WebApp Pentesting/CORS.md",
+                "file": "InfoSec/WebApp Pentesting/Methodologies/Recon tips.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -171,7 +171,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "InfoSec/WebApp Pentesting/CORS.md"
+                "file": "InfoSec/WebApp Pentesting/Methodologies/Recon tips.md"
               }
             }
           }
@@ -192,10 +192,11 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "2c637ba02bc7276d",
+  "active": "5f90dd34aa799281",
   "lastOpenFiles": [
-    "Bug Bounty/newegg/Recon.md",
     "InfoSec/WebApp Pentesting/Methodologies/My Methodology.md",
+    "Bug Bounty/newegg/Recon.md",
+    "InfoSec/WebApp Pentesting/CORS.md",
     "InfoSec/WebApp Pentesting/Methodologies/Recon tips.md",
     "Pasted image 20230512111709.png",
     "Bug Bounty/newegg",
@@ -219,7 +220,6 @@
     "Bug Bounty/six-group/Recon.md",
     "CTF/BugTrails/April, 2023.md",
     "InfoSec/Wireless Pentesting/WiFi Hacking.md",
-    "InfoSec/WebApp Pentesting/CORS.md",
     "InfoSec/WebApp Pentesting/XSS.md",
     "InfoSec/WebApp Pentesting/Methodologies/JHaddix App Analysis.md",
     "InfoSec/WebApp Pentesting/File uploads.md",

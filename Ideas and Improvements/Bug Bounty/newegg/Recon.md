@@ -39,6 +39,7 @@ https://l.promo.newegg.ca/ats/
 https://s.promo.newegg.ca/ats/
 https://w.promo.newegg.ca/ats/
 https://x.promo.newegg.ca/ats/
+https://l.promo-flash.newegg.com/ats/
 
 #### Subs
 https://kb.newegg.ca/contact-us

@@ -20,3 +20,6 @@ site:newegg.com "ext:asp | ext:aspx | ext:php | ext:jsp" intext:password
 ```txt
 site:newegg.com "ext:doc | ext:docx | ext:odt | ext:pdf" intext:confidential
 ```
+```txt
+site:newegg.com "ext:xls | ext:xlsx | ext:csv" intext:credit card
+```

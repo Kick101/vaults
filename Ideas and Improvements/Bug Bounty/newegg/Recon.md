@@ -70,4 +70,12 @@ https://secure.newegg.com
 
 ---
 ### API Testing
+#### www.newegg.com
+- /api
+- /home/api
+- /tools/api
+- /product/api
+- /mktplace/api
+- /search/api
+
 

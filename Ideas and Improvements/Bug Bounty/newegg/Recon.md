@@ -90,6 +90,7 @@ https://secure.newegg.com
 
 ##### Wishlist
 - /wishlist/api/0/28441376/wishlistPageDetailInfo
+- ID -> `WishListNumber:28441376` - JSON Resp
 - 
 
 #### Notes

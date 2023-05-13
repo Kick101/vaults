@@ -89,10 +89,12 @@ https://secure.newegg.com
 - /returns/api
 
 ##### Wishlist
-- /wishlist/api/0/{ID}/wishlistPageDetailInfo
+- /wishlist/api/{list-type}/{ID}/wishlistPageDetailInfo
 - /wishlist/api/deletewishList/{ID}
 - ID -> `WishListNumber:28441376` - JSON Resp
-- 
+
+__Variables__
+- list-type: 0 (user/private), 2 (public)
 
 #### Notes
 __Auth__

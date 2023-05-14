@@ -36,6 +36,8 @@ http://e11stgtest-secure-m.newegg.ca/
 http://e11wwwtest.newegg.ca/
 http://e11stgtest-secure.newegg.ca/
 http://i.promo.newegg.ca/
+http://live.stream.newegg.com/
+https://logistics.newegg.com/intro/bridge/
 
 #### Blank
 https://l.promo.newegg.ca/ats/
@@ -58,9 +60,11 @@ https://secure.newegg.com
 
 #### API subs
 - https://stagingapis.newegg.com/ [403]
-- sandboxapis.newegg.com
+- sandboxapis.newegg.com [403]
 - api.newegg.com
 - apis.newegg.com
+- https://as2.newegg.com [403]
+- https://push.newegg.com/ [403]
 
 ---
 #### secure

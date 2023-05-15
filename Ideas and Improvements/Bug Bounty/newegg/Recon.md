@@ -74,6 +74,14 @@ https://secure.newegg.com
 
 ---
 ### API Testing
+#### secure.m.newegg.com
+/m/ajax/
+/m/ajax/addItemApi [403]
+/m/ajax/checkMyWishListFavoriteItemApi
+/m/ajax/getApplePayConfig
+/m/ajax/getMiniCartApi
+/m/ajax/homeWishListApi
+
 #### www.newegg.com
 - /api
 - /home/api

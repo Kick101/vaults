@@ -83,6 +83,12 @@ https://secure.newegg.com
 /m/ajax/homeWishListApi
 /m/ajax/simpleInfoApi (WishList Info)
 
+__WishListNumbers__
+44132829
+20788758
+30222877
+30222837 ["WishListMode":2 (public)]
+
 #### www.newegg.com
 - /api
 - /home/api

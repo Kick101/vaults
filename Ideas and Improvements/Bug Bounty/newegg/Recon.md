@@ -81,6 +81,7 @@ https://secure.newegg.com
 /m/ajax/getApplePayConfig
 /m/ajax/getMiniCartApi
 /m/ajax/homeWishListApi
+/m/ajax/SimpleInfoApi 
 
 #### www.newegg.com
 - /api

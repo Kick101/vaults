@@ -102,7 +102,7 @@ __WishListNumbers__
 - /identity/api
 - /notifications/api
 - /order/api
-- /shop/api
+- /shop/api [add/remove items to cart, checkout, ]
 - /wishlist/api
 - /api
 - /returns/api

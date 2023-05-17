@@ -9,6 +9,15 @@ __Languages__
 .net, Node.js, Java, php
 
 ---
+#### ASN
+[AS40067](https://bgp.he.net/AS40067)
+[AS25786](https://bgp.he.net/AS25786)
+
+#### IP Space
+204.89.152.0/24
+204.14.213.0/24
+
+---
 ### Dorking
 #### Shodan
 https://173.213.4.101/ats/

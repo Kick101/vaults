@@ -48,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "vhost",
+                "query": "asn",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -155,14 +155,14 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "e985295c9ac7b16f",
+  "active": "b2943081ddaee5ef",
   "lastOpenFiles": [
+    "InfoSec/WebApp Pentesting/Methodologies/JHaddix Recon.md",
+    "Bug Bounty/newegg/Recon.md",
     "InfoSec/API Pentesting/APISec University/Penetration Testing.md",
     "InfoSec/WebApp Pentesting/Wordlists.md",
     "InfoSec/WebApp Pentesting/THM  Learnings.md",
-    "InfoSec/WebApp Pentesting/Methodologies/JHaddix Recon.md",
     "InfoSec/WebApp Pentesting/Methodologies/Recon tips.md",
-    "Bug Bounty/newegg/Recon.md",
     "InfoSec/WebApp Pentesting/Methodologies/My Methodology.md",
     "InfoSec/WebApp Pentesting/CORS.md",
     "Pasted image 20230512111709.png",

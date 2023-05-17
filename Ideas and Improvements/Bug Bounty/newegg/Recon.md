@@ -89,6 +89,14 @@ __WishListNumbers__
 30222877
 30222837 ["WishListMode":2 (public)]
 
+#### apis.newegg.com
+__API:__ /tpl/v1
+- /permission/user
+- /user/menu
+- /notification/unreadcount
+- /edi-bff-gateway/vendor-portal
+- 
+
 #### www.newegg.com
 - /api
 - /home/api

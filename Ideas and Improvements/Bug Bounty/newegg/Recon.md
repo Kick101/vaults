@@ -110,6 +110,8 @@ __WishListNumbers__
 ##### shop
 - /shop/api/InitCartApi
 	- Action Types: UpdateItemQty, RemoveItems
+- /shop/api/InitOrderReviewApi
+	- Action Types: AlterPanelStatus, ChangeShippingAddress
 
 ##### Wishlist
 - /wishlist/api/{list-type}/{ID}/wishlistPageDetailInfo

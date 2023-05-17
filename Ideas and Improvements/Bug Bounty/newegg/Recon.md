@@ -126,6 +126,7 @@ __API:__ /tpl/v1
 
 ##### identity
 - /identity/api/SigninAssistance [password reset]
+- /identity/api/ChangePasswordApi [Password change]
 - 
 
 ##### shop

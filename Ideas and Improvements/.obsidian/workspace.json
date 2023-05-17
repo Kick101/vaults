@@ -43,8 +43,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -102,7 +101,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 282.5026054382324
+    "width": 282.5026054382324,
+    "collapsed": true
   },
   "right": {
     "id": "fe286dd04d32f6ac",
@@ -118,7 +118,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "InfoSec/WebApp Pentesting/Wordlists.md",
+                "file": "Bug Bounty/newegg/Recon.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -135,7 +135,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "InfoSec/WebApp Pentesting/Wordlists.md",
+                "file": "Bug Bounty/newegg/Recon.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -158,7 +158,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "InfoSec/WebApp Pentesting/Wordlists.md"
+                "file": "Bug Bounty/newegg/Recon.md"
               }
             }
           }
@@ -179,8 +179,9 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "a9693dfb1e077fd9",
+  "active": "c5964a98d07cb32f",
   "lastOpenFiles": [
+    "InfoSec/WebApp Pentesting/Wordlists.md",
     "Bug Bounty/newegg/Recon.md",
     "InfoSec/API Pentesting/APISec University/Penetration Testing.md",
     "InfoSec/WebApp Pentesting/Methodologies/Recon tips.md",
@@ -215,7 +216,6 @@
     "InfoSec/WebApp Pentesting/Account Takeover.md",
     "InfoSec/Cloud Pentesting/Cloud Security.md",
     "InfoSec/Cloud Pentesting/AWS S3 Misconfigurations.md",
-    "InfoSec/WebApp Pentesting/SSRF/SSRF.md",
     "CTF/BugTrails",
     "CTF",
     "InfoSec/API Pentesting/APISec University/Untitled",

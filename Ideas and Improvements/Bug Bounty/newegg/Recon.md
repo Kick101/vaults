@@ -107,6 +107,10 @@ __WishListNumbers__
 - /api
 - /returns/api
 
+##### shop
+- /shop/api/InitCartApi
+	- Action Types: UpdateItemQty
+
 ##### Wishlist
 - /wishlist/api/{list-type}/{ID}/wishlistPageDetailInfo
 - /wishlist/api/deletewishList/{ID}

@@ -107,6 +107,10 @@ __WishListNumbers__
 - /api
 - /returns/api
 
+##### identity
+- /identity/api/SigninAssistance [password reset]
+- 
+
 ##### shop
 - /shop/api/InitCartApi
 	- Action Types: UpdateItemQty, RemoveItems

@@ -106,6 +106,9 @@ __API:__ /tpl/v1
 - /edi-bff-gateway/vendor-portal
 - 
 
+#### vendroportal.newegg.com
+- /modules/vendorportal/app/vendor/vendor-invitation.tpl.html [intresting]
+
 #### www.newegg.com
 - /api
 - /home/api

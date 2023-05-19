@@ -6,13 +6,12 @@
     -   app.ring.com/*
     -   admin.ring.com/*
     -   nw.ring.com/*
-    -   oauth.ring.com
-    - /*
+    -   oauth.ring.com/*
     -   billing.ring.com/*
     -   [http://prd-ring-web-us.prd.rings.solutions](http://prd-ring-web-us.prd.rings.solutions)
 -   Blink
-    -   .blinkforhome.com/
-    -   .immedia-semi.com/
+    -   \*.blinkforhome.com/*
+    -   \*.immedia-semi.com/*
 ---
 
 

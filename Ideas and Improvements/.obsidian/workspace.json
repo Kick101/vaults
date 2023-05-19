@@ -4,31 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "7ad31a0ff2d5dd88",
+        "id": "eb33ed61194f399c",
         "type": "tabs",
         "children": [
           {
-            "id": "0b69dbca1678926f",
+            "id": "f90b5c1e99da1fa7",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Bug Bounty/newegg/Recon.md",
-                "mode": "preview",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "b2943081ddaee5ef",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "InfoSec/WebApp Pentesting/SQLi/Payloads.md",
-                "mode": "preview",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -89,8 +73,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 282.5026054382324,
-    "collapsed": true
+    "width": 434.5026054382324
   },
   "right": {
     "id": "fe286dd04d32f6ac",
@@ -106,7 +89,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Bug Bounty/newegg/Recon.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -123,7 +105,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Bug Bounty/newegg/Recon.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -145,9 +126,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Bug Bounty/newegg/Recon.md"
-              }
+              "state": {}
             }
           }
         ]
@@ -167,8 +146,14 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "0b69dbca1678926f",
+  "active": "e985295c9ac7b16f",
   "lastOpenFiles": [
+    "z/Pasted image 20221225105504.png",
+    "z/Pasted image 20221225105434.png",
+    "z/Pasted image 20220620152035.png",
+    "Bug Bounty/ring/Recon.md",
+    "z",
+    "Bug Bounty/ring",
     "InfoSec/WebApp Pentesting/SQLi/Payloads.md",
     "Bug Bounty/newegg/Recon.md",
     "InfoSec/WebApp Pentesting/Account Takeover.md",
@@ -179,18 +164,18 @@
     "InfoSec/WebApp Pentesting/Methodologies/Recon tips.md",
     "InfoSec/WebApp Pentesting/Methodologies/My Methodology.md",
     "InfoSec/WebApp Pentesting/CORS.md",
-    "Pasted image 20230512111709.png",
+    "z/Pasted image 20230512111709.png",
     "Bug Bounty/newegg",
     "Bug Bounty/duocircle.com/Recon.md",
-    "Pasted image 20230511154818.png",
-    "Pasted image 20230511125831.png",
+    "z/Pasted image 20230511154818.png",
+    "z/Pasted image 20230511125831.png",
     "InfoSec/WebApp Pentesting/Burp Extensions.md",
     "InfoSec/WebApp Pentesting/JWT.md",
-    "Pasted image 20230508201843.png",
-    "Pasted image 20230508201753.png",
-    "Pasted image 20230505004640.png",
-    "Pasted image 20230505004502.png",
-    "Pasted image 20230504224214.png",
+    "z/Pasted image 20230508201843.png",
+    "z/Pasted image 20230508201753.png",
+    "z/Pasted image 20230505004640.png",
+    "z/Pasted image 20230505004502.png",
+    "z/Pasted image 20230504224214.png",
     "InfoSec/API Pentesting/APISec University/Fundamentals.md",
     "InfoSec/API Pentesting/API.md",
     "InfoSec/WebApp Pentesting/CRLF.md",
@@ -202,18 +187,12 @@
     "InfoSec/Wireless Pentesting/WiFi Hacking.md",
     "InfoSec/WebApp Pentesting/XSS.md",
     "InfoSec/WebApp Pentesting/Methodologies/JHaddix App Analysis.md",
-    "InfoSec/WebApp Pentesting/File uploads.md",
-    "Certs/Security+/Attacks, Threats, and Vulnerabilities.md",
     "CTF/BugTrails",
     "CTF",
     "InfoSec/API Pentesting/APISec University/Untitled",
     "InfoSec/API Pentesting/API Recon Mindmap.pdf",
     "InfoSec/API Pentesting/APISec University",
     "InfoSec/API Pentesting/owasp-api-security-top-10.pdf",
-    "InfoSec/API Pentesting/API Pentesting Mindmap ATTACK.pdf",
-    "InfoSec/API Pentesting/API GraphQL Mindmap.pdf",
-    "InfoSec/API Pentesting/API Go Fuzz yourself.pdf",
-    "Pasted image 20230304114246.png",
-    "Pasted image 20230304105701.png"
+    "InfoSec/API Pentesting/API Pentesting Mindmap ATTACK.pdf"
   ]
 }

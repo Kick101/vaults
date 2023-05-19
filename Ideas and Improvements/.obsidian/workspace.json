@@ -4,15 +4,19 @@
     "type": "split",
     "children": [
       {
-        "id": "eb33ed61194f399c",
+        "id": "b34cde90e7d75b36",
         "type": "tabs",
         "children": [
           {
-            "id": "f90b5c1e99da1fa7",
+            "id": "eb227083f2809c28",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Bug Bounty/ring/Recon.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -73,7 +77,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 434.5026054382324
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "fe286dd04d32f6ac",
@@ -89,6 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Bug Bounty/ring/Recon.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -105,6 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Bug Bounty/ring/Recon.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +133,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Bug Bounty/ring/Recon.md"
+              }
             }
           }
         ]
@@ -146,8 +155,10 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "e985295c9ac7b16f",
+  "active": "eb227083f2809c28",
   "lastOpenFiles": [
+    "Templates/Simple.md",
+    "Red Teaming/Engagement.md",
     "z/Pasted image 20221225105504.png",
     "z/Pasted image 20221225105434.png",
     "z/Pasted image 20220620152035.png",
@@ -175,7 +186,6 @@
     "z/Pasted image 20230508201753.png",
     "z/Pasted image 20230505004640.png",
     "z/Pasted image 20230505004502.png",
-    "z/Pasted image 20230504224214.png",
     "InfoSec/API Pentesting/APISec University/Fundamentals.md",
     "InfoSec/API Pentesting/API.md",
     "InfoSec/WebApp Pentesting/CRLF.md",
@@ -186,7 +196,6 @@
     "CTF/BugTrails/April, 2023.md",
     "InfoSec/Wireless Pentesting/WiFi Hacking.md",
     "InfoSec/WebApp Pentesting/XSS.md",
-    "InfoSec/WebApp Pentesting/Methodologies/JHaddix App Analysis.md",
     "CTF/BugTrails",
     "CTF",
     "InfoSec/API Pentesting/APISec University/Untitled",

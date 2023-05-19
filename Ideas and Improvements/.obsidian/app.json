@@ -5,5 +5,7 @@
     "en-US",
     "id"
   ],
-  "alwaysUpdateLinks": true
+  "alwaysUpdateLinks": true,
+  "newFileLocation": "folder",
+  "newFileFolderPath": "z"
 }

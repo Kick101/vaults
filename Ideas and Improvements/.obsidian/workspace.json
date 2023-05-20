@@ -8,18 +8,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "eb227083f2809c28",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Bug Bounty/ring/Recon.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "36c0cae9f912d85a",
             "type": "leaf",
             "state": {
@@ -101,8 +89,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "fe286dd04d32f6ac",
@@ -118,7 +105,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Bug Bounty/ring/Recon.md",
+                "file": "InfoSec/WebApp Pentesting/Methodologies/Orwa Atyat Methodology.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -135,7 +122,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Bug Bounty/ring/Recon.md",
+                "file": "InfoSec/WebApp Pentesting/Methodologies/Orwa Atyat Methodology.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -158,7 +145,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Bug Bounty/ring/Recon.md"
+                "file": "InfoSec/WebApp Pentesting/Methodologies/Orwa Atyat Methodology.md"
               }
             }
           }
@@ -179,11 +166,12 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "eb227083f2809c28",
+  "active": "e985295c9ac7b16f",
   "lastOpenFiles": [
+    "Bug Bounty/acronis",
+    "Bug Bounty/ring/Recon.md",
     "InfoSec/WebApp Pentesting/Methodologies/Recon tips.md",
     "InfoSec/WebApp Pentesting/Methodologies/Orwa Atyat Methodology.md",
-    "Bug Bounty/ring/Recon.md",
     "Templates/Simple.md",
     "Red Teaming/Engagement.md",
     "z/Pasted image 20221225105504.png",
@@ -219,7 +207,6 @@
     "Bug Bounty/gitambloodbank/Recon.md",
     "Bug Bounty/six-group/Recon.md",
     "CTF/BugTrails/April, 2023.md",
-    "InfoSec/Wireless Pentesting/WiFi Hacking.md",
     "CTF/BugTrails",
     "CTF",
     "InfoSec/API Pentesting/APISec University/Untitled",

@@ -27,4 +27,4 @@ https://backend.admin.ring.com/auth/sign_in
 	- /tags
 - /ping `"ping":"successfull"`
 - /maintenance `Title: Admin app`
-- `.xml` -> xml resp, 
+- `fuzz.xml` -> xml resp, `fuzz.json` -> json resp

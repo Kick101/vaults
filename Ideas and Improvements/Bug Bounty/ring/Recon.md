@@ -25,6 +25,11 @@ https://backend.admin.ring.com/auth/sign_in
 	- /comments
 	- /jobs
 	- /tags
+	- /admin_users
+	- /invitations
+	- /permissions
+	- /retailers
+	- /ringtones
 - /ping `"ping":"successfull"`
 - /maintenance `Title: Admin app`
 - `fuzz.xml` -> xml resp, `fuzz.json` -> json resp

@@ -20,6 +20,11 @@ https://backend.admin.ring.com/auth/sign_in
 #### backend.admin.ring.com
 - /api/ [302]
 - X-Forwarded-Host: 127.0.0.1
-- /devices [401] `"authorization":"Nil JSON web token"`
-- /comments [401]
-- 
+- _401_
+	- /devices `"authorization":"Nil JSON web token"`
+	- /comments
+	- /jobs
+	- /tags
+- /ping `"ping":"successfull"`
+- /maintenance `Title: Admin app`
+- `.xml` -> xml resp, 

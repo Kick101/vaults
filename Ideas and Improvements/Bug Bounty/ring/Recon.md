@@ -5,7 +5,7 @@
     -   fw.ring.com/*
     -   app.ring.com/*
     -   admin.ring.com/*
-    -   nw.ring.com/*
+    -   nw.ring.com/* [426]
     -   oauth.ring.com/*
     -   billing.ring.com/*
     -   [http://prd-ring-web-us.prd.rings.solutions](http://prd-ring-web-us.prd.rings.solutions)

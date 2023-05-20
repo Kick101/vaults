@@ -14,7 +14,7 @@
               "type": "markdown",
               "state": {
                 "file": "InfoSec/WebApp Pentesting/Wordlists.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": false
               }
             }
@@ -155,7 +155,7 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "e985295c9ac7b16f",
+  "active": "10b7088eb0634898",
   "lastOpenFiles": [
     "Bug Bounty/acronis/Recon.md",
     "InfoSec/WebApp Pentesting/Methodologies/Recon tips.md",

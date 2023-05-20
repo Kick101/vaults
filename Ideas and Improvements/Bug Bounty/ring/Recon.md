@@ -13,5 +13,7 @@
     -   \*.blinkforhome.com/*
     -   \*.immedia-semi.com/*
 ---
+#### Intresting
+https://backend.admin.ring.com/auth/sign_in
 
 

@@ -30,8 +30,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "1a82d62c3344d95b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "InfoSec/WebApp Pentesting/Methodologies/Recon tips.md",
+                "mode": "preview",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -106,7 +119,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Bug Bounty/ring/Recon.md",
+                "file": "InfoSec/WebApp Pentesting/Methodologies/Recon tips.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -123,7 +136,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Bug Bounty/ring/Recon.md",
+                "file": "InfoSec/WebApp Pentesting/Methodologies/Recon tips.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -146,7 +159,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Bug Bounty/ring/Recon.md"
+                "file": "InfoSec/WebApp Pentesting/Methodologies/Recon tips.md"
               }
             }
           }
@@ -167,11 +180,11 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "eb227083f2809c28",
+  "active": "1a82d62c3344d95b",
   "lastOpenFiles": [
     "InfoSec/WebApp Pentesting/Methodologies/Orwa Atyat Methodology.md",
-    "InfoSec/WebApp Pentesting/Methodologies/Recon tips.md",
     "Bug Bounty/ring/Recon.md",
+    "InfoSec/WebApp Pentesting/Methodologies/Recon tips.md",
     "Templates/Simple.md",
     "Red Teaming/Engagement.md",
     "z/Pasted image 20221225105504.png",

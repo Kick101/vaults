@@ -16,7 +16,6 @@
 #### Intresting
 https://backend.admin.ring.com/auth/sign_in
 
-
 #### backend.admin.ring.com
 - /api/ [302]
 - X-Forwarded-Host: 127.0.0.1

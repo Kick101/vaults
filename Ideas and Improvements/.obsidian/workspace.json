@@ -48,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "cdn",
+                "query": "ssh",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -77,8 +77,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "fe286dd04d32f6ac",
@@ -155,7 +154,7 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "f9cf571dfbc44e38",
+  "active": "e985295c9ac7b16f",
   "lastOpenFiles": [
     "InfoSec/WebApp Pentesting/Wordlists.md",
     "Bug Bounty/acronis/Recon.md",

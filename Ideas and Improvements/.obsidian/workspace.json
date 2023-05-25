@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Bug Bounty/acronis/Recon.md",
+                "file": "InfoSec/WebApp Pentesting/SQLi/SQLi.md",
                 "mode": "source",
                 "source": false
               }
@@ -48,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "ssh",
+                "query": "blind ",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -73,12 +73,12 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "fe286dd04d32f6ac",
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Bug Bounty/acronis/Recon.md",
+                "file": "InfoSec/WebApp Pentesting/SQLi/SQLi.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Bug Bounty/acronis/Recon.md",
+                "file": "InfoSec/WebApp Pentesting/SQLi/SQLi.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Bug Bounty/acronis/Recon.md"
+                "file": "InfoSec/WebApp Pentesting/SQLi/SQLi.md"
               }
             }
           }
@@ -155,12 +155,12 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "e985295c9ac7b16f",
+  "active": "f9cf571dfbc44e38",
   "lastOpenFiles": [
-    "InfoSec/WebApp Pentesting/Wordlists.md",
-    "Bug Bounty/acronis/Recon.md",
-    "InfoSec/WebApp Pentesting/Methodologies/Recon tips.md",
     "InfoSec/WebApp Pentesting/Methodologies/Orwa Atyat Methodology.md",
+    "Bug Bounty/acronis/Recon.md",
+    "InfoSec/WebApp Pentesting/Wordlists.md",
+    "InfoSec/WebApp Pentesting/Methodologies/Recon tips.md",
     "Bug Bounty/acronis",
     "Bug Bounty/ring/Recon.md",
     "Templates/Simple.md",

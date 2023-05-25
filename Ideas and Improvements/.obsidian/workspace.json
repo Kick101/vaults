@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "InfoSec/WebApp Pentesting/SQLi/SQLi.md",
+                "file": "InfoSec/WebApp Pentesting/Methodologies/Orwa Atyat Methodology.md",
                 "mode": "source",
                 "source": false
               }
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "InfoSec/WebApp Pentesting/SQLi/SQLi.md",
+                "file": "InfoSec/WebApp Pentesting/Methodologies/Orwa Atyat Methodology.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "InfoSec/WebApp Pentesting/SQLi/SQLi.md",
+                "file": "InfoSec/WebApp Pentesting/Methodologies/Orwa Atyat Methodology.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "InfoSec/WebApp Pentesting/SQLi/SQLi.md"
+                "file": "InfoSec/WebApp Pentesting/Methodologies/Orwa Atyat Methodology.md"
               }
             }
           }
@@ -157,7 +157,10 @@
   },
   "active": "f9cf571dfbc44e38",
   "lastOpenFiles": [
+    "InfoSec/Cloud Pentesting/AWS S3 Misconfigurations.md",
     "InfoSec/WebApp Pentesting/Methodologies/Orwa Atyat Methodology.md",
+    "InfoSec/WebApp Pentesting/OS command Injection.md",
+    "InfoSec/WebApp Pentesting/SQLi/SQLi.md",
     "Bug Bounty/acronis/Recon.md",
     "InfoSec/WebApp Pentesting/Wordlists.md",
     "InfoSec/WebApp Pentesting/Methodologies/Recon tips.md",
@@ -194,9 +197,6 @@
     "InfoSec/WebApp Pentesting/CRLF.md",
     "InfoSec/Tech & Languages/Linux & Bash.md",
     "Bug Bounty/freshworks/Recon.md",
-    "Bug Bounty/gitambloodbank/Recon.md",
-    "Bug Bounty/six-group/Recon.md",
-    "CTF/BugTrails/April, 2023.md",
     "CTF/BugTrails",
     "CTF",
     "InfoSec/API Pentesting/APISec University/Untitled",

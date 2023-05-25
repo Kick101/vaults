@@ -11,8 +11,12 @@
             "id": "e566334e869f831c",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "InfoSec/WebApp Pentesting/Find Origin IP.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -69,12 +73,12 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 244.50260543823242,
+    "collapsed": true
   },
   "right": {
     "id": "fe286dd04d32f6ac",
@@ -90,6 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "InfoSec/WebApp Pentesting/Find Origin IP.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -106,6 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "InfoSec/WebApp Pentesting/Find Origin IP.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -127,7 +133,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "InfoSec/WebApp Pentesting/Find Origin IP.md"
+              }
             }
           }
         ]
@@ -149,6 +157,7 @@
   },
   "active": "e566334e869f831c",
   "lastOpenFiles": [
+    "InfoSec/WebApp Pentesting/Find Origin IP.md",
     "InfoSec/WebApp Pentesting/Methodologies/Orwa Atyat Methodology.md",
     "InfoSec/Cloud Pentesting/AWS S3 Misconfigurations.md",
     "InfoSec/WebApp Pentesting/OS command Injection.md",
@@ -188,7 +197,6 @@
     "InfoSec/API Pentesting/API.md",
     "InfoSec/WebApp Pentesting/CRLF.md",
     "InfoSec/Tech & Languages/Linux & Bash.md",
-    "Bug Bounty/freshworks/Recon.md",
     "CTF/BugTrails",
     "CTF",
     "InfoSec/API Pentesting/APISec University/Untitled",

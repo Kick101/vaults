@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "InfoSec/WebApp Pentesting/Find Origin IP.md",
+                "file": "Bug Bounty/Fertitta Entertainment/Recon.md",
                 "mode": "source",
                 "source": false
               }
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "InfoSec/WebApp Pentesting/Find Origin IP.md",
+                "file": "Bug Bounty/Fertitta Entertainment/Recon.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "InfoSec/WebApp Pentesting/Find Origin IP.md",
+                "file": "Bug Bounty/Fertitta Entertainment/Recon.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "InfoSec/WebApp Pentesting/Find Origin IP.md"
+                "file": "Bug Bounty/Fertitta Entertainment/Recon.md"
               }
             }
           }
@@ -158,6 +158,8 @@
   "active": "e566334e869f831c",
   "lastOpenFiles": [
     "InfoSec/WebApp Pentesting/Find Origin IP.md",
+    "Bug Bounty/Fertitta Entertainment/Recon.md",
+    "Bug Bounty/Fertitta Entertainment",
     "InfoSec/WebApp Pentesting/Methodologies/Orwa Atyat Methodology.md",
     "InfoSec/Cloud Pentesting/AWS S3 Misconfigurations.md",
     "InfoSec/WebApp Pentesting/OS command Injection.md",
@@ -196,12 +198,10 @@
     "InfoSec/API Pentesting/APISec University/Fundamentals.md",
     "InfoSec/API Pentesting/API.md",
     "InfoSec/WebApp Pentesting/CRLF.md",
-    "InfoSec/Tech & Languages/Linux & Bash.md",
     "CTF/BugTrails",
     "CTF",
     "InfoSec/API Pentesting/APISec University/Untitled",
     "InfoSec/API Pentesting/API Recon Mindmap.pdf",
-    "InfoSec/API Pentesting/APISec University",
-    "InfoSec/API Pentesting/owasp-api-security-top-10.pdf"
+    "InfoSec/API Pentesting/APISec University"
   ]
 }

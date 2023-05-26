@@ -66,6 +66,8 @@
 11. Try OCR
 ---
 #### SSO Bypass
+- If internal.company.com Redirects -> auth.company.com.  Internal.company.com/FUZZ
+- 
 
 
 ---
@@ -94,7 +96,11 @@
 #### Password Reset
 - Failure to invalidate session on Logout and Password reset
 - Check if forget password reset link/code uniqueness
-- 
+- If reset link has another param such as date and time, then. Change date and time value in order to make active & valid reset link
+- Add only spaces in new password and confirmed password. Then Hit enter and see the result
+-  Ask for two password reset link and use the older one from user's email
+- Check if active session gets destroyed upon changing the password or not?
+- Send continuous forget password requests so that it may send sequential tokens
 ##### Password Reset Token Leak Via Referrer
 1. Request password reset to your email address
 2. Click on the password reset link

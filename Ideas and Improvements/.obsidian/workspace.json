@@ -30,9 +30,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "ba9c9a08c4b84d39",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "InfoSec/WebApp Pentesting/HTTP Smuggling.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -107,7 +119,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "InfoSec/WebApp Pentesting/Methodologies/My Methodology.md",
+                "file": "InfoSec/WebApp Pentesting/HTTP Smuggling.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -124,7 +136,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "InfoSec/WebApp Pentesting/Methodologies/My Methodology.md",
+                "file": "InfoSec/WebApp Pentesting/HTTP Smuggling.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -147,7 +159,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "InfoSec/WebApp Pentesting/Methodologies/My Methodology.md"
+                "file": "InfoSec/WebApp Pentesting/HTTP Smuggling.md"
               }
             }
           }
@@ -168,9 +180,11 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "43a0073d97ddbb9c",
+  "active": "ba9c9a08c4b84d39",
   "lastOpenFiles": [
     "InfoSec/WebApp Pentesting/Account Takeover.md",
+    "InfoSec/WebApp Pentesting/HTTP Smuggling.md",
+    "InfoSec/WebApp Pentesting/HTTP Headers.md",
     "InfoSec/WebApp Pentesting/Methodologies/My Methodology.md",
     "InfoSec/WebApp Pentesting/Methodologies/Orwa Atyat Methodology.md",
     "InfoSec/WebApp Pentesting/SQLi/Payloads.md",
@@ -209,8 +223,6 @@
     "z/Pasted image 20230505004640.png",
     "z/Pasted image 20230505004502.png",
     "InfoSec/API Pentesting/APISec University/Fundamentals.md",
-    "InfoSec/API Pentesting/API.md",
-    "InfoSec/WebApp Pentesting/CRLF.md",
     "CTF/BugTrails",
     "CTF",
     "InfoSec/API Pentesting/APISec University/Untitled",

@@ -66,9 +66,13 @@
 11. Try OCR
 ---
 #### SSO Bypass
-- If internal.company.com Redirects -> auth.company.com.  Internal.company.com/FUZZ
+- If internal.company.com -> auth.company.com.  Internal.company.com/FUZZ
+- If company.com/internal -> SSO. Try To Insert public Before internal e.g. company.com/public/internal
+- Try To Craft SAML Request With Token And Send It To The Server And Figure Out How Server Interact With This
+- If There Is AssertionConsumerServiceURL In Token Request Try To Insert Your Domain e.g. http://me.com As Value To Steal The Token
+- If There Is AssertionConsumerServiceURL In Token Request Try To Do FUZZ On Value Of AssertionConsumerServiceURL If It Is Not Similar To Origin
+- If There Is Any UUID, Try To Change It To UUID Of Victim Attacker e.g. Email Of Internal Employee Or Admin Account etc
 - 
-
 
 ---
 #### MFA / OTP / Backup code Bypass

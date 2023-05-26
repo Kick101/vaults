@@ -14,7 +14,7 @@
               "type": "markdown",
               "state": {
                 "file": "InfoSec/WebApp Pentesting/Methodologies/My Methodology.md",
-                "mode": "preview",
+                "mode": "source",
                 "source": false
               }
             }
@@ -171,11 +171,11 @@
   "active": "8e16889085e955ee",
   "lastOpenFiles": [
     "InfoSec/WebApp Pentesting/Methodologies/My Methodology.md",
+    "InfoSec/WebApp Pentesting/Account Takeover.md",
     "InfoSec/WebApp Pentesting/XSS.md",
     "InfoSec/WebApp Pentesting/File uploads.md",
     "InfoSec/WebApp Pentesting/Directory Traversal.md",
     "InfoSec/WebApp Pentesting/HTTP Smuggling.md",
-    "InfoSec/WebApp Pentesting/Account Takeover.md",
     "InfoSec/WebApp Pentesting/HTTP Headers.md",
     "InfoSec/WebApp Pentesting/Methodologies/Orwa Atyat Methodology.md",
     "InfoSec/WebApp Pentesting/SQLi/Payloads.md",

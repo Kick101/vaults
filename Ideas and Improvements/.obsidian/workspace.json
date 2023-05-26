@@ -43,7 +43,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -118,7 +119,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "InfoSec/WebApp Pentesting/Account Takeover.md",
+                "file": "InfoSec/WebApp Pentesting/HTTP Smuggling.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -135,7 +136,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "InfoSec/WebApp Pentesting/Account Takeover.md",
+                "file": "InfoSec/WebApp Pentesting/HTTP Smuggling.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -158,7 +159,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "InfoSec/WebApp Pentesting/Account Takeover.md"
+                "file": "InfoSec/WebApp Pentesting/HTTP Smuggling.md"
               }
             }
           }
@@ -179,11 +180,11 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "07ef1aaf369ad3be",
+  "active": "ba9c9a08c4b84d39",
   "lastOpenFiles": [
-    "InfoSec/WebApp Pentesting/HTTP Smuggling.md",
     "InfoSec/WebApp Pentesting/Methodologies/My Methodology.md",
     "InfoSec/WebApp Pentesting/Account Takeover.md",
+    "InfoSec/WebApp Pentesting/HTTP Smuggling.md",
     "InfoSec/WebApp Pentesting/HTTP Headers.md",
     "InfoSec/WebApp Pentesting/Methodologies/Orwa Atyat Methodology.md",
     "InfoSec/WebApp Pentesting/SQLi/Payloads.md",

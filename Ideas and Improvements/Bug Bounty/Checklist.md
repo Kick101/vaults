@@ -21,7 +21,7 @@
 	- Paste parameter urls on burp scan
 	- Manual testing
 ---
-### Checklist
+### Functionality Attacks
 #### Registration Page
 1. Input Validation:
     - Test for any input validation bypasses, such as HTML/JavaScript injection or SQL injection.
@@ -92,6 +92,9 @@
 
 ---
 #### Password Reset
+- Failure to invalidate session on Logout and Password reset
+- Check if forget password reset link/code uniqueness
+- 
 ##### Password Reset Token Leak Via Referrer
 1. Request password reset to your email address
 2. Click on the password reset link
@@ -127,8 +130,9 @@ email=victim\@mail.com%20hacker\@mail.com
 email=victim\@mail.com|hacker\@mail.com
 
 ##### Weak Password Reset Token
-The password reset token should be randomly generated and unique every time.
-Try to determine if the token expire or if it's always the same, in some cases the generation algorithm is weak and can be guessed. The following variables might be used by the algorithm.
+- Check if reset link does get expire or not if its not used by the user for certain amount of time
+- can be guessed? 
+- The following variables might be used by the algorithm.
 * Timestamp
 * UserID
 * Email of User

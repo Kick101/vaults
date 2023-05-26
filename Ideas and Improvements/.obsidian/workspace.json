@@ -38,7 +38,7 @@
               "type": "markdown",
               "state": {
                 "file": "InfoSec/WebApp Pentesting/HTTP Smuggling.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": false
               }
             }
@@ -182,10 +182,10 @@
   },
   "active": "ba9c9a08c4b84d39",
   "lastOpenFiles": [
-    "InfoSec/WebApp Pentesting/Account Takeover.md",
-    "InfoSec/WebApp Pentesting/HTTP Smuggling.md",
-    "InfoSec/WebApp Pentesting/HTTP Headers.md",
     "InfoSec/WebApp Pentesting/Methodologies/My Methodology.md",
+    "InfoSec/WebApp Pentesting/HTTP Smuggling.md",
+    "InfoSec/WebApp Pentesting/Account Takeover.md",
+    "InfoSec/WebApp Pentesting/HTTP Headers.md",
     "InfoSec/WebApp Pentesting/Methodologies/Orwa Atyat Methodology.md",
     "InfoSec/WebApp Pentesting/SQLi/Payloads.md",
     "Bug Bounty/Fertitta Entertainment/Recon.md",

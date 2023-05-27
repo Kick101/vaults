@@ -32,6 +32,9 @@ hiltonhawaiianvillage.jp
 #### Tech 
 IIS, Windows, ASP.NET
 
+#### API
+- /graphql/customer?appName=dx-guests-ui&operationName=createGuest
+- 
 
 
 

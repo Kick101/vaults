@@ -36,6 +36,9 @@ IIS, Windows, ASP.NET
 - /graphql/customer?appName=dx-guests-ui&operationName=createGuest
 - 
 
+_Error_
+>GraphQL introspection is not allowed, but the query contained __schema or __type
+
 
 
 

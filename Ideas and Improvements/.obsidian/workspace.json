@@ -14,7 +14,7 @@
               "type": "markdown",
               "state": {
                 "file": "Bug Bounty/Hilton/Recon.md",
-                "mode": "preview",
+                "mode": "source",
                 "source": false
               }
             }
@@ -182,8 +182,8 @@
   "active": "a85d79a662fb24b9",
   "lastOpenFiles": [
     "Bug Bounty/Checklist.md",
-    "InfoSec/API Pentesting/API.md",
     "Bug Bounty/Hilton/Recon.md",
+    "InfoSec/API Pentesting/API.md",
     "Bug Bounty/Hilton",
     "InfoSec/WebApp Pentesting/Methodologies/My Methodology.md",
     "InfoSec/WebApp Pentesting/Account Takeover.md",

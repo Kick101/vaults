@@ -27,7 +27,9 @@ hiltonhawaiianvillage.jp
 >"Test-Hackerone" must be prepended to the First and Last name for all Honors accounts.
 
 ---
-Hilton Honors Account Number is 1833761529
+Honors Account Number is 1833761529
+1833802471, guestId: 1675194808
+
 - Leak Honors account numbers?
 
 ---

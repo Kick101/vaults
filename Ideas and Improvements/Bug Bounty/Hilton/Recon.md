@@ -24,7 +24,7 @@ hiltonhawaiianvillage.jp
 
 >All subdomains of hilton.com that resolve to IP addresses belonging to the Rackspace organization are considered out of scope. In addition, the application eis.hilton.com is out of scope.
 >
->Test-Hackerone” must be prepended to the First and Last name for all Honors accounts.
+>"Test-Hackerone" must be prepended to the First and Last name for all Honors accounts.
 
 
 ---

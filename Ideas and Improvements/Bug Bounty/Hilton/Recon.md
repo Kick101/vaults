@@ -32,7 +32,7 @@ A: 1833761529
 B: 1833802471, guestId: 1675194808
 
 __Auth Handling__
-- accessToken, username, guestId saved in wso2AuthToken Cookie
+- accessToken, username(honor Id), guestId saved in wso2AuthToken Cookie
 - wso2AuthToken got in login response as JSON
 
 __Test Cases__
@@ -43,15 +43,15 @@ __Test Cases__
 #### Tech 
 IIS, Windows, ASP.NET
 
-#### API
-- /graphql/customer?appName=dx-guests-ui&operationName=createGuest
 - 
 
 _Error_
 >GraphQL introspection is not allowed, but the query contained __schema or __type
 
 
-
+---
+#### API
+- /graphql/customer?appName=dx-guests-ui&operationName=createGuest
 
 
 

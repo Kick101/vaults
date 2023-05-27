@@ -27,10 +27,16 @@ hiltonhawaiianvillage.jp
 >"Test-Hackerone" must be prepended to the First and Last name for all Honors accounts.
 
 ---
-Honors Account Number is 1833761529
-1833802471, guestId: 1675194808
+### Honors
+A: 1833761529
+B: 1833802471, guestId: 1675194808
 
-- Leak Honors account numbers?
+__Auth Handling__
+- accessToken, username, guestId saved in wso2AuthToken Cookie
+- wso2AuthToken got in login response as JSON
+
+__Test Cases__
+- Leak Honors account numbers
 
 ---
 ### hiltonlocalbiz.com

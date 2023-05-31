@@ -43,7 +43,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -118,7 +119,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Bug Bounty/Hilton/Recon.md",
+                "file": "Bug Bounty/Checklist.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -135,7 +136,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Bug Bounty/Hilton/Recon.md",
+                "file": "Bug Bounty/Checklist.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -158,7 +159,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Bug Bounty/Hilton/Recon.md"
+                "file": "Bug Bounty/Checklist.md"
               }
             }
           }
@@ -179,11 +180,11 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "a85d79a662fb24b9",
+  "active": "96527623097aec08",
   "lastOpenFiles": [
+    "Bug Bounty/Hilton/Recon.md",
     "Bug Bounty/Checklist.md",
     "InfoSec/API Pentesting/API.md",
-    "Bug Bounty/Hilton/Recon.md",
     "Bug Bounty/Hilton",
     "InfoSec/WebApp Pentesting/Methodologies/My Methodology.md",
     "InfoSec/WebApp Pentesting/Account Takeover.md",

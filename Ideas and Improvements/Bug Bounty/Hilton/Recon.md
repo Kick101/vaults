@@ -27,6 +27,10 @@ hiltonhawaiianvillage.jp
 >"Test-Hackerone" must be prepended to the First and Last name for all Honors accounts.
 
 ---
+#### TECH
+- SSO: SailPoint
+
+---
 ### Honors
 A: 1833761529
 B: 1833802471, guestId: 1675194808

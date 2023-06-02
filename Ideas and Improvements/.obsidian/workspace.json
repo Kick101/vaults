@@ -14,7 +14,7 @@
               "type": "markdown",
               "state": {
                 "file": "Bug Bounty/Hilton/Recon.md",
-                "mode": "preview",
+                "mode": "source",
                 "source": false
               }
             }
@@ -55,8 +55,7 @@
               }
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "vertical"
@@ -131,7 +130,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "InfoSec/API Pentesting/APISec University/Penetration Testing.md",
+                "file": "Bug Bounty/Hilton/Recon.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -148,7 +147,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "InfoSec/API Pentesting/APISec University/Penetration Testing.md",
+                "file": "Bug Bounty/Hilton/Recon.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -171,7 +170,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "InfoSec/API Pentesting/APISec University/Penetration Testing.md"
+                "file": "Bug Bounty/Hilton/Recon.md"
               }
             }
           }
@@ -192,8 +191,9 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "e4818d07061d8891",
+  "active": "a85d79a662fb24b9",
   "lastOpenFiles": [
+    "InfoSec/API Pentesting/APISec University/Penetration Testing.md",
     "InfoSec/API Pentesting/API.md",
     "Bug Bounty/Hilton/Recon.md",
     "Bug Bounty/Checklist.md",
@@ -227,7 +227,6 @@
     "Bug Bounty/ring",
     "Bug Bounty/newegg/Recon.md",
     "InfoSec/WebApp Pentesting/Methodologies/JHaddix Recon.md",
-    "InfoSec/API Pentesting/APISec University/Penetration Testing.md",
     "z/Pasted image 20230512111709.png",
     "Bug Bounty/newegg",
     "z/Pasted image 20230511154818.png",

@@ -64,3 +64,31 @@ _Error_
 - apipm.pep-s.hilton.io
 - apipm.pep.hilton.io
 
+#### 404
+```txt
+apic.hilton.io
+apic-prv.hilton.io
+apic-s.hilton.io
+apic-t.hilton.io
+api.hilton.io
+apip.hilton.io
+apip-prv.hilton.io
+api-prv.hilton.io
+apip-s.hilton.io
+apip-t.hilton.io
+api-s.hilton.io
+api-t.hilton.io
+kapic.hilton.io
+kapic-s.hilton.io
+kapic-t.hilton.io
+kapi.hilton.io
+kapip.hilton.io
+kapip-s.hilton.io
+kapip-t.hilton.io
+kapi-s.hilton.io
+kapi-t.hilton.io
+m.hilton.io
+m.stg.hilton.io
+m.test.hilton.io
+```
+

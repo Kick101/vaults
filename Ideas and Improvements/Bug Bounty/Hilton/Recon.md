@@ -26,12 +26,9 @@ hiltonhawaiianvillage.jp
 >
 >"Test-Hackerone" must be prepended to the First and Last name for all Honors accounts.
 
----
-#### TECH
-- SSO: SailPoint
 
 ---
-### Honors
+### Honors Functionality
 A: 1833761529
 B: 1833802471, guestId: 1675194808
 
@@ -96,3 +93,30 @@ m.stg.hilton.io
 m.test.hilton.io
 ```
 
+---
+### hiltonbusinessonline.com
+```txt
+https://lxr-cms.hiltonbusinessonline.com
+https://lxr.hiltonbusinessonline.com
+https://lxrhotels.hiltonbusinessonline.com
+https://rs.hiltonbusinessonline.com
+https://temporary-cleanup-server.hiltonbusinessonline.com
+https://web-12.hiltonbusinessonline.com
+```
+
+---
+### hilton.com.tr
+
+```txt
+https://cms.preprod.hilton.com.tr
+https://www.hilton.com.tr
+https://www.preprod.hilton.com.tr
+```
+
+---
+### hiltonmanage.com
+```txt
+https://dashboard.hiltonmanage.com
+https://corp.hiltonmanage.com
+https://hiltonhotels.hiltonmanage.com
+```

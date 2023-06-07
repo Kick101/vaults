@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Bug Bounty/Hilton/Recon.md",
+                "file": "InfoSec/WebApp Pentesting/SSRF/SSRF.md",
                 "mode": "preview",
                 "source": false
               }
@@ -130,7 +130,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Bug Bounty/Hilton/Recon.md",
+                "file": "InfoSec/WebApp Pentesting/SSRF/SSRF.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -147,7 +147,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Bug Bounty/Hilton/Recon.md",
+                "file": "InfoSec/WebApp Pentesting/SSRF/SSRF.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -170,7 +170,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Bug Bounty/Hilton/Recon.md"
+                "file": "InfoSec/WebApp Pentesting/SSRF/SSRF.md"
               }
             }
           }
@@ -193,9 +193,9 @@
   },
   "active": "a85d79a662fb24b9",
   "lastOpenFiles": [
+    "Bug Bounty/Hilton/Recon.md",
     "InfoSec/API Pentesting/APISec University/Penetration Testing.md",
     "InfoSec/API Pentesting/API.md",
-    "Bug Bounty/Hilton/Recon.md",
     "Bug Bounty/Checklist.md",
     "Bug Bounty/Hilton",
     "InfoSec/WebApp Pentesting/Methodologies/My Methodology.md",

@@ -55,7 +55,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -130,7 +131,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "InfoSec/WebApp Pentesting/SSRF/SSRF.md",
+                "file": "Bug Bounty/Checklist.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -147,7 +148,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "InfoSec/WebApp Pentesting/SSRF/SSRF.md",
+                "file": "Bug Bounty/Checklist.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -170,7 +171,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "InfoSec/WebApp Pentesting/SSRF/SSRF.md"
+                "file": "Bug Bounty/Checklist.md"
               }
             }
           }
@@ -191,8 +192,9 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "a85d79a662fb24b9",
+  "active": "96527623097aec08",
   "lastOpenFiles": [
+    "InfoSec/WebApp Pentesting/SSRF/SSRF.md",
     "Bug Bounty/Hilton/Recon.md",
     "InfoSec/API Pentesting/APISec University/Penetration Testing.md",
     "InfoSec/API Pentesting/API.md",
@@ -226,7 +228,6 @@
     "z",
     "Bug Bounty/ring",
     "Bug Bounty/newegg/Recon.md",
-    "InfoSec/WebApp Pentesting/Methodologies/JHaddix Recon.md",
     "z/Pasted image 20230512111709.png",
     "Bug Bounty/newegg",
     "z/Pasted image 20230511154818.png",

@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "InfoSec/WebApp Pentesting/Methodologies/My Methodology.md",
+                "file": "InfoSec/Black Hat/Carding.md",
                 "mode": "preview",
                 "source": false
               }
@@ -85,8 +85,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -107,7 +106,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "InfoSec/WebApp Pentesting/Methodologies/My Methodology.md",
+                "file": "InfoSec/Black Hat/Carding.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -124,7 +123,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "InfoSec/WebApp Pentesting/Methodologies/My Methodology.md",
+                "file": "InfoSec/Black Hat/Carding.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -147,7 +146,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "InfoSec/WebApp Pentesting/Methodologies/My Methodology.md"
+                "file": "InfoSec/Black Hat/Carding.md"
               }
             }
           }
@@ -170,6 +169,8 @@
   },
   "active": "96527623097aec08",
   "lastOpenFiles": [
+    "InfoSec/WebApp Pentesting/Methodologies/My Methodology.md",
+    "InfoSec/Black Hat/Carding.md",
     "Bug Bounty/Hilton/Recon.md",
     "InfoSec/WebApp Pentesting/SQLi/Payloads.md",
     "InfoSec/API Pentesting/API.md",
@@ -177,7 +178,6 @@
     "Bug Bounty/Checklist.md",
     "InfoSec/WebApp Pentesting/SSRF/SSRF.md",
     "Bug Bounty/Hilton",
-    "InfoSec/WebApp Pentesting/Methodologies/My Methodology.md",
     "InfoSec/WebApp Pentesting/Account Takeover.md",
     "InfoSec/WebApp Pentesting/HTTP Smuggling.md",
     "InfoSec/WebApp Pentesting/XSS.md",
@@ -203,7 +203,6 @@
     "z/Pasted image 20220620152035.png",
     "z",
     "Bug Bounty/ring",
-    "Bug Bounty/newegg/Recon.md",
     "z/Pasted image 20230512111709.png",
     "Bug Bounty/newegg",
     "z/Pasted image 20230511154818.png",

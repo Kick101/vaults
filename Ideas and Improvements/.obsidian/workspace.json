@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Bug Bounty/Hilton/Recon.md",
+                "file": "InfoSec/WebApp Pentesting/Methodologies/My Methodology.md",
                 "mode": "preview",
                 "source": false
               }
@@ -31,8 +31,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -61,7 +60,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "sqli",
+                "query": "sso",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -108,7 +107,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "InfoSec/WebApp Pentesting/SQLi/Payloads.md",
+                "file": "InfoSec/WebApp Pentesting/Methodologies/My Methodology.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -125,7 +124,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "InfoSec/WebApp Pentesting/SQLi/Payloads.md",
+                "file": "InfoSec/WebApp Pentesting/Methodologies/My Methodology.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -148,7 +147,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "InfoSec/WebApp Pentesting/SQLi/Payloads.md"
+                "file": "InfoSec/WebApp Pentesting/Methodologies/My Methodology.md"
               }
             }
           }
@@ -169,10 +168,11 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "92465db53f5ad4a4",
+  "active": "96527623097aec08",
   "lastOpenFiles": [
-    "InfoSec/API Pentesting/API.md",
     "Bug Bounty/Hilton/Recon.md",
+    "InfoSec/WebApp Pentesting/SQLi/Payloads.md",
+    "InfoSec/API Pentesting/API.md",
     "InfoSec/API Pentesting/APISec University/Penetration Testing.md",
     "Bug Bounty/Checklist.md",
     "InfoSec/WebApp Pentesting/SSRF/SSRF.md",
@@ -185,7 +185,6 @@
     "InfoSec/WebApp Pentesting/Directory Traversal.md",
     "InfoSec/WebApp Pentesting/HTTP Headers.md",
     "InfoSec/WebApp Pentesting/Methodologies/Orwa Atyat Methodology.md",
-    "InfoSec/WebApp Pentesting/SQLi/Payloads.md",
     "Bug Bounty/Fertitta Entertainment/Recon.md",
     "InfoSec/WebApp Pentesting/Find Origin IP.md",
     "Bug Bounty/Fertitta Entertainment",

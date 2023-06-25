@@ -4,31 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "990e12430774163e",
+        "id": "c15c22497028787c",
         "type": "tabs",
         "children": [
           {
-            "id": "96527623097aec08",
+            "id": "c3036aad5bb8d6fe",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "InfoSec/Black Hat/Carding.md",
-                "mode": "preview",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "92465db53f5ad4a4",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "InfoSec/WebApp Pentesting/SQLi/Payloads.md",
-                "mode": "preview",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -106,7 +90,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "InfoSec/Black Hat/Carding.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -123,7 +106,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "InfoSec/Black Hat/Carding.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -145,9 +127,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "InfoSec/Black Hat/Carding.md"
-              }
+              "state": {}
             }
           }
         ]
@@ -167,12 +147,12 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "96527623097aec08",
+  "active": "c3036aad5bb8d6fe",
   "lastOpenFiles": [
-    "InfoSec/WebApp Pentesting/Methodologies/My Methodology.md",
-    "InfoSec/Black Hat/Carding.md",
-    "Bug Bounty/Hilton/Recon.md",
     "InfoSec/WebApp Pentesting/SQLi/Payloads.md",
+    "InfoSec/Black Hat/Carding.md",
+    "InfoSec/WebApp Pentesting/Methodologies/My Methodology.md",
+    "Bug Bounty/Hilton/Recon.md",
     "InfoSec/API Pentesting/API.md",
     "InfoSec/API Pentesting/APISec University/Penetration Testing.md",
     "Bug Bounty/Checklist.md",

@@ -11,8 +11,12 @@
             "id": "c3036aad5bb8d6fe",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Bug Bounty/Bigcommerce/Recon.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -90,6 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Bug Bounty/Bigcommerce/Recon.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -106,6 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Bug Bounty/Bigcommerce/Recon.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -127,7 +133,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Bug Bounty/Bigcommerce/Recon.md"
+              }
             }
           }
         ]
@@ -149,6 +157,8 @@
   },
   "active": "c3036aad5bb8d6fe",
   "lastOpenFiles": [
+    "Bug Bounty/Bigcommerce/Recon.md",
+    "Bug Bounty/Bigcommerce",
     "InfoSec/WebApp Pentesting/SQLi/Payloads.md",
     "InfoSec/Black Hat/Carding.md",
     "InfoSec/WebApp Pentesting/Methodologies/My Methodology.md",
@@ -177,7 +187,6 @@
     "Bug Bounty/acronis",
     "Bug Bounty/ring/Recon.md",
     "Templates/Simple.md",
-    "Red Teaming/Engagement.md",
     "z/Pasted image 20221225105504.png",
     "z/Pasted image 20221225105434.png",
     "z/Pasted image 20220620152035.png",
@@ -193,7 +202,6 @@
     "z/Pasted image 20230505004502.png",
     "CTF/BugTrails",
     "CTF",
-    "InfoSec/API Pentesting/APISec University/Untitled",
-    "InfoSec/API Pentesting/API Recon Mindmap.pdf"
+    "InfoSec/API Pentesting/APISec University/Untitled"
   ]
 }

@@ -21,3 +21,7 @@ https://206.71.93.68/ [IIS]
 ### Interesting
 https://64.183.182.118/appliance/login
 https://64.183.182.118/login [forbidden]
+https://64.183.182.118/console
+https://64.183.182.118/index [session key]
+https://64.183.182.118/rep -> login
+https://64.183.182.118/stats [403]

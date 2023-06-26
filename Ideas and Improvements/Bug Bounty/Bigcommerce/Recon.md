@@ -21,6 +21,11 @@ https://206.71.93.68/ [IIS]
 ### Interesting
 https://64.183.182.118/appliance/login [no cve]
 https://64.183.182.118/login [forbidden] [User Administration]
+- `Sec-CH-UA: "Opera";v="81", " Not;A Brand";v="99", "Chromium";v="95"`
+- `_method` - GET & POST
+- `max-forwards`
+- 
+
 https://64.183.182.118/console
 https://64.183.182.118/index [session key]
 https://64.183.182.118/rep -> login

@@ -51,3 +51,8 @@ __From main.js__
 		- /user-push-agents
 		- /discovery-jobs
 		- /discovery-progress/:Job-ID
+	- /vault_account
+		- /available_users
+		- /can-checkout-shared-accounts
+		- /all-ids
+		- 

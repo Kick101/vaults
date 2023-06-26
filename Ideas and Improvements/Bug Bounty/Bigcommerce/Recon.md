@@ -26,8 +26,12 @@ https://64.183.182.118/login [forbidden] [User Administration]
 - `max-forwards`
 - 
 
-https://64.183.182.118/console
-https://64.183.182.118/index [session key]
-https://64.183.182.118/rep -> login
-https://64.183.182.118/stats [403]
-
+#### 64.183.182.118
+/console
+/index [session key]
+/rep -> login
+/stats [403]
+__From main.js__
+/login/my_account
+- /profile [forbidden]
+- /security []

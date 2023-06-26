@@ -33,11 +33,20 @@ https://64.183.182.118/login [forbidden] [User Administration]
 /stats [403]
 
 __From main.js__
-/login/my_account [forbidden]
-- /profile
-	-  /change-email
-	- /change-display-names
-- /security
-	- /generate-mfa-secret
-	- /store-mfa-secret
-	- 
+/login
+- /my_account [forbidden]
+	- /profile
+		-  /change-email
+		- /change-display-names
+		- /set-extended-availability
+		- /rep-avatar
+	- /security
+		- /generate-mfa-secret
+		- /store-mfa-secret
+		- /remove-mfa-secret
+		- /change-password
+	- /discover
+		- /discover-via-pinned-clients
+		- /accounts
+		- /user-push-agents
+		- 

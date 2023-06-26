@@ -31,7 +31,13 @@ https://64.183.182.118/login [forbidden] [User Administration]
 /index [session key]
 /rep -> login
 /stats [403]
+
 __From main.js__
-/login/my_account
-- /profile [forbidden]
-- /security []
+/login/my_account [forbidden]
+- /profile
+	-  /change-email
+	- /change-display-names
+- /security
+	- /generate-mfa-secret
+	- /store-mfa-secret
+	- 

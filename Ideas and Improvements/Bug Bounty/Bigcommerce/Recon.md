@@ -49,4 +49,5 @@ __From main.js__
 		- /discover-via-pinned-clients
 		- /accounts
 		- /user-push-agents
-		- 
+		- /discovery-jobs
+		- /discovery-progress/:Job-ID

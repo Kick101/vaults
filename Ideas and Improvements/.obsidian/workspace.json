@@ -14,12 +14,25 @@
               "type": "markdown",
               "state": {
                 "file": "Bug Bounty/Bigcommerce/Recon.md",
-                "mode": "source",
+                "mode": "preview",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "1189c8fae57fc301",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "InfoSec/WebApp Pentesting/Methodologies/JHaddix Recon.md",
+                "mode": "preview",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -77,8 +90,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 288.5026054382324,
-    "collapsed": true
+    "width": 288.5026054382324
   },
   "right": {
     "id": "fe286dd04d32f6ac",
@@ -94,7 +106,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Bug Bounty/Bigcommerce/Recon.md",
+                "file": "InfoSec/WebApp Pentesting/Methodologies/JHaddix Recon.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +123,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Bug Bounty/Bigcommerce/Recon.md",
+                "file": "InfoSec/WebApp Pentesting/Methodologies/JHaddix Recon.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +146,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Bug Bounty/Bigcommerce/Recon.md"
+                "file": "InfoSec/WebApp Pentesting/Methodologies/JHaddix Recon.md"
               }
             }
           }
@@ -155,9 +167,11 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "c3036aad5bb8d6fe",
+  "active": "1189c8fae57fc301",
   "lastOpenFiles": [
+    "InfoSec/WebApp Pentesting/Methodologies/JHaddix App Analysis.md",
     "Bug Bounty/Bigcommerce/Recon.md",
+    "InfoSec/WebApp Pentesting/Methodologies/Bug Bounty Playbooks.md",
     "Bug Bounty/Bigcommerce",
     "InfoSec/WebApp Pentesting/SQLi/Payloads.md",
     "InfoSec/Black Hat/Carding.md",
@@ -185,8 +199,6 @@
     "InfoSec/WebApp Pentesting/Wordlists.md",
     "InfoSec/WebApp Pentesting/Methodologies/Recon tips.md",
     "Bug Bounty/acronis",
-    "Bug Bounty/ring/Recon.md",
-    "Templates/Simple.md",
     "z/Pasted image 20221225105504.png",
     "z/Pasted image 20221225105434.png",
     "z/Pasted image 20220620152035.png",

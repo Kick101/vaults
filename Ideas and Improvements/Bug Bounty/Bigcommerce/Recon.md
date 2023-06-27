@@ -55,4 +55,19 @@ __From main.js__
 		- /available_users
 		- /can-checkout-shared-accounts
 		- /all-ids
-		- 
+
+---
+### Six Big Questions
+- How does the app pass data?
+    - Is it REST? Is it Parameter?
+- How/Where does the app talk about users?
+    - Referenced in cookies? Headers? Parameters? uid? uuid? email? username?
+    - How users are referenced by the app and by the API?
+- Does the site have multi-tenancy or user levels?
+    - Admin/User, Admin/User/Guest levels
+- Does the site have a unique threat model?
+    - API Keys, specific to the app & it's users
+- Has there been past security research & vulns?
+    - Try to bypass the patch, know what issues they're facing
+- How does the app handle against vulnerabilities?
+    - XSS, CSRF, Code Injections

@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "InfoSec/WebApp Pentesting/CMS.md",
+                "file": "InfoSec/WebApp Pentesting/SSRF/SSRF.md",
                 "mode": "preview",
                 "source": false
               }
@@ -61,7 +61,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "xmlrpc",
+                "query": "dns rebin",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -91,7 +91,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 288.5026054382324
+    "width": 288.5026054382324,
+    "collapsed": true
   },
   "right": {
     "id": "fe286dd04d32f6ac",
@@ -107,7 +108,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "InfoSec/WebApp Pentesting/CMS.md",
+                "file": "InfoSec/WebApp Pentesting/SSRF/SSRF.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -124,7 +125,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "InfoSec/WebApp Pentesting/CMS.md",
+                "file": "InfoSec/WebApp Pentesting/SSRF/SSRF.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -147,7 +148,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "InfoSec/WebApp Pentesting/CMS.md"
+                "file": "InfoSec/WebApp Pentesting/SSRF/SSRF.md"
               }
             }
           }
@@ -170,6 +171,9 @@
   },
   "active": "4511ce3047c1bc40",
   "lastOpenFiles": [
+    "Certs/Security+/Attacks, Threats, and Vulnerabilities.md",
+    "CTF/BugTrails/April, 2023.md",
+    "InfoSec/WebApp Pentesting/CMS.md",
     "InfoSec/WebApp Pentesting/SSRF/SSRF.md",
     "InfoSec/WebApp Pentesting/Methodologies/My Methodology.md",
     "InfoSec/WebApp Pentesting/Methodologies/Orwa Atyat Methodology.md",
@@ -196,9 +200,6 @@
     "InfoSec/WebApp Pentesting/Find Origin IP.md",
     "Bug Bounty/Fertitta Entertainment",
     "InfoSec/Cloud Pentesting/AWS S3 Misconfigurations.md",
-    "InfoSec/WebApp Pentesting/OS command Injection.md",
-    "InfoSec/WebApp Pentesting/SQLi/SQLi.md",
-    "Bug Bounty/acronis/Recon.md",
     "Bug Bounty/acronis",
     "z/Pasted image 20221225105504.png",
     "z/Pasted image 20221225105434.png",

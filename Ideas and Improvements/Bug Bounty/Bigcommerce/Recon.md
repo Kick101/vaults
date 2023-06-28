@@ -55,6 +55,11 @@ __From main.js__
 		- /available_users
 		- /can-checkout-shared-accounts
 		- /all-ids
+- downloads
+		- /console
+		- /drivers
+- search-index.json
+- 
 
 ---
 ### Six Big Questions

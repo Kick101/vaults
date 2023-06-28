@@ -62,6 +62,11 @@ __From main.js__
 - /api_account
 	- 
 - /access_sponsor
+- /business_hours
+	- /holidays
+- /callback_button
+	- 
+	- /deploy
 
 ---
 ### Six Big Questions

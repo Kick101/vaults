@@ -18,21 +18,8 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "4511ce3047c1bc40",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "InfoSec/WebApp Pentesting/SSRF/SSRF.md",
-                "mode": "preview",
-                "source": false
-              }
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -108,7 +95,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "InfoSec/WebApp Pentesting/SSRF/SSRF.md",
+                "file": "Bug Bounty/Bigcommerce/Recon.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -125,7 +112,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "InfoSec/WebApp Pentesting/SSRF/SSRF.md",
+                "file": "Bug Bounty/Bigcommerce/Recon.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -148,7 +135,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "InfoSec/WebApp Pentesting/SSRF/SSRF.md"
+                "file": "Bug Bounty/Bigcommerce/Recon.md"
               }
             }
           }
@@ -169,12 +156,12 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "4511ce3047c1bc40",
+  "active": "c3036aad5bb8d6fe",
   "lastOpenFiles": [
+    "InfoSec/WebApp Pentesting/SSRF/SSRF.md",
     "Certs/Security+/Attacks, Threats, and Vulnerabilities.md",
     "CTF/BugTrails/April, 2023.md",
     "InfoSec/WebApp Pentesting/CMS.md",
-    "InfoSec/WebApp Pentesting/SSRF/SSRF.md",
     "InfoSec/WebApp Pentesting/Methodologies/My Methodology.md",
     "InfoSec/WebApp Pentesting/Methodologies/Orwa Atyat Methodology.md",
     "InfoSec/WebApp Pentesting/Methodologies/Recon tips.md",

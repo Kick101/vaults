@@ -1,5 +1,6 @@
 ### Auth Pages
 https://support.bigcommerce.com/BCSLogin
+https://support.bigcommerce.com/CommunitiesSelfRegOrig
 https://support.bigcommerce.com/login
 https://login.bigcommerce.com/login
 https://oauth.bigcommerce.com/

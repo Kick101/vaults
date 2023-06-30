@@ -77,12 +77,12 @@ __From main.js__
 	- /deploy
 
 ---
-### Six Big Questions on store
+### Six Big Questions on store-awldlqvdl7
 - How does the app pass data?
     - [x] REST
     - [x] Parameter
 - Where does the app talk about users?
-    - [x] Cookies
+    - [x] Cookies `STORESUITE_CP_TOKEN, bc_auth_session`
     - [ ] Headers
     - [ ] Parameters
     - [ ] uid/uuid

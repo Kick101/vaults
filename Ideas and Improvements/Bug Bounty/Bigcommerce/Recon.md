@@ -79,10 +79,21 @@ __From main.js__
 ---
 ### Six Big Questions
 - How does the app pass data?
-    - [ ] REST
-    - [ ] Parameter
+    - [x] REST
+    - [x] Parameter
 
-<button>Clear</button>
+
+<button onclick="uncheckAllCheckboxes()">Uncheck All Checkboxes</button>
+
+<script>
+function uncheckAllCheckboxes() {
+    const checkboxes = document.querySelectorAll('input[type="checkbox"]');
+    checkboxes.forEach((checkbox) => {
+        checkbox.checked = false;
+    });
+}
+</script>
+
 - How/Where does the app talk about users?
     - Referenced in cookies? Headers? Parameters? uid? uuid? email? username?
     - How users are referenced by the app and by the API?

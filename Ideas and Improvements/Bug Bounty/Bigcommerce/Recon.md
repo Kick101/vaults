@@ -82,8 +82,13 @@ __From main.js__
     - [x] REST
     - [x] Parameter
 - How/Where does the app talk about users?
-    - Referenced in cookies? Headers? Parameters? uid? uuid? email? username?
-    - How users are referenced by the app and by the API?
+    - [x] Cookies
+    - [ ] Headers
+    - [ ] Parameters
+    - [ ] uid/uuid
+    - [ ] email/username
+- How users are referenced by the app and by the API?
+	- 
 - Does the site have multi-tenancy or user levels?
     - Admin/User, Admin/User/Guest levels
 - Does the site have a unique threat model?

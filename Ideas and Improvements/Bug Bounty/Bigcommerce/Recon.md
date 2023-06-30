@@ -79,7 +79,7 @@ __From main.js__
 ---
 ### Six Big Questions
 - How does the app pass data?
-    - Is it REST? Is it Parameter?
+    - [ ] REST? Is it Parameter?
 - How/Where does the app talk about users?
     - Referenced in cookies? Headers? Parameters? uid? uuid? email? username?
     - How users are referenced by the app and by the API?

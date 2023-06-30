@@ -1,3 +1,10 @@
+### Creds
+```
+anacletobarzetti+a@gmail.com
+Test123!
+```
+
+
 ### Auth Pages
 https://support.bigcommerce.com/BCSLogin
 https://support.bigcommerce.com/CommunitiesSelfRegOrig

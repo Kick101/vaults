@@ -1,4 +1,4 @@
-### Creds
+`### Creds
 ```
 anacletobarzetti+a@gmail.com
 Test123!
@@ -77,23 +77,10 @@ __From main.js__
 	- /deploy
 
 ---
-### Six Big Questions
+### Six Big Questions on store
 - How does the app pass data?
     - [x] REST
     - [x] Parameter
-
-
-<button onclick="uncheckAllCheckboxes()">Uncheck All Checkboxes</button>
-
-<script>
-function uncheckAllCheckboxes() {
-    const checkboxes = document.querySelectorAll('input[type="checkbox"]');
-    checkboxes.forEach((checkbox) => {
-        checkbox.checked = false;
-    });
-}
-</script>
-
 - How/Where does the app talk about users?
     - Referenced in cookies? Headers? Parameters? uid? uuid? email? username?
     - How users are referenced by the app and by the API?
@@ -107,4 +94,4 @@ function uncheckAllCheckboxes() {
     - XSS, CSRF, Code Injections
 - API Endpoints:
 	- /internalapi/v1/ - 
-	- /api/ - 
+	- /api/ - `

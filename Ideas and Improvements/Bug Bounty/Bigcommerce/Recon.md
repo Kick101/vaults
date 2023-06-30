@@ -79,7 +79,10 @@ __From main.js__
 ---
 ### Six Big Questions
 - How does the app pass data?
-    - [ ] REST? Is it Parameter?
+    - [ ] REST
+    - [ ] Parameter
+
+<button>Clear</button>
 - How/Where does the app talk about users?
     - Referenced in cookies? Headers? Parameters? uid? uuid? email? username?
     - How users are referenced by the app and by the API?
@@ -91,3 +94,6 @@ __From main.js__
     - Try to bypass the patch, know what issues they're facing
 - How does the app handle against vulnerabilities?
     - XSS, CSRF, Code Injections
+- API Endpoints:
+	- /internalapi/v1/ - 
+	- /api/ - 

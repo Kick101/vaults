@@ -81,7 +81,7 @@ __From main.js__
 - How does the app pass data?
     - [x] REST
     - [x] Parameter
-- How/Where does the app talk about users?
+- Where does the app talk about users?
     - [x] Cookies
     - [ ] Headers
     - [ ] Parameters
@@ -89,7 +89,7 @@ __From main.js__
     - [ ] email/username
 - How users are referenced by the app and by the API?
 	- 
-- Does the site have multi-tenancy or user levels?
+- Does the site have multi-tenancy or user levels
     - Admin/User, Admin/User/Guest levels
 - Does the site have a unique threat model?
     - API Keys, specific to the app & it's users

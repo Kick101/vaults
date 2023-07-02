@@ -73,13 +73,11 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 288.5026054382324,
-    "collapsed": true
+    "width": 288.5026054382324
   },
   "right": {
     "id": "fe286dd04d32f6ac",
@@ -156,7 +154,7 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "c3036aad5bb8d6fe",
+  "active": "e985295c9ac7b16f",
   "lastOpenFiles": [
     "InfoSec/WebApp Pentesting/Methodologies/Orwa Atyat Methodology.md",
     "InfoSec/WebApp Pentesting/CMS.md",

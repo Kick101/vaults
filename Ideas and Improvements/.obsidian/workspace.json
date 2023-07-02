@@ -156,6 +156,8 @@
   },
   "active": "e985295c9ac7b16f",
   "lastOpenFiles": [
+    "InfoSec/zisZpzU2",
+    "InfoSec/WebApp-Pentesting.zip",
     "InfoSec/WebApp Pentesting/Methodologies/Orwa Atyat Methodology.md",
     "InfoSec/WebApp Pentesting/CMS.md",
     "Bug Bounty/Bigcommerce/Recon.md",
@@ -184,7 +186,6 @@
     "Bug Bounty/Fertitta Entertainment/Recon.md",
     "InfoSec/WebApp Pentesting/Find Origin IP.md",
     "Bug Bounty/Fertitta Entertainment",
-    "InfoSec/Cloud Pentesting/AWS S3 Misconfigurations.md",
     "Bug Bounty/acronis",
     "z/Pasted image 20221225105504.png",
     "z/Pasted image 20221225105434.png",
@@ -200,7 +201,6 @@
     "z/Pasted image 20230505004640.png",
     "z/Pasted image 20230505004502.png",
     "CTF/BugTrails",
-    "CTF",
-    "InfoSec/API Pentesting/APISec University/Untitled"
+    "CTF"
   ]
 }

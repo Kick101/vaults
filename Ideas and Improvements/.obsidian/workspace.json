@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "InfoSec/WebApp Pentesting/Methodologies/Orwa Atyat Methodology.md",
+                "file": "InfoSec/WebApp Pentesting/XXE.md",
                 "mode": "preview",
                 "source": false
               }
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "InfoSec/WebApp Pentesting/Methodologies/Orwa Atyat Methodology.md",
+                "file": "InfoSec/WebApp Pentesting/XXE.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "InfoSec/WebApp Pentesting/Methodologies/Orwa Atyat Methodology.md",
+                "file": "InfoSec/WebApp Pentesting/XXE.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "InfoSec/WebApp Pentesting/Methodologies/Orwa Atyat Methodology.md"
+                "file": "InfoSec/WebApp Pentesting/XXE.md"
               }
             }
           }
@@ -157,12 +157,12 @@
   },
   "active": "c3036aad5bb8d6fe",
   "lastOpenFiles": [
+    "InfoSec/WebApp Pentesting/Methodologies/Orwa Atyat Methodology.md",
     "CySec/Interest Session.md",
     "InfoSec/Hacking Methodology.md",
     "Certs/CEH/02 Foot Printing and Reconnaissance.md",
     "InfoSec/WebApp Pentesting/THM  Learnings.md",
     "InfoSec/API Pentesting/APISec University/Penetration Testing.md",
-    "InfoSec/WebApp Pentesting/Methodologies/Orwa Atyat Methodology.md",
     "InfoSec/WebApp Pentesting/CMS.md",
     "InfoSec/zisZpzU2",
     "InfoSec/WebApp-Pentesting.zip",

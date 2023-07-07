@@ -48,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "sqlmap",
+                "query": "wayback",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -73,12 +73,12 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 288.5026054382324
+    "width": 288.5026054382324,
+    "collapsed": true
   },
   "right": {
     "id": "fe286dd04d32f6ac",
@@ -157,10 +157,15 @@
   },
   "active": "c3036aad5bb8d6fe",
   "lastOpenFiles": [
+    "CySec/Interest Session.md",
+    "InfoSec/Hacking Methodology.md",
+    "Certs/CEH/02 Foot Printing and Reconnaissance.md",
+    "InfoSec/WebApp Pentesting/THM  Learnings.md",
+    "InfoSec/API Pentesting/APISec University/Penetration Testing.md",
+    "InfoSec/WebApp Pentesting/Methodologies/Orwa Atyat Methodology.md",
     "InfoSec/WebApp Pentesting/CMS.md",
     "InfoSec/zisZpzU2",
     "InfoSec/WebApp-Pentesting.zip",
-    "InfoSec/WebApp Pentesting/Methodologies/Orwa Atyat Methodology.md",
     "Bug Bounty/Bigcommerce/Recon.md",
     "InfoSec/WebApp Pentesting/SSRF/SSRF.md",
     "Certs/Security+/Attacks, Threats, and Vulnerabilities.md",
@@ -175,7 +180,6 @@
     "InfoSec/Black Hat/Carding.md",
     "Bug Bounty/Hilton/Recon.md",
     "InfoSec/API Pentesting/API.md",
-    "InfoSec/API Pentesting/APISec University/Penetration Testing.md",
     "Bug Bounty/Checklist.md",
     "Bug Bounty/Hilton",
     "InfoSec/WebApp Pentesting/Account Takeover.md",
@@ -183,9 +187,6 @@
     "InfoSec/WebApp Pentesting/XSS.md",
     "InfoSec/WebApp Pentesting/File uploads.md",
     "InfoSec/WebApp Pentesting/Directory Traversal.md",
-    "InfoSec/WebApp Pentesting/HTTP Headers.md",
-    "Bug Bounty/Fertitta Entertainment/Recon.md",
-    "InfoSec/WebApp Pentesting/Find Origin IP.md",
     "Bug Bounty/Fertitta Entertainment",
     "Bug Bounty/acronis",
     "z/Pasted image 20221225105504.png",

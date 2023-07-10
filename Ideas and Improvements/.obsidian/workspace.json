@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "c15c22497028787c",
+        "id": "b29269c361876428",
         "type": "tabs",
         "children": [
           {
-            "id": "c3036aad5bb8d6fe",
+            "id": "140b7cf85077674c",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "InfoSec/WebApp Pentesting/XXE.md",
+                "file": "InfoSec/WebApp Pentesting/Methodologies/Orwa Atyat Methodology.md",
                 "mode": "preview",
                 "source": false
               }
@@ -48,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "wayback",
+                "query": "sqlm",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -73,7 +73,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -94,7 +95,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "InfoSec/WebApp Pentesting/XXE.md",
+                "file": "InfoSec/WebApp Pentesting/Methodologies/Orwa Atyat Methodology.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +112,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "InfoSec/WebApp Pentesting/XXE.md",
+                "file": "InfoSec/WebApp Pentesting/Methodologies/Orwa Atyat Methodology.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +135,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "InfoSec/WebApp Pentesting/XXE.md"
+                "file": "InfoSec/WebApp Pentesting/Methodologies/Orwa Atyat Methodology.md"
               }
             }
           }
@@ -155,9 +156,11 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "c3036aad5bb8d6fe",
+  "active": "140b7cf85077674c",
   "lastOpenFiles": [
+    "InfoSec/WebApp Pentesting/SQLi/Payloads.md",
     "InfoSec/WebApp Pentesting/Methodologies/Orwa Atyat Methodology.md",
+    "InfoSec/WebApp Pentesting/XXE.md",
     "CySec/Interest Session.md",
     "InfoSec/Hacking Methodology.md",
     "Certs/CEH/02 Foot Printing and Reconnaissance.md",
@@ -176,7 +179,6 @@
     "InfoSec/WebApp Pentesting/Methodologies/JHaddix Recon.md",
     "InfoSec/WebApp Pentesting/Methodologies/Bug Bounty Playbooks.md",
     "Bug Bounty/Bigcommerce",
-    "InfoSec/WebApp Pentesting/SQLi/Payloads.md",
     "InfoSec/Black Hat/Carding.md",
     "Bug Bounty/Hilton/Recon.md",
     "InfoSec/API Pentesting/API.md",
@@ -186,7 +188,6 @@
     "InfoSec/WebApp Pentesting/HTTP Smuggling.md",
     "InfoSec/WebApp Pentesting/XSS.md",
     "InfoSec/WebApp Pentesting/File uploads.md",
-    "InfoSec/WebApp Pentesting/Directory Traversal.md",
     "Bug Bounty/Fertitta Entertainment",
     "Bug Bounty/acronis",
     "z/Pasted image 20221225105504.png",

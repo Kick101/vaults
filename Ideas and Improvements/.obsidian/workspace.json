@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "b29269c361876428",
+        "id": "6c5fee110aef9c96",
         "type": "tabs",
         "children": [
           {
-            "id": "140b7cf85077674c",
+            "id": "f38546875f80502f",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "InfoSec/WebApp Pentesting/Methodologies/Orwa Atyat Methodology.md",
+                "file": "Bug Bounty/OLX/Recon.md",
                 "mode": "source",
                 "source": false
               }
@@ -73,12 +73,12 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 288.5026054382324
+    "width": 288.5026054382324,
+    "collapsed": true
   },
   "right": {
     "id": "fe286dd04d32f6ac",
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "InfoSec/WebApp Pentesting/Methodologies/Orwa Atyat Methodology.md",
+                "file": "Bug Bounty/OLX/Recon.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "InfoSec/WebApp Pentesting/Methodologies/Orwa Atyat Methodology.md",
+                "file": "Bug Bounty/OLX/Recon.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "InfoSec/WebApp Pentesting/Methodologies/Orwa Atyat Methodology.md"
+                "file": "Bug Bounty/OLX/Recon.md"
               }
             }
           }
@@ -155,10 +155,12 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "140b7cf85077674c",
+  "active": "f38546875f80502f",
   "lastOpenFiles": [
-    "InfoSec/WebApp Pentesting/SQLi/Payloads.md",
+    "Bug Bounty/OLX/Recon.md",
+    "Bug Bounty/OLX",
     "InfoSec/WebApp Pentesting/Methodologies/Orwa Atyat Methodology.md",
+    "InfoSec/WebApp Pentesting/SQLi/Payloads.md",
     "InfoSec/WebApp Pentesting/XXE.md",
     "CySec/Interest Session.md",
     "InfoSec/Hacking Methodology.md",
@@ -186,7 +188,6 @@
     "InfoSec/WebApp Pentesting/Account Takeover.md",
     "InfoSec/WebApp Pentesting/HTTP Smuggling.md",
     "InfoSec/WebApp Pentesting/XSS.md",
-    "InfoSec/WebApp Pentesting/File uploads.md",
     "Bug Bounty/Fertitta Entertainment",
     "Bug Bounty/acronis",
     "z/Pasted image 20221225105504.png",
@@ -201,7 +202,6 @@
     "z/Pasted image 20230508201843.png",
     "z/Pasted image 20230508201753.png",
     "z/Pasted image 20230505004640.png",
-    "z/Pasted image 20230505004502.png",
-    "CTF/BugTrails"
+    "z/Pasted image 20230505004502.png"
   ]
 }

@@ -14,7 +14,7 @@
               "type": "markdown",
               "state": {
                 "file": "InfoSec/WebApp Pentesting/Methodologies/Orwa Atyat Methodology.md",
-                "mode": "preview",
+                "mode": "source",
                 "source": false
               }
             }
@@ -78,8 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 288.5026054382324,
-    "collapsed": true
+    "width": 288.5026054382324
   },
   "right": {
     "id": "fe286dd04d32f6ac",

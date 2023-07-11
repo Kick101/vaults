@@ -13,7 +13,19 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Bug Bounty/OLX/Recon.md",
+                "file": "Bug Bounty/Checklist.md",
+                "mode": "preview",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "e97b6414bbd2bbf6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "InfoSec/WebApp Pentesting/Methodologies/Bug Bounty Playbooks.md",
                 "mode": "preview",
                 "source": false
               }
@@ -94,7 +106,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Bug Bounty/OLX/Recon.md",
+                "file": "Bug Bounty/Checklist.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +123,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Bug Bounty/OLX/Recon.md",
+                "file": "Bug Bounty/Checklist.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +146,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Bug Bounty/OLX/Recon.md"
+                "file": "Bug Bounty/Checklist.md"
               }
             }
           }
@@ -157,9 +169,14 @@
   },
   "active": "f38546875f80502f",
   "lastOpenFiles": [
+    "InfoSec/WebApp Pentesting/Methodologies/Bug Bounty Playbooks.md",
+    "Bug Bounty/Checklist.md",
+    "InfoSec/WebApp Pentesting/Methodologies/Recon tips.md",
+    "InfoSec/WebApp Pentesting/Methodologies/Orwa Atyat Methodology.md",
+    "InfoSec/WebApp Pentesting/Methodologies/JHaddix Recon.md",
+    "InfoSec/WebApp Pentesting/Methodologies/My Methodology.md",
     "Bug Bounty/OLX/Recon.md",
     "Bug Bounty/OLX",
-    "InfoSec/WebApp Pentesting/Methodologies/Orwa Atyat Methodology.md",
     "InfoSec/WebApp Pentesting/SQLi/Payloads.md",
     "InfoSec/WebApp Pentesting/XXE.md",
     "CySec/Interest Session.md",
@@ -174,16 +191,11 @@
     "InfoSec/WebApp Pentesting/SSRF/SSRF.md",
     "Certs/Security+/Attacks, Threats, and Vulnerabilities.md",
     "CTF/BugTrails/April, 2023.md",
-    "InfoSec/WebApp Pentesting/Methodologies/My Methodology.md",
-    "InfoSec/WebApp Pentesting/Methodologies/Recon tips.md",
     "InfoSec/WebApp Pentesting/Methodologies/JHaddix App Analysis.md",
-    "InfoSec/WebApp Pentesting/Methodologies/JHaddix Recon.md",
-    "InfoSec/WebApp Pentesting/Methodologies/Bug Bounty Playbooks.md",
     "Bug Bounty/Bigcommerce",
     "InfoSec/Black Hat/Carding.md",
     "Bug Bounty/Hilton/Recon.md",
     "InfoSec/API Pentesting/API.md",
-    "Bug Bounty/Checklist.md",
     "Bug Bounty/Hilton",
     "InfoSec/WebApp Pentesting/Account Takeover.md",
     "InfoSec/WebApp Pentesting/HTTP Smuggling.md",

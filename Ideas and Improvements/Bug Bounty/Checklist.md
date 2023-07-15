@@ -21,6 +21,17 @@
 	- Paste parameter urls on burp scan
 	- Manual testing
 ---
+#### 403, 401 FUZZing
+- GitHub dork these subs 
+- Google dork these subs
+- Web Archive  https://web.archive.org/cdx/search/cdx?url=*\.sub.domain.com&fl=original&collapse=urlkey 
+- Content Discovey
+- Fuzz endpoints params -> SQL,SSTI,SSRF,LFI,XSS etc
+- Check for hidden params
+- FUZZ _/logs_ endpoint for files (common.txt)
+- FUZZ _/x/FUZZ_, replace _x_ with all subdomain names and variations of it.
+
+---
 ### Functionality Attacks
 #### Registration Page
 1. Input Validation:

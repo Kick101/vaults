@@ -8,25 +8,13 @@
         "type": "tabs",
         "children": [
           {
-            "id": "f38546875f80502f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "InfoSec/WebApp Pentesting/Methodologies/Orwa Atyat Methodology.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "494304517df210c7",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "InfoSec/WebApp Pentesting/Methodologies/My Methodology.md",
-                "mode": "preview",
+                "file": "Bug Bounty/Gov.in/Recon.md",
+                "mode": "source",
                 "source": false
               }
             }
@@ -106,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "InfoSec/WebApp Pentesting/Methodologies/Orwa Atyat Methodology.md",
+                "file": "Bug Bounty/Gov.in/Recon.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -123,7 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "InfoSec/WebApp Pentesting/Methodologies/Orwa Atyat Methodology.md",
+                "file": "Bug Bounty/Gov.in/Recon.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -146,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "InfoSec/WebApp Pentesting/Methodologies/Orwa Atyat Methodology.md"
+                "file": "Bug Bounty/Gov.in/Recon.md"
               }
             }
           }
@@ -167,9 +155,11 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "f38546875f80502f",
+  "active": "494304517df210c7",
   "lastOpenFiles": [
     "InfoSec/WebApp Pentesting/Methodologies/My Methodology.md",
+    "Bug Bounty/Gov.in/Recon.md",
+    "Bug Bounty/Gov.in",
     "InfoSec/WebApp Pentesting/Methodologies/Orwa Atyat Methodology.md",
     "Bug Bounty/Checklist.md",
     "InfoSec/WebApp Pentesting/Methodologies/Recon tips.md",
@@ -199,7 +189,6 @@
     "Bug Bounty/Hilton",
     "InfoSec/WebApp Pentesting/Account Takeover.md",
     "InfoSec/WebApp Pentesting/HTTP Smuggling.md",
-    "InfoSec/WebApp Pentesting/XSS.md",
     "Bug Bounty/Fertitta Entertainment",
     "Bug Bounty/acronis",
     "z/Pasted image 20221225105504.png",
@@ -208,7 +197,6 @@
     "z",
     "Bug Bounty/ring",
     "z/Pasted image 20230512111709.png",
-    "Bug Bounty/newegg",
     "z/Pasted image 20230511154818.png",
     "z/Pasted image 20230511125831.png",
     "z/Pasted image 20230508201843.png",

@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "InfoSec/WebApp Pentesting/File Inclusion.md",
+                "file": "InfoSec/WebApp Pentesting/File uploads.md",
                 "mode": "preview",
                 "source": false
               }
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "InfoSec/WebApp Pentesting/File Inclusion.md",
+                "file": "InfoSec/WebApp Pentesting/File uploads.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "InfoSec/WebApp Pentesting/File Inclusion.md",
+                "file": "InfoSec/WebApp Pentesting/File uploads.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "InfoSec/WebApp Pentesting/File Inclusion.md"
+                "file": "InfoSec/WebApp Pentesting/File uploads.md"
               }
             }
           }
@@ -157,6 +157,7 @@
   },
   "active": "494304517df210c7",
   "lastOpenFiles": [
+    "InfoSec/WebApp Pentesting/File Inclusion.md",
     "Bug Bounty/Gov.in/Recon.md",
     "InfoSec/WebApp Pentesting/Methodologies/My Methodology.md",
     "Bug Bounty/Gov.in",
@@ -188,7 +189,6 @@
     "InfoSec/API Pentesting/API.md",
     "Bug Bounty/Hilton",
     "InfoSec/WebApp Pentesting/Account Takeover.md",
-    "InfoSec/WebApp Pentesting/HTTP Smuggling.md",
     "Bug Bounty/Fertitta Entertainment",
     "Bug Bounty/acronis",
     "z/Pasted image 20221225105504.png",

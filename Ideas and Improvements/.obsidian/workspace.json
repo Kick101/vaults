@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Bug Bounty/Gov.in/Recon.md",
-                "mode": "source",
+                "file": "InfoSec/WebApp Pentesting/File Inclusion.md",
+                "mode": "preview",
                 "source": false
               }
             }
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Bug Bounty/Gov.in/Recon.md",
+                "file": "InfoSec/WebApp Pentesting/File Inclusion.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Bug Bounty/Gov.in/Recon.md",
+                "file": "InfoSec/WebApp Pentesting/File Inclusion.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Bug Bounty/Gov.in/Recon.md"
+                "file": "InfoSec/WebApp Pentesting/File Inclusion.md"
               }
             }
           }
@@ -157,8 +157,8 @@
   },
   "active": "494304517df210c7",
   "lastOpenFiles": [
-    "InfoSec/WebApp Pentesting/Methodologies/My Methodology.md",
     "Bug Bounty/Gov.in/Recon.md",
+    "InfoSec/WebApp Pentesting/Methodologies/My Methodology.md",
     "Bug Bounty/Gov.in",
     "InfoSec/WebApp Pentesting/Methodologies/Orwa Atyat Methodology.md",
     "Bug Bounty/Checklist.md",

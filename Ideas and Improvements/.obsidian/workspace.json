@@ -48,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "sqlm",
+                "query": "base64",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -73,12 +73,12 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 288.5026054382324,
-    "collapsed": true
+    "width": 288.5026054382324
   },
   "right": {
     "id": "fe286dd04d32f6ac",
@@ -155,7 +155,7 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "494304517df210c7",
+  "active": "31b872dbdb4dc77d",
   "lastOpenFiles": [
     "Bug Bounty/ring/Recon.md",
     "InfoSec/WebApp Pentesting/File uploads.md",

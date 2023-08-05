@@ -24,7 +24,7 @@
               "type": "markdown",
               "state": {
                 "file": "Certs/CEH/0.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": false
               }
             }
@@ -43,22 +43,6 @@
           }
         ],
         "currentTab": 1
-      },
-      {
-        "id": "5beaf7e06b6d2bf2",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "9dd9a1abc8bd9d98",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "Certs/CEH/CEH v12 - Module02.pdf"
-              }
-            }
-          }
-        ]
       }
     ],
     "direction": "vertical"

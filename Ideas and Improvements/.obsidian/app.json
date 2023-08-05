@@ -1,10 +1,6 @@
 {
   "spellcheck": true,
-  "spellcheckLanguages": [
-    "en-GB",
-    "en-US",
-    "id"
-  ],
+  "spellcheckLanguages": null,
   "alwaysUpdateLinks": true,
   "newFileLocation": "folder",
   "newFileFolderPath": "z"

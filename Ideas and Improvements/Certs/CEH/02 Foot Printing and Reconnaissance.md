@@ -65,7 +65,7 @@ __Information Obtained in footprinting__
 ---
 ### Footprinting Methodology
 
-![[Pasted image 20230109205016.png]]
+![[Pasted image 20230805140342.png]]
 
 #### Footprinting through Search Engines
 - How does search engines work?

@@ -42,7 +42,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -117,7 +117,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Certs/CEH/0.md",
+                "file": "Certs/CEH/02 Foot Printing and Reconnaissance.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -134,7 +134,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Certs/CEH/0.md",
+                "file": "Certs/CEH/02 Foot Printing and Reconnaissance.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -157,7 +157,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Certs/CEH/0.md"
+                "file": "Certs/CEH/02 Foot Printing and Reconnaissance.md"
               }
             }
           }
@@ -178,10 +178,10 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "9464961c1c8e1951",
+  "active": "c2a6871759f733d0",
   "lastOpenFiles": [
-    "Certs/CEH/02 Foot Printing and Reconnaissance.md",
     "Certs/CEH/0.md",
+    "Certs/CEH/02 Foot Printing and Reconnaissance.md",
     "Certs/CEH/CEH v12 - Module02.pdf",
     "Pasted image 20230805142153.png",
     "Pasted image 20230805140342.png",

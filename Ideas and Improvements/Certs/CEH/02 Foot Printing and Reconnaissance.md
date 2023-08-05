@@ -77,4 +77,4 @@ __Information Obtained in footprinting__
 	- We can perform this using search engine operators to query results 
 
 __Google Hacking__
-- 
+![[Pasted image 20230805142153.png]]

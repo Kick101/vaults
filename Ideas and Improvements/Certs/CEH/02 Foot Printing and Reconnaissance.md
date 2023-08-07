@@ -78,3 +78,7 @@ __Information Obtained in footprinting__
 
 __Google Hacking__
 ![[Pasted image 20230805142153.png]]
+
+
+### DNS
+![[Pasted image 20230807212216.png]]

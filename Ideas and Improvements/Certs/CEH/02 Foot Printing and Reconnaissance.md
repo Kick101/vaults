@@ -82,3 +82,5 @@ __Google Hacking__
 
 ### DNS
 ![[Pasted image 20230807212216.png]]
+
+![[Pasted image 20230807235217.png]]

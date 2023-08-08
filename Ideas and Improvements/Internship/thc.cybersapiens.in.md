@@ -20,4 +20,6 @@ __Common.txt__
 
 __raft-medium-directories_long.txt__
 - admin/error_log
+- admin/welcome.php
+- admin/wp-config.php [403]
 - 

@@ -11,9 +11,11 @@
             "id": "0feda48f2f1cf4c7",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "Certs/CEH/CEH v12 - Module02.pdf"
+                "file": "Certs/CEH/0.md",
+                "mode": "source",
+                "source": false
               }
             }
           },
@@ -23,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Certs/CEH/0.md",
+                "file": "Certs/CEH/05 Vulnerability Analysis.md",
                 "mode": "source",
                 "source": false
               }
@@ -41,8 +43,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -178,13 +179,16 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "9464961c1c8e1951",
+  "active": "0feda48f2f1cf4c7",
   "lastOpenFiles": [
-    "Certs/CEH/02 Foot Printing and Reconnaissance.md",
-    "Pasted image 20230807235217.png",
-    "Certs/CEH/0.md",
-    "Pasted image 20230807212216.png",
     "Certs/CEH/CEH v12 - Module02.pdf",
+    "Certs/CEH/02 Foot Printing and Reconnaissance.md",
+    "Certs/CEH/05 Vulnerability Analysis.md",
+    "Certs/CEH/06 System Hacking.md",
+    "Pasted image 20230808165951.png",
+    "Certs/CEH/0.md",
+    "Pasted image 20230807235217.png",
+    "Pasted image 20230807212216.png",
     "Pasted image 20230805142153.png",
     "Pasted image 20230805140342.png",
     "Certs/CEH/THM Jr Penetration Tester.md",
@@ -212,8 +216,6 @@
     "InfoSec/zisZpzU2",
     "InfoSec/WebApp-Pentesting.zip",
     "Bug Bounty/Bigcommerce/Recon.md",
-    "InfoSec/WebApp Pentesting/SSRF/SSRF.md",
-    "Certs/Security+/Attacks, Threats, and Vulnerabilities.md",
     "Bug Bounty/Bigcommerce",
     "Bug Bounty/Hilton",
     "Bug Bounty/Fertitta Entertainment",
@@ -223,7 +225,6 @@
     "z/Pasted image 20220620152035.png",
     "z",
     "z/Pasted image 20230512111709.png",
-    "z/Pasted image 20230511154818.png",
-    "z/Pasted image 20230511125831.png"
+    "z/Pasted image 20230511154818.png"
   ]
 }

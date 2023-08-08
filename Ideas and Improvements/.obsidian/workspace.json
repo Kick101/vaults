@@ -20,18 +20,43 @@
             }
           },
           {
-            "id": "2988e7dc00d74745",
+            "id": "0020fc164ba9bebb",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Bug Bounty/Checklist.md",
+                "file": "InfoSec/WebApp Pentesting/Methodologies/JHaddix App Analysis.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "fa32cc8376c0dc43",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "InfoSec/WebApp Pentesting/Methodologies/JHaddix Recon.md",
+                "mode": "preview",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "e69f20c52bdf473a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "InfoSec/WebApp Pentesting/Methodologies/My Methodology.md",
                 "mode": "preview",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -106,7 +131,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Internship/thc.cybersapiens.in.md",
+                "file": "InfoSec/WebApp Pentesting/Methodologies/JHaddix Recon.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -123,7 +148,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Internship/thc.cybersapiens.in.md",
+                "file": "InfoSec/WebApp Pentesting/Methodologies/JHaddix Recon.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -146,7 +171,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Internship/thc.cybersapiens.in.md"
+                "file": "InfoSec/WebApp Pentesting/Methodologies/JHaddix Recon.md"
               }
             }
           }
@@ -167,11 +192,15 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "b9e5bd9fd7f3e240",
+  "active": "fa32cc8376c0dc43",
   "lastOpenFiles": [
-    "Pasted image 20230808185708.png",
+    "InfoSec/WebApp Pentesting/Methodologies/My Methodology.md",
     "Bug Bounty/Checklist.md",
+    "InfoSec/WebApp Pentesting/Methodologies/Recon tips.md",
+    "InfoSec/WebApp Pentesting/Methodologies/JHaddix Recon.md",
+    "InfoSec/WebApp Pentesting/Methodologies/JHaddix App Analysis.md",
     "Internship/thc.cybersapiens.in.md",
+    "Pasted image 20230808185708.png",
     "Internship",
     "Certs/CEH/02 Foot Printing and Reconnaissance.md",
     "Certs/CEH/05 Vulnerability Analysis.md",
@@ -190,12 +219,9 @@
     "InfoSec/WebApp Pentesting/File uploads.md",
     "InfoSec/WebApp Pentesting/File Inclusion.md",
     "Bug Bounty/Gov.in/Recon.md",
-    "InfoSec/WebApp Pentesting/Methodologies/My Methodology.md",
     "Bug Bounty/Gov.in",
     "InfoSec/WebApp Pentesting/Methodologies/Orwa Atyat Methodology.md",
-    "InfoSec/WebApp Pentesting/Methodologies/Recon tips.md",
     "InfoSec/WebApp Pentesting/Methodologies/Bug Bounty Playbooks.md",
-    "InfoSec/WebApp Pentesting/Methodologies/JHaddix Recon.md",
     "Bug Bounty/OLX",
     "InfoSec/WebApp Pentesting/SQLi/Payloads.md",
     "InfoSec/WebApp Pentesting/XXE.md",
@@ -213,7 +239,6 @@
     "z/Pasted image 20221225105504.png",
     "z/Pasted image 20221225105434.png",
     "z/Pasted image 20220620152035.png",
-    "z/Pasted image 20230512111709.png",
-    "z/Pasted image 20230511154818.png"
+    "z/Pasted image 20230512111709.png"
   ]
 }

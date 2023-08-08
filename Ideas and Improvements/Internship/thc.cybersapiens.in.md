@@ -7,4 +7,11 @@
 
 ##### ffuf
 __Common.txt__
-- 
+- admin
+- .well-known/http-opportunistic 
+- /cgi-sys/ [403]
+- cpanel/controlpanel
+- login/
+- mailman [403]
+- pipermail
+- webmail 

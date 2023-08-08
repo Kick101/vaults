@@ -19,4 +19,5 @@ __Common.txt__
 - webmail 
 
 __raft-medium-directories_long.txt__
-
+- admin/error_log
+- 

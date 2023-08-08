@@ -17,3 +17,6 @@ __Common.txt__
 - mailman [403]
 - pipermail
 - webmail 
+
+__raft-medium-directories_long.txt__
+

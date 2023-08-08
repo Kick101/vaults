@@ -20,6 +20,30 @@
             }
           },
           {
+            "id": "50bb2ed4e1cc776a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "InfoSec/WebApp Pentesting/SQLi/Payloads.md",
+                "mode": "preview",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "5339a09d298b8d8a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "InfoSec/WebApp Pentesting/SQLi/SQLi.md",
+                "mode": "preview",
+                "source": false
+              }
+            }
+          },
+          {
             "id": "0020fc164ba9bebb",
             "type": "leaf",
             "state": {
@@ -55,7 +79,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -130,7 +155,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Internship/thc.cybersapiens.in.md",
+                "file": "InfoSec/WebApp Pentesting/SQLi/Payloads.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -147,7 +172,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Internship/thc.cybersapiens.in.md",
+                "file": "InfoSec/WebApp Pentesting/SQLi/Payloads.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -170,7 +195,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Internship/thc.cybersapiens.in.md"
+                "file": "InfoSec/WebApp Pentesting/SQLi/Payloads.md"
               }
             }
           }
@@ -191,12 +216,14 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "b9e5bd9fd7f3e240",
+  "active": "50bb2ed4e1cc776a",
   "lastOpenFiles": [
+    "InfoSec/WebApp Pentesting/SQLi/SQLi.md",
+    "InfoSec/WebApp Pentesting/SQLi/Payloads.md",
+    "Internship/thc.cybersapiens.in.md",
     "Pasted image 20230808193612.png",
     "InfoSec/WebApp Pentesting/Methodologies/JHaddix Recon.md",
     "InfoSec/WebApp Pentesting/Methodologies/JHaddix App Analysis.md",
-    "Internship/thc.cybersapiens.in.md",
     "InfoSec/WebApp Pentesting/Methodologies/My Methodology.md",
     "Bug Bounty/Checklist.md",
     "InfoSec/WebApp Pentesting/Methodologies/Recon tips.md",
@@ -223,7 +250,6 @@
     "InfoSec/WebApp Pentesting/Methodologies/Orwa Atyat Methodology.md",
     "InfoSec/WebApp Pentesting/Methodologies/Bug Bounty Playbooks.md",
     "Bug Bounty/OLX",
-    "InfoSec/WebApp Pentesting/SQLi/Payloads.md",
     "InfoSec/WebApp Pentesting/XXE.md",
     "CySec/Interest Session.md",
     "InfoSec/Hacking Methodology.md",
@@ -237,7 +263,6 @@
     "Bug Bounty/acronis",
     "z/Pasted image 20221225105504.png",
     "z/Pasted image 20221225105434.png",
-    "z/Pasted image 20220620152035.png",
-    "z/Pasted image 20230512111709.png"
+    "z/Pasted image 20220620152035.png"
   ]
 }

@@ -26,4 +26,9 @@ __raft-medium-directories_long.txt__
 - login/testing.php
 - login/etc
 - login/errors.php
-- log
+- login/server.php
+- login/conn.php
+- login/wp-config.php
+- login/error_log
+- login/mail
+- 

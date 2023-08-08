@@ -1,5 +1,7 @@
 ### Initial Recon
-#### App 
+#### Web Technologies
+![[Pasted image 20230808193612.png]]
+
 
 #### Finding Endpoints
 ##### Wayback Machine Archive

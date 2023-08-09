@@ -5,7 +5,11 @@ Cybersapiens@1010
 #### Web Technologies
 ![[Pasted image 20230808193612.png]]
 
+```WAF
+[waf-detect:litespeed] [http] [info] https://thc.cybersapiens.in/				      
+[waf-detect:cloudflare] [http] [info] https://thc.cybersapiens.in/
 
+```
 #### Finding Endpoints
 ##### Wayback Machine Archive
 ![[Pasted image 20230808185708.png]]

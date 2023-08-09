@@ -14,7 +14,7 @@
               "type": "markdown",
               "state": {
                 "file": "Internship/thc.cybersapiens.in.md",
-                "mode": "preview",
+                "mode": "source",
                 "source": false
               }
             }
@@ -217,6 +217,7 @@
   },
   "active": "b9e5bd9fd7f3e240",
   "lastOpenFiles": [
+    "Pasted image 20230809101807.png",
     "InfoSec/WebApp Pentesting/SQLi/Payloads.md",
     "InfoSec/WebApp Pentesting/SQLi/SQLi.md",
     "Internship/thc.cybersapiens.in.md",
@@ -253,7 +254,6 @@
     "CySec/Interest Session.md",
     "InfoSec/Hacking Methodology.md",
     "InfoSec/WebApp Pentesting/THM  Learnings.md",
-    "InfoSec/API Pentesting/APISec University/Penetration Testing.md",
     "InfoSec/zisZpzU2",
     "InfoSec/WebApp-Pentesting.zip",
     "Bug Bounty/Bigcommerce",

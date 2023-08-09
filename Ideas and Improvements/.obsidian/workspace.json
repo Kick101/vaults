@@ -14,7 +14,7 @@
               "type": "markdown",
               "state": {
                 "file": "Internship/thc.cybersapiens.in.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": false
               }
             }
@@ -217,6 +217,7 @@
   },
   "active": "b9e5bd9fd7f3e240",
   "lastOpenFiles": [
+    "Pasted image 20230809171656.png",
     "Pasted image 20230809171457.png",
     "Pasted image 20230809101807.png",
     "InfoSec/WebApp Pentesting/SQLi/Payloads.md",
@@ -261,7 +262,6 @@
     "Bug Bounty/Hilton",
     "Bug Bounty/Fertitta Entertainment",
     "Bug Bounty/acronis",
-    "z/Pasted image 20221225105504.png",
-    "z/Pasted image 20221225105434.png"
+    "z/Pasted image 20221225105504.png"
   ]
 }

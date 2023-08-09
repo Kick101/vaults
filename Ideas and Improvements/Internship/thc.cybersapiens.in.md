@@ -65,8 +65,9 @@ __raft-medium-directories_long.txt__
 #### Arbitrary Price change (0 price buy)
 ![[Pasted image 20230809101807.png]]
 
-#### Arbitary File Upload (RCE)
-![[Pasted image 20230809171457.png]]
+#### Arbitrary File Upload (Shell upload)
+![[Pasted image 20230809171656.png]]
+
 
 ```php
 <!DOCTYPE html>

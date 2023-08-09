@@ -38,6 +38,9 @@ __raft-medium-directories_long.txt__
 - login/wp-config.php
 - login/error_log
 - login/mail
+	- OAuth.php 
+	- SMTP.php 
+	- PHPMailer.php 
 - login/process.php
 - login/new-password.php
 - login/etc/passwd

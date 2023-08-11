@@ -61,7 +61,7 @@ __raft-medium-directories_long.txt__
   </body>
 </html>
 ```
-#### Arbitrary Price change (0 price buy)
+#### Arbitrary Price Manipulation and Zero-Price Purchase
 ![[Pasted image 20230809101807.png]]
 
 #### Arbitrary File Upload (Shell upload)

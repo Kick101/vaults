@@ -4,43 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "95b6b1a2d43bec20",
+        "id": "7e3402682c6c4f54",
         "type": "tabs",
         "children": [
           {
-            "id": "b9e5bd9fd7f3e240",
+            "id": "0cf07546a4519155",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Internship/thc.cybersapiens.in.md",
-                "mode": "preview",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "50bb2ed4e1cc776a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "InfoSec/WebApp Pentesting/SQLi/Payloads.md",
-                "mode": "preview",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "5339a09d298b8d8a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "InfoSec/WebApp Pentesting/SQLi/SQLi.md",
-                "mode": "preview",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -101,8 +73,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 288.5026054382324,
-    "collapsed": true
+    "width": 288.5026054382324
   },
   "right": {
     "id": "fe286dd04d32f6ac",
@@ -118,7 +89,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Internship/thc.cybersapiens.in.md",
+                "file": "InfoSec/WebApp Pentesting/SSRF/SSRF.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -135,7 +106,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Internship/thc.cybersapiens.in.md",
+                "file": "InfoSec/WebApp Pentesting/SSRF/SSRF.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -158,7 +129,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Internship/thc.cybersapiens.in.md"
+                "file": "InfoSec/WebApp Pentesting/SSRF/SSRF.md"
               }
             }
           }
@@ -179,13 +150,15 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "b9e5bd9fd7f3e240",
+  "active": "e985295c9ac7b16f",
   "lastOpenFiles": [
-    "Pasted image 20230808193612.png",
-    "Internship/thc.cybersapiens.in.md",
-    "Pasted image 20230809171656.png",
-    "InfoSec/WebApp Pentesting/SQLi/Payloads.md",
     "InfoSec/WebApp Pentesting/SQLi/SQLi.md",
+    "InfoSec/WebApp Pentesting/SQLi/Payloads.md",
+    "InfoSec/WebApp Pentesting/Methodologies/Recon tips.md",
+    "InfoSec/WebApp Pentesting/Methodologies/Orwa Atyat Methodology.md",
+    "Internship/thc.cybersapiens.in.md",
+    "Pasted image 20230808193612.png",
+    "Pasted image 20230809171656.png",
     "InfoSec/WebApp Pentesting/Methodologies/My Methodology.md",
     "InfoSec/WebApp Pentesting/Methodologies/JHaddix App Analysis.md",
     "InfoSec/WebApp Pentesting/Methodologies/JHaddix Recon.md",
@@ -193,7 +166,6 @@
     "Pasted image 20230809171457.png",
     "Pasted image 20230809101807.png",
     "Bug Bounty/Checklist.md",
-    "InfoSec/WebApp Pentesting/Methodologies/Recon tips.md",
     "Pasted image 20230808185708.png",
     "Internship",
     "Certs/CEH/02 Foot Printing and Reconnaissance.md",
@@ -213,7 +185,6 @@
     "InfoSec/WebApp Pentesting/File Inclusion.md",
     "Bug Bounty/Gov.in/Recon.md",
     "Bug Bounty/Gov.in",
-    "InfoSec/WebApp Pentesting/Methodologies/Orwa Atyat Methodology.md",
     "InfoSec/WebApp Pentesting/Methodologies/Bug Bounty Playbooks.md",
     "Bug Bounty/OLX",
     "InfoSec/WebApp Pentesting/XXE.md",

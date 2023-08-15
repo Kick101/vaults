@@ -34,12 +34,25 @@ __Testing__
 - once a hypothesis is formulated, further testing must be done to verify or disprove the general interpretation or specific aspects of the hypothesis.  This stage includes comparisons of samples collected  at the scene with known standards.
 
 __Theory formation__
--  The opposite information could even be acquired during the investigation about the condition of the victim or suspect, the activities of the individuals involved, accuracy of witness accounts.  When it’s been thoroughly tested and verified by analysis, its can be considered a plausible theory.
+-  The opposite information (contradictory to what was initially assumed) could even be acquired during the investigation about the condition of the victim or suspect, the activities of the individuals involved, accuracy of witness accounts.  When it’s been thoroughly tested and verified by analysis, its can be considered a plausible theory.
 
 ##### Reconstruction Types
-- Specific events reconstruction
-- Degree of involvement reconstruction
-- Specific type of physical evidence reconstruction
+__Specific events reconstruction__
+- Sequence determination
+- Directional determination
+- Position determination
+- Relational determination
+- Conditional determination
+- Identity determination
+
+__Degree of involvement reconstruction__
+- Total case reconstruction
+- Partial case reconstruction
+- Limited event reconstruction
+- Specific pattern reconstruction
+
+__Specific type of physical evidence reconstruction__
+
 
 
 

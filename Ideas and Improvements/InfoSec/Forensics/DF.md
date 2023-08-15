@@ -22,7 +22,7 @@ __Reconstruction__
 - Testimonial and documentary evidence, is taken into consideration to figure out how the crime happened.
 
 __Data collection__
-- Information gathered from the crime scene, victim, and witnesses, including evidence condition, patterns, victim status, and overall scene details, undergoes systematic review, organization, and analysis.
+- Information gathered from the crime scene, victim, and witnesses, including evidence condition, patterns, victim status, and crime scene condition, undergoes systematic review,organization, and studied.
 
 __Conjecture (conclusions based on uncertain information)__
 - Generate a speculative sequence of events for the crime, open to multiple interpretations, without fixating on it as the sole explanation pending a thorough evidence investigation, acknowledging the existence of various alternative explanations.

@@ -31,8 +31,10 @@ __Hypothesis formulation__
 - Further addition of data is predicted on the examination of the physical evidence.  It also involves the examination of the crime scene and assessment of the physical evidence.
 
 __Testing__
+- once a hypothesis is formulated, further testing must be done to verify or disprove the general interpretation or specific aspects of the hypothesis.  This stage includes comparisons of samples collected  at the scene with known standards.
 
 __Theory formation__
+-  The opposite information could even be acquired during the investigation about the condition of the victim or suspect, the activities of the individuals involved, accuracy of witness accounts.  When it’s been thoroughly tested and verified by analysis, its can be considered a plausible theory.
 
 ##### Reconstruction Types
 - Specific events reconstruction

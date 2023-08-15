@@ -16,9 +16,10 @@ __Investigation__
 - Crime scene is examined & documented to determine what evidence is present without interpreting it to any meaning.
 
 __Analysis__
-- Evidence is examined to determine 
+- Evidence is examined to determine it's significance without considering how they contribute to the overall crime reconstruction.
 
 __Reconstruction__
+- Testimonial and documentary evidence, is taken into consideration to figure out how the crime happened.
 
 __Data collection__
 

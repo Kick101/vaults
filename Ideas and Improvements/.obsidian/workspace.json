@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "InfoSec/Forensics/Locard's Exchange principle.md",
-                "mode": "preview",
+                "file": "InfoSec/Forensics/DF.md",
+                "mode": "source",
                 "source": false
               }
             }
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "InfoSec/Forensics/Locard's Exchange principle.md",
+                "file": "InfoSec/Forensics/DF.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "InfoSec/Forensics/Locard's Exchange principle.md",
+                "file": "InfoSec/Forensics/DF.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "InfoSec/Forensics/Locard's Exchange principle.md"
+                "file": "InfoSec/Forensics/DF.md"
               }
             }
           }
@@ -158,7 +158,7 @@
   "active": "a19afca5887bf54c",
   "lastOpenFiles": [
     "Certs/CEH/05 Vulnerability Analysis.md",
-    "InfoSec/Forensics/Locard's Exchange principle.md",
+    "InfoSec/Forensics/DF.md",
     "InfoSec/Forensics",
     "InfoSec/CVEs/0.md",
     "InfoSec/CVEs/Apache Struts2.md",

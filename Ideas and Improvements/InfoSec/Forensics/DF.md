@@ -11,9 +11,12 @@ Dr. Edmond Locard was a pioneer of physical forensics.
 Crime reconstruction is the determination of the actions and events surrounding the commission of a crime
 - Example: firearm ballistics test, statistical simulation and biological experiments
 
+##### Stages (IR AHD CTF)
 __Investigation__
+- Crime scene is examined & documented to determine what evidence is present without interpreting it to any meaning.
 
 __Analysis__
+- Evidence is examined to determine 
 
 __Reconstruction__
 
@@ -27,7 +30,10 @@ __Testing__
 
 __Theory formation__
 
-
+##### Reconstruction Types
+- Specific events reconstruction
+- Degree of involvement reconstruction
+- Specific type of physical evidence reconstruction
 
 
 

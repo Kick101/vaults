@@ -53,7 +53,7 @@ __Degree of involvement reconstruction__
 
 __Specific type of physical evidence reconstruction__
 
-#### Forensic soundness (AT CID AE)
+#### Forensic soundness (AT CID EA)
 Ensures that the process of collecting, analyzing, and presenting digital evidence is carried out in a manner that _maintains the credibility, reliability, and admissibility of the evidence in a legal or investigative context_. OR authenticity, integrity, and chain of custody.
 
 - **Authenticity**

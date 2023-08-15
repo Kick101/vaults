@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Certs/CEH/05 Vulnerability Analysis.md",
+                "file": "InfoSec/Forensics/Locard's principle.md",
                 "mode": "source",
                 "source": false
               }
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Certs/CEH/05 Vulnerability Analysis.md",
+                "file": "InfoSec/Forensics/Locard's principle.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Certs/CEH/05 Vulnerability Analysis.md",
+                "file": "InfoSec/Forensics/Locard's principle.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Certs/CEH/05 Vulnerability Analysis.md"
+                "file": "InfoSec/Forensics/Locard's principle.md"
               }
             }
           }
@@ -157,6 +157,9 @@
   },
   "active": "a19afca5887bf54c",
   "lastOpenFiles": [
+    "Certs/CEH/05 Vulnerability Analysis.md",
+    "InfoSec/Forensics/Locard's principle.md",
+    "InfoSec/Forensics",
     "InfoSec/CVEs/0.md",
     "InfoSec/CVEs/Apache Struts2.md",
     "InfoSec/WebApp Pentesting/Methodologies/Recon tips.md",
@@ -178,7 +181,6 @@
     "Pasted image 20230808185708.png",
     "Internship",
     "Certs/CEH/02 Foot Printing and Reconnaissance.md",
-    "Certs/CEH/05 Vulnerability Analysis.md",
     "Certs/CEH/0.md",
     "Certs/CEH/CEH v12 - Module02.pdf",
     "Certs/CEH/06 System Hacking.md",
@@ -196,12 +198,10 @@
     "Bug Bounty/Gov.in",
     "Bug Bounty/OLX",
     "InfoSec/WebApp Pentesting/XXE.md",
-    "CySec/Interest Session.md",
     "InfoSec/zisZpzU2",
     "InfoSec/WebApp-Pentesting.zip",
     "Bug Bounty/Bigcommerce",
     "Bug Bounty/Hilton",
-    "Bug Bounty/Fertitta Entertainment",
-    "Bug Bounty/acronis"
+    "Bug Bounty/Fertitta Entertainment"
   ]
 }

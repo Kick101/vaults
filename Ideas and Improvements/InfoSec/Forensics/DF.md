@@ -53,6 +53,15 @@ __Degree of involvement reconstruction__
 
 __Specific type of physical evidence reconstruction__
 
+#### Forensic soundness
+Ensures that the process of collecting, analyzing, and presenting digital evidence is carried out in a manner that _maintains the credibility, reliability, and admissibility of the evidence in a legal or investigative context_. In essence, forensic soundness ensures that the digital evidence is gathered and handled in a way that preserves its authenticity, integrity, and chain of custody.
 
+- **Authenticity**
+- **Integrity**
+- **Chain of Custody**
+- **Documentation**
+- **Transparency**
+- **Admissibility**
+- **Expertise**
 
 

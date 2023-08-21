@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "1dc79c6930780ae9",
+        "id": "20c687458e165a44",
         "type": "tabs",
         "children": [
           {
-            "id": "a19afca5887bf54c",
+            "id": "992b81e5e436783b",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "InfoSec/Forensics/DF.md",
+                "file": "InfoSec/Threat Intelligence/init.md",
                 "mode": "preview",
                 "source": false
               }
@@ -48,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "20230809171656.png",
+                "query": "threat intelligence",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "InfoSec/Forensics/DF.md",
+                "file": "InfoSec/Threat Intelligence/init.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "InfoSec/Forensics/DF.md",
+                "file": "InfoSec/Threat Intelligence/init.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "InfoSec/Forensics/DF.md"
+                "file": "InfoSec/Threat Intelligence/init.md"
               }
             }
           }
@@ -155,10 +155,16 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "a19afca5887bf54c",
+  "active": "992b81e5e436783b",
   "lastOpenFiles": [
-    "Certs/CEH/05 Vulnerability Analysis.md",
+    "InfoSec/Threat Intelligence/init.md",
+    "InfoSec/Threat Intelligence",
+    "Certs/CEH/THM Jr Penetration Tester.md",
+    "Certs/Security+/Attacks, Threats, and Vulnerabilities.md",
+    "InfoSec/OSINT/Shodan.md",
+    "InfoSec/OSINT/GitHub.md",
     "InfoSec/Forensics/DF.md",
+    "Certs/CEH/05 Vulnerability Analysis.md",
     "InfoSec/Forensics",
     "InfoSec/CVEs/0.md",
     "InfoSec/CVEs/Apache Struts2.md",
@@ -188,20 +194,14 @@
     "Pasted image 20230807235217.png",
     "Pasted image 20230807212216.png",
     "Pasted image 20230805142153.png",
-    "Certs/CEH/THM Jr Penetration Tester.md",
     "Certs/CEH/Security Principles.md",
     "Bug Bounty/OLX/Recon.md",
     "Bug Bounty/ring/Recon.md",
-    "InfoSec/WebApp Pentesting/File uploads.md",
-    "InfoSec/WebApp Pentesting/File Inclusion.md",
-    "Bug Bounty/Gov.in/Recon.md",
     "Bug Bounty/Gov.in",
     "Bug Bounty/OLX",
-    "InfoSec/WebApp Pentesting/XXE.md",
     "InfoSec/zisZpzU2",
     "InfoSec/WebApp-Pentesting.zip",
     "Bug Bounty/Bigcommerce",
-    "Bug Bounty/Hilton",
-    "Bug Bounty/Fertitta Entertainment"
+    "Bug Bounty/Hilton"
   ]
 }

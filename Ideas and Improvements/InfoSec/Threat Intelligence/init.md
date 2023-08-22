@@ -12,4 +12,6 @@ Vorstack, ThreatQuotient and CRITs
 - **Privacy-Preserving Sharing**: Implement privacy-focused techniques like zero-knowledge proofs to allow organizations to share threat intelligence without revealing sensitive details about their own infrastructure.
 - **Real-time Threat Feed**: Develop a real-time threat feed where threat intelligence updates are added to the blockchain in a timestamped manner, providing a chronological history of threat events.
 - **Automated Vulnerability Prioritization**: Create a tool that integrates with vulnerability scanning tools and assigns a risk score to each identified vulnerability based on factors like potential impact, exploitability, and asset criticality.
+- **Automated Threat Indicator Extraction**: Build tools that automate the extraction of threat indicators (such as IP addresses, domain names, file hashes) from raw threat intelligence reports and convert them into actionable format for immediate use in security tools.
+- **Cyber Threat Profiling**: Develop methodologies for profiling and categorizing different cyber threat actors based on their motivations, techniques, and historical activities. This can help organizations tailor their defense strategies to the specific threats they are likely to face.
 - 

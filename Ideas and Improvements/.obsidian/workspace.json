@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "InfoSec/Threat Intelligence/init.md",
-                "mode": "preview",
+                "file": "InfoSec/CTF.md",
+                "mode": "source",
                 "source": false
               }
             }
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "InfoSec/Threat Intelligence/init.md",
+                "file": "InfoSec/CTF.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "InfoSec/Threat Intelligence/init.md",
+                "file": "InfoSec/CTF.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "InfoSec/Threat Intelligence/init.md"
+                "file": "InfoSec/CTF.md"
               }
             }
           }
@@ -157,13 +157,14 @@
   },
   "active": "992b81e5e436783b",
   "lastOpenFiles": [
+    "CTF/BugTrails/April, 2023.md",
+    "InfoSec/Forensics/DF.md",
     "InfoSec/Threat Intelligence/init.md",
     "InfoSec/Threat Intelligence",
     "Certs/CEH/THM Jr Penetration Tester.md",
     "Certs/Security+/Attacks, Threats, and Vulnerabilities.md",
     "InfoSec/OSINT/Shodan.md",
     "InfoSec/OSINT/GitHub.md",
-    "InfoSec/Forensics/DF.md",
     "Certs/CEH/05 Vulnerability Analysis.md",
     "InfoSec/Forensics",
     "InfoSec/CVEs/0.md",
@@ -196,7 +197,6 @@
     "Pasted image 20230805142153.png",
     "Certs/CEH/Security Principles.md",
     "Bug Bounty/OLX/Recon.md",
-    "Bug Bounty/ring/Recon.md",
     "Bug Bounty/Gov.in",
     "Bug Bounty/OLX",
     "InfoSec/zisZpzU2",

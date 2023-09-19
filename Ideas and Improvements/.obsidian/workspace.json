@@ -13,26 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Red Teaming/Active Directory/Building blocks.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "29e617ae8d7b75b7",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "xtras/Books.md",
+                "file": "InfoSec/Wireless Pentesting/WiFi Hacking.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -106,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "xtras/Books.md",
+                "file": "InfoSec/Wireless Pentesting/WiFi Hacking.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -123,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "xtras/Books.md",
+                "file": "InfoSec/Wireless Pentesting/WiFi Hacking.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -146,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "xtras/Books.md"
+                "file": "InfoSec/Wireless Pentesting/WiFi Hacking.md"
               }
             }
           }
@@ -167,10 +154,20 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "29e617ae8d7b75b7",
+  "active": "b9a6b59b823c5eb7",
   "lastOpenFiles": [
-    "Internship/thc.cybersapiens.in.md",
+    "InfoSec/Wireless Pentesting/Bluetooth.md",
+    "InfoSec/Wireless Pentesting/ARP Poision.md",
+    "Red Teaming/Active Directory/Building blocks.md",
+    "InfoSec/OSINT/Shodan.md",
+    "InfoSec/OSINT/GitHub.md",
+    "InfoSec/Black Hat/Carding.md",
+    "InfoSec/Black Hat/Account Cracking.md",
+    "InfoSec/Network Pentesting/Wireshark.md",
+    "InfoSec/Network Pentesting/Networking.md",
+    "InfoSec/Network Pentesting/Service Attacks/NTFS.md",
     "xtras/Books.md",
+    "Internship/thc.cybersapiens.in.md",
     "xtras/Me Somewhere in T1m3.md",
     "xtras/Food.md",
     "xtras/Introduce about yourself.md",
@@ -185,16 +182,6 @@
     "Red Teaming/Active Directory/Enumeration/From linux.md",
     "InfoSec/Hacking Methodology.md",
     "InfoSec/Security Analyst.md",
-    "Red Teaming/Active Directory/Enumeration/LDAP.md",
-    "Red Teaming/Active Directory/Enumeration/Powershell.md",
-    "Red Teaming/Active Directory/Attacks/Tools.md",
-    "Red Teaming/Active Directory/Attacks/Relay Attacks.md",
-    "Red Teaming/Active Directory/Attacks/Mimikatz.md",
-    "Red Teaming/Active Directory/Attacks/Kerberos Attacks.md",
-    "InfoSec/System Pentesting/Privilege Escalation/Windows.md",
-    "InfoSec/System Pentesting/Privilege Escalation/Linux.md",
-    "InfoSec/System Pentesting/FIle Transfers.md",
-    "Red Teaming/Active Directory/Building blocks.md",
     "InfoSec/System Pentesting/Privilege Escalation/Linux_privesc_midmap.jpeg",
     "z/Pasted image 20231207131332.png",
     "z/Pasted image 20231207124610.png",

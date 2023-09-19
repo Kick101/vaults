@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Red Teaming/Active Directory/Enumeration/Powershell.md",
+                "file": "InfoSec/System Pentesting/FIle Transfers.md",
                 "mode": "source",
                 "source": false
               }
@@ -106,7 +106,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Red Teaming/Active Directory/Enumeration/Powershell.md",
+                "file": "InfoSec/System Pentesting/FIle Transfers.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -123,7 +123,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Red Teaming/Active Directory/Enumeration/Powershell.md",
+                "file": "InfoSec/System Pentesting/FIle Transfers.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -146,7 +146,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Red Teaming/Active Directory/Enumeration/Powershell.md"
+                "file": "InfoSec/System Pentesting/FIle Transfers.md"
               }
             }
           }
@@ -169,6 +169,16 @@
   },
   "active": "29e617ae8d7b75b7",
   "lastOpenFiles": [
+    "Red Teaming/Active Directory/Building blocks.md",
+    "Red Teaming/Active Directory/Authentication.md",
+    "Red Teaming/Active Directory/AD Administration.md",
+    "Red Teaming/Active Directory/Attacks/Tools.md",
+    "Red Teaming/Active Directory/Attacks/Kerberos Attacks.md",
+    "Red Teaming/Active Directory/Attacks/Relay Attacks.md",
+    "Red Teaming/Active Directory/Boxes/Forest.md",
+    "Red Teaming/Active Directory/Boxes/Attacktive Directory.md",
+    "Red Teaming/Active Directory/Boxes/Active.md",
+    "Red Teaming/Active Directory/Enumeration/Powershell.md",
     "InfoSec/Threat Intelligence/init.md",
     "InfoSec/System Pentesting/Impacket Toolkit.md",
     "InfoSec/System Pentesting/FIle Transfers.md",
@@ -184,18 +194,8 @@
     "InfoSec/Security Analyst.md",
     "InfoSec/Regular Expressions.md",
     "InfoSec/System Pentesting/Privilege Escalation/Windows.md",
-    "Red Teaming/Active Directory/Enumeration/Powershell.md",
-    "Red Teaming/Active Directory/Building blocks.md",
-    "Red Teaming/Active Directory/AD Administration.md",
     "InfoSec/System Pentesting/Privilege Escalation/Linux_privesc_midmap.jpeg",
     "InfoSec/System Pentesting/Privilege Escalation/Linux.md",
-    "InfoSec/System Pentesting/Privilege Escalation/0.md",
-    "Red Teaming/Active Directory/Attacks/Mimikatz.md",
-    "Red Teaming/Active Directory/Attacks/Relay Attacks.md",
-    "Red Teaming/Active Directory/Attacks/Tools.md",
-    "Red Teaming/Active Directory/Enumeration/LDAP.md",
-    "Red Teaming/Active Directory/Enumeration/From linux.md",
-    "Templates/Simple.md",
     "z/Pasted image 20231207131332.png",
     "z/Pasted image 20231207124610.png",
     "z/Pasted image 20231207124143.png",

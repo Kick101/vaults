@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Red Teaming/Active Directory/Enumeration/Powershell.md",
+                "file": "Red Teaming/Active Directory/Attacks/Lateral Movement.md",
                 "mode": "source",
                 "source": false
               }
@@ -25,14 +25,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Red Teaming/Active Directory/Attacks/Persistence.md",
-                "mode": "preview",
+                "file": "Red Teaming/Active Directory/Attacks/Privilege Escalation.md",
+                "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -90,8 +89,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "fe286dd04d32f6ac",
@@ -107,7 +105,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Red Teaming/Active Directory/Attacks/Persistence.md",
+                "file": "Red Teaming/Active Directory/Attacks/Lateral Movement.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -124,7 +122,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Red Teaming/Active Directory/Attacks/Persistence.md",
+                "file": "Red Teaming/Active Directory/Attacks/Lateral Movement.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -147,7 +145,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Red Teaming/Active Directory/Attacks/Persistence.md"
+                "file": "Red Teaming/Active Directory/Attacks/Lateral Movement.md"
               }
             }
           }
@@ -168,11 +166,14 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "3a740ea67ec9449b",
+  "active": "183ace3d0bc572b1",
   "lastOpenFiles": [
-    "Red Teaming/Active Directory/Enumeration/Powershell.md",
-    "Red Teaming/Active Directory/Bypass AV.md",
     "Red Teaming/Active Directory/Attacks/Persistence.md",
+    "Red Teaming/Active Directory/Enumeration/Powershell.md",
+    "Red Teaming/Active Directory/Attacks/Privilege Escalation.md",
+    "Red Teaming/Active Directory/Attacks/Lateral Movement.md",
+    "Red Teaming/Active Directory/Attacks/Untitled",
+    "Red Teaming/Active Directory/Bypass AV.md",
     "Pasted image 20231218153813.png",
     "Pasted image 20231218115252.png",
     "Pasted image 20231218115220.png",
@@ -182,7 +183,6 @@
     "Pasted image 20231215170210.png",
     "Pasted image 20231215170136.png",
     "Red Teaming/Active Directory/Attacks/Relay Attacks.md",
-    "Red Teaming/Active Directory/Attacks/Lateral Movement.md",
     "Red Teaming/Active Directory/Attacks/Kerberos Attacks.md",
     "InfoSec/System Pentesting/FIle Transfers.md",
     "Red Teaming/Active Directory/Local Lab.md",
@@ -213,7 +213,6 @@
     "InfoSec/Threat Intelligence",
     "InfoSec/Forensics",
     "Internship",
-    "Certs/CEH/CEH v12 - Module02.pdf",
-    "Bug Bounty/Gov.in"
+    "Certs/CEH/CEH v12 - Module02.pdf"
   ]
 }

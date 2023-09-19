@@ -8,7 +8,6 @@ As-reproasting occurs when a user account has the privilege "_Does not require P
 
 > With sufficient rights (GenericWrite or GenericAll), Kerberos preauth can be forced disabled as well.
 
-
 ```bash
 GetNPUsers.py spookysec.local/svc-admin -no-pass -dc-ip $IP
 ```

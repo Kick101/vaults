@@ -1,9 +1,13 @@
 ### AsReproasting
 __Pre-Authentication__ means sending encrypted timestamp before requesting TGT.
-Asreproasting occurs when a user account has the privilege "_Does not require Pre-Authentication_" enabled. 
+As-reproasting occurs when a user account has the privilege "_Does not require Pre-Authentication_" enabled. 
+
 - Attackers can send a junk request for authentication, and the KDC will return _TGT_ for users that have Pre-Authentication disabled.
 - KDC responds with the `PRINCIPAL UNKNOWN` error for invalid usernames.
 - Whenever the KDC prompts for Kerberos Pre-Authentication, this means username exists.
+
+> With sufficient rights (GenericWrite or GenericAll), Kerberos preauth can be forced disabled as well.
+
 
 ```bash
 GetNPUsers.py spookysec.local/svc-admin -no-pass -dc-ip $IP
@@ -26,6 +30,9 @@ Get-ADUser -Filter {DoesNotRequirePreAuth -eq $True} -Properties DoesNotRequireP
 ```
 
 #### Force disable Kerberos Preauth
+```powershell
+Set-DomainObject -Identity Control1User -XOR @{useraccountcontrol=4194304} -Verbose
+```
 
 
 ---

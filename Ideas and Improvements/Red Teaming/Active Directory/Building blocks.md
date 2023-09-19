@@ -242,16 +242,20 @@ Get-ADUser -Filter {adminCount -gt 0} -Properties admincount,useraccountcontrol 
 
 - This is typically useful in multi-tier service or applications where Kerberos _Double Hop_ is required.
 - For example, users authenticates to a web server and web server makes requests to a database server. The web server can request access to resources (all or some resources depending on the type of delegation) on the database server as the user and not as the web server's service account.
+- If the user is not using Kerberos authentication to authenticate to the first hop server, Windows offers _Protocol Transition_ to transition the request to Kerberos.
 
 ![[Pasted image 20230920021133.png]]
 
-__There are two types of Kerberos Delegation:__
-- _General/Basic or Unconstrained Delegation_ which allows the first hop server (web server in our example) to _request access to any service_ on any computer in the domain.
-- _Constrained Delegation_ which allows the first hop server (web server in our example) to request access only to specified services on specified computers. If the user is not using Kerberos authentication to authenticate to the first hop server, Windows offers Protocol Transition to transition the request to Kerberos.
-- Please note that in both types of delegations, a mechanism is required to impersonate the incoming user and authenticate to the second hop server (Database server in our example) as the user
-- When set for a particular service account, unconstrained delegation allows delegation to any service to any resource on the domain as a user.
-- When unconstrained delegation is enabled, the DC places user's TGT inside TGS (Step 4 in the previous diagram). When presented to the server with unconstrained delegation, the TGT is extracted from TGS and stored in LSASS. This way the server can reuse the user's TGT to access any other resource as the user.
-- This could be used to escalate privileges in case we can compromise the computer with unconstrained delegation and a Domain Admin connects to that machine
+__General/Basic or Unconstrained Delegation__ 
+- which allows the first hop server (web server in our example) to _request access to any service on any computer in the domain_.
+- DC places user's TGT inside TGS (Step 4 in the previous diagram). When presented to the server, the TGT is extracted from TGS and stored in LSASS. This way the server can reuse the user's TGT to access any other resource as the user.
+- This could be used to escalate privileges in case we can compromise the computer with unconstrained delegation and a Domain Admin connects to that machine.
+
+__Constrained Delegation__
+- which allows the first hop server (web server in our example) to _request access only to specified services on specified computers_. 
+- 
+
+
 
 
 ---

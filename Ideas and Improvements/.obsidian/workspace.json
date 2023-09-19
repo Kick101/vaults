@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Red Teaming/Active Directory/Authentication.md",
+                "file": "Red Teaming/Active Directory/Attacks/Lateral Movement.md",
                 "mode": "preview",
                 "source": false
               }
@@ -89,8 +89,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "fe286dd04d32f6ac",
@@ -106,7 +105,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Red Teaming/Active Directory/Authentication.md",
+                "file": "Red Teaming/Active Directory/Attacks/Lateral Movement.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -123,7 +122,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Red Teaming/Active Directory/Authentication.md",
+                "file": "Red Teaming/Active Directory/Attacks/Lateral Movement.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -146,7 +145,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Red Teaming/Active Directory/Authentication.md"
+                "file": "Red Teaming/Active Directory/Attacks/Lateral Movement.md"
               }
             }
           }
@@ -169,6 +168,7 @@
   },
   "active": "a4484f33fd99bcc2",
   "lastOpenFiles": [
+    "Red Teaming/Active Directory/Authentication.md",
     "Red Teaming/Active Directory/Building blocks.md",
     "Red Teaming/Bypass AV.md",
     "InfoSec/System Pentesting/FIle Transfers.md",
@@ -195,7 +195,6 @@
     "xtras/Short films.md",
     "InfoSec/Regular Expressions.md",
     "InfoSec/Jekyll.md",
-    "InfoSec/CTF.md",
     "z/Pasted image 20231207131332.png",
     "z/Pasted image 20231207124610.png",
     "z/Pasted image 20231207124143.png",

@@ -1,5 +1,5 @@
 |User|Password|
 |-|-|
-|iron.man|iloveyou3000|
-|hulk|ihatestaris|
-|spiderman|
+|iron.man|Iloveyou3000|
+|hulk|Ihatestaris|
+|spider.man|spidysense|

@@ -12,3 +12,6 @@
 
 #### Payload Generator
 - msfvenom
+
+#### AI help in ebook reading
+- Use ChatGPT API to send some text, book name for understanding the meaning of it

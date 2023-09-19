@@ -25,8 +25,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "InfoSec/Security Analyst.md",
-                "mode": "preview",
+                "file": "xtras/Books.md",
+                "mode": "source",
                 "source": false
               }
             }
@@ -106,7 +106,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "InfoSec/Security Analyst.md",
+                "file": "xtras/Books.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -123,7 +123,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "InfoSec/Security Analyst.md",
+                "file": "xtras/Books.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -146,7 +146,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "InfoSec/Security Analyst.md"
+                "file": "xtras/Books.md"
               }
             }
           }
@@ -169,7 +169,22 @@
   },
   "active": "29e617ae8d7b75b7",
   "lastOpenFiles": [
+    "Internship/thc.cybersapiens.in.md",
+    "xtras/Books.md",
+    "xtras/Me Somewhere in T1m3.md",
+    "xtras/Food.md",
+    "xtras/Introduce about yourself.md",
+    "xtras/Productivity.md",
+    "xtras/Projects.md",
+    "xtras/Short films.md",
+    "InfoSec/Regular Expressions.md",
+    "InfoSec/Jekyll.md",
+    "InfoSec/CTF.md",
+    "InfoSec/Blog posts To-Do.md",
+    "InfoSec/Fields.md",
     "Red Teaming/Active Directory/Enumeration/From linux.md",
+    "InfoSec/Hacking Methodology.md",
+    "InfoSec/Security Analyst.md",
     "Red Teaming/Active Directory/Enumeration/LDAP.md",
     "Red Teaming/Active Directory/Enumeration/Powershell.md",
     "Red Teaming/Active Directory/Attacks/Tools.md",
@@ -180,21 +195,6 @@
     "InfoSec/System Pentesting/Privilege Escalation/Linux.md",
     "InfoSec/System Pentesting/FIle Transfers.md",
     "Red Teaming/Active Directory/Building blocks.md",
-    "Red Teaming/Active Directory/Authentication.md",
-    "Red Teaming/Active Directory/AD Administration.md",
-    "Red Teaming/Active Directory/Boxes/Forest.md",
-    "Red Teaming/Active Directory/Boxes/Attacktive Directory.md",
-    "Red Teaming/Active Directory/Boxes/Active.md",
-    "InfoSec/Threat Intelligence/init.md",
-    "InfoSec/System Pentesting/Impacket Toolkit.md",
-    "InfoSec/Network Pentesting/Service Attacks/Telent.md",
-    "InfoSec/Network Pentesting/Service Attacks/SMTP.md",
-    "InfoSec/Network Pentesting/Service Attacks/SMB & SAMBA.md",
-    "InfoSec/Network Pentesting/Service Attacks/NFS.md",
-    "InfoSec/Network Pentesting/Service Attacks/MySQL.md",
-    "InfoSec/Network Pentesting/Service Attacks/FTP.md",
-    "InfoSec/Network Pentesting/Service Attacks/Basics.md",
-    "InfoSec/Network Pentesting/Wireshark.md",
     "InfoSec/System Pentesting/Privilege Escalation/Linux_privesc_midmap.jpeg",
     "z/Pasted image 20231207131332.png",
     "z/Pasted image 20231207124610.png",

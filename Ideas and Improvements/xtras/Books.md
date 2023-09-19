@@ -1,8 +1,3 @@
-###### To kill a mockingbird
-
-
-
-### Books pending
 - Dune
 - The hitchhiker's guide to galaxy
 - The one hundred years of solitude

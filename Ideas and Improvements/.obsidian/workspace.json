@@ -32,72 +32,12 @@
             }
           },
           {
-            "id": "9ed253c37af1c0b2",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Tech & Languages/Linux & Bash.md",
-                "mode": "preview",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "9e883932e1356f73",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
                 "file": "Red Teaming/Active Directory/Attacks/Persistence.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "5bb2fc63e452c598",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Red Teaming/Active Directory/Attacks/Kerberos Attacks.md",
-                "mode": "preview",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "92f14435c0f5eedb",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Red Teaming/Active Directory/AD Administration.md",
-                "mode": "preview",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "16ad68b3a139b934",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "InfoSec/System Pentesting/Privilege Escalation/Windows.md",
-                "mode": "preview",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "3638647fbd404f1e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Red Teaming/Active Directory/Building blocks.md",
                 "mode": "preview",
                 "source": false
               }
@@ -163,7 +103,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 268.5026054382324
+    "width": 268.5026054382324,
+    "collapsed": true
   },
   "right": {
     "id": "fe286dd04d32f6ac",
@@ -179,7 +120,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Tech & Languages/Linux & Bash.md",
+                "file": "Red Teaming/Active Directory/Attacks/Persistence.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -196,7 +137,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Tech & Languages/Linux & Bash.md",
+                "file": "Red Teaming/Active Directory/Attacks/Persistence.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -219,7 +160,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Tech & Languages/Linux & Bash.md"
+                "file": "Red Teaming/Active Directory/Attacks/Persistence.md"
               }
             }
           }
@@ -240,12 +181,13 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "9ed253c37af1c0b2",
+  "active": "9e883932e1356f73",
   "lastOpenFiles": [
+    "Red Teaming/Active Directory/Enumeration/Powershell.md",
+    "Tech & Languages/Linux & Bash.md",
     "Red Teaming/Active Directory/Boxes/Forest.md",
     "Certs/CEH/06 System Hacking.md",
     "Red Teaming/Active Directory/Attacks/Privilege Escalation.md",
-    "Red Teaming/Active Directory/Enumeration/Powershell.md",
     "Red Teaming/Active Directory/Attacks/Kerberos Attacks.md",
     "Red Teaming/Active Directory/Attacks/Persistence.md",
     "Red Teaming/Active Directory/Attacks/Lateral Movement.md",
@@ -278,7 +220,6 @@
     "InfoSec/Wireless Pentesting/ARP Poision.md",
     "InfoSec/OSINT/Shodan.md",
     "InfoSec/OSINT/GitHub.md",
-    "InfoSec/Black Hat/Carding.md",
     "Red Teaming/Active Directory/Attacks",
     "Red Teaming/Active Directory/Cheat sheets",
     "Red Teaming/Active Directory/Boxes",

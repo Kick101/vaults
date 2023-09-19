@@ -61,14 +61,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Red Teaming/Active Directory/Attacks/Tools.md",
-                "mode": "preview",
+                "file": "InfoSec/System Pentesting/Privilege Escalation/Windows.md",
+                "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -122,13 +122,11 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "fe286dd04d32f6ac",
@@ -144,7 +142,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Red Teaming/Active Directory/Enumeration/Powershell.md",
+                "file": "InfoSec/System Pentesting/Privilege Escalation/Windows.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -161,7 +159,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Red Teaming/Active Directory/Enumeration/Powershell.md",
+                "file": "InfoSec/System Pentesting/Privilege Escalation/Windows.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -184,7 +182,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Red Teaming/Active Directory/Enumeration/Powershell.md"
+                "file": "InfoSec/System Pentesting/Privilege Escalation/Windows.md"
               }
             }
           }
@@ -205,16 +203,28 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "29e617ae8d7b75b7",
+  "active": "e216171841ef6883",
   "lastOpenFiles": [
-    "Red Teaming/Active Directory/Building blocks.md",
+    "InfoSec/System Pentesting/Privilege Escalation/Linux_privesc_midmap.jpeg",
+    "InfoSec/System Pentesting/Privilege Escalation/Linux.md",
+    "InfoSec/System Pentesting/Privilege Escalation/0.md",
+    "InfoSec/System Pentesting/FIle Transfers.md",
+    "InfoSec/System Pentesting/Network Service Attacks/Basics.md",
+    "InfoSec/System Pentesting/Network Service Attacks/SMB & SAMBA.md",
+    "InfoSec/System Pentesting/Network Service Attacks/SMTP.md",
+    "InfoSec/System Pentesting/Network Service Attacks/NFS.md",
+    "InfoSec/System Pentesting/Network Service Attacks/MySQL.md",
+    "InfoSec/System Pentesting/Network Service Attacks/FTP.md",
+    "Red Teaming/Active Directory/Attacks/Mimikatz.md",
+    "Red Teaming/Active Directory/Attacks/Relay Attacks.md",
+    "Red Teaming/Active Directory/Attacks/Tools.md",
     "Red Teaming/Active Directory/AD Administration.md",
+    "Red Teaming/Active Directory/Building blocks.md",
     "Red Teaming/Active Directory/Enumeration/Powershell.md",
     "Red Teaming/Active Directory/Enumeration/LDAP.md",
     "Red Teaming/Active Directory/Enumeration/From linux.md",
     "Templates/Simple.md",
     "Tech & Languages/powershell.md",
-    "Red Teaming/Active Directory/Attacks/Tools.md",
     "z/Pasted image 20231207131332.png",
     "z/Pasted image 20231207124610.png",
     "z/Pasted image 20231207124143.png",
@@ -226,22 +236,9 @@
     "z/Pasted image 20231206222117.png",
     "z/Pasted image 20231206155001.png",
     "Red Teaming/Active Directory/Authentication.md",
-    "Red Teaming/Active Directory/Attacks/Mimikatz.md",
-    "Red Teaming/Active Directory/Attacks/Kerberos Attacks.md",
-    "Red Teaming/Active Directory/Attacks/Relay Attacks.md",
     "Red Teaming/Active Directory/Attacks",
     "Red Teaming/Active Directory/Cheat sheets",
-    "conflict-files-obsidian-git.md",
-    "Red Teaming/Active Directory/Boxes/Attacktive Directory.md",
     "Red Teaming/Active Directory/Boxes",
-    "Red Teaming/Active Directory 1/AD Enum.md",
-    "Red Teaming/Active Directory/Boxes/Forest.md",
-    "Red Teaming/Active Directory/Boxes/Resolute.md",
-    "Red Teaming/Active Directory/Boxes/Sauna.md",
-    "InfoSec/System Pentesting/FIle Transfers.md",
-    "InfoSec/System Pentesting/windows/Tools.md",
-    "InfoSec/System Pentesting/windows/Telent.md",
-    "InfoSec/System Pentesting/Privilege Escalation/Linux_privesc_midmap.jpeg",
     "Red Teaming/Active Directory",
     "Red Teaming/Active Directory/Enumeration",
     "z/Pasted image 20230809174016.png",

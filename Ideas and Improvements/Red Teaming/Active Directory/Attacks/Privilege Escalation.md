@@ -152,6 +152,7 @@ C:\Users\appadmin\Documents\user1\[0;2ceb8b3]-2-0-
 60a10000-Administrator@krbtgt-DOLLARCORP.MONEYCORP.LOCAL.kirbi"'
 ```
 
-##### Printer Bug
-- MS-RPRN feature which _allows any domain authenticated user_ _to force any machine_ (running the Spooler service) _to connect to second a machine of the domain user's choice_.
+>__Printer Bug__
+> MS-RPRN feature which _allows any domain authenticated user to force any machine , running the Spooler service, to connect to second a machine of the domain user's choice_.
 - We can force the dcorp-dc to connect to dcorp-appsrv by abusing the Printer bug
+

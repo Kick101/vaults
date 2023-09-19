@@ -122,7 +122,7 @@ Invoke-DomainPasswordSpray -UserList users.txt -Domain domain-name -PasswordList
 ```
 
 ---
-### Kerberos Delegation
+### Kerberos Unconstrained Delegation
 - Kerberos Delegation allows to "reuse the end-user credentials to access resources hosted on a different server".
 - This is typically useful in multi-tier service or applications where Kerberos Double Hop is required.
 - For example, users authenticates to a web server and web server makes requests to a database server. The web server can request access to resources (all or some resources depending on the type of delegation) on the database server as the user and not as the web server's service account.

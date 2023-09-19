@@ -32,43 +32,19 @@
             }
           },
           {
-            "id": "de37cb2212bff5df",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Red Teaming/Active Directory/Building blocks.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "1c0d0e201d2b3040",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Red Teaming/Active Directory/AD Administration.md",
-                "mode": "preview",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "e216171841ef6883",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "InfoSec/System Pentesting/Privilege Escalation/Windows.md",
-                "mode": "source",
+                "file": "InfoSec/Network Pentesting/Service Attacks/MySQL.md",
+                "mode": "preview",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -142,7 +118,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "InfoSec/System Pentesting/Privilege Escalation/Windows.md",
+                "file": "InfoSec/Network Pentesting/Service Attacks/MySQL.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -159,7 +135,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "InfoSec/System Pentesting/Privilege Escalation/Windows.md",
+                "file": "InfoSec/Network Pentesting/Service Attacks/MySQL.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -182,7 +158,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "InfoSec/System Pentesting/Privilege Escalation/Windows.md"
+                "file": "InfoSec/Network Pentesting/Service Attacks/MySQL.md"
               }
             }
           }
@@ -205,22 +181,27 @@
   },
   "active": "e216171841ef6883",
   "lastOpenFiles": [
+    "InfoSec/Network Pentesting/Service Attacks/FTP.md",
+    "InfoSec/Network Pentesting/Service Attacks/Basics.md",
+    "InfoSec/Network Pentesting/Wireshark.md",
+    "InfoSec/Network Pentesting/Networking.md",
+    "InfoSec/Security Analyst.md",
+    "InfoSec/Regular Expressions.md",
+    "InfoSec/System Pentesting/Privilege Escalation/Windows.md",
+    "Red Teaming/Active Directory/Enumeration/Powershell.md",
+    "Red Teaming/Active Directory/Building blocks.md",
+    "Red Teaming/Active Directory/AD Administration.md",
     "InfoSec/System Pentesting/Privilege Escalation/Linux_privesc_midmap.jpeg",
     "InfoSec/System Pentesting/Privilege Escalation/Linux.md",
     "InfoSec/System Pentesting/Privilege Escalation/0.md",
     "InfoSec/System Pentesting/FIle Transfers.md",
-    "InfoSec/System Pentesting/Network Service Attacks/Basics.md",
-    "InfoSec/System Pentesting/Network Service Attacks/SMB & SAMBA.md",
-    "InfoSec/System Pentesting/Network Service Attacks/SMTP.md",
-    "InfoSec/System Pentesting/Network Service Attacks/NFS.md",
-    "InfoSec/System Pentesting/Network Service Attacks/MySQL.md",
-    "InfoSec/System Pentesting/Network Service Attacks/FTP.md",
+    "InfoSec/Network Pentesting/Service Attacks/SMB & SAMBA.md",
+    "InfoSec/Network Pentesting/Service Attacks/SMTP.md",
+    "InfoSec/Network Pentesting/Service Attacks/NFS.md",
+    "InfoSec/Network Pentesting/Service Attacks/MySQL.md",
     "Red Teaming/Active Directory/Attacks/Mimikatz.md",
     "Red Teaming/Active Directory/Attacks/Relay Attacks.md",
     "Red Teaming/Active Directory/Attacks/Tools.md",
-    "Red Teaming/Active Directory/AD Administration.md",
-    "Red Teaming/Active Directory/Building blocks.md",
-    "Red Teaming/Active Directory/Enumeration/Powershell.md",
     "Red Teaming/Active Directory/Enumeration/LDAP.md",
     "Red Teaming/Active Directory/Enumeration/From linux.md",
     "Templates/Simple.md",
@@ -230,12 +211,8 @@
     "z/Pasted image 20231207124143.png",
     "Red Teaming/Active Directory/Enumeration/Built-in Tools.md",
     "Red Teaming/Active Directory/Cheat sheets/PowerView & SharpView cheatsheet.md",
-    "InfoSec/WebApp Pentesting/CORS.md",
-    "Certs/CEH/06 System Hacking.md",
-    "Red Teaming/Active Directory/Boxes/Active.md",
     "z/Pasted image 20231206222117.png",
     "z/Pasted image 20231206155001.png",
-    "Red Teaming/Active Directory/Authentication.md",
     "Red Teaming/Active Directory/Attacks",
     "Red Teaming/Active Directory/Cheat sheets",
     "Red Teaming/Active Directory/Boxes",

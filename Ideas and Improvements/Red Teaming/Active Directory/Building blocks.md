@@ -223,10 +223,6 @@ __SeTakeOwnershipPrivilege__
 
 
 
-
-
-
-
 ---
 ### User-Account-Control (UAC) Attributes
 These values are not to be confused with the Windows User Account Control technology.

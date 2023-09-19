@@ -248,8 +248,9 @@ $computers = Get-DomainComputer -Properties dnshostname | select -ExpandProperty
 
 ---
 ### Powershell 
-##### Local Admin Access
+##### Find Local Admin Access
 Find all machines on domain where current user has local admin access
+This leaves _4624, 4634, 4672_
 - `Invoke-EnumerateLocalAdmin -verbose` 
 - `Find-LocalAdminAccess -verbose` 
 

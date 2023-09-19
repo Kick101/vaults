@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Red Teaming/Active Directory/Attacks/Kerberos Attacks.md",
+                "file": "Red Teaming/Active Directory/Attacks/Lateral Movement.md",
                 "mode": "preview",
                 "source": false
               }
@@ -106,7 +106,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Red Teaming/Active Directory/Attacks/Kerberos Attacks.md",
+                "file": "Red Teaming/Active Directory/Attacks/Lateral Movement.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -123,7 +123,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Red Teaming/Active Directory/Attacks/Kerberos Attacks.md",
+                "file": "Red Teaming/Active Directory/Attacks/Lateral Movement.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -146,7 +146,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Red Teaming/Active Directory/Attacks/Kerberos Attacks.md"
+                "file": "Red Teaming/Active Directory/Attacks/Lateral Movement.md"
               }
             }
           }
@@ -169,6 +169,7 @@
   },
   "active": "183ace3d0bc572b1",
   "lastOpenFiles": [
+    "Red Teaming/Active Directory/Attacks/Kerberos Attacks.md",
     "Red Teaming/Active Directory/Authentication.md",
     "InfoSec/System Pentesting/Privilege Escalation/Windows.md",
     "InfoSec/System Pentesting/Privilege Escalation/0.md",
@@ -195,7 +196,6 @@
     "xtras/Productivity.md",
     "xtras/Projects.md",
     "xtras/Short films.md",
-    "InfoSec/Regular Expressions.md",
     "z/Pasted image 20231207131332.png",
     "z/Pasted image 20231207124610.png",
     "z/Pasted image 20231207124143.png",

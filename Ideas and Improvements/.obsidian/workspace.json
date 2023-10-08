@@ -18,8 +18,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "0f12b3f120179259",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "InfoSec/WebApp Pentesting/CORS.md",
+                "mode": "preview",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -94,7 +107,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "InfoSec/Binary & Reverse/PWN 101.md",
+                "file": "InfoSec/WebApp Pentesting/CORS.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +124,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "InfoSec/Binary & Reverse/PWN 101.md",
+                "file": "InfoSec/WebApp Pentesting/CORS.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +147,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "InfoSec/Binary & Reverse/PWN 101.md"
+                "file": "InfoSec/WebApp Pentesting/CORS.md"
               }
             }
           }
@@ -155,7 +168,7 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "992b81e5e436783b",
+  "active": "0f12b3f120179259",
   "lastOpenFiles": [
     "InfoSec/Binary & Reverse/pwn.college.md",
     "InfoSec/Binary & Reverse/Fundamentals.md",

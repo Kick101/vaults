@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "InfoSec/WebApp Pentesting/Methodologies/My Methodology.md",
+                "file": "InfoSec/Wireless Pentesting/WiFi Hacking.md",
                 "mode": "preview",
                 "source": false
               }
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "InfoSec/WebApp Pentesting/Methodologies/My Methodology.md",
+                "file": "InfoSec/Wireless Pentesting/WiFi Hacking.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "InfoSec/WebApp Pentesting/Methodologies/My Methodology.md",
+                "file": "InfoSec/Wireless Pentesting/WiFi Hacking.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "InfoSec/WebApp Pentesting/Methodologies/My Methodology.md"
+                "file": "InfoSec/Wireless Pentesting/WiFi Hacking.md"
               }
             }
           }
@@ -157,6 +157,7 @@
   },
   "active": "47beb87258bbcb35",
   "lastOpenFiles": [
+    "InfoSec/WebApp Pentesting/Methodologies/My Methodology.md",
     "InfoSec/WebApp Pentesting/Methodologies/Recon tips.md",
     "InfoSec/WebApp Pentesting/CORS.md",
     "InfoSec/Binary & Reverse/pwn.college.md",
@@ -178,7 +179,6 @@
     "InfoSec/CVEs/0.md",
     "InfoSec/CVEs/Apache Struts2.md",
     "InfoSec/WebApp Pentesting/Methodologies/Orwa Atyat Methodology.md",
-    "InfoSec/WebApp Pentesting/Methodologies/My Methodology.md",
     "InfoSec/WebApp Pentesting/Methodologies/JHaddix Recon.md",
     "InfoSec/WebApp Pentesting/Methodologies/Bug Bounty Playbooks.md",
     "InfoSec/WebApp Pentesting/SSRF/SSRF.md",

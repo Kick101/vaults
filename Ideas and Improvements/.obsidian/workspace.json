@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "828fc659fe66ce69",
+        "id": "9f04409f2222ead2",
         "type": "tabs",
         "children": [
           {
-            "id": "fe9b428eeafda129",
+            "id": "d682b5fb8cb4b407",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "InfoSec/Tech & Languages/Windows & Batch.md",
+                "file": "Red Teaming/Untitled.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "InfoSec/Tech & Languages/Windows & Batch.md",
+                "file": "Red Teaming/Untitled.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "InfoSec/Tech & Languages/Windows & Batch.md",
+                "file": "Red Teaming/Untitled.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "InfoSec/Tech & Languages/Windows & Batch.md"
+                "file": "Red Teaming/Untitled.md"
               }
             }
           }
@@ -154,11 +154,18 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "fe9b428eeafda129",
+  "active": "e985295c9ac7b16f",
   "lastOpenFiles": [
-    "InfoSec/Tech & Languages/powershell.md",
-    "InfoSec/WebApp Pentesting/THM  Learnings.md",
+    "Red Teaming/Untitled",
+    "Red Teaming/Enumeration/Powershell.md",
+    "Red Teaming/Untitled.md",
+    "Tech & Languages/Windows & Batch.md",
+    "Red Teaming/Enumeration",
     "Red Teaming/Engagement.md",
+    "Tech & Languages/Rust.md",
+    "Tech & Languages/powershell.md",
+    "Tech & Languages/Django.md",
+    "InfoSec/WebApp Pentesting/THM  Learnings.md",
     "Projects/CSD/Description.md",
     "xtras/vision.md",
     "xtras/Skills.md",
@@ -170,19 +177,13 @@
     "xtras/Introduce about yourself.md",
     "xtras/Me 2022.md",
     "z/Pasted image 20230809174016.png",
-    "InfoSec/Machines/HTB/Active Directory/Active.md",
-    "InfoSec/Machines/HTB/Active Directory/Sauna.md",
-    "InfoSec/Machines/HTB/Active Directory/Resolute.md",
-    "InfoSec/Machines/HTB/Active Directory/Forest.md",
+    "Red Teaming/Write-ups/HTB/Active Directory/Active.md",
+    "Red Teaming/Write-ups/HTB/Active Directory/Sauna.md",
+    "Red Teaming/Write-ups/HTB/Active Directory/Resolute.md",
+    "Red Teaming/Write-ups/HTB/Active Directory/Forest.md",
     "InfoSec/Wireless Pentesting/WiFi Hacking.md",
     "InfoSec/WebApp Pentesting/Methodologies/My Methodology.md",
     "InfoSec/WebApp Pentesting/Methodologies/Recon tips.md",
-    "InfoSec/WebApp Pentesting/CORS.md",
-    "InfoSec/Binary & Reverse/pwn.college.md",
-    "InfoSec/Binary & Reverse/Fundamentals.md",
-    "InfoSec/Binary & Reverse/Buffer Overflow.md",
-    "InfoSec/Binary & Reverse/Assembly x86.md",
-    "InfoSec/Binary & Reverse/Assembly x64.md",
     "InfoSec/Threat Intelligence",
     "InfoSec/Forensics",
     "z/Pasted image 20230808193612.png",
@@ -200,7 +201,6 @@
     "Bug Bounty/OLX",
     "InfoSec/zisZpzU2",
     "InfoSec/WebApp-Pentesting.zip",
-    "Bug Bounty/Bigcommerce",
-    "Bug Bounty/Hilton"
+    "Bug Bounty/Bigcommerce"
   ]
 }

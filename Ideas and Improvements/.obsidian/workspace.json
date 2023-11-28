@@ -4,17 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "632ee0f758512b22",
+        "id": "828fc659fe66ce69",
         "type": "tabs",
         "children": [
           {
-            "id": "47beb87258bbcb35",
+            "id": "fe9b428eeafda129",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "InfoSec/Wireless Pentesting/WiFi Hacking.md",
-                "mode": "preview",
+                "file": "InfoSec/Tech & Languages/Windows & Batch.md",
+                "mode": "source",
                 "source": false
               }
             }
@@ -77,8 +77,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 288.5026054382324,
-    "collapsed": true
+    "width": 288.5026054382324
   },
   "right": {
     "id": "fe286dd04d32f6ac",
@@ -94,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "InfoSec/Wireless Pentesting/WiFi Hacking.md",
+                "file": "InfoSec/Tech & Languages/Windows & Batch.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "InfoSec/Wireless Pentesting/WiFi Hacking.md",
+                "file": "InfoSec/Tech & Languages/Windows & Batch.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "InfoSec/Wireless Pentesting/WiFi Hacking.md"
+                "file": "InfoSec/Tech & Languages/Windows & Batch.md"
               }
             }
           }
@@ -155,8 +154,27 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "47beb87258bbcb35",
+  "active": "fe9b428eeafda129",
   "lastOpenFiles": [
+    "InfoSec/Tech & Languages/powershell.md",
+    "InfoSec/WebApp Pentesting/THM  Learnings.md",
+    "Red Teaming/Engagement.md",
+    "Projects/CSD/Description.md",
+    "xtras/vision.md",
+    "xtras/Skills.md",
+    "xtras/Projects.md",
+    "xtras/Short films.md",
+    "xtras/Productivity.md",
+    "xtras/Books.md",
+    "xtras/Food.md",
+    "xtras/Introduce about yourself.md",
+    "xtras/Me 2022.md",
+    "z/Pasted image 20230809174016.png",
+    "InfoSec/Machines/HTB/Active Directory/Active.md",
+    "InfoSec/Machines/HTB/Active Directory/Sauna.md",
+    "InfoSec/Machines/HTB/Active Directory/Resolute.md",
+    "InfoSec/Machines/HTB/Active Directory/Forest.md",
+    "InfoSec/Wireless Pentesting/WiFi Hacking.md",
     "InfoSec/WebApp Pentesting/Methodologies/My Methodology.md",
     "InfoSec/WebApp Pentesting/Methodologies/Recon tips.md",
     "InfoSec/WebApp Pentesting/CORS.md",
@@ -165,38 +183,19 @@
     "InfoSec/Binary & Reverse/Buffer Overflow.md",
     "InfoSec/Binary & Reverse/Assembly x86.md",
     "InfoSec/Binary & Reverse/Assembly x64.md",
-    "InfoSec/CTF.md",
-    "CTF/BugTrails/April, 2023.md",
-    "InfoSec/Forensics/DF.md",
-    "InfoSec/Threat Intelligence/init.md",
     "InfoSec/Threat Intelligence",
-    "Certs/CEH/THM Jr Penetration Tester.md",
-    "Certs/Security+/Attacks, Threats, and Vulnerabilities.md",
-    "InfoSec/OSINT/Shodan.md",
-    "InfoSec/OSINT/GitHub.md",
-    "Certs/CEH/05 Vulnerability Analysis.md",
     "InfoSec/Forensics",
-    "InfoSec/CVEs/0.md",
-    "InfoSec/CVEs/Apache Struts2.md",
-    "InfoSec/WebApp Pentesting/Methodologies/Orwa Atyat Methodology.md",
-    "InfoSec/WebApp Pentesting/Methodologies/JHaddix Recon.md",
-    "InfoSec/WebApp Pentesting/Methodologies/Bug Bounty Playbooks.md",
-    "InfoSec/WebApp Pentesting/SSRF/SSRF.md",
-    "InfoSec/WebApp Pentesting/SQLi/SQLi.md",
-    "InfoSec/WebApp Pentesting/SQLi/Payloads.md",
-    "Internship/thc.cybersapiens.in.md",
-    "Pasted image 20230808193612.png",
-    "Pasted image 20230809171656.png",
-    "Pasted image 20230809174016.png",
-    "Pasted image 20230809171457.png",
-    "Pasted image 20230809101807.png",
-    "Pasted image 20230808185708.png",
+    "z/Pasted image 20230808193612.png",
+    "z/Pasted image 20230809171656.png",
+    "z/Pasted image 20230809171457.png",
+    "z/Pasted image 20230809101807.png",
+    "z/Pasted image 20230808185708.png",
     "Internship",
     "Certs/CEH/CEH v12 - Module02.pdf",
-    "Pasted image 20230808165951.png",
-    "Pasted image 20230807235217.png",
-    "Pasted image 20230807212216.png",
-    "Pasted image 20230805142153.png",
+    "z/Pasted image 20230808165951.png",
+    "z/Pasted image 20230807235217.png",
+    "z/Pasted image 20230807212216.png",
+    "z/Pasted image 20230805142153.png",
     "Bug Bounty/Gov.in",
     "Bug Bounty/OLX",
     "InfoSec/zisZpzU2",

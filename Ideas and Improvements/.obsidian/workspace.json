@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Red Teaming/Untitled.md",
+                "file": "Red Teaming/Enumeration/Powershell.md",
                 "mode": "source",
                 "source": false
               }
@@ -77,7 +77,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 288.5026054382324
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "fe286dd04d32f6ac",
@@ -93,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Red Teaming/Untitled.md",
+                "file": "Red Teaming/Enumeration/Powershell.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Red Teaming/Untitled.md",
+                "file": "Red Teaming/Enumeration/Powershell.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Red Teaming/Untitled.md"
+                "file": "Red Teaming/Enumeration/Powershell.md"
               }
             }
           }
@@ -154,11 +155,11 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "e985295c9ac7b16f",
+  "active": "d682b5fb8cb4b407",
   "lastOpenFiles": [
-    "Red Teaming/Untitled",
+    "Red Teaming/Active Directory/Structure.md",
+    "Red Teaming/Active Directory",
     "Red Teaming/Enumeration/Powershell.md",
-    "Red Teaming/Untitled.md",
     "Tech & Languages/Windows & Batch.md",
     "Red Teaming/Enumeration",
     "Red Teaming/Engagement.md",
@@ -200,7 +201,6 @@
     "Bug Bounty/Gov.in",
     "Bug Bounty/OLX",
     "InfoSec/zisZpzU2",
-    "InfoSec/WebApp-Pentesting.zip",
-    "Bug Bounty/Bigcommerce"
+    "InfoSec/WebApp-Pentesting.zip"
   ]
 }

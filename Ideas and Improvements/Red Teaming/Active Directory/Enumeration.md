@@ -73,7 +73,7 @@ This [link](http://www.kouti.com/tables/userattributes.htm) contains a large lis
 
 ![[Pasted image 20230304101956.png]]
 
-#### LDAP Queries
+#### LDAP Queries via AD Module
 __Workstations in a network__
 ```powershell
 Get-ADObject -LDAPFilter '(objectCategory=computer)'
@@ -244,7 +244,7 @@ dsquery user "OU=Employees,DC=inlanefreight,DC=local" -name * -scope subtree -li
 pwdneverexpires | findstr /V no
 ```
 
-##### AD Powershell Module
+##### AD Module
 The PowerShell Active Directory module is a _group of cmdlets used to manage AD_.
 ```powershell
 Get-ADUser -Filter * -SearchBase 'OU=Admin,DC=inlanefreight,dc=local'

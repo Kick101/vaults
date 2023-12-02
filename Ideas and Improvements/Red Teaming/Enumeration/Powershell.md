@@ -17,6 +17,7 @@
 - `Get-NetGroupMemeber -GroupName "Domain Admins"`or `Get-DomainGroupMember -Identity Help-Desk`: members of Domain admins
 - `Get-NetGroup -UserName john` : groups of john
 - `Get-DomainManagedSecurityGroup` : Get managed security groups
+- `Get-NetLocalGroup -ComputerName WS01 | select GroupName` : Local groups of current user on local machine
 ##### Computers
 - `Get-NetComputer` : all computers of Domain
 - `Get-NetComputer -FullData` : Full data of computers, queries are made to DC
@@ -31,7 +32,7 @@
 
 ##### Access Controls
 - `ConvertTo-SID joe.evans` : Get SID
-- `Get-DomainObjectAcl -Identity 'Security Operations' | ?{ $_.SecurityIdentifier -eq $sid}` : Get ACL of Joe evans, `$sid` is 
+- `Get-DomainObjectAcl -Identity 'Security Operations' | ?{ $_.SecurityIdentifier -eq $sid}` : Get ACL of Joe evans, `$sid` is joe.evans sid variable
 - 
 
 ---
@@ -68,6 +69,9 @@
 
 ---
 ### Sharpview
+##### Groups
+- `Get-NetLocalGroupMember -ComputerName WS01` : Local groups
+- 
 
 ---
 ### Powershell 

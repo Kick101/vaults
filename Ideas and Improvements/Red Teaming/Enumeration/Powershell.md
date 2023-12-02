@@ -21,6 +21,7 @@
 ##### Computers
 - `Get-NetComputer` : all computers of Domain
 - `Get-NetComputer -FullData` : Full data of computers, queries are made to DC
+- 
 ##### Forests
 - `Get-NetForest` : Root of the current forest
 - `Get-NetForest -Forest dc.local`

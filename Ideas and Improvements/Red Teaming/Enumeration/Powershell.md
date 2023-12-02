@@ -31,8 +31,8 @@
 - `Get-NetDomainTrust -Domain dc.local`
 
 ##### Access Controls
-- `ConvertTo-SID joe.evans` : Get SID
-- `Get-DomainObjectAcl -Identity 'Security Operations' | ?{ $_.SecurityIdentifier -eq $sid}` : Get ACL of Joe evans, `$sid` is joe.evans sid variable
+- `$sid = ConvertTo-NameToSid joe.evans` : Get SID
+- `Get-DomainObjectAcl -Identity 'Security Operations' | ?{ $_.SecurityIdentifier -eq $sid}` : Get ACL of Joe evans
 - 
 
 ---

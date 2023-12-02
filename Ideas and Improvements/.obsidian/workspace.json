@@ -26,7 +26,7 @@
               "type": "markdown",
               "state": {
                 "file": "Red Teaming/Enumeration/Powershell.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": false
               }
             }
@@ -43,7 +43,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -118,7 +119,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Red Teaming/Active Directory/Enumeration.md",
+                "file": "Red Teaming/Enumeration/Powershell.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -135,7 +136,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Red Teaming/Active Directory/Enumeration.md",
+                "file": "Red Teaming/Enumeration/Powershell.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -158,7 +159,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Red Teaming/Active Directory/Enumeration.md"
+                "file": "Red Teaming/Enumeration/Powershell.md"
               }
             }
           }
@@ -179,10 +180,10 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "d682b5fb8cb4b407",
+  "active": "5c28cececc2d3341",
   "lastOpenFiles": [
-    "conflict-files-obsidian-git.md",
     "Red Teaming/Active Directory/Enumeration.md",
+    "conflict-files-obsidian-git.md",
     "Red Teaming/Enumeration/Powershell.md",
     "Red Teaming/Active Directory/Basics.md",
     "Red Teaming/Enumeration/LDAP.md",

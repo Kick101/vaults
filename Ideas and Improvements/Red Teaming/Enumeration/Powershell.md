@@ -12,9 +12,9 @@
 - `Get-NetUser -Domain marvel.local` : Users of marvel.local domain
 - `Get-NetUser -UserName john` : Info about john
 ##### Groups & members
-- `Get-NetGroup ` : All group names
+- `Get-NetGroup` or `Get-DomainGroup -Properties Name` : All group names
 - `Get-NetGroup *admin*` : Get all groups names w/ admin in 'em
-- `Get-NetGroupMemeber -GroupName "Domain Admins"` : members of Domain admins
+- `Get-NetGroupMemeber -GroupName "Domain Admins"`or `Get-DomainGroupMember -Identity Help-Desk`: members of Domain admins
 - `Get-NetGroup -UserName john` : groups of john
 ##### Computers
 - `Get-NetComputer` : all computers of Domain

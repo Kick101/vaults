@@ -148,106 +148,6 @@ __Get All users in a OU__
 Get-ADUser -Filter * -SearchBase "OU=IT,OU=Employees,DC=INLANEFREIGHT,DC=LOCAL"
 ```
 
-#### LDAP Anonymous Bind
-- LDAP anonymous binds _allow unauthenticated attackers to retrieve information_ from the domain, such as a full listing of users, groups, computers, user account attributes, and the domain password policy. 
-- Attacker _does not need to know a base object_ to query a considerable amount of information from the domain. 
-- Password spraying or AS-REPRoasting attack, read information such as passwords stored in account description fields.
-
-__LDAP NULL Authentication__
-```python
-from ldap3 import *
-IP = ''
-s = Server(IP,get_info = ALL)
-c =  Connection(s, '', '')
-c.bind()
-s.info
-```
-
-##### rpcclient
-```bash
-rpcclient -U "" -N $IP
-```
-__Get All users__
-```bash
-enumdomusers
-```
-__Get Details__
-```bash
-queryuser $rid
-```
-
-##### Ldapsearch
-We can confirm anonymous LDAP bind & retrieve all AD objects from LDAP.
-```bash
-ldapsearch -H ldap://$IP -x -b "dc=inlanefreight,dc=local"
-```
-__Get SAM Account Names__
-
-```bash
-ldapsearch -H ldap://$IP -x -D "" -w "" -b "dc=inlanefreight,dc=local" '(objectClass=Person)' 'sAMAccountName' | grep sAMAccountName | awk '{print $2}'
-```
-
-##### Windapsearch
-Anonymous and authenticated LDAP enumeration of AD users, groups, and computers using LDAP queries
-- Below command can confirm _LDAP NULL session authentication_ and domain functional level.
-```bash
-windapsearch --dc-ip $IP -u "" --functionality
-```
-
-__Pull a listing of all domain users to use in a password spraying__
-```bash
-windapsearch --dc-ip $IP -u "" -U
-```
-- `-C` - computers
-
-__Custom__
-```bash
-windapsearch --dc-ip $IP --custom "objectClass=Person"
-```
-
-__SMARTCARD\_REQUIRED accts__
-```bash
-windapsearch --dc-ip $IP -u "" -p "" --custom "(&(objectClass=user)(userAccountControl:1.2.840.113556.1.4.803:=262144))"
-```
-
-__ENCRYPTED_TEXT_PWD_ALLOWED__
-```bash
-windapsearch --dc-ip $IP -u "" -p "" --custom "(userAccountControl:1.2.840.113556.1.4.803:=128)"
-```
-
-__Get Distinguished Name__
-```bash
-windapsearch.py --dc-ip 172.16.5.5 -u SAPService@INLANEFREIGHT.LOCAL -p '!SapperFi2' --custom '(sAMAccountName=SAPService)'
-```
-__Get groups of a user__
-```bash
-windapsearch.py --dc-ip 172.16.5.5 -u SAPService@INLANEFREIGHT.LOCAL -p '!SapperFi2' --custom '(member:1.2.840.113556.1.4.1941:=CN=SAPService,CN=Users,DC=INLANEFREIGHT,DC=LOCAL)
-```
-
-> [ldapsearch-ad.py](https://github.com/yaap7/ldapsearch-ad) is similar to `windapsearch`.
-
-#### Credentialed LDAP Enumeration
-
-__Domain Admins__
-```bash
-windapsearch --dc-ip $IP -u inlanefreight\\james.cross --da
-```
-__Password Policy__
-```bash
-ldapsearch-ad.py -l $IP -d inlanefreight -u james.cross -p Summer2020 -t pass-pols
-```
-
-__users who are subject to a _Kerberoasting_ attack__
-```bash
-ldapsearch-ad.py -l $IP -d inlanefreight -u james.cross -p Summer2020 -t kerberoast | grep servicePrincipalName:
-```
-
-__users that can be _ASREPRoasted___
-```bash
-ldapsearch-ad.py -l $IP -d inlanefreight -u james.cross -p Summer2020 -t asreproast
-```
-
-
 
 ---
 ### AD Search Filters
@@ -322,8 +222,8 @@ Get-ADUser -Filter "adminCount -eq '1'" -Properties * | where servicePrincipalNa
 ```
 
 ---
-### Enumeration w/ Bulti-In tools
-#### User-Account-Control Attributes
+### Enumeration w/ Built-In tools
+#### User-Account-Control (UAC) Attributes
 These values are not to be confused with the Windows User Account Control technology.
 
 ![[Pasted image 20230304114246.png]]
@@ -724,10 +624,6 @@ __AD Attack chains:__
 (Get-ACL "AD:$((Get-ADUser daniel.carter).distinguishedname)").access  | ? {$_.ActiveDirectoryRights -match "WriteProperty" -or $_.ActiveDirectoryRights -match "GenericAll"} | Select IdentityReference,ActiveDirectoryRights -Unique | ft -W
 ```
 
-__Using Powerview__
-```powershell-session
-Get-DomainObjectAcl -Identity harry.jones -Domain inlanefreight.local -ResolveGUIDs
-```
 
 __Search out objects with modification rights over non-built-in objects__
 ```powershell
@@ -752,11 +648,6 @@ Convert-SidToName $dcsync
 
 __Obtain Password History__
 - `LSADUMP::ChangeNTLM` or `LSADUMP::SetNTLM`
-
----
-###  Enumerating Group Policy Objects
-
-
 
 ---
 ### Enumerating Security Controls

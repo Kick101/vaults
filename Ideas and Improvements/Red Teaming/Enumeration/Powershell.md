@@ -1,6 +1,6 @@
-#### Powerview
+### Powerview
 > Disable execution policy `powershell -ep bypass`
-> .`\PowerView.ps1`
+> `.\PowerView.ps1`
 
 ##### Domain
 - `Get-NetDomain` : Current Domain Information
@@ -19,12 +19,19 @@
 ##### Computers
 - `Get-NetComputer` : all computers of Domain
 - `Get-NetComputer -FullData` : Full data of computers, queries are made to DC
-
+##### Forests
+- `Get-NetForest` : Root of the current forest
+- `Get-NetForest -Forest dc.local`
+- `Get-NetForestDomain` : Domains of current forest
+- `Get-NetForestDomain -Forest dc.local`
+##### Trusts
+- `Get-NetDomainTrust` : Trust relationships of current domain
+- `Get-NetDomainTrust -Domain dc.local`
 
 
 ---
-#### ActiveDirectory Module
-> Generally, _admin_ privileges required and _Rset Tools_ installed
+### ActiveDirectory Module
+> Generally, _admin_ privileges required and _RSAT Tools_ installed
 > Disable execution policy `powershell -ep bypass`
 > `.\ADModule.ps1`
 
@@ -45,8 +52,20 @@
 ##### Computers
 - `Get-ADComputer -Filter * -Properties *` : all computers
 
+##### Forests
+- `Get-ADForest`
+- `Get-ADForest -Identity dc.local`
+- `(Get-ADForest).Domains` : Domains of current forest
+
+##### Trusts
+- `Get-ADTrust -Filter *` : Trust relationships of current domain
+- `Get-ADTrust -Identity dc.local`
+
 ---
-#### Powershell 
+### Sharpview
+
+---
+### Powershell 
 ##### Local Admin Access
 Find all machines on domain where current user has local admin access
 - `Invoke-EnumerateLocalAdmin -verbose` 
@@ -57,6 +76,11 @@ Find all machines on domain where current user has local admin access
 - `Invoke-UserHunter -CheckAccess` : 
 
 ##### Access Control Lists
-- `Get-ObjectAcl -SAMAccountName john -ResolveGUIDs`
-- 
+- `Get-ObjectAcl -SAMAccountName john -ResolveGUIDs` : Access control lists of john. _ActiveDirectoryRights_
+- `Get-ObjectAcl -ADSprefix 'CN=Administrator.CN=Users' -Verbose` : ACLs associated w/ specified prefix
+- `(Get-Acl 'AD:\CN=john,CN=Users,DC=offensiveps,DC=powershell,DC=local').Acess` : ActiveDirectory Module
+- `Invoke-ACLScanner -ResolveGUIDS` : Interesting ACLs
+
+
+
 

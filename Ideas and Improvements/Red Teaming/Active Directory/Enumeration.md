@@ -17,6 +17,8 @@ xfreerdp /v:$IP /u:htb-student /p:<password> /cert-ignore
 ### RSAT
 >Remote Server Administration Tools allows systems administrators to remotely manage Windows Server roles and features
 
+__Install using script:__ [script](https://gist.github.com/dually8/558fcfa9156f59504ab36615dfc4856a)
+
 __Check what RSAT tools are installed__
 ```powershell
 Get-WindowsCapability -Name RSAT* -Online | Select-Object -Property Name, State

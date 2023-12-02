@@ -14,7 +14,7 @@
               "type": "markdown",
               "state": {
                 "file": "Red Teaming/Active Directory/Enumeration.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": false
               }
             }
@@ -101,7 +101,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "fe286dd04d32f6ac",
@@ -180,9 +181,10 @@
   },
   "active": "d682b5fb8cb4b407",
   "lastOpenFiles": [
+    "conflict-files-obsidian-git.md",
+    "Red Teaming/Active Directory/Enumeration.md",
     "Red Teaming/Enumeration/Powershell.md",
     "Red Teaming/Active Directory/Basics.md",
-    "Red Teaming/Active Directory/Enumeration.md",
     "Red Teaming/Enumeration/LDAP.md",
     "Red Teaming/Active Directory/Authentication.md",
     "Red Teaming/Active Directory/Kerberos.md",

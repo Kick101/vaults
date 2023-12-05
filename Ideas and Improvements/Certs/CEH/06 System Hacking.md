@@ -21,9 +21,9 @@ When user logs into a windows system. Windows OS authenticates it's users with t
 - File location: `%SystemRoot%/system32/config/SAM`
 - Registry Location: `HKLM/SAM` - LM or NTLM hashes passwords.
 
-##### [[Red Teaming/Active Directory/Basics#NTLM Authentication]]
+##### [[Building blocks#NTLM Authentication]]
 
-##### [[Red Teaming/Active Directory/Basics#Kerberos Authentication]]
+##### [[Building blocks#Kerberos Authentication]]
 - Authentication is done by using _secret-key_ cryptography.
 - It's a _mutual authentication_: each other identity is verified
 - This protects against _replay attacks_ and _evaesdropping_

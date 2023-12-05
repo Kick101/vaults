@@ -3,3 +3,6 @@ __Check Admin Privileges__
 privilege::debug
 ```
 __Dump lsa process__
+
+__Obtain Password History__
+- `LSADUMP::ChangeNTLM` or `LSADUMP::SetNTLM`

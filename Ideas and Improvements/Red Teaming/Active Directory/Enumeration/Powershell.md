@@ -52,10 +52,11 @@ $dcsync = Get-ObjectACL "DC=inlanefreight,DC=local" -ResolveGUIDs | ? { ($_.Acti
 ##### GPO
 - `Get-DomainGPO | select displayname` : GPO names list
 - `Get-DomainGPO -ComputerName WS01 | select displayname` : GPOs of WS01
-- GPO of groups
+- Check whether the "Domain Users" group has any permissions on any GPOs
 ```powershell
 Get-DomainGPO | Get-ObjectAcl | ? {$_.SecurityIdentifier -eq 'S-1-5-21-2974783224-3764228556-2640795941-513'}
 ```
+- `Get-GPO -Guid <grp-di>` : Get GPO details from GPO guid
 - 
 
 

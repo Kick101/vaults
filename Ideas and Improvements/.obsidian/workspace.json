@@ -26,7 +26,7 @@
               "type": "markdown",
               "state": {
                 "file": "Red Teaming/Active Directory/Enumeration/Powershell.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": false
               }
             }
@@ -182,10 +182,10 @@
   },
   "active": "de37cb2212bff5df",
   "lastOpenFiles": [
-    "Red Teaming/Active Directory/Building blocks.md",
     "Red Teaming/Active Directory/Enumeration/Powershell.md",
-    "Pasted image 20231206222117.png",
     "Red Teaming/Active Directory/Enumeration/Built-in Tools.md",
+    "Red Teaming/Active Directory/Building blocks.md",
+    "Pasted image 20231206222117.png",
     "z/Pasted image 20231206155001.png",
     "Red Teaming/Active Directory/Enumeration/LDAP.md",
     "Red Teaming/Active Directory/Authentication.md",

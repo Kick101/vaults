@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Red Teaming/Active Directory/Enumeration/Powershell.md",
+                "file": "Red Teaming/Active Directory/Cheat sheets/PowerView & SharpView cheatsheet.md",
                 "mode": "preview",
                 "source": false
               }
@@ -73,7 +73,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "threat intelligence",
+                "query": "policy",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -98,12 +98,12 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "fe286dd04d32f6ac",
@@ -119,7 +119,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Red Teaming/Active Directory/Enumeration/Powershell.md",
+                "file": "Red Teaming/Active Directory/Cheat sheets/PowerView & SharpView cheatsheet.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -136,7 +136,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Red Teaming/Active Directory/Enumeration/Powershell.md",
+                "file": "Red Teaming/Active Directory/Cheat sheets/PowerView & SharpView cheatsheet.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -159,7 +159,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Red Teaming/Active Directory/Enumeration/Powershell.md"
+                "file": "Red Teaming/Active Directory/Cheat sheets/PowerView & SharpView cheatsheet.md"
               }
             }
           }
@@ -182,9 +182,12 @@
   },
   "active": "29e617ae8d7b75b7",
   "lastOpenFiles": [
+    "InfoSec/WebApp Pentesting/CORS.md",
     "Red Teaming/Active Directory/Enumeration/Built-in Tools.md",
-    "Red Teaming/Active Directory/Enumeration/Powershell.md",
     "Red Teaming/Active Directory/Building blocks.md",
+    "Certs/CEH/06 System Hacking.md",
+    "Red Teaming/Active Directory/Boxes/Active.md",
+    "Red Teaming/Active Directory/Enumeration/Powershell.md",
     "Pasted image 20231206222117.png",
     "z/Pasted image 20231206155001.png",
     "Red Teaming/Active Directory/Enumeration/LDAP.md",
@@ -200,7 +203,6 @@
     "Red Teaming/Active Directory/Boxes/Attacktive Directory.md",
     "Red Teaming/Active Directory/Boxes",
     "Red Teaming/Active Directory 1/AD Enum.md",
-    "Red Teaming/Active Directory/Boxes/Active.md",
     "Red Teaming/Active Directory/Boxes/Forest.md",
     "Red Teaming/Active Directory/Boxes/Resolute.md",
     "Red Teaming/Active Directory/Boxes/Sauna.md",
@@ -211,7 +213,6 @@
     "InfoSec/System Pentesting/windows/SMB & SAMBA.md",
     "InfoSec/System Pentesting/windows/MySQL.md",
     "InfoSec/System Pentesting/windows/NFS.md",
-    "InfoSec/System Pentesting/windows/FTP.md",
     "InfoSec/System Pentesting/Privilege Escalation/Linux_privesc_midmap.jpeg",
     "Red Teaming/Active Directory",
     "Red Teaming/Active Directory/Enumeration",

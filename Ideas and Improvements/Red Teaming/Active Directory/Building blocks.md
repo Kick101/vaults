@@ -211,6 +211,16 @@ __SeTakeOwnershipPrivilege__
 - Replicating Directory Changes In Filtered Set (DS-Replication-Get-Changes-In-Filtered-Set)
 
 ---
+### GPO
+>- GPOs can be abused to perform attacks such as adding additional rights to a user, adding a local admin, or creating an immediate scheduled task.
+>- Create a scheduled task to modify group membership, add an account, run DCSync, or send back a reverse shell connection.
+
+
+
+
+
+
+---
 ### User-Account-Control (UAC) Attributes
 These values are not to be confused with the Windows User Account Control technology.
 

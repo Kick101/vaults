@@ -49,6 +49,10 @@ $dcsync = Get-ObjectACL "DC=inlanefreight,DC=local" -ResolveGUIDs | ? { ($_.Acti
 `Convert-SidToName $dcsync`
 - 
 
+##### GPO
+- `Get-DomainGPO | select displayname` : GPO names list
+- 
+
 
 ---
 ### ActiveDirectory Module

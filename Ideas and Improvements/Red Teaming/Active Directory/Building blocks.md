@@ -191,11 +191,15 @@ __AD Attack chains:__
 |AllExtendedRights | `Set-DomainUserPassword` or `Add-DomainGroupMember`|
 
 #### Interesting Rights
-- `GenericWrite` - We can force change a user's password or add our account to a specific group
-- `WriteDacl` - We can give ourselves DCSync rights
-- `GenericAll/GenericWrite` - (Less destructive than changing password)Set a fake SPN on the account & perform a targeted `Kerberoasting` attack or modify the account's `userAccountControl` not to require Kerberos pre-authentication and perform a targeted `ASREPRoasting attack`.
-	- If changing a user's password lead tp compromise the domain, you can `DCSync`, obtain the account's password history, and use `Mimikatz` to reset the account to the previous password using `LSADUMP::ChangeNTLM` or `LSADUMP::SetNTLM`.
+__WriteDacl__
+- We can give ourselves DCSync rights
 
+__GenericAll/GenericWrite__
+- We can force change a user's password or add our account to a specific group
+- (Less destructive than changing password) Set a fake SPN on the account & perform a targeted `Kerberoasting` attack or modify the account's `userAccountControl` not to require Kerberos pre-authentication and perform a targeted `ASREPRoasting attack`.
+- If changing a user's password lead to domain compromise, we can `DCSync`, obtain the account's password history, and use `Mimikatz` to reset the account to the previous password using `LSADUMP::ChangeNTLM` or `LSADUMP::SetNTLM`.
+- We can also perform a Kerberos Resource-based Constrained Delegation attack.
+- 
 ##### DCSync ACLs
 - Replicating Directory Changes (DS-Replication-Get-Changes)
 - Replicating Directory Changes All (DS-Replication-Get-Changes-All)

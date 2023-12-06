@@ -101,3 +101,13 @@ Set of COM interfaces that can query Active Directory.
 ([adsisearcher]"(&(objectClass=Computer))").FindAll() | select Path
 ```
 
+---
+### gpresult - GPO enumeration
+__GPO of User__
+```cmd
+gpresult /r /user:harry.jones
+```
+__GPO of Computer__
+```cmd
+gpresult /r /S WS01
+```

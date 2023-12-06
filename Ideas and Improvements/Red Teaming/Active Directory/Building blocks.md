@@ -192,13 +192,14 @@ __AD Attack chains:__
 
 #### Interesting Rights
 - `GenericWrite` - We can force change a user's password or add our account to a specific group
-- `WriteDacl` - 
+- `WriteDacl` - We can give ourselves DCSync rights
+- `GenericAll/GenericWrite` - (Less destructive than changing password)Set a fake SPN on the account & perform a targeted `Kerberoasting` attack or modify the account's `userAccountControl` not to require Kerberos pre-authentication and perform a targeted `ASREPRoasting attack`.
+	- If changing a user's password lead tp compromise the domain, you can `DCSync`, obtain the account's password history, and use `Mimikatz` to reset the account to the previous password using `LSADUMP::ChangeNTLM` or `LSADUMP::SetNTLM`.
 
 ##### DCSync ACLs
 - Replicating Directory Changes (DS-Replication-Get-Changes)
 - Replicating Directory Changes All (DS-Replication-Get-Changes-All)
 - Replicating Directory Changes In Filtered Set (DS-Replication-Get-Changes-In-Filtered-Set)
-
 
 ---
 ### User-Account-Control (UAC) Attributes

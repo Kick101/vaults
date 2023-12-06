@@ -73,7 +73,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "policy",
+                "query": "computer desc",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -182,13 +182,13 @@
   },
   "active": "29e617ae8d7b75b7",
   "lastOpenFiles": [
+    "Red Teaming/Active Directory/Building blocks.md",
+    "Red Teaming/Active Directory/Enumeration/Powershell.md",
     "Red Teaming/Active Directory/Cheat sheets/PowerView & SharpView cheatsheet.md",
     "InfoSec/WebApp Pentesting/CORS.md",
     "Red Teaming/Active Directory/Enumeration/Built-in Tools.md",
-    "Red Teaming/Active Directory/Building blocks.md",
     "Certs/CEH/06 System Hacking.md",
     "Red Teaming/Active Directory/Boxes/Active.md",
-    "Red Teaming/Active Directory/Enumeration/Powershell.md",
     "Pasted image 20231206222117.png",
     "z/Pasted image 20231206155001.png",
     "Red Teaming/Active Directory/Enumeration/LDAP.md",

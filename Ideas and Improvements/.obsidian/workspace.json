@@ -18,6 +18,30 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "1f4515f7eee4663d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Red Teaming/Active Directory/Enumeration/Powershell.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "de37cb2212bff5df",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Red Teaming/Active Directory/Enumeration/Built-in Tools.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ]
       }
@@ -77,7 +101,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "fe286dd04d32f6ac",
@@ -154,13 +179,14 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "b9a6b59b823c5eb7",
+  "active": "e985295c9ac7b16f",
   "lastOpenFiles": [
-    "Red Teaming/Active Directory/Building blocks.md",
-    "Red Teaming/Active Directory/Authentication.md",
-    "Red Teaming/Active Directory/Enumeration/Powershell.md",
+    "z/Pasted image 20231206155001.png",
     "Red Teaming/Active Directory/Enumeration/Built-in Tools.md",
+    "Red Teaming/Active Directory/Enumeration/Powershell.md",
     "Red Teaming/Active Directory/Enumeration/LDAP.md",
+    "Red Teaming/Active Directory/Authentication.md",
+    "Red Teaming/Active Directory/Building blocks.md",
     "Red Teaming/Active Directory/Attacks/Mimikatz.md",
     "Red Teaming/Active Directory/Attacks/Tools.md",
     "Red Teaming/Active Directory/Cheat sheets/PowerView & SharpView cheatsheet.md",

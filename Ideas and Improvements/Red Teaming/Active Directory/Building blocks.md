@@ -173,14 +173,12 @@ __External Forest Trust__
 
 ---
 ### ACLs
-|**ACL**|**Description**|
-|-|-|
-|`Discretionary Access Control List (DACL)`|This defines which security principals are granted or denied access to an object.|
-|`System Access Control Lists (SACL)`|These allow administrators to log access attempts made to secured objects.|
+![[Pasted image 20231206155001.png]]
+
 __AD Attack chains:__
--   "Unprivileged" users (shadow admins) having administrative access on member servers or workstations.
--   Privileged users having a logon session on these workstations and member servers.
--   Other forms of object-to-object control include force password change, add group member, change owner, write ACE, and full control.
+- "Unprivileged" users (shadow admins) having administrative access on member servers or workstations.
+- Privileged users having a logon session on these workstations and member servers.
+- Other forms of object-to-object control include force password change, add group member, change owner, write ACE, and full control.
 #### ACL Abuse
 -   ForceChangePassword abused with `Set-DomainUserPassword`
 -   Add Members abused with `Add-DomainGroupMember`

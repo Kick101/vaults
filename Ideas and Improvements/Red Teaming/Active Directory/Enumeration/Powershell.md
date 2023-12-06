@@ -40,7 +40,8 @@ foreach ($line in $computers) {Get-NetLocalGroupMember -ComputerName $line | ? {
 ##### ACL
 - `$sid = ConvertTo-NameToSid joe.evans` : Get SID
 - `Get-DomainObjectAcl -Identity 'Security Operations' | ?{ $_.SecurityIdentifier -eq $sid}` : Get ACL of Joe evans
-
+- `Get-DomainObjectAcl -Identity harry.jones -Domain inlanefreight.local -ResolveGUIDs` : ACL of harry.jones
+- 
 
 
 

@@ -40,7 +40,7 @@ foreach ($line in $computers) {Get-NetLocalGroupMember -ComputerName $line | ? {
 ##### ACL
 - `$sid = ConvertTo-NameToSid joe.evans` : Get SID
 - `Get-DomainObjectAcl -Identity 'Security Operations' | ?{ $_.SecurityIdentifier -eq $sid}` : Get ACL of Joe evans
-- 
+
 
 
 
@@ -75,6 +75,12 @@ foreach ($line in $computers) {Get-NetLocalGroupMember -ComputerName $line | ? {
 ##### Trusts
 - `Get-ADTrust -Filter *` : Trust relationships of current domain
 - `Get-ADTrust -Identity dc.local`
+
+##### ACL
+- ACL for a single domain user
+```powershell
+(Get-ACL "AD:$((Get-ADUser john.doe).distinguishedname)").access  | ? {$_.IdentityReference -eq "INLANEFREIGHT\cliff.moore"}
+```
 
 ##### Using LDAP Filter
 __Workstations in a network__

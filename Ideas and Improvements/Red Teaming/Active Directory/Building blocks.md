@@ -191,7 +191,7 @@ __AD Attack chains:__
 |AllExtendedRights | `Set-DomainUserPassword` or `Add-DomainGroupMember`|
 
 #### Interesting Rights
-- `GenericWrite` - we can leverage this to force change a user's password or add our account to a specific group
+- `GenericWrite` - We can force change a user's password or add our account to a specific group
 - `WriteDacl` - 
 
 ##### DCSync ACLs

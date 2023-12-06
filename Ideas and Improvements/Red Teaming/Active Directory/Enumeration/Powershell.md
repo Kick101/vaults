@@ -36,6 +36,7 @@ foreach ($line in $computers) {Get-NetLocalGroupMember -ComputerName $line | ? {
 ##### Trusts
 - `Get-NetDomainTrust` : Trust relationships of current domain
 - `Get-NetDomainTrust -Domain dc.local`
+- `Get-DomainTrustMapping` : All trusts for our current domain
 
 ##### ACL
 - `$sid = ConvertTo-NameToSid joe.evans` : Get SID

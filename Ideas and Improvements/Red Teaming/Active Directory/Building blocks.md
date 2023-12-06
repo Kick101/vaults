@@ -199,7 +199,12 @@ __GenericAll/GenericWrite__
 - (Less destructive than changing password) Set a fake SPN on the account & perform a targeted `Kerberoasting` attack or modify the account's `userAccountControl` not to require Kerberos pre-authentication and perform a targeted `ASREPRoasting attack`.
 - If changing a user's password lead to domain compromise, we can `DCSync`, obtain the account's password history, and use `Mimikatz` to reset the account to the previous password using `LSADUMP::ChangeNTLM` or `LSADUMP::SetNTLM`.
 - We can also perform a Kerberos Resource-based Constrained Delegation attack.
-- 
+
+__SeDebugPrivilege__
+
+__SeTakeOwnershipPrivilege__
+
+
 ##### DCSync ACLs
 - Replicating Directory Changes (DS-Replication-Get-Changes)
 - Replicating Directory Changes All (DS-Replication-Get-Changes-All)

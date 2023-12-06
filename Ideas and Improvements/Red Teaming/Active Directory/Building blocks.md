@@ -170,8 +170,8 @@ __Non-transitive Trust__
 
 ![[Pasted image 20231206222117.png]]
 
-##### ExtraSids Attack
-- Compromise a parent domain once the child domain has been compromised or cross-forest trust attacks such as `Kerberoasting` and `ASREPRoasting` and `SID History` abuse.
+__SID history__
+- Attribute is used in migration scenarios. If a user in one domain is migrated to another domain, a new account is created in the second domain. The original user's SID will be added to the new user's SID history attribute, ensuring that they can still access resources in the original domain.
 
 ---
 ### ACLs

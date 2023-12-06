@@ -145,7 +145,7 @@ gpupdate /force
 - Drag and drop each GPO to OUs
 
 ---
-### Trees, Forests, Trusts
+### Trees, Forests
 __Tree__ is a group of domains that share a contiguous namespace and a common schema.
 Ex: thm.local -> uk.thm.local & us.thm.local
 - **Enterprise Admins** group will grant a user administrative privileges over all of an enterprise's domains.
@@ -153,7 +153,8 @@ Ex: thm.local -> uk.thm.local & us.thm.local
 __Forest__ is the union of several trees with different namespaces into the same network.
 Ex: THM tree & MHT tree
 
-__Trust__ 
+---
+### Trust
 - _One-way trust_ is if Domain A trusts Domain then User from Domain B can access resources in Domain A
 - _Two-way trust_ mutual trust.
 - By default, joining several domains under a tree or a forest will form a two-way trust relationship.

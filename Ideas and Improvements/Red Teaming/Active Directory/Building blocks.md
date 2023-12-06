@@ -171,6 +171,9 @@ __Non-transitive Trust__
 __External Forest Trust__
 - Domain from forest A trusts a domain or root domain in forest B which is non-transitive
 
+![[Pasted image 20231206222117.png]]
+
+
 ---
 ### ACLs
 ![[Pasted image 20231206155001.png]]

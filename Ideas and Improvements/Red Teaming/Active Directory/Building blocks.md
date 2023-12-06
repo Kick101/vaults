@@ -194,6 +194,12 @@ __AD Attack chains:__
 - `GenericWrite` - we can leverage this to force change a user's password or add our account to a specific group
 - `WriteDacl` - 
 
+##### DCSync ACLs
+- Replicating Directory Changes (DS-Replication-Get-Changes)
+- Replicating Directory Changes All (DS-Replication-Get-Changes-All)
+- Replicating Directory Changes In Filtered Set (DS-Replication-Get-Changes-In-Filtered-Set)
+
+
 ---
 ### User-Account-Control (UAC) Attributes
 These values are not to be confused with the Windows User Account Control technology.

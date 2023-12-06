@@ -14,7 +14,7 @@
               "type": "markdown",
               "state": {
                 "file": "Red Teaming/Active Directory/Building blocks.md",
-                "mode": "preview",
+                "mode": "source",
                 "source": false
               }
             }
@@ -183,9 +183,9 @@
   "active": "1f4515f7eee4663d",
   "lastOpenFiles": [
     "Red Teaming/Active Directory/Building blocks.md",
+    "Red Teaming/Active Directory/Enumeration/Powershell.md",
     "z/Pasted image 20231206155001.png",
     "Red Teaming/Active Directory/Enumeration/Built-in Tools.md",
-    "Red Teaming/Active Directory/Enumeration/Powershell.md",
     "Red Teaming/Active Directory/Enumeration/LDAP.md",
     "Red Teaming/Active Directory/Authentication.md",
     "Red Teaming/Active Directory/Attacks/Mimikatz.md",

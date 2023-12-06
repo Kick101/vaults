@@ -168,9 +168,6 @@ __Transitive Trust__
 __Non-transitive Trust__
 - Trust doesn't extend from one domain to another 
 
-__External Forest Trust__
-- Domain from forest A trusts a domain or root domain in forest B which is non-transitive
-
 ![[Pasted image 20231206222117.png]]
 
 

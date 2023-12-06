@@ -170,6 +170,8 @@ __Non-transitive Trust__
 
 ![[Pasted image 20231206222117.png]]
 
+##### ExtraSids Attack
+- Compromise a parent domain once the child domain has been compromised or cross-forest trust attacks such as `Kerberoasting` and `ASREPRoasting` and `SID History` abuse.
 
 ---
 ### ACLs

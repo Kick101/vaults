@@ -156,18 +156,20 @@ Ex: THM tree & MHT tree
 ---
 ### Trust
 __One-way trust__
-- If Domain A trusts Domain B then User from Domain B can access resources in Domain A
+- If Domain A trusts Domain B then user from Domain B can access resources in Domain A
+- Domain B denies access to user from Domain A
 
 __Two-way trust__ - Mutual trust
 - By default, joining several domains under a tree or a forest will form a two-way trust relationship.
 
 __Transitive Trust__
-- Trust goes from parent domain to it's child domain
+- Trust extends from one domain to another domain
 
 __Non-transitive Trust__
-- Trust 
+- Trust doesn't extend from one domain to another 
 
-
+__External Forest Trust__
+- Domain from forest A trusts a domain or root domain in forest B which is non-transitive
 
 ---
 ### ACLs

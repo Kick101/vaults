@@ -88,6 +88,8 @@ $dcsync = Get-ObjectACL "DC=inlanefreight,DC=local" -ResolveGUIDs | ? { ($_.Acti
 (Get-ACL "AD:$((Get-ADUser john.doe).distinguishedname)").access  | ? {$_.IdentityReference -eq "INLANEFREIGHT\cliff.moore"}
 ```
 
+
+
 ##### Using LDAP Filter
 __Workstations in a network__
 ```powershell

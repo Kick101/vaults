@@ -214,6 +214,11 @@ __SeTakeOwnershipPrivilege__
 ### GPO
 >- GPOs can be abused to perform attacks such as adding additional rights to a user, adding a local admin, or creating an immediate scheduled task.
 >- Create a scheduled task to modify group membership, add an account, run DCSync, or send back a reverse shell connection.
+>- Install targeted malware across the entire Domain.
+>
+>[SharpGPOAbuse](https://github.com/FSecureLABS/SharpGPOAbuse) is an excellent tool 
+
+
 
 
 

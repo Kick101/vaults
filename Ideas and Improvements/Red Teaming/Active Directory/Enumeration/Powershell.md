@@ -83,6 +83,7 @@ Get-DomainGPO | Get-ObjectAcl | ? {$_.SecurityIdentifier -eq 'S-1-5-21-297478322
 - `Get-ADPrincipalGroupMembership -Identity john` : groups of john
 ##### Computers
 - `Get-ADComputer -Filter * -Properties *` : all computers
+- `Get-ADComputer -filter * -Properties * | select name,description` : Description of computer accounts
 
 ##### Forests
 - `Get-ADForest`

@@ -51,6 +51,7 @@ $dcsync = Get-ObjectACL "DC=inlanefreight,DC=local" -ResolveGUIDs | ? { ($_.Acti
 
 ##### GPO
 - `Get-DomainGPO | select displayname` : GPO names list
+- `Get-DomainGPO -ComputerName WS01 | select displayname` : GPOs of WS01
 - 
 
 

@@ -180,13 +180,15 @@ __AD Attack chains:__
 - Privileged users having a logon session on these workstations and member servers.
 - Other forms of object-to-object control include force password change, add group member, change owner, write ACE, and full control.
 #### ACL Abuse
--   ForceChangePassword abused with `Set-DomainUserPassword`
--   Add Members abused with `Add-DomainGroupMember`
--   GenericAll abused with `Set-DomainUserPassword` or `Add-DomainGroupMember`
--   GenericWrite abused with `Set-DomainObject`
--   WriteOwner abused with `Set-DomainObjectOwner`
--   WriteDACL abused with `Add-DomainObjectACL`
--   AllExtendedRights abused with `Set-DomainUserPassword` or `Add-DomainGroupMember`
+|ACL Abuse|Command-let|
+|-|-|
+|ForceChangePassword|`Set-DomainUserPassword`|
+|Add Members|`Add-DomainGroupMember`|
+|GenericAll | `Set-DomainUserPassword` or `Add-DomainGroupMember`|
+|GenericWrite| `Set-DomainObject`|
+|WriteOwner| `Set-DomainObjectOwner`|
+|WriteDACL | `Add-DomainObjectACL`|
+|AllExtendedRights | `Set-DomainUserPassword` or `Add-DomainGroupMember`|
 
 #### Interesting Rights
 - `GenericWrite` - we can leverage this to force change a user's password or add our account to a specific group

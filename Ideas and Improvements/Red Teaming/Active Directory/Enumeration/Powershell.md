@@ -11,6 +11,11 @@
 - `Get-NetUser` : All User
 - `Get-NetUser -Domain marvel.local` : Users of marvel.local domain
 - `Get-NetUser -UserName john` : Info about john
+
+- Check if a given user has local admin access or not
+```powershell
+foreach ($line in $computers) {Get-NetLocalGroupMember -ComputerName $line | ? {$_.SID -eq $sid}}
+```
 ##### Groups & members
 - `Get-NetGroup` or `Get-DomainGroup -Properties Name` : All group names
 - `Get-NetGroup *admin*` : Get all groups names w/ admin in 'em
@@ -21,7 +26,8 @@
 ##### Computers
 - `Get-NetComputer` : all computers of Domain
 - `Get-NetComputer -FullData` : Full data of computers, queries are made to DC
-- 
+- `Find-DomainUserLocation` : Find domain machines that users are logged into
+
 ##### Forests
 - `Get-NetForest` : Root of the current forest
 - `Get-NetForest -Forest dc.local`
@@ -31,20 +37,11 @@
 - `Get-NetDomainTrust` : Trust relationships of current domain
 - `Get-NetDomainTrust -Domain dc.local`
 
-##### Access Controls
+##### ACL
 - `$sid = ConvertTo-NameToSid joe.evans` : Get SID
 - `Get-DomainObjectAcl -Identity 'Security Operations' | ?{ $_.SecurityIdentifier -eq $sid}` : Get ACL of Joe evans
 - 
 
-__Check if a given user has local admin access or not__
-```powershell
-foreach ($line in $computers) {Get-NetLocalGroupMember -ComputerName $line | ? {$_.SID -eq $sid}}
-```
-
-__Find domain machines that users are logged into__
-```powershell
-Find-DomainUserLocation
-```
 
 
 ---

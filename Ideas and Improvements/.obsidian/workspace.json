@@ -56,7 +56,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -130,7 +130,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Red Teaming/Active Directory/Attacks/Tools.md",
+                "file": "Red Teaming/Active Directory/Enumeration/From linux.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -147,7 +147,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Red Teaming/Active Directory/Attacks/Tools.md",
+                "file": "Red Teaming/Active Directory/Enumeration/From linux.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -170,7 +170,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Red Teaming/Active Directory/Attacks/Tools.md"
+                "file": "Red Teaming/Active Directory/Enumeration/From linux.md"
               }
             }
           }
@@ -191,8 +191,9 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "e216171841ef6883",
+  "active": "de37cb2212bff5df",
   "lastOpenFiles": [
+    "Red Teaming/Active Directory/Enumeration/Powershell.md",
     "Red Teaming/Active Directory/Enumeration/From linux.md",
     "Red Teaming/Active Directory/Attacks/Tools.md",
     "Pasted image 20231207131332.png",
@@ -200,7 +201,6 @@
     "z/Pasted image 20231207124143.png",
     "Red Teaming/Active Directory/Enumeration/LDAP.md",
     "Red Teaming/Active Directory/Enumeration/Built-in Tools.md",
-    "Red Teaming/Active Directory/Enumeration/Powershell.md",
     "Red Teaming/Active Directory/Building blocks.md",
     "Red Teaming/Active Directory/Cheat sheets/PowerView & SharpView cheatsheet.md",
     "InfoSec/WebApp Pentesting/CORS.md",

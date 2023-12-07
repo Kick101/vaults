@@ -1,17 +1,21 @@
 ### Enumerating Users
+#### RCP
 __rpcclient__
 ```bash
 enumdomusers
 ```
 
-__CrackMapExec__
+#### SMB
+```bash
+enum4linux -U $IP  | grep "user:" | cut -f2 -d"[" | cut -f1 -d"]"
+```
 ```bash
 crackmapexec smb $IP --users
 ```
 ```bash
  sudo crackmapexec smb $IP -u htb-student -p Academy_student_AD! --users
 ```
-__LDAP__
+#### LDAP
 ```bash
 ldapsearch -H $IP -x -b "DC=INLANEFREIGHT,DC=LOCAL" -s sub "(&(objectclass=user))"  | grep sAMAccountName: | cut -f2 -d" "
 ```

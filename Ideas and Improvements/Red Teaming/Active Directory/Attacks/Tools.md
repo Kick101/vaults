@@ -112,6 +112,17 @@ sudo crackmapexec smb --local-auth 172.16.5.0/23 -u administrator -H 88ad09182de
 
 ![[Pasted image 20231207124610.png]]
 
+##### GUI Options
+![[Pasted image 20231207131332.png]]
+
+##### Search Bar options
+- Group `Group:Domain Admins`
+- Domain
+- Computer
+- User `User:john.doe`
+- OU
+- GPO
+- Container
 
 ---
 ### Enumerating Users

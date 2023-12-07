@@ -75,7 +75,6 @@ Get-DomainGPO | Get-ObjectAcl | ? {$_.SecurityIdentifier -eq 'S-1-5-21-297478322
 ##### Users
 - `Get-ADUser -Filter * -Properties *` : All users and their properties  
 - `Get-ADUser -Identity john` : Info about john
-
 ##### Groups & members
 - `Get-ADGroup -Filter * -Properties *`
 - `Get-ADGroup -Filter {Name -like "*admin*"} | select name` : Admin groups

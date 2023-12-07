@@ -1,4 +1,4 @@
-### Enumerating Users
+### Enumerate Users
 #### RCP
 __rpcclient__
 ```bash
@@ -31,5 +31,26 @@ __Kerbrute__
 
 ```bash
 kerbrute userenum -d inlanefreight.local --dc-ip $IP /opt/jsmith.txt 
+```
+
+---
+### Enumerate Password Policy
+__SMB Credentialed__
+```bash
+crackmapexec smb $IP -u avazquez -p Password123 --pass-pol
+```
+
+__SMB NULL Session__
+```shell-session
+rpcclient -U "" -N $IP
+rpcclient $> getdompwinfo
+```
+```bash
+crackmapexec smb $IP --pass-pol
+```
+
+__LDAP Anonymous Bind__
+```bash
+ldapsearch -h $IP -x -b "DC=INLANEFREIGHT,DC=LOCAL" -s sub "*" | grep -m 1 -B 10 pwdHistoryLength
 ```
 

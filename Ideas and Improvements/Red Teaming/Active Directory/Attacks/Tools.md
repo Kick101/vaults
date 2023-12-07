@@ -124,6 +124,20 @@ sudo crackmapexec smb --local-auth 172.16.5.0/23 -u administrator -H 88ad09182de
 - GPO
 - Container
 
+__Azure search bar options__
+- AZApp
+- AZRole
+- AZDevice
+- AZGroup
+- AZKeyVault
+- AZManagementGroup
+- AZResourceGroup
+- AZServicePrincipal
+- AZSubscription
+- AZTenant
+- AZUser
+- AZVM
+
 ---
 ### Enumerating Users
 __rpcclient__

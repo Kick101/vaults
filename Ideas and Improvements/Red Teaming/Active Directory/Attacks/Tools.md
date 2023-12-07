@@ -104,6 +104,16 @@ sudo crackmapexec smb --local-auth 172.16.5.0/23 -u administrator -H 88ad09182de
 
 
 ---
+### BloodHound/SharpHound
+![[Pasted image 20231207124143.png]]
+
+##### Hide Output
+- It generates different `.json` files, then saves them in a `zip` file. It also generates a randomly named file with a `.bin` extension corresponding to the cache of the queries it performs. Defense teams could use these patterns to detect bloodhound.
+
+![[Pasted image 20231207124610.png]]
+
+
+---
 ### Enumerating Users
 __rpcclient__
 ```bash

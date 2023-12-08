@@ -13,7 +13,7 @@ Every computer that joins the Active Directory domain, a machine object will be 
 #### Group Types
 - Local
 - Domain Local 
-- Global (Forests)
+- Global (Forests)false
 - Universal (Stored in Global Catalog)
 
 #### Security Groups

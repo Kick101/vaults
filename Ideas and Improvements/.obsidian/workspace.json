@@ -14,7 +14,7 @@
               "type": "markdown",
               "state": {
                 "file": "InfoSec/System Pentesting/Privilege Escalation/Windows.md",
-                "mode": "preview",
+                "mode": "source",
                 "source": false
               }
             }
@@ -77,7 +77,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "fe286dd04d32f6ac",

@@ -44,6 +44,18 @@
             }
           },
           {
+            "id": "1c0d0e201d2b3040",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Red Teaming/Active Directory/AD Administration.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
             "id": "e216171841ef6883",
             "type": "leaf",
             "state": {
@@ -56,7 +68,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -114,7 +126,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "fe286dd04d32f6ac",
@@ -130,7 +143,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Red Teaming/Active Directory/Building blocks.md",
+                "file": "Red Teaming/Active Directory/AD Administration.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -147,7 +160,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Red Teaming/Active Directory/Building blocks.md",
+                "file": "Red Teaming/Active Directory/AD Administration.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -170,7 +183,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Red Teaming/Active Directory/Building blocks.md"
+                "file": "Red Teaming/Active Directory/AD Administration.md"
               }
             }
           }
@@ -191,17 +204,20 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "de37cb2212bff5df",
+  "active": "1c0d0e201d2b3040",
   "lastOpenFiles": [
-    "Red Teaming/Active Directory/Enumeration/From linux.md",
     "Red Teaming/Active Directory/Enumeration/Powershell.md",
-    "Red Teaming/Active Directory/Attacks/Tools.md",
-    "Pasted image 20231207131332.png",
-    "Pasted image 20231207124610.png",
-    "z/Pasted image 20231207124143.png",
+    "Red Teaming/Active Directory/AD Administration.md",
     "Red Teaming/Active Directory/Enumeration/LDAP.md",
-    "Red Teaming/Active Directory/Enumeration/Built-in Tools.md",
+    "Red Teaming/Active Directory/Enumeration/From linux.md",
+    "Templates/Simple.md",
+    "Tech & Languages/powershell.md",
     "Red Teaming/Active Directory/Building blocks.md",
+    "Red Teaming/Active Directory/Attacks/Tools.md",
+    "z/Pasted image 20231207131332.png",
+    "z/Pasted image 20231207124610.png",
+    "z/Pasted image 20231207124143.png",
+    "Red Teaming/Active Directory/Enumeration/Built-in Tools.md",
     "Red Teaming/Active Directory/Cheat sheets/PowerView & SharpView cheatsheet.md",
     "InfoSec/WebApp Pentesting/CORS.md",
     "Certs/CEH/06 System Hacking.md",
@@ -224,9 +240,6 @@
     "InfoSec/System Pentesting/FIle Transfers.md",
     "InfoSec/System Pentesting/windows/Tools.md",
     "InfoSec/System Pentesting/windows/Telent.md",
-    "InfoSec/System Pentesting/windows/SMTP.md",
-    "InfoSec/System Pentesting/windows/SMB & SAMBA.md",
-    "InfoSec/System Pentesting/windows/MySQL.md",
     "InfoSec/System Pentesting/Privilege Escalation/Linux_privesc_midmap.jpeg",
     "Red Teaming/Active Directory",
     "Red Teaming/Active Directory/Enumeration",

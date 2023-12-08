@@ -47,7 +47,6 @@ cd Env:
 
 
 ---
-### 
 ##### Mount SMB on Windows from Linux
 __Start Impacket's SMB server__
 ```bash

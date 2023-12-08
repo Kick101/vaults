@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "9f04409f2222ead2",
+        "id": "9df585e66c8b53e3",
         "type": "tabs",
         "children": [
           {
-            "id": "b9a6b59b823c5eb7",
+            "id": "a4484f33fd99bcc2",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "InfoSec/Wireless Pentesting/WiFi Hacking.md",
+                "file": "Red Teaming/Active Directory/Attacks/Lateral Movement.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "InfoSec/Wireless Pentesting/WiFi Hacking.md",
+                "file": "Red Teaming/Active Directory/Attacks/Lateral Movement.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "InfoSec/Wireless Pentesting/WiFi Hacking.md",
+                "file": "Red Teaming/Active Directory/Attacks/Lateral Movement.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "InfoSec/Wireless Pentesting/WiFi Hacking.md"
+                "file": "Red Teaming/Active Directory/Attacks/Lateral Movement.md"
               }
             }
           }
@@ -154,8 +154,11 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "b9a6b59b823c5eb7",
+  "active": "a4484f33fd99bcc2",
   "lastOpenFiles": [
+    "InfoSec/System Pentesting/Privilege Escalation/Windows.md",
+    "InfoSec/System Pentesting/Privilege Escalation/Linux_privesc_midmap.jpeg",
+    "InfoSec/Wireless Pentesting/WiFi Hacking.md",
     "InfoSec/Wireless Pentesting/Bluetooth.md",
     "InfoSec/Wireless Pentesting/ARP Poision.md",
     "Red Teaming/Active Directory/Building blocks.md",
@@ -179,10 +182,6 @@
     "InfoSec/CTF.md",
     "InfoSec/Blog posts To-Do.md",
     "InfoSec/Fields.md",
-    "Red Teaming/Active Directory/Enumeration/From linux.md",
-    "InfoSec/Hacking Methodology.md",
-    "InfoSec/Security Analyst.md",
-    "InfoSec/System Pentesting/Privilege Escalation/Linux_privesc_midmap.jpeg",
     "z/Pasted image 20231207131332.png",
     "z/Pasted image 20231207124610.png",
     "z/Pasted image 20231207124143.png",

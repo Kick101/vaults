@@ -3,7 +3,18 @@
 |-|-|
 |Interactive|Non-interactive|
 |wsmprovhost|Parallel sessions|
-|`New-PSession`||
+|`New-PSession` `Enter-PSSession`|`Invoke-Command`|
+__Invoke-Command__
+```powershell
+Invoke-Command -scriptblock {Get-Process} -ComputerName (Get-Content <list_of_servers>)
+```
+
+```powershell
+Invoke-Command -FilePath C:\scripts\Get-PassHashes.ps1 -ComputerName (Get-Content <list_of_servers>)
+```
+
+
+
 
 
 ---

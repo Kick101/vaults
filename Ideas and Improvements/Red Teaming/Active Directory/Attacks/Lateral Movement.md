@@ -6,7 +6,7 @@
 |`New-PSession` `Enter-PSSession`|`Invoke-Command`|
 __Invoke-Command__
 ```powershell
-Invoke-Command -scriptblock {Get-Process} -ComputerName (Get-Content <list_of_servers>)
+Invoke-Command -ScriptBlock {Get-Process} -ComputerName (Get-Content <list_of_servers>)
 ```
 
 ```powershell
@@ -14,8 +14,18 @@ Invoke-Command -FilePath C:\scripts\Get-PassHashes.ps1 -ComputerName (Get-Conten
 ```
 
 ```powershell
-Invoke-Command -SscriptBlock {whoami;hostname} -Session $victim
+Invoke-Command -ScriptBlock{whoami;hostname} -Session $victim
 ```
+---
+### Winrs
+- _Evade logging & AMSI_
+- Port: 5985
+
+```powershell
+winrs -remote:server1 -u:server1\admin -p:password hostname
+```
+
+- winrs.vbs & COM Objects of WSMan Object
 
 
 

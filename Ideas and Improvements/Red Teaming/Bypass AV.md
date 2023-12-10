@@ -7,8 +7,14 @@
 
 #### Bypass
 __Invisi-Shell__
-- Hooks .NET assemblies (System.Management.Automation.dll & Syste) to bypass logging
+- Bypasses AMSI, System-wide transcription & script block logging
+- Hooks .NET assemblies (System.Management.Automation.dll & System.Core.dll) to bypass logging
+- CLR Profiler API is used perform the hook
+- _CLR profiler_ is a dll that receives and send messages to the CLR by using API
 
+Using:
+- RunwithPathAsAdmin.bat
+- RunwithRegistryNonAdmin.bat ()
 
 
 

@@ -14,9 +14,17 @@ __Invisi-Shell__
 
 Using:
 - RunwithPathAsAdmin.bat
-- RunwithRegistryNonAdmin.bat ()
+- RunwithRegistryNonAdmin.bat (Use this preferably)
 
-
+__AMSITrigger__
+```powershell
+AmsiTrigger_x64.exe -i PowerUp.ps1
+```
+- Reverse the string
+```powershell
+$string = 'niamoDppA.metsys'
+$classrev = ([regx]::Matched)
+```
 
 ---
 ### Offensive C\#

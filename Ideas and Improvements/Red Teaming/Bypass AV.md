@@ -28,9 +28,14 @@ $classrev = ([regx]::Matches($String,'.','RightToLeft') | ForEach {$_.value}) - 
 
 #### Invoke-Mimikatz
 - Remove default comments
-- Rename script, vairables, functions
+- Rename script, variables, functions
 - Obfuscate PE Bytes content -> Obfuscate PowerKatz dll using _protectMyTooling_
 - Convert powerkatz dll into base64 & reverse it again
+- Add sandbox check to waster dynamic analysis resources
+- Remove reflective PE warnings
+- Use obfuscated commands for `Invoke-MimiEx execution`
+- Analysis using DenfenderCheck
+- 
 
 
 ---

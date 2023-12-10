@@ -20,4 +20,8 @@ $f = "mimikatz_trunk.zip"
 ```
 - Modify "program.cs":
 	- Add a variable to store above base64 value
-	- Comment 
+	- Comment the code that downloads & accepts mimikatz file
+	- Add this after zipstream, `zipStream = Convert.FromBase64String(base64value)`
+
+__ConfuserEx (Rubeus.exe)__
+- 

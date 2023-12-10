@@ -1,3 +1,12 @@
+### Powershell Remoting
+|one-to-one|one-to-many|
+|-|-|
+|Interactive|Non-interactive|
+|wsmprovhost|Parallel sessions|
+|`New-PSession`||
+
+
+---
 ### AsReproasting
 __Pre-Authentication__ means sending encrypted timestamp before requesting TGT.
 Asreproasting occurs when a user account has the privilege "_Does not require Pre-Authentication_" enabled. 

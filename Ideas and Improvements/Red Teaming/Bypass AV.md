@@ -1,8 +1,25 @@
-### String Manipulation
+### Offensive Powershell
+#### Detection
+- System-wide transcription
+- Script Block logging
+- AntiMalware Scan Interface (AMSI)
+- Constrained Language Mode (CLM) - Integrated w/ Applocker & WDAC (Device Guard)
+
+#### Bypass
+__Invisi-Shell__
+- Hooks .NET assemblies (System.Management.Automation.dll & Syste) to bypass logging
+
+
+
+
+---
+### Offensive C\#
 __DefenderCheck.exe__
 ```powershell
 DefenderCheck.exe <binaty>
 ```
+- Replace strings names
+
 
 __Out-CompressedDll.ps1 (SafetyKatz)__
 ```powershell

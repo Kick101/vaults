@@ -6,6 +6,10 @@
 - Constrained Language Mode (CLM) - Integrated w/ Applocker & WDAC (Device Guard)
 
 #### Bypass
+- Invisi-Shell
+- AMSITrigger
+- DefenderCheck
+
 __Invisi-Shell__
 - Bypasses AMSI, System-wide transcription & script block logging
 - Hooks .NET assemblies (System.Management.Automation.dll & System.Core.dll) to bypass logging
@@ -33,13 +37,17 @@ $classrev = ([regx]::Matches($String,'.','RightToLeft') | ForEach {$_.value}) - 
 - Convert powerkatz dll into base64 & reverse it again
 - Add sandbox check to waster dynamic analysis resources
 - Remove reflective PE warnings
-- Use obfuscated commands for `Invoke-MimiEx execution`
+- Use obfuscated commands `Invoke-Mimmi -Command $sfsd`
+	- `$sfsd = $a + $b`
+	- `$a="s"; $b="Eku"`
 - Analysis using DenfenderCheck
-- 
+- DefenderCheck
+
 
 
 ---
 ### Offensive C\#
+#### Bypass
 __DefenderCheck.exe__
 ```powershell
 DefenderCheck.exe <binaty>

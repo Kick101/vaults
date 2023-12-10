@@ -81,7 +81,6 @@ Invoke-Mimikatz -Command '"lsadump::dcsync"' /user:domain.local\krbtgt
 
 
 
-
 ---
 ### AsReproasting
 __Pre-Authentication__ means sending encrypted timestamp before requesting TGT.

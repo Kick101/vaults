@@ -8,31 +8,18 @@
         "type": "tabs",
         "children": [
           {
-            "id": "a4484f33fd99bcc2",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Red Teaming/Active Directory/Attacks/Lateral Movement.md",
-                "mode": "preview",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "183ace3d0bc572b1",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Red Teaming/Active Directory/Attacks/Lateral Movement.md",
+                "file": "Red Teaming/Active Directory/Enumeration/Powershell.md",
                 "mode": "preview",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -90,7 +77,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "fe286dd04d32f6ac",
@@ -106,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Red Teaming/Active Directory/Attacks/Lateral Movement.md",
+                "file": "Red Teaming/Active Directory/Enumeration/Powershell.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -123,7 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Red Teaming/Active Directory/Attacks/Lateral Movement.md",
+                "file": "Red Teaming/Active Directory/Enumeration/Powershell.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -146,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Red Teaming/Active Directory/Attacks/Lateral Movement.md"
+                "file": "Red Teaming/Active Directory/Enumeration/Powershell.md"
               }
             }
           }
@@ -169,14 +157,17 @@
   },
   "active": "183ace3d0bc572b1",
   "lastOpenFiles": [
-    "Red Teaming/Active Directory/Attacks/Kerberos Attacks.md",
+    "Red Teaming/Active Directory/AD Administration.md",
+    "Red Teaming/Active Directory/Enumeration/Powershell.md",
+    "Red Teaming/Active Directory/Enumeration/Built-in Tools.md",
     "Red Teaming/Active Directory/Authentication.md",
-    "InfoSec/System Pentesting/Privilege Escalation/Windows.md",
-    "InfoSec/System Pentesting/Privilege Escalation/0.md",
-    "Red Teaming/Active Directory/Attacks/Lateral Movement.md",
-    "InfoSec/System Pentesting/FIle Transfers.md",
     "Red Teaming/Active Directory/Building blocks.md",
     "Red Teaming/Bypass AV.md",
+    "Red Teaming/Active Directory/Attacks/Lateral Movement.md",
+    "Red Teaming/Active Directory/Attacks/Kerberos Attacks.md",
+    "InfoSec/System Pentesting/Privilege Escalation/Windows.md",
+    "InfoSec/System Pentesting/Privilege Escalation/0.md",
+    "InfoSec/System Pentesting/FIle Transfers.md",
     "InfoSec/System Pentesting/Privilege Escalation/Linux_privesc_midmap.jpeg",
     "InfoSec/Wireless Pentesting/WiFi Hacking.md",
     "InfoSec/Wireless Pentesting/Bluetooth.md",
@@ -193,9 +184,6 @@
     "xtras/Me Somewhere in T1m3.md",
     "xtras/Food.md",
     "xtras/Introduce about yourself.md",
-    "xtras/Productivity.md",
-    "xtras/Projects.md",
-    "xtras/Short films.md",
     "z/Pasted image 20231207131332.png",
     "z/Pasted image 20231207124610.png",
     "z/Pasted image 20231207124143.png",

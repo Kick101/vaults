@@ -43,8 +43,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -119,7 +118,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Red Teaming/Bypass AV.md",
+                "file": "Red Teaming/Active Directory/Enumeration/Powershell.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -136,7 +135,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Red Teaming/Bypass AV.md",
+                "file": "Red Teaming/Active Directory/Enumeration/Powershell.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -159,7 +158,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Red Teaming/Bypass AV.md"
+                "file": "Red Teaming/Active Directory/Enumeration/Powershell.md"
               }
             }
           }
@@ -180,11 +179,11 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "08a80305f60cebc0",
+  "active": "183ace3d0bc572b1",
   "lastOpenFiles": [
+    "Red Teaming/Bypass AV.md",
     "Red Teaming/Active Directory/Enumeration/Powershell.md",
     "InfoSec/System Pentesting/FIle Transfers.md",
-    "Red Teaming/Bypass AV.md",
     "Red Teaming/Active Directory/Local Lab.md",
     "Red Teaming/Active Directory/Building blocks.md",
     "Red Teaming/Active Directory/AD Administration.md",

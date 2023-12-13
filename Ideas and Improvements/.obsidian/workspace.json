@@ -31,8 +31,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -107,7 +106,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "InfoSec/System Pentesting/FIle Transfers.md",
+                "file": "Red Teaming/Active Directory/Enumeration/Powershell.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -124,7 +123,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "InfoSec/System Pentesting/FIle Transfers.md",
+                "file": "Red Teaming/Active Directory/Enumeration/Powershell.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -147,7 +146,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "InfoSec/System Pentesting/FIle Transfers.md"
+                "file": "Red Teaming/Active Directory/Enumeration/Powershell.md"
               }
             }
           }
@@ -168,8 +167,9 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "d4037f5205e6d237",
+  "active": "183ace3d0bc572b1",
   "lastOpenFiles": [
+    "InfoSec/System Pentesting/FIle Transfers.md",
     "Red Teaming/Bypass AV.md",
     "Red Teaming/Active Directory/Enumeration/Powershell.md",
     "Red Teaming/Active Directory/Local Lab.md",
@@ -181,7 +181,6 @@
     "Red Teaming/Active Directory/Attacks/Kerberos Attacks.md",
     "InfoSec/System Pentesting/Privilege Escalation/Windows.md",
     "InfoSec/System Pentesting/Privilege Escalation/0.md",
-    "InfoSec/System Pentesting/FIle Transfers.md",
     "InfoSec/System Pentesting/Privilege Escalation/Linux_privesc_midmap.jpeg",
     "InfoSec/Wireless Pentesting/WiFi Hacking.md",
     "InfoSec/Wireless Pentesting/Bluetooth.md",

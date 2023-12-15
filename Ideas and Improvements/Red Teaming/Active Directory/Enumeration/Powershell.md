@@ -19,10 +19,10 @@ foreach ($line in $computers) {Get-NetLocalGroupMember -ComputerName $line | ? {
 ##### Groups & members
 - `Get-DomainGroup` or `Get-DomainGroup -Properties Name` : All group names
 - `Get-DomainGroup *admin*` : Get all groups names w/ admin in 'em
-- `Get-DomainGroupMemeber -GroupName "Domain Admins"`or `Get-DomainGroupMember -Identity Help-Desk`: members of Domain admins
+- `Get-DomainGroupMemeber "Domain Admins"` : members of Domain admins
 - `Get-DomainGroup -UserName john` : groups of john
 - `Get-DomainManagedSecurityGroup` : Get managed security groups
-- `Get-NetLocalGroup -ComputerName WS01 | select GroupName` : Local groups of current user on local machine
+- `Get-NetLocalGroup -ComputerName thanos-dc | select GroupName` : Local groups of current user on local machine
 ##### Computers
 - `Get-NetComputer` : all computers of Domain
 - `Get-NetComputer -FullData` : Full data of computers, queries are made to DC

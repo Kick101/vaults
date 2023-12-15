@@ -14,7 +14,7 @@
               "type": "markdown",
               "state": {
                 "file": "Red Teaming/Active Directory/Attacks/Persistence.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": false
               }
             }
@@ -157,6 +157,7 @@
   },
   "active": "183ace3d0bc572b1",
   "lastOpenFiles": [
+    "Pasted image 20231215170859.png",
     "Pasted image 20231215170247.png",
     "Pasted image 20231215170210.png",
     "Pasted image 20231215170136.png",
@@ -199,7 +200,6 @@
     "z/Pasted image 20230809174016.png",
     "InfoSec/Threat Intelligence",
     "InfoSec/Forensics",
-    "z/Pasted image 20230808193612.png",
     "Internship",
     "Certs/CEH/CEH v12 - Module02.pdf",
     "Bug Bounty/Gov.in"

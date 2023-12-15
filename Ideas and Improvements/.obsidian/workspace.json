@@ -20,18 +20,6 @@
             }
           },
           {
-            "id": "045ebfc5e0eab9c6",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Red Teaming/Active Directory/Bypass AV.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "3a740ea67ec9449b",
             "type": "leaf",
             "state": {
@@ -43,8 +31,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -73,7 +60,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "get-acl",
+                "query": "powershell -ep ",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -98,7 +85,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -119,7 +107,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Red Teaming/Active Directory/Bypass AV.md",
+                "file": "Red Teaming/Active Directory/Enumeration/Powershell.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -136,7 +124,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Red Teaming/Active Directory/Bypass AV.md",
+                "file": "Red Teaming/Active Directory/Enumeration/Powershell.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -159,7 +147,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Red Teaming/Active Directory/Bypass AV.md"
+                "file": "Red Teaming/Active Directory/Enumeration/Powershell.md"
               }
             }
           }
@@ -180,10 +168,12 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "045ebfc5e0eab9c6",
+  "active": "183ace3d0bc572b1",
   "lastOpenFiles": [
-    "Red Teaming/Active Directory/Enumeration/Powershell.md",
     "Red Teaming/Active Directory/Attacks/Persistence.md",
+    "Red Teaming/Active Directory/Enumeration/Powershell.md",
+    "InfoSec/System Pentesting/Privilege Escalation/0.md",
+    "Red Teaming/Active Directory/Bypass AV.md",
     "Pasted image 20231215170859.png",
     "Pasted image 20231215170247.png",
     "Pasted image 20231215170210.png",
@@ -191,7 +181,6 @@
     "Red Teaming/Active Directory/Attacks/Relay Attacks.md",
     "Red Teaming/Active Directory/Attacks/Lateral Movement.md",
     "Red Teaming/Active Directory/Attacks/Kerberos Attacks.md",
-    "Red Teaming/Active Directory/Bypass AV.md",
     "InfoSec/System Pentesting/FIle Transfers.md",
     "Red Teaming/Active Directory/Local Lab.md",
     "Red Teaming/Active Directory/Building blocks.md",
@@ -199,7 +188,6 @@
     "Red Teaming/Active Directory/Enumeration/Built-in Tools.md",
     "Red Teaming/Active Directory/Authentication.md",
     "InfoSec/System Pentesting/Privilege Escalation/Windows.md",
-    "InfoSec/System Pentesting/Privilege Escalation/0.md",
     "InfoSec/System Pentesting/Privilege Escalation/Linux_privesc_midmap.jpeg",
     "InfoSec/Wireless Pentesting/WiFi Hacking.md",
     "InfoSec/Wireless Pentesting/Bluetooth.md",

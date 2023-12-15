@@ -147,6 +147,9 @@ Invoke-Mimikatz -Command '"misc::memssp"'
 ```powershell
 cat C:\Windows\system32\mimilsa.log
 ```
+---
+### ACL - AdminSDHolder
+
 
 
 

@@ -106,14 +106,19 @@ dc /user:Administrator /ntlm:a102ad5753f4c441e3af31c97fad86fd /run:powershell.ex
 ls \\dcorp-dc\C$
 ```
 
+---
+### Custom SSP
+- A Security Support Provider (SSP) is a DLL which provides ways for an application to obtain an authenticated connection. Some SSP Packages by Microsoft are:
+	- NTLM
+	- Kerberos
+	- Wdigest
+	- CredSSP
+- Mimikatz provides a custom SSP - mimilib.dll. This SSP logs local logons, service account and machine account passwords in clear text on the target server.
 
-
-
-
-
-
-
-
+#### Attack
+- We can use either of the ways:
+	- Drop the mimilib.dll to system32 and add mimilib to `HKLM\SYSTEM\CurrentControlSet\Control\Lsa\Security Packages`
+	- 
 
 
 ---

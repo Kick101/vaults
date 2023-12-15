@@ -3,14 +3,14 @@
 > `.\PowerView.ps1`
 
 ##### Domain
-- `Get-NetDomain` : Current Domain Information
-- `Get-NetDomain -Domain marvel.local`
+- `Get-Domain` : Current Domain Information
+- `Get-Domain -Domain marvel.local`
 - `Get-DomainSID` : Current Domain SID
-- `Get-NetDomainController` : DC
+- `Get-DomainController` : DC
 ##### Users
-- `Get-NetUser` : All User
-- `Get-NetUser -Domain marvel.local` : Users of marvel.local domain
-- `Get-NetUser -UserName john` : Info about john
+- `Get-DomainUser` : All User
+- `Get-DomainUser -Domain marvel.local` : Users of marvel.local domain
+- `Get-DomainUser -Identity john` : Info about john
 
 - Check if a given user has local admin access or not
 ```powershell

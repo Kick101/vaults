@@ -17,10 +17,10 @@
 foreach ($line in $computers) {Get-NetLocalGroupMember -ComputerName $line | ? {$_.SID -eq $sid}}
 ```
 ##### Groups & members
-- `Get-NetGroup` or `Get-DomainGroup -Properties Name` : All group names
-- `Get-NetGroup *admin*` : Get all groups names w/ admin in 'em
-- `Get-NetGroupMemeber -GroupName "Domain Admins"`or `Get-DomainGroupMember -Identity Help-Desk`: members of Domain admins
-- `Get-NetGroup -UserName john` : groups of john
+- `Get-DomainGroup` or `Get-DomainGroup -Properties Name` : All group names
+- `Get-DomainGroup *admin*` : Get all groups names w/ admin in 'em
+- `Get-DomainGroupMemeber -GroupName "Domain Admins"`or `Get-DomainGroupMember -Identity Help-Desk`: members of Domain admins
+- `Get-DomainGroup -UserName john` : groups of john
 - `Get-DomainManagedSecurityGroup` : Get managed security groups
 - `Get-NetLocalGroup -ComputerName WS01 | select GroupName` : Local groups of current user on local machine
 ##### Computers

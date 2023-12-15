@@ -24,9 +24,8 @@ foreach ($line in $computers) {Get-NetLocalGroupMember -ComputerName $line | ? {
 - `Get-DomainManagedSecurityGroup` : Get managed security groups
 - `Get-NetLocalGroup -ComputerName thanos-dc | select GroupName` : Local groups of current user on local machine
 ##### Computers
-- `Get-NetComputer` : all computers of Domain
-- `Get-NetComputer -FullData` : Full data of computers, queries are made to DC
-- `Find-DomainUserLocation` : Find domain machines that users are logged into
+- `(Get-DomainComputer).name` : all computers names of Domain
+- `Find-DomainUserLocation` : Find domain machines that users are logged on
 
 ##### Forests
 - `Get-NetForest` : Root of the current forest

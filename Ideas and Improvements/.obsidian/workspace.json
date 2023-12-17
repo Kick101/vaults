@@ -43,8 +43,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -119,7 +118,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Red Teaming/Active Directory/Bypass AV.md",
+                "file": "Red Teaming/Active Directory/Enumeration/Powershell.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -136,7 +135,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Red Teaming/Active Directory/Bypass AV.md",
+                "file": "Red Teaming/Active Directory/Enumeration/Powershell.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -159,7 +158,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Red Teaming/Active Directory/Bypass AV.md"
+                "file": "Red Teaming/Active Directory/Enumeration/Powershell.md"
               }
             }
           }
@@ -180,12 +179,12 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "d523e40a679af4d8",
+  "active": "183ace3d0bc572b1",
   "lastOpenFiles": [
+    "Red Teaming/Active Directory/Bypass AV.md",
     "Red Teaming/Active Directory/Enumeration/Powershell.md",
     "Red Teaming/Active Directory/Attacks/Persistence.md",
     "InfoSec/System Pentesting/Privilege Escalation/0.md",
-    "Red Teaming/Active Directory/Bypass AV.md",
     "Pasted image 20231215170859.png",
     "Pasted image 20231215170247.png",
     "Pasted image 20231215170210.png",

@@ -39,13 +39,13 @@ foreach ($line in $computers) {Get-NetLocalGroupMember -ComputerName $line | ? {
 - `Find-DomainUserLocation` : Find domain machines that users are logged on
 
 ##### Forests
-- `Get-NetForest` : Root of the current forest
-- `Get-NetForest -Forest dc.local`
-- `Get-NetForestDomain` : Domains of current forest
-- `Get-NetForestDomain -Forest dc.local`
+- `Get-Forest` : Root of the current forest
+- `Get-Forest -Forest dc.local`
+- `Get-ForestDomain` : Domains of current forest
+- `Get-ForestDomain -Forest dc.local`
 ##### Trusts
-- `Get-NetDomainTrust` : Trust relationships of current domain
-- `Get-NetDomainTrust -Domain dc.local`
+- `Get-DomainTrust` : Trust relationships of current domain
+- `Get-DomainTrust -Domain dc.local`
 - `Get-DomainTrustMapping` : All trusts for our current domain
 
 ##### ACL

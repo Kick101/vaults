@@ -10,8 +10,8 @@
 - AMSITrigger
 - DefenderCheck
 
-__Invisi-Shell__
-- Bypasses AMSI, System-wide transcription & script block logging
+__Invisi-Shell__ (Blocks only script logging)
+- Bypasses System-wide transcription & script block logging
 - Hooks .NET assemblies (System.Management.Automation.dll & System.Core.dll) to bypass logging
 - CLR Profiler API is used perform the hook
 - _CLR profiler_ is a dll that receives and send messages to the CLR by using API

@@ -23,6 +23,17 @@ foreach ($line in $computers) {Get-NetLocalGroupMember -ComputerName $line | ? {
 - `Get-DomainGroup -UserName john` : groups of user "john"
 - `Get-DomainManagedSecurityGroup` : Get managed security groups
 - `Get-NetLocalGroup -ComputerName thanos-dc | select GroupName` : Local groups of current user on local machine
+
+##### User sessions
+- `Get-NetLoggedon -ComputerName dcorp-adminsrv` : Actively logged users on a computer (local admin rights on target required)
+- `Get-LoggedonLocal -ComputerName dcorp-adminsrv` : Get locally logged users on a computer (needs remote registry on the target - started by-default on server OS)
+- `Get-LastLoggedOn -ComputerName dcorp-adminsrv` : Get the last logged user on a computer (needs administrative rights & remote registry on the target)
+
+##### Shares
+- `Invoke-ShareFinder -Verbose` : Find shares on hosts in current domain
+- `Invoke-FileFinder -Verbose` : ind sensitive files on computers in the domain
+- `Get-NetFileServer` : Get all fileservers of the domain
+
 ##### Computers
 - `(Get-DomainComputer).name` : all computers names of Domain
 - `Find-DomainUserLocation` : Find domain machines that users are logged on

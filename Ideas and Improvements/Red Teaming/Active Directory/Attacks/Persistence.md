@@ -106,6 +106,8 @@ ls \\dcorp-dc\C$
 ```
 
 ---
+### AC
+---
 ### ACL - AdminSDHolder
 - Resides in the _System container of a domain_ and used to control the permissions - using an ACL - for certain built-in privileged groups (called Protected Groups).
 - _Security Descriptor Propagator_ (SDPROP) runs every hour and compares the ACL of protected groups and members with the ACL of AdminSDHolder and any differences are overwritten on the object ACL.

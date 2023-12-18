@@ -50,11 +50,10 @@ foreach ($line in $computers) {Get-NetLocalGroupMember -ComputerName $line | ? {
 
 ##### ACL
 - `$sid = ConvertTo-NameToSid joe.evans` : Get SID
-- Get ACL of Joe evans
+- Get ACL of Joe.evans on "Security Operations"
 ```powershell
-Get-DomainObjectAcl -ResolveGUIDs -Identity 'Security Operations' | ?{ $_.SecurityIdentifier -eq $sid}
+Get-DomainObjectAcl -Domain inlanefreight.local -ResolveGUIDs -Identity 'Security Operations' | ?{ $_.SecurityIdentifier -eq $sid}
 ``` 
-- `Get-DomainObjectAcl -Identity harry.jones -Domain inlanefreight.local -ResolveGUIDs` : ACL of harry.jones
 - `Get-PathAcl "\\SQL01\DB_backups"` : ACL of File shares
 - DCSync access users
 ```powershell
@@ -110,6 +109,12 @@ Get-DomainGPO | Get-ObjectAcl | ? {$_.SecurityIdentifier -eq 'S-1-5-21-297478322
 - ACL for a single domain user
 ```powershell
 (Get-ACL "AD:$((Get-ADUser john.doe).distinguishedname)").access  | ? {$_.IdentityReference -eq "INLANEFREIGHT\cliff.moore"}
+```
+- __ACL of Domain users__
+	- `Get-ADUser -Filter * | Select-Object -ExpandProperty SamAccountName > ad_users.txt` : Save all users to a file
+	- ACE of john on all other users
+```powershell
+foreach($line in [System.IO.File]::ReadLines("ad_users.txt")) {get-acl  "AD:\$(Get-ADUser $line)" | Select-Object Path -ExpandProperty Access | Where-Object {$_.IdentityReference -match 'INLANEFREIGHT\\john'}}
 ```
 
 

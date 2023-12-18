@@ -19,6 +19,7 @@ foreach ($line in $computers) {Get-NetLocalGroupMember -ComputerName $line | ? {
 ##### Groups & members
 - `Get-DomainGroup -Properties Name` : All group names
 - `Get-DomainGroup *admin*` : Get all groups names w/ admin in 'em
+- `(Get-DomainGroup "Help Desk").memberof` : Retrieve the groups that the "Help Desk" group is a member of
 - `Get-DomainGroupMemeber "Domain Admins"` : members of "Domain admins" group
 - `Get-DomainGroup -UserName john` : groups of user "john"
 - `Get-DomainManagedSecurityGroup` : Get managed security groups
@@ -50,9 +51,9 @@ foreach ($line in $computers) {Get-NetLocalGroupMember -ComputerName $line | ? {
 
 ##### ACL
 - `$sid = ConvertTo-NameToSid joe.evans` : Get SID
-- Get ACL of Joe.evans on "Security Operations"
+- Get ACL of Joe.evans on all objects
 ```powershell
-Get-DomainObjectAcl -Domain inlanefreight.local -ResolveGUIDs -Identity 'Security Operations' | ?{ $_.SecurityIdentifier -eq $sid}
+Get-DomainObjectAcl -Domain inlanefreight.local -ResolveGUIDs -Identity * | ?{ $_.SecurityIdentifier -eq $sid}
 ``` 
 - `Get-PathAcl "\\SQL01\DB_backups"` : ACL of File shares
 - DCSync access users

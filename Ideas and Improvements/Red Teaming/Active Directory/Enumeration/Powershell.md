@@ -17,7 +17,7 @@
 foreach ($line in $computers) {Get-NetLocalGroupMember -ComputerName $line | ? {$_.SID -eq $sid}}
 ```
 ##### Groups & members
-- `Get-DomainGroup` or `Get-DomainGroup -Properties Name` : All group names
+- `Get-DomainGroup -Properties Name` : All group names
 - `Get-DomainGroup *admin*` : Get all groups names w/ admin in 'em
 - `Get-DomainGroupMemeber "Domain Admins"` : members of "Domain admins" group
 - `Get-DomainGroup -UserName john` : groups of user "john"

@@ -63,7 +63,12 @@ Get-DomainObjectAcl -Domain inlanefreight.local -ResolveGUIDs -Identity * | ?{ $
 $dcsync = Get-ObjectACL "DC=inlanefreight,DC=local" -ResolveGUIDs | ? { ($_.ActiveDirectoryRights -match 'GenericAll') -or ($_.ObjectAceType -match 'Replication-Get')} | Select-Object -ExpandProperty SecurityIdentifier | Select -ExpandProperty value
 ```
 `Convert-SidToName $dcsync`
-- 
+- Rest Password:
+```powershell
+Set-DomainUserPassword -Identity testda -AccountPassword
+(ConvertTo-SecureString "Password@123" -AsPlainText -Force) -Verbose
+```
+
 
 ##### GPO
 - `Get-DomainGPO | select displayname` : GPO names list
@@ -121,7 +126,11 @@ Get-DomainGPO | Get-ObjectAcl | ? {$_.SecurityIdentifier -eq 'S-1-5-21-297478322
 ```powershell
 foreach($line in [System.IO.File]::ReadLines("ad_users.txt")) {get-acl  "AD:\$(Get-ADUser $line)" | Select-Object Path -ExpandProperty Access | Where-Object {$_.IdentityReference -match 'INLANEFREIGHT\\john'}}
 ```
-
+- Reset password
+```powershell
+Set-ADAccountPassword -Identity testda -NewPassword
+(ConvertTo-SecureString "Password@123" -AsPlainText -Force) -Verbose
+```
 
 
 ##### Using LDAP Filter

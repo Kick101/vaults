@@ -14,7 +14,7 @@
               "type": "markdown",
               "state": {
                 "file": "Red Teaming/Active Directory/Enumeration/Powershell.md",
-                "mode": "preview",
+                "mode": "source",
                 "source": false
               }
             }
@@ -43,8 +43,7 @@
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -119,7 +118,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Red Teaming/Active Directory/Attacks/Persistence.md",
+                "file": "Red Teaming/Active Directory/Enumeration/Powershell.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -136,7 +135,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Red Teaming/Active Directory/Attacks/Persistence.md",
+                "file": "Red Teaming/Active Directory/Enumeration/Powershell.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -159,7 +158,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Red Teaming/Active Directory/Attacks/Persistence.md"
+                "file": "Red Teaming/Active Directory/Enumeration/Powershell.md"
               }
             }
           }
@@ -180,10 +179,10 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "3a740ea67ec9449b",
+  "active": "183ace3d0bc572b1",
   "lastOpenFiles": [
-    "Red Teaming/Active Directory/Enumeration/Powershell.md",
     "Red Teaming/Active Directory/Attacks/Persistence.md",
+    "Red Teaming/Active Directory/Enumeration/Powershell.md",
     "Pasted image 20231218153813.png",
     "Pasted image 20231218115252.png",
     "Pasted image 20231218115220.png",

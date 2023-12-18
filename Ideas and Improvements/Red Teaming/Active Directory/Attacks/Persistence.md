@@ -74,11 +74,10 @@ BetterSafetyKatz.exe "kerberos::golden /User:Administrator /domain:dollarcorp.mo
 
 ---
 ### DSRM
-- DSRM is Directory Services Restore Mode.
+- DSRM is _Directory Services Restore Mode_.
 - There is a local administrator on every DC called "Administrator" whose password is the DSRM password.
 - DSRM password (SafeModePassword) is required when a server is promoted to Domain Controller and it is rarely changed.
 - After altering the configuration on the DC, it is possible to pass the NTLM hash of this user to access the DC.
-
 #### Attack
 - Dump DSRM password (needs DA privileges)
 ```powershell
@@ -107,8 +106,12 @@ ls \\dcorp-dc\C$
 ```
 
 ---
+### ACL - AdminSDHolder
+
+
+---
 ### Custom SSP
-- A Security Support Provider (SSP) is a DLL which provides ways for an application to obtain an authenticated connection. Some SSP Packages by Microsoft are:
+- A _Security Support Provider_ (SSP) is a DLL which provides ways for an application to obtain an authenticated connection. Some SSP Packages by Microsoft are:
 	- NTLM
 	- Kerberos
 	- Wdigest
@@ -147,15 +150,10 @@ Invoke-Mimikatz -Command '"misc::memssp"'
 ```powershell
 cat C:\Windows\system32\mimilsa.log
 ```
----
-### ACL - AdminSDHolder
-
-
-
 
 ---
 ### Skeleton Key
-- Skeleton key is a persistence technique where it is possible to patch a Domain Controller (lsass process) so that it allows access as any user with a single password.
+- Skeleton key is a persistence technique where it is possible to patch a Domain Controller (lsass process) so that it _allows access as any user with a single password_.
 - The attack was discovered by Dell Secureworks used in a malware named the Skeleton Key malware.
 - All the publicly known methods are NOT persistent across reboots.
 - Yet again, mimikatz to the rescue.

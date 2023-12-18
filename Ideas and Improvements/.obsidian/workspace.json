@@ -20,30 +20,19 @@
             }
           },
           {
-            "id": "d523e40a679af4d8",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Red Teaming/Active Directory/Bypass AV.md",
-                "mode": "preview",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "3a740ea67ec9449b",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
                 "file": "Red Teaming/Active Directory/Attacks/Persistence.md",
-                "mode": "preview",
+                "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -118,7 +107,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Red Teaming/Active Directory/Enumeration/Powershell.md",
+                "file": "Red Teaming/Active Directory/Attacks/Persistence.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -135,7 +124,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Red Teaming/Active Directory/Enumeration/Powershell.md",
+                "file": "Red Teaming/Active Directory/Attacks/Persistence.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -158,7 +147,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Red Teaming/Active Directory/Enumeration/Powershell.md"
+                "file": "Red Teaming/Active Directory/Attacks/Persistence.md"
               }
             }
           }
@@ -179,14 +168,14 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "183ace3d0bc572b1",
+  "active": "3a740ea67ec9449b",
   "lastOpenFiles": [
-    "Red Teaming/Active Directory/Attacks/Persistence.md",
     "Red Teaming/Active Directory/Enumeration/Powershell.md",
+    "Red Teaming/Active Directory/Bypass AV.md",
+    "Red Teaming/Active Directory/Attacks/Persistence.md",
     "Pasted image 20231218153813.png",
     "Pasted image 20231218115252.png",
     "Pasted image 20231218115220.png",
-    "Red Teaming/Active Directory/Bypass AV.md",
     "InfoSec/System Pentesting/Privilege Escalation/0.md",
     "Pasted image 20231215170859.png",
     "Pasted image 20231215170247.png",

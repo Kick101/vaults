@@ -253,6 +253,10 @@ __General/Basic or Unconstrained Delegation__
 
 __Constrained Delegation__
 - which allows the first hop server (web server in our example) to _request access only to specified services on specified computers_. 
+- A typical scenario where constrained delegation is used - A user authenticates to a web service without using Kerberos and the web service makes requests to a database server to fetch results based on the user's authorization.
+- To impersonate the user, Service for User (S4U) extension is used which provides two extensions:
+	- Service for User to Self (S4U2self) - Allows a service to obtain a forwardable TGS to itself on behalf of a user.
+	- Service for User to Proxy (S4U2proxy) - Allows a service to obtain a TGS to a second service on behalf of a user.
 - 
 
 

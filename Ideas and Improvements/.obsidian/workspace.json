@@ -38,13 +38,13 @@
               "type": "markdown",
               "state": {
                 "file": "Red Teaming/Active Directory/Building blocks.md",
-                "mode": "preview",
+                "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -119,7 +119,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Red Teaming/Active Directory/Attacks/Privilege Escalation.md",
+                "file": "Red Teaming/Active Directory/Building blocks.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -136,7 +136,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Red Teaming/Active Directory/Attacks/Privilege Escalation.md",
+                "file": "Red Teaming/Active Directory/Building blocks.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -159,7 +159,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Red Teaming/Active Directory/Attacks/Privilege Escalation.md"
+                "file": "Red Teaming/Active Directory/Building blocks.md"
               }
             }
           }
@@ -180,10 +180,10 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "3a740ea67ec9449b",
+  "active": "3638647fbd404f1e",
   "lastOpenFiles": [
-    "Red Teaming/Active Directory/Building blocks.md",
     "Red Teaming/Active Directory/Attacks/Privilege Escalation.md",
+    "Red Teaming/Active Directory/Building blocks.md",
     "Red Teaming/Active Directory/Attacks/Lateral Movement.md",
     "Pasted image 20231219185312.png",
     "Red Teaming/Active Directory/Local Lab.md",

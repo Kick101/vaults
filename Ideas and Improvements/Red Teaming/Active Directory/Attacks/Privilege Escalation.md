@@ -233,5 +233,7 @@ Rubeus.exe s4u /user:websvc
 /msdsspn:CIFS/dcorp-mssql.dollarcorp.moneycorp.LOCAL
 /ptt
 ```
+---
+### Kerberos Resource-based Constrained Delegation
 
 

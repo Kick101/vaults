@@ -263,6 +263,8 @@ Get-ADUser -Filter {adminCount -gt 0} -Properties admincount,useraccountcontrol 
 
 > To abuse above scenario, we need to have access to the websvc account then it is possible to access the services listed in msDS-AllowedToDelegateTo of the websvc account as ANY user.
 
+![[Pasted image 20231221172953.png]]
+
 
 ---
 ### Default Security Posture

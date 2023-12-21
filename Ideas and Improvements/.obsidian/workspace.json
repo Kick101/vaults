@@ -26,7 +26,7 @@
               "type": "markdown",
               "state": {
                 "file": "Red Teaming/Active Directory/Attacks/Privilege Escalation.md",
-                "mode": "preview",
+                "mode": "source",
                 "source": false
               }
             }
@@ -38,13 +38,13 @@
               "type": "markdown",
               "state": {
                 "file": "Red Teaming/Active Directory/Building blocks.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -119,7 +119,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Red Teaming/Active Directory/Building blocks.md",
+                "file": "Red Teaming/Active Directory/Attacks/Privilege Escalation.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -136,7 +136,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Red Teaming/Active Directory/Building blocks.md",
+                "file": "Red Teaming/Active Directory/Attacks/Privilege Escalation.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -159,7 +159,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Red Teaming/Active Directory/Building blocks.md"
+                "file": "Red Teaming/Active Directory/Attacks/Privilege Escalation.md"
               }
             }
           }
@@ -180,14 +180,14 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "3638647fbd404f1e",
+  "active": "3a740ea67ec9449b",
   "lastOpenFiles": [
-    "Pasted image 20231219185312.png",
-    "Red Teaming/Active Directory/Attacks/Privilege Escalation.md",
-    "Red Teaming/Active Directory/Local Lab.md",
     "Red Teaming/Active Directory/Building blocks.md",
-    "Pasted image 20230920021133.png",
+    "Red Teaming/Active Directory/Attacks/Privilege Escalation.md",
     "Red Teaming/Active Directory/Attacks/Lateral Movement.md",
+    "Pasted image 20231219185312.png",
+    "Red Teaming/Active Directory/Local Lab.md",
+    "Pasted image 20230920021133.png",
     "Red Teaming/Active Directory/Attacks/Persistence.md",
     "Red Teaming/Active Directory/Enumeration/Powershell.md",
     "Red Teaming/Active Directory/Attacks/Untitled",
@@ -218,7 +218,6 @@
     "InfoSec/Network Pentesting/Wireshark.md",
     "InfoSec/Network Pentesting/Networking.md",
     "InfoSec/Network Pentesting/Service Attacks/NTFS.md",
-    "z/Pasted image 20231207131332.png",
     "Red Teaming/Active Directory/Attacks",
     "Red Teaming/Active Directory/Cheat sheets",
     "Red Teaming/Active Directory/Boxes",

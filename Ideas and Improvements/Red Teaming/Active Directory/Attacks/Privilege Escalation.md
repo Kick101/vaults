@@ -180,6 +180,8 @@ Invoke-Mimikatz -Command '"lsadump::dcsync /user:dcorp\krbtgt"'
 ```
  ---
 ###  Kerberos Constrained Delegation
+>Another interesting issue in Kerberos is that the delegation occurs not only for the specified service but for any service running under the same account. There is no validation for the SPN specified.
+
 Enumerate users and computers with constrained delegation enabled
 
 ```powershell

@@ -247,16 +247,16 @@ Get-ADUser -Filter {adminCount -gt 0} -Properties admincount,useraccountcontrol 
 ![[Pasted image 20230920021133.png]]
 
 #### General/Basic or Unconstrained Delegation
-- which allows the first hop server (web server in our example) to _request access to any service on any computer in the domain_.
-- DC places user's TGT inside TGS (Step 4 in the previous diagram). When presented to the server, the TGT is extracted from TGS and stored in LSASS. This way the server can reuse the user's TGT to access any other resource as the user.
+- It allows the first hop server (web server in our example) to _request access to any service on any computer in the domain_.
+- DC places user's _TGT inside TGS_ (Step 4 in the diagram). When presented to the server, the TGT is extracted from TGS and stored in LSASS. This way the server can reuse the user's TGT to access any other resource as the user.
 - This could be used to escalate privileges in case we can compromise the computer with unconstrained delegation and a Domain Admin connects to that machine.
 
 #### Constrained Delegation
-- which allows the first hop server (web server in our example) to _request access only to specified services on specified computers_. 
+- It allows the first hop server (web server in our example) to _request access only to specified services on specified computers_. 
 - A typical scenario where constrained delegation is used - A user authenticates to a web service without using Kerberos and the web service makes requests to a database server to fetch results based on the user's authorization.
 - To impersonate the user, Service for User (S4U) extension is used which provides two extensions:
-	- __Service for User to Self (S4U2self)__ - Allows a service to obtain a forwardable TGS to itself on behalf of a user with just the user principal name without supplying a password. The service account must have the TRUSTED_TO_AUTHENTICATE_FOR_DELEGATION - T2A4D UserAccountControl attribute.
-	- __Service for User to Proxy (S4U2proxy)__ - Allows a service to obtain a TGS to a second service on behalf of a user. Which second service? This is controlled by msDS-AllowedToDelegateTo attribute. This attribute contains a list of SPNs to which the user tokens can be forwarded
+	- __Service for User to Self (S4U2self)__ - Allows a service to obtain a _forwardable TGS_ to itself(web server) on behalf of a user with just the user principal name without supplying a password. The service account must have the _TRUSTED_TO_AUTHENTICATE_FOR_DELEGATION_ - T2A4D UserAccountControl attribute.
+	- __Service for User to Proxy (S4U2proxy)__ - Allows a service to obtain a TGS to a second service on behalf of a user. This is controlled by msDS-AllowedToDelegateTo attribute of the delegated computer(web server). This attribute contains a list of SPNs to which the user tokens can be forwarded i.e, computer delegated to.
 
 ##### Protocol Transition
 ![[Pasted image 20231219185312.png]]

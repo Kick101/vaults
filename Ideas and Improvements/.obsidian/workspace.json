@@ -20,6 +20,18 @@
             }
           },
           {
+            "id": "5ad551d615596be5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Red Teaming/Active Directory/Enumeration/Powershell.md",
+                "mode": "preview",
+                "source": false
+              }
+            }
+          },
+          {
             "id": "16ad68b3a139b934",
             "type": "leaf",
             "state": {
@@ -43,7 +55,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -118,7 +131,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Red Teaming/Active Directory/Attacks/Lateral Movement.md",
+                "file": "Red Teaming/Active Directory/Enumeration/Powershell.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -135,7 +148,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Red Teaming/Active Directory/Attacks/Lateral Movement.md",
+                "file": "Red Teaming/Active Directory/Enumeration/Powershell.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -158,7 +171,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Red Teaming/Active Directory/Attacks/Lateral Movement.md"
+                "file": "Red Teaming/Active Directory/Enumeration/Powershell.md"
               }
             }
           }
@@ -179,11 +192,11 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "183ace3d0bc572b1",
+  "active": "5ad551d615596be5",
   "lastOpenFiles": [
+    "Red Teaming/Active Directory/Attacks/Lateral Movement.md",
     "Red Teaming/Active Directory/Building blocks.md",
     "InfoSec/System Pentesting/Privilege Escalation/Windows.md",
-    "Red Teaming/Active Directory/Attacks/Lateral Movement.md",
     "Tech & Languages/Windows & Batch.md",
     "Tech & Languages/Rust.md",
     "Tech & Languages/powershell.md",

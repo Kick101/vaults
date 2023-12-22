@@ -312,14 +312,6 @@ get-ciminstance win32_product -Filter "NOT Vendor like '%Microsoft%'" | fl
 ```
 
 ##### Enumerating ACLs with Built-In Cmdlets
-```powershell-session
-(Get-ACL "AD:$((Get-ADUser daniel.carter).distinguishedname)").access  | ? {$_.IdentityReference -eq "INLANEFREIGHT\cliff.moore"}
-```
-
-```powershell-session
-(Get-ACL "AD:$((Get-ADUser daniel.carter).distinguishedname)").access  | ? {$_.ActiveDirectoryRights -match "WriteProperty" -or $_.ActiveDirectoryRights -match "GenericAll"} | Select IdentityReference,ActiveDirectoryRights -Unique | ft -W
-```
-
 
 __Search out objects with modification rights over non-built-in objects__
 ```powershell

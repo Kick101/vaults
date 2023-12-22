@@ -29,6 +29,10 @@ Get-DomainUser | ?{ $_.useraccountcontrol -like "*encr*"} | select name
 - `Get-DomainManagedSecurityGroup` : Get managed security groups
 - `Get-NetLocalGroup -ComputerName thanos-dc | select GroupName` : Local groups of current user on local machine
 - `Add-DomainGroupMember -Identity 'Domain Admins' -Members testda` : Add group member to "Domain Admins"
+- What users can PS-Remote|Win-RM on domain computers
+```powershell
+ Get-ADComputer -Filter * | %{ Get-NetLocalGroupMember -ComputerName $_.name -GroupName "Remote management users"}
+```
 
 ##### User sessions
 - `Get-NetLoggedon -ComputerName dcorp-adminsrv` : Actively logged users on a computer (local admin rights on target required)

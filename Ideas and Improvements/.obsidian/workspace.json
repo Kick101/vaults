@@ -26,7 +26,19 @@
               "type": "markdown",
               "state": {
                 "file": "Red Teaming/Active Directory/Enumeration/Powershell.md",
-                "mode": "source",
+                "mode": "preview",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "ad78490fc3121858",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Red Teaming/Active Directory/Building blocks.md",
+                "mode": "preview",
                 "source": false
               }
             }
@@ -98,8 +110,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -184,8 +195,9 @@
   "active": "5ad551d615596be5",
   "lastOpenFiles": [
     "Red Teaming/Active Directory/Attacks/Lateral Movement.md",
-    "Red Teaming/Active Directory/Attacks/Persistence.md",
     "Red Teaming/Active Directory/Enumeration/Powershell.md",
+    "Red Teaming/Active Directory/Building blocks.md",
+    "Red Teaming/Active Directory/Attacks/Persistence.md",
     "Tech & Languages/Linux & Bash.md",
     "Red Teaming/Active Directory/Boxes/Forest.md",
     "Certs/CEH/06 System Hacking.md",
@@ -195,7 +207,6 @@
     "z/Pasted image 20231221172953.png",
     "Red Teaming/Active Directory/AD Administration.md",
     "InfoSec/System Pentesting/Privilege Escalation/Windows.md",
-    "Red Teaming/Active Directory/Building blocks.md",
     "Tech & Languages/Windows & Batch.md",
     "Tech & Languages/Rust.md",
     "Tech & Languages/powershell.md",

@@ -3,7 +3,7 @@
 |-|-|
 |Interactive|Non-interactive|
 |wsmprovhost|Parallel sessions|
-|`New-PSession` `Enter-PSSession`|`Invoke-Command`|
+|`New-PSSession` `Enter-PSSession`|`Invoke-Command`|
 __Invoke-Command__
 ```powershell
 Invoke-Command -ScriptBlock {Get-Process} -ComputerName (Get-Content <list_of_servers>)

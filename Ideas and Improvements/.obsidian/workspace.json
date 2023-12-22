@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Red Teaming/Active Directory/Authentication.md",
+                "file": "Red Teaming/Active Directory/Attacks/Privilege Escalation.md",
                 "mode": "source",
                 "source": false
               }
@@ -26,7 +26,7 @@
               "type": "markdown",
               "state": {
                 "file": "Red Teaming/Active Directory/Attacks/Lateral Movement.md",
-                "mode": "preview",
+                "mode": "source",
                 "source": false
               }
             }
@@ -43,8 +43,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -98,8 +97,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -120,7 +118,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Red Teaming/Active Directory/Attacks/Lateral Movement.md",
+                "file": "Red Teaming/Active Directory/Attacks/Privilege Escalation.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -137,7 +135,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Red Teaming/Active Directory/Attacks/Lateral Movement.md",
+                "file": "Red Teaming/Active Directory/Attacks/Privilege Escalation.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -160,7 +158,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Red Teaming/Active Directory/Attacks/Lateral Movement.md"
+                "file": "Red Teaming/Active Directory/Attacks/Privilege Escalation.md"
               }
             }
           }
@@ -181,11 +179,12 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "014a8d58597731a3",
+  "active": "183ace3d0bc572b1",
   "lastOpenFiles": [
-    "Red Teaming/Active Directory/Authentication.md",
-    "Red Teaming/Active Directory/Attacks/Lateral Movement.md",
+    "Red Teaming/Active Directory/Attacks/Misc.md",
     "Red Teaming/Active Directory/Attacks/Privilege Escalation.md",
+    "Red Teaming/Active Directory/Attacks/Lateral Movement.md",
+    "Red Teaming/Active Directory/Authentication.md",
     "Red Teaming/Active Directory/Attacks/Persistence.md",
     "Red Teaming/Active Directory/Enumeration/Powershell.md",
     "Pasted image 20231223003942.png",

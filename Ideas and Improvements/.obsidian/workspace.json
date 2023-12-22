@@ -32,16 +32,6 @@
             }
           },
           {
-            "id": "7c27655731de7c04",
-            "type": "leaf",
-            "state": {
-              "type": "image",
-              "state": {
-                "file": "z/Pasted image 20230920021133.png"
-              }
-            }
-          },
-          {
             "id": "9ed253c37af1c0b2",
             "type": "leaf",
             "state": {
@@ -90,7 +80,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -228,18 +218,18 @@
   },
   "active": "9ed253c37af1c0b2",
   "lastOpenFiles": [
-    "z/Pasted image 20231221172953.png",
-    "z/Pasted image 20230920021133.png",
     "Red Teaming/Active Directory/Enumeration/Powershell.md",
+    "z/Pasted image 20230920021133.png",
+    "Red Teaming/Active Directory/Attacks/Lateral Movement.md",
+    "Red Teaming/Active Directory/Attacks/Privilege Escalation.md",
+    "z/Pasted image 20231221172953.png",
     "Red Teaming/Active Directory/AD Administration.md",
     "InfoSec/System Pentesting/Privilege Escalation/Windows.md",
-    "Red Teaming/Active Directory/Attacks/Lateral Movement.md",
     "Red Teaming/Active Directory/Building blocks.md",
     "Tech & Languages/Windows & Batch.md",
     "Tech & Languages/Rust.md",
     "Tech & Languages/powershell.md",
     "Red Teaming/Active Directory/Authentication.md",
-    "Red Teaming/Active Directory/Attacks/Privilege Escalation.md",
     "z/Pasted image 20231219185312.png",
     "Red Teaming/Active Directory/Local Lab.md",
     "Red Teaming/Active Directory/Attacks/Persistence.md",

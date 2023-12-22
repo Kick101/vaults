@@ -10,6 +10,8 @@ $creds = New-Object System.Management.Automation.PSCredential('kickass101', $pas
 
 ---
 ### Powershell Remoting
+> Required Admin privileges
+
 |one-to-one|one-to-many|
 |-|-|
 |Interactive|Non-interactive|
@@ -17,7 +19,16 @@ $creds = New-Object System.Management.Automation.PSCredential('kickass101', $pas
 |`New-PSSession` `Enter-PSSession`|`Invoke-Command`|
 __New-PSSession__ (WinRM)
 ```powershell
-New-PSSession 
+$pass = ConvertTo-SecureString "transporter@4" -AsPlainText -Force
+```
+
+```powershell
+ $cred = New-Object System.Management.Automation.PSCredential('INLANEFREIGHT\wley', $pass)
+```
+
+
+```powershell
+Enter-PSSession -ComputerName localhost -Credential $cred
 ```
 
 __Invoke-Command__

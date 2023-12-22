@@ -336,11 +336,6 @@ Get-NetShare -ComputerName SQL01
  Get-PathAcl "\\SQL01\DB_backups"
 ```
 
-__DCSync__
-```powershell
-$dcsync = Get-ObjectACL "DC=inlanefreight,DC=local" -ResolveGUIDs | ? { ($_.ActiveDirectoryRights -match 'GenericAll') -or ($_.ObjectAceType -match 'Replication-Get')} | Select-Object -ExpandProperty SecurityIdentifier | Select -ExpandProperty value
-Convert-SidToName $dcsync
-```
 
 ---
 ### Enumerating Security Controls

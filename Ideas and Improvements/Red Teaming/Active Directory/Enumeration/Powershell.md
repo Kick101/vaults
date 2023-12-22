@@ -16,7 +16,7 @@
 ```powershell
 foreach ($line in $computers) {Get-NetLocalGroupMember -ComputerName $line | ? {$_.SID -eq $sid}}
 ```
-- Reversib
+- Reversible encryption Password set
 ```powershell
 Get-DomainUser | ?{ $_.useraccountcontrol -like "*encr*"} | select name
 ```

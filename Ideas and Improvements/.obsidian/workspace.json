@@ -32,18 +32,6 @@
             }
           },
           {
-            "id": "4c7f7b086a01fd2f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Red Teaming/Active Directory/Boxes/Resolute.md",
-                "mode": "preview",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "ad78490fc3121858",
             "type": "leaf",
             "state": {
@@ -67,8 +55,7 @@
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -126,7 +113,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 268.5026054382324
+    "width": 268.5026054382324,
+    "collapsed": true
   },
   "right": {
     "id": "fe286dd04d32f6ac",
@@ -142,7 +130,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Red Teaming/Active Directory/Boxes/Resolute.md",
+                "file": "Red Teaming/Active Directory/Attacks/Lateral Movement.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -159,7 +147,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Red Teaming/Active Directory/Boxes/Resolute.md",
+                "file": "Red Teaming/Active Directory/Attacks/Lateral Movement.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -182,7 +170,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Red Teaming/Active Directory/Boxes/Resolute.md"
+                "file": "Red Teaming/Active Directory/Attacks/Lateral Movement.md"
               }
             }
           }
@@ -203,14 +191,16 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "4c7f7b086a01fd2f",
+  "active": "183ace3d0bc572b1",
   "lastOpenFiles": [
+    "Red Teaming/Active Directory/Enumeration/Powershell.md",
+    "Red Teaming/Active Directory/Boxes/Sauna.md",
+    "Red Teaming/Active Directory/Boxes/Resolute.md",
     "Red Teaming/Active Directory/Boxes/Forest.md",
     "Red Teaming/Active Directory/Boxes/Attacktive Directory.md",
     "Red Teaming/Active Directory/Boxes/Active.md",
     "Red Teaming/Active Directory/Authentication.md",
     "Red Teaming/Active Directory/Enumeration/LDAP.md",
-    "Red Teaming/Active Directory/Enumeration/Powershell.md",
     "Red Teaming/Active Directory/Attacks/Lateral Movement.md",
     "Red Teaming/Active Directory/Building blocks.md",
     "Red Teaming/Active Directory/Attacks/Persistence.md",
@@ -240,8 +230,6 @@
     "Red Teaming/Active Directory/Attacks/Relay Attacks.md",
     "InfoSec/System Pentesting/FIle Transfers.md",
     "Red Teaming/Active Directory/Enumeration/Built-in Tools.md",
-    "InfoSec/Wireless Pentesting/WiFi Hacking.md",
-    "InfoSec/Wireless Pentesting/Bluetooth.md",
     "Red Teaming/Active Directory/Attacks",
     "Red Teaming/Active Directory/Cheat sheets",
     "Red Teaming/Active Directory/Boxes",

@@ -18,10 +18,11 @@ Open 10.129.96.155:5985 (winrm)
  __Domain name:__ `megabank.local`
 - Anonymous login successful - nothing found
 
+__Enumerate Pass Policy__
 ```bash
  crackmapexec smb $IP -u "" -p "" --pass-pol
 ```
-__Pass Pol__
+- Output:
 ```txt
 Minimum password length: 7
 Password history length: 24
@@ -33,6 +34,7 @@ Locked Account Duration: 30 minutes
 Account Lockout Threshold: None
 Forced Log off Time: Not Set
 ```
+__Enumerate Users__
 ```bash
 crackmapexec smb $IP -u "" -p "" --users
 ```

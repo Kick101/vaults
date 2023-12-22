@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Red Teaming/Active Directory/Boxes/Forest.md",
+                "file": "Red Teaming/Active Directory/Boxes/Resolute.md",
                 "mode": "preview",
                 "source": false
               }
@@ -142,7 +142,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Red Teaming/Active Directory/Boxes/Forest.md",
+                "file": "Red Teaming/Active Directory/Boxes/Resolute.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -159,7 +159,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Red Teaming/Active Directory/Boxes/Forest.md",
+                "file": "Red Teaming/Active Directory/Boxes/Resolute.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -182,7 +182,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Red Teaming/Active Directory/Boxes/Forest.md"
+                "file": "Red Teaming/Active Directory/Boxes/Resolute.md"
               }
             }
           }
@@ -205,6 +205,7 @@
   },
   "active": "4c7f7b086a01fd2f",
   "lastOpenFiles": [
+    "Red Teaming/Active Directory/Boxes/Forest.md",
     "Red Teaming/Active Directory/Boxes/Attacktive Directory.md",
     "Red Teaming/Active Directory/Boxes/Active.md",
     "Red Teaming/Active Directory/Authentication.md",
@@ -214,7 +215,6 @@
     "Red Teaming/Active Directory/Building blocks.md",
     "Red Teaming/Active Directory/Attacks/Persistence.md",
     "Tech & Languages/Linux & Bash.md",
-    "Red Teaming/Active Directory/Boxes/Forest.md",
     "Certs/CEH/06 System Hacking.md",
     "Red Teaming/Active Directory/Attacks/Privilege Escalation.md",
     "Red Teaming/Active Directory/Attacks/Kerberos Attacks.md",

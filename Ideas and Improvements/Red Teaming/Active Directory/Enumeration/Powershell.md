@@ -16,6 +16,10 @@
 ```powershell
 foreach ($line in $computers) {Get-NetLocalGroupMember -ComputerName $line | ? {$_.SID -eq $sid}}
 ```
+- Reversib
+```powershell
+Get-DomainUser | ?{ $_.useraccountcontrol -like "*encr*"} | select name
+```
 ##### Groups & members
 - `Get-DomainGroup -Properties Name` : All group names
 - `Get-DomainGroup *admin*` : Get all groups names w/ admin in 'em

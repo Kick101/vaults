@@ -26,7 +26,7 @@
               "type": "markdown",
               "state": {
                 "file": "Red Teaming/Active Directory/Enumeration/Powershell.md",
-                "mode": "preview",
+                "mode": "source",
                 "source": false
               }
             }
@@ -43,7 +43,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -119,7 +120,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Red Teaming/Active Directory/Attacks/Lateral Movement.md",
+                "file": "Red Teaming/Active Directory/Enumeration/Powershell.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -136,7 +137,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Red Teaming/Active Directory/Attacks/Lateral Movement.md",
+                "file": "Red Teaming/Active Directory/Enumeration/Powershell.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -159,7 +160,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Red Teaming/Active Directory/Attacks/Lateral Movement.md"
+                "file": "Red Teaming/Active Directory/Enumeration/Powershell.md"
               }
             }
           }
@@ -180,8 +181,9 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "183ace3d0bc572b1",
+  "active": "5ad551d615596be5",
   "lastOpenFiles": [
+    "Red Teaming/Active Directory/Attacks/Lateral Movement.md",
     "Red Teaming/Active Directory/Enumeration/Powershell.md",
     "Red Teaming/Active Directory/Attacks/Persistence.md",
     "Tech & Languages/Linux & Bash.md",
@@ -189,7 +191,6 @@
     "Certs/CEH/06 System Hacking.md",
     "Red Teaming/Active Directory/Attacks/Privilege Escalation.md",
     "Red Teaming/Active Directory/Attacks/Kerberos Attacks.md",
-    "Red Teaming/Active Directory/Attacks/Lateral Movement.md",
     "z/Pasted image 20230920021133.png",
     "z/Pasted image 20231221172953.png",
     "Red Teaming/Active Directory/AD Administration.md",

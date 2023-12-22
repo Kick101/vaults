@@ -32,6 +32,28 @@
             }
           },
           {
+            "id": "7c27655731de7c04",
+            "type": "leaf",
+            "state": {
+              "type": "image",
+              "state": {
+                "file": "z/Pasted image 20230920021133.png"
+              }
+            }
+          },
+          {
+            "id": "9ed253c37af1c0b2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Red Teaming/Active Directory/Attacks/Privilege Escalation.md",
+                "mode": "preview",
+                "source": false
+              }
+            }
+          },
+          {
             "id": "92f14435c0f5eedb",
             "type": "leaf",
             "state": {
@@ -68,7 +90,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -143,7 +165,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Red Teaming/Active Directory/Enumeration/Powershell.md",
+                "file": "Red Teaming/Active Directory/Attacks/Privilege Escalation.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -160,7 +182,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Red Teaming/Active Directory/Enumeration/Powershell.md",
+                "file": "Red Teaming/Active Directory/Attacks/Privilege Escalation.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -183,7 +205,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Red Teaming/Active Directory/Enumeration/Powershell.md"
+                "file": "Red Teaming/Active Directory/Attacks/Privilege Escalation.md"
               }
             }
           }
@@ -204,10 +226,12 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "5ad551d615596be5",
+  "active": "9ed253c37af1c0b2",
   "lastOpenFiles": [
-    "Red Teaming/Active Directory/AD Administration.md",
+    "z/Pasted image 20231221172953.png",
+    "z/Pasted image 20230920021133.png",
     "Red Teaming/Active Directory/Enumeration/Powershell.md",
+    "Red Teaming/Active Directory/AD Administration.md",
     "InfoSec/System Pentesting/Privilege Escalation/Windows.md",
     "Red Teaming/Active Directory/Attacks/Lateral Movement.md",
     "Red Teaming/Active Directory/Building blocks.md",
@@ -216,21 +240,19 @@
     "Tech & Languages/powershell.md",
     "Red Teaming/Active Directory/Authentication.md",
     "Red Teaming/Active Directory/Attacks/Privilege Escalation.md",
-    "Pasted image 20231221172953.png",
-    "Pasted image 20231219185312.png",
+    "z/Pasted image 20231219185312.png",
     "Red Teaming/Active Directory/Local Lab.md",
-    "Pasted image 20230920021133.png",
     "Red Teaming/Active Directory/Attacks/Persistence.md",
     "Red Teaming/Active Directory/Attacks/Untitled",
     "Red Teaming/Active Directory/Bypass AV.md",
-    "Pasted image 20231218153813.png",
-    "Pasted image 20231218115252.png",
-    "Pasted image 20231218115220.png",
+    "z/Pasted image 20231218153813.png",
+    "z/Pasted image 20231218115252.png",
+    "z/Pasted image 20231218115220.png",
     "InfoSec/System Pentesting/Privilege Escalation/0.md",
-    "Pasted image 20231215170859.png",
-    "Pasted image 20231215170247.png",
-    "Pasted image 20231215170210.png",
-    "Pasted image 20231215170136.png",
+    "z/Pasted image 20231215170859.png",
+    "z/Pasted image 20231215170247.png",
+    "z/Pasted image 20231215170210.png",
+    "z/Pasted image 20231215170136.png",
     "Red Teaming/Active Directory/Attacks/Relay Attacks.md",
     "Red Teaming/Active Directory/Attacks/Kerberos Attacks.md",
     "InfoSec/System Pentesting/FIle Transfers.md",
@@ -242,7 +264,6 @@
     "InfoSec/OSINT/GitHub.md",
     "InfoSec/Black Hat/Carding.md",
     "InfoSec/Black Hat/Account Cracking.md",
-    "InfoSec/Network Pentesting/Wireshark.md",
     "Red Teaming/Active Directory/Attacks",
     "Red Teaming/Active Directory/Cheat sheets",
     "Red Teaming/Active Directory/Boxes",

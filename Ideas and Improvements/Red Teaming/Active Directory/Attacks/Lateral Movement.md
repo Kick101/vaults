@@ -48,12 +48,19 @@ Invoke-Command -ScriptBlock{whoami;hostname} -Session $victim
 ```powershell
 Register-PSSessionConfiguration -Name backupadmsess -RunAsCredential inlanefreight\backupadm
 ```
-- Restart the WinRM service
+
+- Restart the WinRM service. This will kick us out, so we'll start a new PSSession using the named registered session we set up previously.
 ```powershell
 Restart-Service WinRM
 ```
 
->Note: We cannot use `Register-PSSessionConfiguration` from an evil-winrm shell because we won't be able to get the credentials popup.
+```powershell
+Enter-PSSession -ComputerName DEV01 -Credential INLANEFREIGHT\backupadm -ConfigurationName  backupadmsess
+```
+
+>Note: We cannot use `Register-PSSessionConfiguration` from an evil-winrm shell because we won't be able to get the credentials popup. Furthermore, if we try to run this by first setting up a PSCredential object and then attempting to run the command by passing credentials like `-RunAsCredential $Cred`, we will get an error because we can only use `RunAs` from an elevated PowerShell terminal. Therefore, this method will not work via an evil-winrm session as it requires GUI access and a proper PowerShell console. Furthermore, in our testing, we could not get this method to work from PowerShell on a Parrot or Ubuntu attack host due to certain limitations on how PowerShell on Linux works with Kerberos credentials. This method is still highly effective if we are testing from a Windows attack host and have a set of credentials or compromise a host and can connect via RDP to use it as a "jump host" to mount further attacks against hosts in the environment.
+
+>Other methods such as CredSSP, port forwarding, or injecting into a process running in the context of a target user (sacrificial process)
 
 ---
 ### Winrs

@@ -44,11 +44,12 @@ get-domainuser -spn -credential $Cred | select samaccountname
 
 #### Workaround #2: Register PSSession Configuration
 - Create WinRM session
-
 ```powershell
 Enter-PSSession -ComputerName ACADEMY-AEN-DEV01.INLANEFREIGHT.LOCAL -Credential inlanefreight\backupadm
 ```
 
+
+>Other methods such as CredSSP, port forwarding, or injecting into a process running in the context of a target user (sacrificial process) t
 
 
 ---

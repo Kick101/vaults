@@ -42,7 +42,7 @@ When we connect to `DEV01` using a tool such as `evil-winrm`, we connect with ne
 get-domainuser -spn -credential $Cred | select samaccountname
 ```
 
-#### Workaround #2: Register [[PSSession Configuration
+#### Workaround #2: Register PSSession Configuration
 - Create WinRM session
 
 ```powershell

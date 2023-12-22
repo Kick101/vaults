@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Red Teaming/Active Directory/Enumeration/LDAP.md",
+                "file": "Red Teaming/Active Directory/Boxes/Forest.md",
                 "mode": "preview",
                 "source": false
               }
@@ -142,7 +142,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Red Teaming/Active Directory/Enumeration/LDAP.md",
+                "file": "Red Teaming/Active Directory/Boxes/Forest.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -159,7 +159,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Red Teaming/Active Directory/Enumeration/LDAP.md",
+                "file": "Red Teaming/Active Directory/Boxes/Forest.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -182,7 +182,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Red Teaming/Active Directory/Enumeration/LDAP.md"
+                "file": "Red Teaming/Active Directory/Boxes/Forest.md"
               }
             }
           }
@@ -205,6 +205,10 @@
   },
   "active": "4c7f7b086a01fd2f",
   "lastOpenFiles": [
+    "Red Teaming/Active Directory/Boxes/Attacktive Directory.md",
+    "Red Teaming/Active Directory/Boxes/Active.md",
+    "Red Teaming/Active Directory/Authentication.md",
+    "Red Teaming/Active Directory/Enumeration/LDAP.md",
     "Red Teaming/Active Directory/Enumeration/Powershell.md",
     "Red Teaming/Active Directory/Attacks/Lateral Movement.md",
     "Red Teaming/Active Directory/Building blocks.md",
@@ -221,7 +225,6 @@
     "Tech & Languages/Windows & Batch.md",
     "Tech & Languages/Rust.md",
     "Tech & Languages/powershell.md",
-    "Red Teaming/Active Directory/Authentication.md",
     "z/Pasted image 20231219185312.png",
     "Red Teaming/Active Directory/Local Lab.md",
     "Red Teaming/Active Directory/Attacks/Untitled",
@@ -239,9 +242,6 @@
     "Red Teaming/Active Directory/Enumeration/Built-in Tools.md",
     "InfoSec/Wireless Pentesting/WiFi Hacking.md",
     "InfoSec/Wireless Pentesting/Bluetooth.md",
-    "InfoSec/Wireless Pentesting/ARP Poision.md",
-    "InfoSec/OSINT/Shodan.md",
-    "InfoSec/OSINT/GitHub.md",
     "Red Teaming/Active Directory/Attacks",
     "Red Teaming/Active Directory/Cheat sheets",
     "Red Teaming/Active Directory/Boxes",

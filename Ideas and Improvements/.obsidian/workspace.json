@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Red Teaming/Active Directory/Attacks/Lateral Movement.md",
-                "mode": "preview",
+                "file": "Red Teaming/Active Directory/Authentication.md",
+                "mode": "source",
                 "source": false
               }
             }
@@ -26,30 +26,6 @@
               "type": "markdown",
               "state": {
                 "file": "Red Teaming/Active Directory/Enumeration/Powershell.md",
-                "mode": "preview",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "ad78490fc3121858",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Red Teaming/Active Directory/Building blocks.md",
-                "mode": "preview",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "9e883932e1356f73",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Red Teaming/Active Directory/Attacks/Persistence.md",
                 "mode": "preview",
                 "source": false
               }
@@ -130,7 +106,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Red Teaming/Active Directory/Attacks/Lateral Movement.md",
+                "file": "Red Teaming/Active Directory/Authentication.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -147,7 +123,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Red Teaming/Active Directory/Attacks/Lateral Movement.md",
+                "file": "Red Teaming/Active Directory/Authentication.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -170,7 +146,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Red Teaming/Active Directory/Attacks/Lateral Movement.md"
+                "file": "Red Teaming/Active Directory/Authentication.md"
               }
             }
           }
@@ -193,16 +169,18 @@
   },
   "active": "183ace3d0bc572b1",
   "lastOpenFiles": [
+    "Red Teaming/Active Directory/Attacks/Lateral Movement.md",
     "Red Teaming/Active Directory/Enumeration/Powershell.md",
+    "Red Teaming/Active Directory/Authentication.md",
+    "Pasted image 20231223003942.png",
+    "Red Teaming/Active Directory/AD Administration.md",
+    "Red Teaming/Active Directory/Building blocks.md",
     "Red Teaming/Active Directory/Boxes/Sauna.md",
     "Red Teaming/Active Directory/Boxes/Resolute.md",
     "Red Teaming/Active Directory/Boxes/Forest.md",
     "Red Teaming/Active Directory/Boxes/Attacktive Directory.md",
     "Red Teaming/Active Directory/Boxes/Active.md",
-    "Red Teaming/Active Directory/Authentication.md",
     "Red Teaming/Active Directory/Enumeration/LDAP.md",
-    "Red Teaming/Active Directory/Attacks/Lateral Movement.md",
-    "Red Teaming/Active Directory/Building blocks.md",
     "Red Teaming/Active Directory/Attacks/Persistence.md",
     "Tech & Languages/Linux & Bash.md",
     "Certs/CEH/06 System Hacking.md",
@@ -210,7 +188,6 @@
     "Red Teaming/Active Directory/Attacks/Kerberos Attacks.md",
     "z/Pasted image 20230920021133.png",
     "z/Pasted image 20231221172953.png",
-    "Red Teaming/Active Directory/AD Administration.md",
     "InfoSec/System Pentesting/Privilege Escalation/Windows.md",
     "Tech & Languages/Windows & Batch.md",
     "Tech & Languages/Rust.md",
@@ -226,10 +203,8 @@
     "z/Pasted image 20231215170859.png",
     "z/Pasted image 20231215170247.png",
     "z/Pasted image 20231215170210.png",
-    "z/Pasted image 20231215170136.png",
     "Red Teaming/Active Directory/Attacks/Relay Attacks.md",
     "InfoSec/System Pentesting/FIle Transfers.md",
-    "Red Teaming/Active Directory/Enumeration/Built-in Tools.md",
     "Red Teaming/Active Directory/Attacks",
     "Red Teaming/Active Directory/Cheat sheets",
     "Red Teaming/Active Directory/Boxes",

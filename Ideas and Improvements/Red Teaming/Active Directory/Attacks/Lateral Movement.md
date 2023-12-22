@@ -15,6 +15,11 @@ $creds = New-Object System.Management.Automation.PSCredential('kickass101', $pas
 |Interactive|Non-interactive|
 |wsmprovhost|Parallel sessions|
 |`New-PSSession` `Enter-PSSession`|`Invoke-Command`|
+__New-PSSession__ (WinRM)
+```powershell
+New-PSSession 
+```
+
 __Invoke-Command__
 ```powershell
 Invoke-Command -ScriptBlock {Get-Process} -ComputerName (Get-Content <list_of_servers>)

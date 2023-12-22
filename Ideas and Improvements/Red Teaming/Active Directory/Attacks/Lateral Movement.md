@@ -1,3 +1,14 @@
+### PSCredential Objecet
+```powershell
+$pass = convertto-securestring 'pass' -AsPlainText -Force
+```
+
+```powershell
+$creds = New-Object System.Management.Automation.PSCredential('kickass101', $pass)
+```
+
+
+---
 ### Powershell Remoting
 |one-to-one|one-to-many|
 |-|-|

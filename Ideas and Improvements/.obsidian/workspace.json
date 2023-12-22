@@ -44,6 +44,30 @@
             }
           },
           {
+            "id": "9e883932e1356f73",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Red Teaming/Active Directory/Attacks/Persistence.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "5bb2fc63e452c598",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Red Teaming/Active Directory/Attacks/Kerberos Attacks.md",
+                "mode": "preview",
+                "source": false
+              }
+            }
+          },
+          {
             "id": "92f14435c0f5eedb",
             "type": "leaf",
             "state": {
@@ -79,7 +103,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -154,7 +179,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Red Teaming/Active Directory/Attacks/Lateral Movement.md",
+                "file": "Red Teaming/Active Directory/Attacks/Kerberos Attacks.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -171,7 +196,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Red Teaming/Active Directory/Attacks/Lateral Movement.md",
+                "file": "Red Teaming/Active Directory/Attacks/Kerberos Attacks.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -194,7 +219,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Red Teaming/Active Directory/Attacks/Lateral Movement.md"
+                "file": "Red Teaming/Active Directory/Attacks/Kerberos Attacks.md"
               }
             }
           }
@@ -215,12 +240,13 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "183ace3d0bc572b1",
+  "active": "5bb2fc63e452c598",
   "lastOpenFiles": [
+    "Red Teaming/Active Directory/Attacks/Persistence.md",
     "Red Teaming/Active Directory/Attacks/Privilege Escalation.md",
+    "Red Teaming/Active Directory/Attacks/Lateral Movement.md",
     "Red Teaming/Active Directory/Enumeration/Powershell.md",
     "z/Pasted image 20230920021133.png",
-    "Red Teaming/Active Directory/Attacks/Lateral Movement.md",
     "z/Pasted image 20231221172953.png",
     "Red Teaming/Active Directory/AD Administration.md",
     "InfoSec/System Pentesting/Privilege Escalation/Windows.md",
@@ -231,7 +257,6 @@
     "Red Teaming/Active Directory/Authentication.md",
     "z/Pasted image 20231219185312.png",
     "Red Teaming/Active Directory/Local Lab.md",
-    "Red Teaming/Active Directory/Attacks/Persistence.md",
     "Red Teaming/Active Directory/Attacks/Untitled",
     "Red Teaming/Active Directory/Bypass AV.md",
     "z/Pasted image 20231218153813.png",

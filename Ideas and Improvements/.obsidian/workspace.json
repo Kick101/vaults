@@ -68,7 +68,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -143,7 +143,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Red Teaming/Active Directory/AD Administration.md",
+                "file": "Red Teaming/Active Directory/Enumeration/Powershell.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -160,7 +160,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Red Teaming/Active Directory/AD Administration.md",
+                "file": "Red Teaming/Active Directory/Enumeration/Powershell.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -183,7 +183,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Red Teaming/Active Directory/AD Administration.md"
+                "file": "Red Teaming/Active Directory/Enumeration/Powershell.md"
               }
             }
           }
@@ -204,8 +204,9 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "92f14435c0f5eedb",
+  "active": "5ad551d615596be5",
   "lastOpenFiles": [
+    "Red Teaming/Active Directory/AD Administration.md",
     "Red Teaming/Active Directory/Enumeration/Powershell.md",
     "InfoSec/System Pentesting/Privilege Escalation/Windows.md",
     "Red Teaming/Active Directory/Attacks/Lateral Movement.md",
@@ -214,7 +215,6 @@
     "Tech & Languages/Rust.md",
     "Tech & Languages/powershell.md",
     "Red Teaming/Active Directory/Authentication.md",
-    "Red Teaming/Active Directory/AD Administration.md",
     "Red Teaming/Active Directory/Attacks/Privilege Escalation.md",
     "Pasted image 20231221172953.png",
     "Pasted image 20231219185312.png",

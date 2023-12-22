@@ -20,6 +20,18 @@
             }
           },
           {
+            "id": "014a8d58597731a3",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Red Teaming/Active Directory/Attacks/Lateral Movement.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
             "id": "5ad551d615596be5",
             "type": "leaf",
             "state": {
@@ -60,7 +72,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "hashcat",
+                "query": "convertto",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -85,7 +97,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -170,8 +183,10 @@
   "active": "183ace3d0bc572b1",
   "lastOpenFiles": [
     "Red Teaming/Active Directory/Attacks/Lateral Movement.md",
-    "Red Teaming/Active Directory/Enumeration/Powershell.md",
+    "Red Teaming/Active Directory/Attacks/Privilege Escalation.md",
+    "Red Teaming/Active Directory/Attacks/Persistence.md",
     "Red Teaming/Active Directory/Authentication.md",
+    "Red Teaming/Active Directory/Enumeration/Powershell.md",
     "Pasted image 20231223003942.png",
     "Red Teaming/Active Directory/AD Administration.md",
     "Red Teaming/Active Directory/Building blocks.md",
@@ -181,10 +196,8 @@
     "Red Teaming/Active Directory/Boxes/Attacktive Directory.md",
     "Red Teaming/Active Directory/Boxes/Active.md",
     "Red Teaming/Active Directory/Enumeration/LDAP.md",
-    "Red Teaming/Active Directory/Attacks/Persistence.md",
     "Tech & Languages/Linux & Bash.md",
     "Certs/CEH/06 System Hacking.md",
-    "Red Teaming/Active Directory/Attacks/Privilege Escalation.md",
     "Red Teaming/Active Directory/Attacks/Kerberos Attacks.md",
     "z/Pasted image 20230920021133.png",
     "z/Pasted image 20231221172953.png",

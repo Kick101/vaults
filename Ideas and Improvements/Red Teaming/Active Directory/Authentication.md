@@ -37,9 +37,16 @@ we have three hosts: `Attack host` --> `DEV01` --> `DC01`. Our Attack Host is a 
 When we connect to `DEV01` using a tool such as `evil-winrm`, we connect with network authentication, so our credentials are not stored in memory and, therefore, will not be present on the system to authenticate to other resources on behalf of our user. When we load a tool such as `PowerView` and attempt to query Active Directory, Kerberos has no way of telling the DC that our user can access resources in the domain. This happens because the user's Kerberos TGT (Ticket Granting Ticket) ticket is not sent to the remote session; therefore, the user has no way to prove their identity, and commands will no longer be run in this user's context. In other words, when authenticating to the target host, the user's ticket-granting service (TGS) ticket is sent to the remote service, which allows command execution, but the user's TGT ticket is not sent. When the user attempts to access subsequent resources in the domain, their TGT will not be present in the request, so the remote service will have no way to prove that the authentication attempt is valid, and we will be denied access to the remote service.
 
 #### Workaround #1: PSCredential Object
-- Create a [[Persistence#]]
+- Create a [[Lateral Movement#PSCredential Objecet]] and use those creds on 1st Hop
 ```powershell
 get-domainuser -spn -credential $Cred | select samaccountname
+```
+
+#### Workaround #2: Register [[PSSession Configuration
+- Create WinRM session
+
+```powershell
+Enter-PSSession -ComputerName ACADEMY-AEN-DEV01.INLANEFREIGHT.LOCAL -Credential inlanefreight\backupadm
 ```
 
 

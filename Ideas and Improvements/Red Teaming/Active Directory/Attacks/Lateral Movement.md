@@ -1,4 +1,4 @@
-### PSCredential Objecet
+### PSCredential Object
 ```powershell
 $pass = convertto-securestring 'pass' -AsPlainText -Force
 ```
@@ -12,7 +12,7 @@ $creds = New-Object System.Management.Automation.PSCredential('kickass101', $pas
 ### Powershell Remoting
 > Required Admin privileges
 
-|one-to-one|one-to-many|
+|__One-To-One__|__One-To-Many__|
 |-|-|
 |Interactive|Non-interactive|
 |wsmprovhost|Parallel sessions|

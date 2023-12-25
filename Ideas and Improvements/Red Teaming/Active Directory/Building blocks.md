@@ -134,11 +134,11 @@ _Sync immediately_
 gpupdate /force
 ```
 
-#### Restrict Access to Control Panel GPO
+#### Restrict Access to Control Panel with GPO
 - Create new GPO "_Restrict Access to Control Panel_"
 - Edit _User Configuration_ -> _Administrative Templates_ -> _Control Panel_ -> _Prohibit access to Control Panel and PC settings_
 
-#### Auto Lock Screen GPO
+#### Auto Lock Screen with GPO
 - _Computer Configuration_ -> _Windows Settings_ -> _Security Settings_ -> _Local Policies_ -> _Security Operations_ -> _Interactive logon: Machine inactivity limit_
 
 #### Apply GPO to OU

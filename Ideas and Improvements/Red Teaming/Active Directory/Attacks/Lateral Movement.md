@@ -10,7 +10,14 @@ $creds = New-Object System.Management.Automation.PSCredential('kickass101', $pas
 
 ---
 ### Powershell Remoting
-> Required Admin privileges
+> When you run Enable-PSRemoting, Windows makes several changes to the local Windows configuration:
+>
+>1. Starts the WinRM service, listening on TCP port 5985
+>2. Changes WinRM to start automatically
+>3. Makes Windows firewall changes to permit access to TCP port 5985
+>4. Configures the WS-Management remote access feature for PowerShell use
+>
+> Note: PowerShell remoting is accessible only when the Windows Firewall is set to Domain or Private. WinRM is not available for Public network access.
 
 |__One-To-One__|__One-To-Many__|
 |-|-|

@@ -183,8 +183,8 @@
   "active": "014a8d58597731a3",
   "lastOpenFiles": [
     "Red Teaming/Active Directory/Attacks/Persistence.md",
-    "Red Teaming/Active Directory/Attacks/Privilege Escalation.md",
     "Red Teaming/Active Directory/Attacks/Lateral Movement.md",
+    "Red Teaming/Active Directory/Attacks/Privilege Escalation.md",
     "Red Teaming/Active Directory/Attacks/Kerberos Attacks.md",
     "Red Teaming/Active Directory/Enumeration/Built-in Tools.md",
     "Red Teaming/Active Directory/Enumeration/From linux.md",

@@ -18,6 +18,8 @@ $creds = New-Object System.Management.Automation.PSCredential('kickass101', $pas
 >4. Configures the WS-Management remote access feature for PowerShell use
 >
 > Note: PowerShell remoting is accessible only when the Windows Firewall is set to Domain or Private. WinRM is not available for Public network access.
+> 
+> To create remote sessions and run remote commands, by default, the current user must be a member of the **Administrators** group on the remote computer or provide the credentials of an administrator. [about_Remote_Requirements](https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.core/about/about_remote_requirements?view=powershell-7.2#user-permissions) 
 
 |__One-To-One__|__One-To-Many__|
 |-|-|

@@ -1,14 +1,3 @@
-### PSCredential Object
-```powershell
-$pass = convertto-securestring 'pass' -AsPlainText -Force
-```
-
-```powershell
-$creds = New-Object System.Management.Automation.PSCredential('kickass101', $pass)
-```
-
-
----
 ### Powershell Remoting
 > When you run Enable-PSRemoting, Windows makes several changes to the local Windows configuration:
 >
@@ -26,7 +15,7 @@ $creds = New-Object System.Management.Automation.PSCredential('kickass101', $pas
 |Interactive|Non-interactive|
 |wsmprovhost|Parallel sessions|
 |`New-PSSession` `Enter-PSSession`|`Invoke-Command`|
-__New-PSSession__ (WinRM)
+__PS Credential Object__ (WinRM)
 ```powershell
 $pass = ConvertTo-SecureString "transporter@4" -AsPlainText -Force
 ```

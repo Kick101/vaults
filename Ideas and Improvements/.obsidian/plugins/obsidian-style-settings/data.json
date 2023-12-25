@@ -26,5 +26,6 @@
   "blue-topaz-theme@@font-family-inline-code": "'JetBrains Mono',Consolas, Monaco, '等距更纱黑体 SC', 'Source Han Mono', 'Microsoft Yahei Mono', 'Segoe UI Emoji', 'Microsoft YaHei', 'Source Code Pro', monospace",
   "blue-topaz-theme@@background-code-2@@dark": "#000000",
   "blue-topaz-theme@@font-weight-inline-code": "600",
-  "blue-topaz-theme@@loading-page-style-option": "loading-page-style-mario"
+  "blue-topaz-theme@@loading-page-style-option": "loading-page-style-mario",
+  "blue-topaz-theme@@transparent-setting-panel": false
 }

@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Red Teaming/Active Directory/Building blocks.md",
+                "file": "Red Teaming/Active Directory/Enumeration/Built-in Tools.md",
                 "mode": "preview",
                 "source": false
               }
@@ -61,14 +61,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Red Teaming/Active Directory/Attacks/Persistence.md",
-                "mode": "source",
+                "file": "Red Teaming/Active Directory/Building blocks.md",
+                "mode": "preview",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -97,7 +97,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "convertto",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -143,7 +143,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Red Teaming/Active Directory/Attacks/Privilege Escalation.md",
+                "file": "Red Teaming/Active Directory/Building blocks.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -160,7 +160,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Red Teaming/Active Directory/Attacks/Privilege Escalation.md",
+                "file": "Red Teaming/Active Directory/Building blocks.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -183,7 +183,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Red Teaming/Active Directory/Attacks/Privilege Escalation.md"
+                "file": "Red Teaming/Active Directory/Building blocks.md"
               }
             }
           }
@@ -204,20 +204,20 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "7ed154115af71354",
+  "active": "d8028a487b7cdcdf",
   "lastOpenFiles": [
-    "Red Teaming/Active Directory/Attacks/Lateral Movement.md",
     "Red Teaming/Active Directory/Attacks/Persistence.md",
     "Red Teaming/Active Directory/Attacks/Privilege Escalation.md",
+    "Red Teaming/Active Directory/Attacks/Lateral Movement.md",
     "Red Teaming/CYSEC.md",
+    "Red Teaming/Active Directory/Enumeration/Built-in Tools.md",
+    "Red Teaming/Active Directory/Building blocks.md",
     "Pasted image 20240102214958.png",
     "Pasted image 20240102214936.png",
-    "Red Teaming/Active Directory/Building blocks.md",
     "z/Pasted image 20240102214330.png",
     "Red Teaming/Active Directory/Attacks/Kerberos Attacks.md",
     "Red Teaming/Active Directory/Attacks/Misc.md",
     "Red Teaming/Active Directory/Bypass AV.md",
-    "Red Teaming/Active Directory/Enumeration/Built-in Tools.md",
     "Red Teaming/Active Directory/Enumeration/From linux.md",
     "Red Teaming/Active Directory/Enumeration/LDAP.md",
     "Red Teaming/Active Directory/Enumeration/Powershell.md",

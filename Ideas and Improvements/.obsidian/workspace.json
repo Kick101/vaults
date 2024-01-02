@@ -26,7 +26,7 @@
               "type": "markdown",
               "state": {
                 "file": "Red Teaming/CYSEC.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": false
               }
             }
@@ -170,6 +170,7 @@
   },
   "active": "062a7efd4e1f5982",
   "lastOpenFiles": [
+    "z/Pasted image 20240102214330.png",
     "Red Teaming/Active Directory/Building blocks.md",
     "Red Teaming/CYSEC.md",
     "Red Teaming/Active Directory/Attacks/Privilege Escalation.md",
@@ -198,7 +199,6 @@
     "InfoSec/System Pentesting/Privilege Escalation/Windows.md",
     "Tech & Languages/Windows & Batch.md",
     "Tech & Languages/Rust.md",
-    "Tech & Languages/powershell.md",
     "z/Pasted image 20231219185312.png",
     "Red Teaming/Active Directory/Attacks/Untitled",
     "z/Pasted image 20231218153813.png",

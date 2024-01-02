@@ -27,6 +27,9 @@
      - **Group Policy Objects (GPOs):** Policies that define settings and configurations for users and computers.
 
 **4. AD Testing Methodology:**
+![[Pasted image 20240102214330.png]]
+
+
    - Active Directory testing involves various steps, including:
      - **Environment Discovery:** Understanding the AD structure, domains, trust relationships, etc.
      - **Enumeration:** Gathering information about users, groups, computers, and policies.

@@ -44,6 +44,27 @@
 
 
 ---
+### Practical
+#### Enumeration
+- Users
+- Computers
+- Groups
+
+#### Local Privilege Escalation
+- Get admin access on current machine
+
+#### Lateral Movement
+- PS-Remote
+
+#### Domain Admin Priv Escalation
+- 
+
+
+
+
+
+---
+
 
 ### References
 - https://www.hackthebox.com/blog/active-directory-penetration-testing-cheatsheet-and-guide

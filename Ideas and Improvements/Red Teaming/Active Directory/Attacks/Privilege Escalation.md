@@ -243,8 +243,6 @@ Rubeus.exe s4u /user:websvc
 - Instead of SPNs on msDs-AllowedToDelegatTo on the front-end service like web service, access in this case is controlled by security descriptor of msDS-AllowedToActOnBehalfOfOtherIdentity (visible as PrincipalsAllowedToDelegateToAccount) on the resource/service like SQL Server service.
 - That is, the resource/service administrator can configure this delegation whereas for other types, SeEnableDelegation privileges are required which are, by default, available only to Domain Admins.
 
-
-
 #### Attack
 __Attack Prerequisites__
 _To abuse RBCD_ in the most effective form, we just need two privileges:

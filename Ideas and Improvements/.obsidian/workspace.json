@@ -26,7 +26,7 @@
               "type": "markdown",
               "state": {
                 "file": "Red Teaming/CYSEC.md",
-                "mode": "preview",
+                "mode": "source",
                 "source": false
               }
             }
@@ -170,9 +170,11 @@
   },
   "active": "062a7efd4e1f5982",
   "lastOpenFiles": [
-    "z/Pasted image 20240102214330.png",
+    "Pasted image 20240102214958.png",
+    "Pasted image 20240102214936.png",
     "Red Teaming/Active Directory/Building blocks.md",
     "Red Teaming/CYSEC.md",
+    "z/Pasted image 20240102214330.png",
     "Red Teaming/Active Directory/Attacks/Privilege Escalation.md",
     "Red Teaming/Active Directory/Attacks/Kerberos Attacks.md",
     "Red Teaming/Active Directory/Attacks/Misc.md",
@@ -205,8 +207,6 @@
     "z/Pasted image 20231218115252.png",
     "z/Pasted image 20231218115220.png",
     "z/Pasted image 20231215170859.png",
-    "z/Pasted image 20231215170247.png",
-    "z/Pasted image 20231215170210.png",
     "Red Teaming/Active Directory/Attacks",
     "Red Teaming/Active Directory/Cheat sheets",
     "Red Teaming/Active Directory/Boxes",

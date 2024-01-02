@@ -21,6 +21,15 @@
 **3. Components of AD:**
    - Key components of Active Directory include:
      - **Domains:** Logical groupings of objects within a network.
+
+![[Pasted image 20240102214958.png]]
+
+ - __Forests:__  is the union of several trees with different namespaces into the same network.
+![[Pasted image 20240102214936.png]]
+
+
+ - __Trees:__ is a group of domains that share a contiguous namespace and a common schema. Ex: gitam.local -> vizag.gitam.local & hyd.gitam.local
+     - __Trust:__ If Domain A trusts Domain B then user from Domain B can access resources in Domain A
      - **Domain Controllers:** Servers that manage security authentication requests.
      - **Organizational Units (OUs):** Containers for organizing and managing resources within a domain.
      - **Users, Groups, and Computers:** Objects representing people, groups, and devices in the network.
@@ -29,14 +38,6 @@
 **4. AD Testing Methodology:**
 ![[Pasted image 20240102214330.png]]
 
-
-   - Active Directory testing involves various steps, including:
-     - **Environment Discovery:** Understanding the AD structure, domains, trust relationships, etc.
-     - **Enumeration:** Gathering information about users, groups, computers, and policies.
-     - **Access Control Testing:** Verifying permissions and access controls.
-     - **Password Policies Testing:** Checking for weak passwords and adherence to policies.
-     - **Trust Relationships Testing:** Ensuring proper functioning of trust relationships between domains.
-     - **Security Policy Testing:** Verifying adherence to security policies.
 
 **5. Common Attacks on AD:**
  - **Pass-the-Hash (PtH) Attacks:** Exploiting hashed password values.

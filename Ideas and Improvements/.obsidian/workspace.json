@@ -25,14 +25,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Red Teaming/Active Directory/Attacks/Privilege Escalation.md",
-                "mode": "preview",
+                "file": "Red Teaming/CYSEC.md",
+                "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -90,7 +89,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 268.5026054382324
+    "width": 233.50260543823242
   },
   "right": {
     "id": "fe286dd04d32f6ac",
@@ -106,7 +105,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Red Teaming/Active Directory/Attacks/Privilege Escalation.md",
+                "file": "Red Teaming/Active Directory/Building blocks.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -123,7 +122,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Red Teaming/Active Directory/Attacks/Privilege Escalation.md",
+                "file": "Red Teaming/Active Directory/Building blocks.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -146,7 +145,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Red Teaming/Active Directory/Attacks/Privilege Escalation.md"
+                "file": "Red Teaming/Active Directory/Building blocks.md"
               }
             }
           }
@@ -167,8 +166,9 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "062a7efd4e1f5982",
+  "active": "014a8d58597731a3",
   "lastOpenFiles": [
+    "Red Teaming/CYSEC.md",
     "Red Teaming/Active Directory/Building blocks.md",
     "Red Teaming/Active Directory/Attacks/Privilege Escalation.md",
     "Red Teaming/Active Directory/Attacks/Kerberos Attacks.md",
@@ -202,7 +202,6 @@
     "z/Pasted image 20231218153813.png",
     "z/Pasted image 20231218115252.png",
     "z/Pasted image 20231218115220.png",
-    "InfoSec/System Pentesting/Privilege Escalation/0.md",
     "z/Pasted image 20231215170859.png",
     "z/Pasted image 20231215170247.png",
     "z/Pasted image 20231215170210.png",

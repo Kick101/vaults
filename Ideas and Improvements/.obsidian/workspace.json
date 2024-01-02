@@ -14,12 +14,25 @@
               "type": "markdown",
               "state": {
                 "file": "Red Teaming/Active Directory/Building blocks.md",
+                "mode": "preview",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "062a7efd4e1f5982",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Red Teaming/Active Directory/Attacks/Privilege Escalation.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -94,7 +107,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Red Teaming/Active Directory/Building blocks.md",
+                "file": "Red Teaming/Active Directory/Attacks/Privilege Escalation.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +124,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Red Teaming/Active Directory/Building blocks.md",
+                "file": "Red Teaming/Active Directory/Attacks/Privilege Escalation.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +147,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Red Teaming/Active Directory/Building blocks.md"
+                "file": "Red Teaming/Active Directory/Attacks/Privilege Escalation.md"
               }
             }
           }
@@ -155,10 +168,10 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "014a8d58597731a3",
+  "active": "062a7efd4e1f5982",
   "lastOpenFiles": [
-    "Red Teaming/Active Directory/Attacks/Privilege Escalation.md",
     "Red Teaming/Active Directory/Building blocks.md",
+    "Red Teaming/Active Directory/Attacks/Privilege Escalation.md",
     "Red Teaming/Active Directory/Attacks/Kerberos Attacks.md",
     "Red Teaming/Active Directory/Attacks/Misc.md",
     "Red Teaming/Active Directory/Attacks/Lateral Movement.md",

@@ -239,6 +239,8 @@ Rubeus.exe s4u /user:websvc
 ```
 ---
 ### Kerberos Resource-based Constrained Delegation
+>In other words, an attack can execute code/commands as `domain admin` only on the `mgm-dcorp` machine and not on any other machine in the domain.
+
 - This moves delegation authority to the resource/service administrator.
 - Instead of SPNs on msDs-AllowedToDelegatTo on the front-end service like web service, access in this case is controlled by security descriptor of msDS-AllowedToActOnBehalfOfOtherIdentity (visible as PrincipalsAllowedToDelegateToAccount) on the resource/service like SQL Server service.
 - That is, the resource/service administrator can configure this delegation whereas for other types, SeEnableDelegation privileges are required which are, by default, available only to Domain Admins.

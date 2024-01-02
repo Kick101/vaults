@@ -249,7 +249,7 @@ Rubeus.exe s4u /user:websvc
 __Attack Prerequisites__
 _To abuse RBCD_ in the most effective form, we just need two privileges:
 1. Write permissions over the target service or object to configure msDS-AllowedToActOnBehalfOfOtherIdentity.
-2. Control over an object which has SPN configured (like admin access to a domain joined machine or ability to join a machine to domain - ms-DS- MachineAccountQuota is 10 for all domain users)
+2. Control over an object which has SPN configured (like admin access to a domain joined machine or ability to join a machine to domain - _ms-DS-MachineAccountQuota_ is 10 for all domain users)
 
 __Attack__
 - User 'ciadmin' has Write permissions over the dcorp-mgmt machine!

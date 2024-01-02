@@ -31,7 +31,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -105,7 +106,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Red Teaming/Active Directory/Building blocks.md",
+                "file": "Red Teaming/CYSEC.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -122,7 +123,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Red Teaming/Active Directory/Building blocks.md",
+                "file": "Red Teaming/CYSEC.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -145,7 +146,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Red Teaming/Active Directory/Building blocks.md"
+                "file": "Red Teaming/CYSEC.md"
               }
             }
           }
@@ -166,10 +167,10 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "014a8d58597731a3",
+  "active": "062a7efd4e1f5982",
   "lastOpenFiles": [
-    "Red Teaming/CYSEC.md",
     "Red Teaming/Active Directory/Building blocks.md",
+    "Red Teaming/CYSEC.md",
     "Red Teaming/Active Directory/Attacks/Privilege Escalation.md",
     "Red Teaming/Active Directory/Attacks/Kerberos Attacks.md",
     "Red Teaming/Active Directory/Attacks/Misc.md",

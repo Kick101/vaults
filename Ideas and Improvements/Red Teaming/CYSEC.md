@@ -20,7 +20,7 @@
 ![[Pasted image 20240102214958.png]]
 
  - __Forests:__  is the union of several trees with different namespaces into the same network.
- -  __Trees:__ is a group of domains that share a contiguous namespace and a common schema. Ex: gitam.local -> vizag.gitam.local & hyd.gitam.local
+ - __Trees:__ is a group of domains that share a contiguous namespace and a common schema. Ex: gitam.local -> vizag.gitam.local & hyd.gitam.local
 ![[Pasted image 20240102214936.png]]
 
 

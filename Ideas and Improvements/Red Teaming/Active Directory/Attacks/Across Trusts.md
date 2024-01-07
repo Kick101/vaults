@@ -3,4 +3,8 @@
 __sIDHistory can be abused in two ways of escalating privileges within a forest:__
 - krbtgt hash of the child
 - Trust ticket
+---
+### Child to Trust Flow
+![[Pasted image 20240107115806.png]]
+
 

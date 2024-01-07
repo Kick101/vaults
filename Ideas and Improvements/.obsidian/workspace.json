@@ -13,20 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Red Teaming/Active Directory/Enumeration/Built-in Tools.md",
-                "mode": "preview",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "062a7efd4e1f5982",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Red Teaming/CYSEC.md",
-                "mode": "preview",
+                "file": "Red Teaming/Active Directory/Attacks/Across Trusts.md",
+                "mode": "source",
                 "source": false
               }
             }
@@ -67,8 +55,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -143,7 +130,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Red Teaming/CYSEC.md",
+                "file": "Red Teaming/Active Directory/Attacks/Across Trusts.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -160,7 +147,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Red Teaming/CYSEC.md",
+                "file": "Red Teaming/Active Directory/Attacks/Across Trusts.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -183,7 +170,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Red Teaming/CYSEC.md"
+                "file": "Red Teaming/Active Directory/Attacks/Across Trusts.md"
               }
             }
           }
@@ -204,9 +191,10 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "062a7efd4e1f5982",
+  "active": "014a8d58597731a3",
   "lastOpenFiles": [
     "Red Teaming/Active Directory/Enumeration/Built-in Tools.md",
+    "Red Teaming/Active Directory/Attacks/Across Trusts.md",
     "Red Teaming/CYSEC.md",
     "Red Teaming/Active Directory/Attacks/Lateral Movement.md",
     "Red Teaming/Active Directory/Attacks/Privilege Escalation.md",

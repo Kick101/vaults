@@ -32,6 +32,16 @@
             }
           },
           {
+            "id": "049119926936ff47",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.5.3"
+              }
+            }
+          },
+          {
             "id": "5ad551d615596be5",
             "type": "leaf",
             "state": {
@@ -44,7 +54,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -180,7 +190,7 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "014a8d58597731a3",
+  "active": "049119926936ff47",
   "lastOpenFiles": [
     "Red Teaming/Active Directory/Attacks/Persistence.md",
     "Red Teaming/Active Directory/Attacks/Lateral Movement.md",

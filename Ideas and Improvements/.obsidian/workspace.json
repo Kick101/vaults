@@ -31,7 +31,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -106,7 +107,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "InfoSec/System Pentesting/Privilege Escalation/Windows/Exploits.md",
+                "file": "InfoSec/System Pentesting/Privilege Escalation/Windows/Enumeration.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -123,7 +124,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "InfoSec/System Pentesting/Privilege Escalation/Windows/Exploits.md",
+                "file": "InfoSec/System Pentesting/Privilege Escalation/Windows/Enumeration.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -146,7 +147,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "InfoSec/System Pentesting/Privilege Escalation/Windows/Exploits.md"
+                "file": "InfoSec/System Pentesting/Privilege Escalation/Windows/Enumeration.md"
               }
             }
           }
@@ -167,10 +168,10 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "049119926936ff47",
+  "active": "ef010735fbe5528e",
   "lastOpenFiles": [
-    "InfoSec/System Pentesting/Privilege Escalation/Windows/Enumeration.md",
     "InfoSec/System Pentesting/Privilege Escalation/Windows/Exploits.md",
+    "InfoSec/System Pentesting/Privilege Escalation/Windows/Enumeration.md",
     "Pasted image 20240113220200.png",
     "InfoSec/System Pentesting/Privilege Escalation/Windows",
     "InfoSec/System Pentesting/FIle Transfers.md",

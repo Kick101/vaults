@@ -3,5 +3,12 @@
   "spellcheckLanguages": null,
   "alwaysUpdateLinks": true,
   "newFileLocation": "folder",
-  "newFileFolderPath": "z"
+  "newFileFolderPath": "z",
+  "pdfExportSettings": {
+    "includeName": true,
+    "pageSize": "Letter",
+    "landscape": true,
+    "margin": "1",
+    "downscalePercent": 100
+  }
 }

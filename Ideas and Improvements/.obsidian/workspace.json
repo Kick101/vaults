@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "InfoSec/System Pentesting/Privilege Escalation/Windows.md",
+                "file": "InfoSec/System Pentesting/Privilege Escalation/Windows/Enumeration.md",
                 "mode": "source",
                 "source": false
               }
@@ -77,7 +77,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 268.5026054382324
+    "width": 268.5026054382324,
+    "collapsed": true
   },
   "right": {
     "id": "fe286dd04d32f6ac",
@@ -93,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "InfoSec/System Pentesting/Privilege Escalation/Windows.md",
+                "file": "InfoSec/System Pentesting/Privilege Escalation/Windows/Enumeration.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "InfoSec/System Pentesting/Privilege Escalation/Windows.md",
+                "file": "InfoSec/System Pentesting/Privilege Escalation/Windows/Enumeration.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "InfoSec/System Pentesting/Privilege Escalation/Windows.md"
+                "file": "InfoSec/System Pentesting/Privilege Escalation/Windows/Enumeration.md"
               }
             }
           }
@@ -156,19 +157,23 @@
   },
   "active": "049119926936ff47",
   "lastOpenFiles": [
+    "InfoSec/System Pentesting/Privilege Escalation/Windows",
+    "InfoSec/System Pentesting/FIle Transfers.md",
+    "InfoSec/System Pentesting/Privilege Escalation/Windows/Enumeration.md",
+    "InfoSec/System Pentesting/Privilege Escalation/Linux.md",
+    "InfoSec/System Pentesting/Privilege Escalation/0.md",
+    "Red Teaming/Active Directory/Attacks/Kerberos Attacks.md",
+    "Red Teaming/CYSEC.md",
+    "z/Pasted image 20240102214936.png",
     "conflict-files-obsidian-git.md",
-    "InfoSec/System Pentesting/Privilege Escalation/Windows.md",
     "z/Pasted image 20240102214330.png",
     "z/Pasted image 20231223003942.png",
-    "Red Teaming/CYSEC.md",
     "Red Teaming/Active Directory/Attacks/Across Trusts.md",
-    "Pasted image 20240107115806.png",
-    "Pasted image 20240102214958.png",
-    "Pasted image 20240102214936.png",
+    "z/Pasted image 20240107115806.png",
+    "z/Pasted image 20240102214958.png",
     "Red Teaming/Active Directory/Attacks/Persistence.md",
     "Red Teaming/Active Directory/Attacks/Lateral Movement.md",
     "Red Teaming/Active Directory/Attacks/Privilege Escalation.md",
-    "Red Teaming/Active Directory/Attacks/Kerberos Attacks.md",
     "Red Teaming/Active Directory/Enumeration/Built-in Tools.md",
     "Red Teaming/Active Directory/Enumeration/From linux.md",
     "Red Teaming/Active Directory/Enumeration/LDAP.md",
@@ -184,12 +189,8 @@
     "Red Teaming/Active Directory/Boxes/Resolute.md",
     "Red Teaming/Active Directory/Boxes/Forest.md",
     "Red Teaming/Active Directory/Boxes/Attacktive Directory.md",
-    "Red Teaming/Active Directory/Boxes/Active.md",
-    "Tech & Languages/Linux & Bash.md",
-    "Certs/CEH/06 System Hacking.md",
     "z/Pasted image 20230920021133.png",
     "z/Pasted image 20231221172953.png",
-    "Tech & Languages/Windows & Batch.md",
     "z/Pasted image 20231219185312.png",
     "Red Teaming/Active Directory/Attacks/Untitled",
     "z/Pasted image 20231218153813.png",

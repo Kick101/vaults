@@ -8,53 +8,18 @@
         "type": "tabs",
         "children": [
           {
-            "id": "183ace3d0bc572b1",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Red Teaming/Active Directory/Attacks/Persistence.md",
-                "mode": "preview",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "014a8d58597731a3",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Red Teaming/Active Directory/Attacks/Lateral Movement.md",
-                "mode": "preview",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "049119926936ff47",
             "type": "leaf",
             "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.5.3"
-              }
-            }
-          },
-          {
-            "id": "5ad551d615596be5",
-            "type": "leaf",
-            "state": {
               "type": "markdown",
               "state": {
-                "file": "Red Teaming/Active Directory/Bypass AV.md",
-                "mode": "preview",
+                "file": "InfoSec/System Pentesting/Privilege Escalation/Windows.md",
+                "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -112,8 +77,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 268.5026054382324,
-    "collapsed": true
+    "width": 268.5026054382324
   },
   "right": {
     "id": "fe286dd04d32f6ac",
@@ -129,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Red Teaming/Active Directory/Attacks/Lateral Movement.md",
+                "file": "InfoSec/System Pentesting/Privilege Escalation/Windows.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -146,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Red Teaming/Active Directory/Attacks/Lateral Movement.md",
+                "file": "InfoSec/System Pentesting/Privilege Escalation/Windows.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -169,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Red Teaming/Active Directory/Attacks/Lateral Movement.md"
+                "file": "InfoSec/System Pentesting/Privilege Escalation/Windows.md"
               }
             }
           }

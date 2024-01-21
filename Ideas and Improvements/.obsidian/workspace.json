@@ -14,7 +14,7 @@
               "type": "markdown",
               "state": {
                 "file": "InfoSec/System Pentesting/Privilege Escalation/Windows/Exploits.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": false
               }
             }
@@ -169,13 +169,14 @@
   },
   "active": "049119926936ff47",
   "lastOpenFiles": [
-    "InfoSec/System Pentesting/Privilege Escalation/Windows/Enumeration.md",
+    "Pasted image 20240118205323.png",
+    "InfoSec/System Pentesting/Privilege Escalation/0.md",
     "InfoSec/System Pentesting/Privilege Escalation/Windows/Exploits.md",
+    "InfoSec/System Pentesting/Privilege Escalation/Windows/Enumeration.md",
     "Pasted image 20240113220200.png",
     "InfoSec/System Pentesting/Privilege Escalation/Windows",
     "InfoSec/System Pentesting/FIle Transfers.md",
     "InfoSec/System Pentesting/Privilege Escalation/Linux.md",
-    "InfoSec/System Pentesting/Privilege Escalation/0.md",
     "Red Teaming/Active Directory/Attacks/Kerberos Attacks.md",
     "Red Teaming/CYSEC.md",
     "z/Pasted image 20240102214936.png",

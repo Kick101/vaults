@@ -334,6 +334,36 @@ Get-NetShare -ComputerName SQL01
 
 
 ---
+### ADSI
+__Users__
+```powershell
+$Searcher = New-Object DirectoryServices.DirectorySearcher;
+$Searcher.Filter = "(&(objectclass=user))";
+$Searcher.SearchRoot = '';
+$Searcher.FindAll();
+```
+
+__Computers__
+```powershell
+$Searcher.Filter = "(&(objectclass=user))";
+$Searcher.SearchRoot = '';
+$Searcher.FindAll();
+```
+
+__Trusts__
+```powershell
+([System.DirectoryServices.ActiveDirectory.Domain]::GetCurrentDomain()).GetAllTrustRelationships()
+```
+
+__Users w/ SPNs__
+```powershell
+$Searcher.Filter = "
+(&(!(samaccountname=krbtgt))(objectclass=user)(objectcategory=user)(servicePrincipalName=*))";
+$Searcher.SearchRoot = '';
+$Searcher.FindAll();
+```
+
+---
 ### Enumerating Security Controls
 __Checking the Status of Defender with Get-MpComputerStatus__
 - Check `RealTimeProtectionEnabled` value

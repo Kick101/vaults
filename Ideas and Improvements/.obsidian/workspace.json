@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Red Teaming/Active Directory/Bypass AV.md",
+                "file": "InfoSec/System Pentesting/Privilege Escalation/Windows/Enumeration.md",
                 "mode": "source",
                 "source": false
               }
@@ -90,8 +90,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 268.5026054382324,
-    "collapsed": true
+    "width": 268.5026054382324
   },
   "right": {
     "id": "fe286dd04d32f6ac",
@@ -107,7 +106,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Red Teaming/Active Directory/Bypass AV.md",
+                "file": "InfoSec/System Pentesting/Privilege Escalation/Windows/Enumeration.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -124,7 +123,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Red Teaming/Active Directory/Bypass AV.md",
+                "file": "InfoSec/System Pentesting/Privilege Escalation/Windows/Enumeration.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -147,7 +146,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Red Teaming/Active Directory/Bypass AV.md"
+                "file": "InfoSec/System Pentesting/Privilege Escalation/Windows/Enumeration.md"
               }
             }
           }
@@ -170,10 +169,10 @@
   },
   "active": "ef010735fbe5528e",
   "lastOpenFiles": [
+    "Red Teaming/Active Directory/Enumeration/Powershell.md",
+    "Red Teaming/Active Directory/Bypass AV.md",
     "InfoSec/Threat Intelligence/init.md",
     "Red Teaming/Active Directory/Cheat sheets/PowerView & SharpView cheatsheet.md",
-    "Red Teaming/Active Directory/Bypass AV.md",
-    "Red Teaming/Active Directory/Enumeration/Powershell.md",
     "InfoSec/System Pentesting/Privilege Escalation/Windows/Enumeration.md",
     "InfoSec/Cloud Pentesting/AWS S3 Misconfigurations.md",
     "InfoSec/Cloud Pentesting/Cloud Security.md",

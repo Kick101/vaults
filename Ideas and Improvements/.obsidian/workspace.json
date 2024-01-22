@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Red Teaming/Active Directory/Cheat sheets/PowerView & SharpView cheatsheet.md",
+                "file": "Red Teaming/Active Directory/Bypass AV.md",
                 "mode": "source",
                 "source": false
               }
@@ -61,7 +61,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "preference",
+                "query": "Set-",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -86,12 +86,12 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 268.5026054382324
+    "width": 268.5026054382324,
+    "collapsed": true
   },
   "right": {
     "id": "fe286dd04d32f6ac",
@@ -107,7 +107,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Red Teaming/Active Directory/Cheat sheets/PowerView & SharpView cheatsheet.md",
+                "file": "Red Teaming/Active Directory/Bypass AV.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -124,7 +124,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Red Teaming/Active Directory/Cheat sheets/PowerView & SharpView cheatsheet.md",
+                "file": "Red Teaming/Active Directory/Bypass AV.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -147,7 +147,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Red Teaming/Active Directory/Cheat sheets/PowerView & SharpView cheatsheet.md"
+                "file": "Red Teaming/Active Directory/Bypass AV.md"
               }
             }
           }
@@ -170,6 +170,8 @@
   },
   "active": "ef010735fbe5528e",
   "lastOpenFiles": [
+    "InfoSec/Threat Intelligence/init.md",
+    "Red Teaming/Active Directory/Cheat sheets/PowerView & SharpView cheatsheet.md",
     "Red Teaming/Active Directory/Bypass AV.md",
     "Red Teaming/Active Directory/Enumeration/Powershell.md",
     "InfoSec/System Pentesting/Privilege Escalation/Windows/Enumeration.md",
@@ -203,8 +205,6 @@
     "Red Teaming/Active Directory/Authentication.md",
     "Red Teaming/Active Directory/Attacks/Misc.md",
     "Pasted image 20231223003942.png",
-    "Red Teaming/Active Directory/Boxes/Sauna.md",
-    "Red Teaming/Active Directory/Boxes/Resolute.md",
     "z/Pasted image 20230920021133.png",
     "z/Pasted image 20231221172953.png",
     "Red Teaming/Active Directory/Attacks/Untitled",

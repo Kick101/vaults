@@ -364,24 +364,6 @@ $Searcher.FindAll();
 ```
 
 ---
-### PowerUpSQL
-__SQL Servers__
-```powershell
-Get-SQLInstanceDomain
-```
-
-__DB links__
-```powershell
-Get-SQLServerLink -Instance devsrv.garrison.castle.local
-```
-
-```powershell
-Get-SQLServerLinkCrawl -Instance devsrv.garrison.castle.local -Verbose
-```
-
-
-
----
 ### Security Controls
 __Checking the Status of Defender with Get-MpComputerStatus__
 - Check `RealTimeProtectionEnabled` value

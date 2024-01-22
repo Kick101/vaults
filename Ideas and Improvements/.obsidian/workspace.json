@@ -38,7 +38,7 @@
               "type": "markdown",
               "state": {
                 "file": "Red Teaming/Active Directory/Attacks/Lateral Movement.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": false
               }
             }
@@ -56,7 +56,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -131,7 +131,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Red Teaming/Active Directory/Attacks/Lateral Movement.md",
+                "file": "Red Teaming/Active Directory/Attacks/Privilege Escalation.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -148,7 +148,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Red Teaming/Active Directory/Attacks/Lateral Movement.md",
+                "file": "Red Teaming/Active Directory/Attacks/Privilege Escalation.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -171,7 +171,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Red Teaming/Active Directory/Attacks/Lateral Movement.md"
+                "file": "Red Teaming/Active Directory/Attacks/Privilege Escalation.md"
               }
             }
           }
@@ -192,8 +192,9 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "88db4ac58cab8c6c",
+  "active": "4780b72a31b86cc5",
   "lastOpenFiles": [
+    "Red Teaming/Active Directory/Attacks/Lateral Movement.md",
     "Red Teaming/Active Directory/Enumeration/Powershell.md",
     "Red Teaming/Active Directory/Attacks/Privilege Escalation.md",
     "Red Teaming/Active Directory/Authentication.md",
@@ -225,7 +226,6 @@
     "z/Pasted image 20240107115806.png",
     "z/Pasted image 20240102214958.png",
     "Red Teaming/Active Directory/Attacks/Persistence.md",
-    "Red Teaming/Active Directory/Attacks/Lateral Movement.md",
     "Red Teaming/Active Directory/Building blocks.md",
     "Red Teaming/Active Directory/Attacks/Misc.md",
     "Pasted image 20231223003942.png",

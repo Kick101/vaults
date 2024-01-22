@@ -1,4 +1,4 @@
-##### Attack Privilege Requirements
+#### Attack Privileges Requirements
 -   Kerbrute Enumeration - No domain access required 
 -   Pass the Ticket - Access as a user to the domain required
 -   Kerberoasting - Access as any user required

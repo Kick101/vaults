@@ -379,6 +379,8 @@ Get-SQLServerLink -Instance devsrv.garrison.castle.local
 Get-SQLServerLinkCrawl -Instance devsrv.garrison.castle.local -Verbose
 ```
 
+
+
 ---
 ### Security Controls
 __Checking the Status of Defender with Get-MpComputerStatus__

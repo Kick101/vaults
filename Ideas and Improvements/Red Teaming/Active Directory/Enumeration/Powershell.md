@@ -364,7 +364,7 @@ $Searcher.FindAll();
 ```
 
 ---
-### Enumerating Security Controls
+### Security Controls
 __Checking the Status of Defender with Get-MpComputerStatus__
 - Check `RealTimeProtectionEnabled` value
 ```powershell
@@ -385,8 +385,8 @@ __PowerShell Constrained Language Mode__
 $ExecutionContext.SessionState.LanguageMode
 ```
 
-__LAPS__
-- Local Administrator Password Solution is used to randomize and rotate local administrator passwords on Windows hosts and prevent lateral movement.
+__Local Administrator Password Solution__
+- LAPS is used to _randomize and rotate local administrator passwords_ on Windows hosts and prevent lateral movement.
 - We can enumerate what domain users can read the LAPS password and what machines do not have LAPS installed.
 - An account that has joined a computer to a domain receives `All Extended Rights` over that host, and this right gives the account the ability to read passwords
 

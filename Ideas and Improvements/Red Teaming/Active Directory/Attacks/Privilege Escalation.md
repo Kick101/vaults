@@ -322,6 +322,7 @@ winrs -r:dcorp-mgmt cmd.exe
 
 
 #### Krbtgt Attack
+ 
 
 
 ---

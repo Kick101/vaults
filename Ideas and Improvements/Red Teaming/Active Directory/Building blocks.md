@@ -267,6 +267,16 @@ Get-ADUser -Filter {adminCount -gt 0} -Properties admincount,useraccountcontrol 
 
 
 ---
+### Across Forest
+#### Child to Parent Trust Flow
+1. Get TGT from child domain
+2. Send TGT, request TGS for the SPN of parent domain
+3. 
+![[Pasted image 20240123140717.png | 500]]
+
+
+
+---
 ### Default Security Posture
 
 A basic AD user account with _no added privileges can be used to enumerate_ the majority of objects contained within AD, including but not limited to:

@@ -322,9 +322,6 @@ winrs -r:dcorp-mgmt cmd.exe
 - sIDHistory can be abused in two ways of escalating privileges within a forest:
 	- krbtgt hash of the child
 	- Trust tickets
-
-![[Pasted image 20240123140717.png | 500]]
-
 #### Attack
 __Look for Trust Key__
 ```powershell

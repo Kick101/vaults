@@ -50,7 +50,7 @@
               "type": "markdown",
               "state": {
                 "file": "Red Teaming/Active Directory/Attacks/Privilege Escalation.md",
-                "mode": "preview",
+                "mode": "source",
                 "source": false
               }
             }
@@ -194,6 +194,7 @@
   },
   "active": "4780b72a31b86cc5",
   "lastOpenFiles": [
+    "Pasted image 20240123140717.png",
     "Red Teaming/Active Directory/Attacks/Lateral Movement.md",
     "Red Teaming/Active Directory/Enumeration/Powershell.md",
     "Red Teaming/Active Directory/Attacks/Privilege Escalation.md",
@@ -227,7 +228,6 @@
     "z/Pasted image 20240102214958.png",
     "Red Teaming/Active Directory/Attacks/Persistence.md",
     "Red Teaming/Active Directory/Building blocks.md",
-    "Red Teaming/Active Directory/Attacks/Misc.md",
     "Pasted image 20231223003942.png",
     "z/Pasted image 20230920021133.png",
     "z/Pasted image 20231221172953.png",

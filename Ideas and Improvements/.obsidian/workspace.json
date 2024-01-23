@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Red Teaming/Active Directory/Attacks/Privilege Escalation.md",
-                "mode": "source",
+                "file": "Red Teaming/Active Directory/Building blocks.md",
+                "mode": "preview",
                 "source": false
               }
             }
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Red Teaming/Active Directory/Attacks/Privilege Escalation.md",
+                "file": "Red Teaming/Active Directory/Building blocks.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Red Teaming/Active Directory/Attacks/Privilege Escalation.md",
+                "file": "Red Teaming/Active Directory/Building blocks.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Red Teaming/Active Directory/Attacks/Privilege Escalation.md"
+                "file": "Red Teaming/Active Directory/Building blocks.md"
               }
             }
           }
@@ -157,14 +157,15 @@
   },
   "active": "d35510d4ffd1c4e5",
   "lastOpenFiles": [
+    "Red Teaming/Active Directory/Authentication.md",
+    "Red Teaming/CYSEC.md",
+    "Red Teaming/Active Directory/Attacks/Privilege Escalation.md",
     "Red Teaming/Active Directory/Building blocks.md",
     "Red Teaming/Active Directory/Attacks/Persistence.md",
     "Red Teaming/Active Directory/Attacks/Lateral Movement.md",
     "Red Teaming/Active Directory/Enumeration/Powershell.md",
-    "Red Teaming/Active Directory/Attacks/Privilege Escalation.md",
     "Pasted image 20240123141106.png",
     "Pasted image 20240123140717.png",
-    "Red Teaming/Active Directory/Authentication.md",
     "Red Teaming/Active Directory/Attacks/Kerberos Attacks.md",
     "Red Teaming/Active Directory/Enumeration/Built-in Tools.md",
     "Red Teaming/Active Directory/Enumeration/LDAP.md",
@@ -184,7 +185,6 @@
     "InfoSec/System Pentesting/Privilege Escalation/Windows",
     "InfoSec/System Pentesting/FIle Transfers.md",
     "InfoSec/System Pentesting/Privilege Escalation/Linux.md",
-    "Red Teaming/CYSEC.md",
     "z/Pasted image 20240102214936.png",
     "conflict-files-obsidian-git.md",
     "z/Pasted image 20240102214330.png",

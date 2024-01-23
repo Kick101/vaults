@@ -248,7 +248,7 @@ Get-ADUser -Filter {adminCount -gt 0} -Properties admincount,useraccountcontrol 
 
 #### General/Basic or Unconstrained Delegation
 - It allows the first hop server (web server in our example) to _request access to any service on any computer in the domain_.
-- DC places user's _TGT inside TGS_ (Step 4 in the diagram). When presented to the server, the TGT is extracted from TGS and stored in LSASS. This way the server can reuse the user's TGT to access any other resource as the user.
+- DC places user's _TGT inside TGS_. When presented to the server, the TGT is extracted from TGS and stored in LSASS. This way the server can reuse the user's TGT to access any other resource as the user.
 - This could be used to escalate privileges in case we can compromise the computer with unconstrained delegation and a Domain Admin connects to that machine.
 
 #### Constrained Delegation

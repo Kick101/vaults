@@ -56,6 +56,18 @@
             }
           },
           {
+            "id": "c0425cda6e45a7d6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Red Teaming/Active Directory/Attacks/Persistence.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
             "id": "67dd6a67db65becd",
             "type": "leaf",
             "state": {
@@ -68,7 +80,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -126,7 +138,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 233.50260543823242
+    "width": 233.50260543823242,
+    "collapsed": true
   },
   "right": {
     "id": "fe286dd04d32f6ac",
@@ -142,7 +155,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Red Teaming/Active Directory/Attacks/Privilege Escalation.md",
+                "file": "Red Teaming/Active Directory/Attacks/Persistence.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -159,7 +172,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Red Teaming/Active Directory/Attacks/Privilege Escalation.md",
+                "file": "Red Teaming/Active Directory/Attacks/Persistence.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -182,7 +195,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Red Teaming/Active Directory/Attacks/Privilege Escalation.md"
+                "file": "Red Teaming/Active Directory/Attacks/Persistence.md"
               }
             }
           }
@@ -203,10 +216,10 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "4780b72a31b86cc5",
+  "active": "c0425cda6e45a7d6",
   "lastOpenFiles": [
-    "Red Teaming/Active Directory/Building blocks.md",
     "Red Teaming/Active Directory/Attacks/Privilege Escalation.md",
+    "Red Teaming/Active Directory/Building blocks.md",
     "Pasted image 20240123141106.png",
     "Pasted image 20240123140717.png",
     "Red Teaming/Active Directory/Attacks/Lateral Movement.md",

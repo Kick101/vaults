@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Red Teaming/Active Directory/Enumeration/LDAP.md",
+                "file": "InfoSec/WebApp Pentesting/SSRF/SSRF.md",
                 "mode": "preview",
                 "source": false
               }
@@ -60,7 +60,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "rpc",
+                "query": "redis",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -106,7 +106,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Red Teaming/Active Directory/Enumeration/LDAP.md",
+                "file": "InfoSec/WebApp Pentesting/SSRF/SSRF.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -123,7 +123,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Red Teaming/Active Directory/Enumeration/LDAP.md",
+                "file": "InfoSec/WebApp Pentesting/SSRF/SSRF.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -146,7 +146,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Red Teaming/Active Directory/Enumeration/LDAP.md"
+                "file": "InfoSec/WebApp Pentesting/SSRF/SSRF.md"
               }
             }
           }
@@ -169,10 +169,15 @@
   },
   "active": "d35510d4ffd1c4e5",
   "lastOpenFiles": [
-    "Red Teaming/Active Directory/Enumeration/From linux.md",
+    "Bug Bounty/newegg/Recon.md",
+    "InfoSec/Cloud Pentesting/SEC588/Discovery, Recon and Architecture.md",
     "InfoSec/Network Pentesting/Service Attacks/SMB & SAMBA.md",
-    "Red Teaming/Active Directory/Boxes/Forest.md",
     "Red Teaming/Active Directory/Attacks/Privilege Escalation.md",
+    "Red Teaming/Active Directory/Boxes/Attacktive Directory.md",
+    "Red Teaming/Active Directory/Boxes/Active.md",
+    "Red Teaming/Active Directory/Enumeration/LDAP.md",
+    "Red Teaming/Active Directory/Enumeration/From linux.md",
+    "Red Teaming/Active Directory/Boxes/Forest.md",
     "Red Teaming/Active Directory/Building blocks.md",
     "Red Teaming/CYSEC.md",
     "Red Teaming/Active Directory/Authentication.md",
@@ -183,7 +188,6 @@
     "Pasted image 20240123140717.png",
     "Red Teaming/Active Directory/Attacks/Kerberos Attacks.md",
     "Red Teaming/Active Directory/Enumeration/Built-in Tools.md",
-    "Red Teaming/Active Directory/Enumeration/LDAP.md",
     "Red Teaming/Active Directory/Local Lab.md",
     "Red Teaming/Active Directory/AD Administration.md",
     "InfoSec/System Pentesting/Privilege Escalation/Windows/Enumeration.md",
@@ -194,13 +198,9 @@
     "InfoSec/Cloud Pentesting/Cloud Security.md",
     "InfoSec/System Pentesting/Privilege Escalation/Windows/Exploits.md",
     "z/Pasted image 20240118205323.png",
-    "InfoSec/System Pentesting/Privilege Escalation/0.md",
     "z/Pasted image 20240113220200.png",
     "InfoSec/System Pentesting/Privilege Escalation/Windows",
-    "InfoSec/System Pentesting/FIle Transfers.md",
-    "InfoSec/System Pentesting/Privilege Escalation/Linux.md",
     "z/Pasted image 20240102214936.png",
-    "conflict-files-obsidian-git.md",
     "z/Pasted image 20240102214330.png",
     "z/Pasted image 20231223003942.png",
     "z/Pasted image 20240107115806.png",

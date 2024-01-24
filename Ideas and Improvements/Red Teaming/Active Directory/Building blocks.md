@@ -267,7 +267,7 @@ Get-ADUser -Filter {adminCount -gt 0} -Properties admincount,useraccountcontrol 
 
 
 ---
-### Across Forest
+### Inter Forest
 #### Trust Flow
 __Get Inter-relam TGT__
 1. Get TGT from the domain
@@ -279,6 +279,9 @@ __Get TGS from another forest__
 
 ![[Pasted image 20240123140717.png | 500]]
 
+
+---
+### Across Forest
 
 
 ---

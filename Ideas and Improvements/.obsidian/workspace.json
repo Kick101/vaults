@@ -48,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "asrep",
+                "query": "crackma",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -73,12 +73,12 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 233.50260543823242,
-    "collapsed": true
+    "width": 233.50260543823242
   },
   "right": {
     "id": "fe286dd04d32f6ac",
@@ -157,12 +157,12 @@
   },
   "active": "5b18f2ab35de0437",
   "lastOpenFiles": [
-    "Red Teaming/Active Directory/Boxes/Attacktive Directory.md",
-    "Red Teaming/Active Directory/Boxes/VulnNet Roasted.md",
-    "Red Teaming/Active Directory/Enumeration/LDAP.md",
-    "Red Teaming/Active Directory/Boxes/Forest.md",
     "Red Teaming/Active Directory/Boxes/Resolute.md",
     "Red Teaming/Active Directory/Attacks/Privilege Escalation.md",
+    "Red Teaming/Active Directory/Boxes/VulnNet Roasted.md",
+    "Red Teaming/Active Directory/Boxes/Attacktive Directory.md",
+    "Red Teaming/Active Directory/Enumeration/LDAP.md",
+    "Red Teaming/Active Directory/Boxes/Forest.md",
     "Red Teaming/Active Directory/Enumeration/From linux.md",
     "Certs/CEH/06 System Hacking.md",
     "InfoSec/WebApp Pentesting/SSRF/SSRF.md",

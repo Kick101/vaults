@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "InfoSec/WebApp Pentesting/SSRF/SSRF.md",
-                "mode": "preview",
+                "file": "Red Teaming/Active Directory/Boxes/VulnNet Roasted.md",
+                "mode": "source",
                 "source": false
               }
             }
@@ -85,12 +85,12 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 233.50260543823242
+    "width": 233.50260543823242,
+    "collapsed": true
   },
   "right": {
     "id": "fe286dd04d32f6ac",
@@ -106,7 +106,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "InfoSec/WebApp Pentesting/SSRF/SSRF.md",
+                "file": "Red Teaming/Active Directory/Boxes/VulnNet Roasted.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -123,7 +123,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "InfoSec/WebApp Pentesting/SSRF/SSRF.md",
+                "file": "Red Teaming/Active Directory/Boxes/VulnNet Roasted.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -146,7 +146,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "InfoSec/WebApp Pentesting/SSRF/SSRF.md"
+                "file": "Red Teaming/Active Directory/Boxes/VulnNet Roasted.md"
               }
             }
           }
@@ -169,6 +169,8 @@
   },
   "active": "d35510d4ffd1c4e5",
   "lastOpenFiles": [
+    "InfoSec/WebApp Pentesting/SSRF/SSRF.md",
+    "Red Teaming/Active Directory/Boxes/VulnNet Roasted.md",
     "Bug Bounty/newegg/Recon.md",
     "InfoSec/Cloud Pentesting/SEC588/Discovery, Recon and Architecture.md",
     "InfoSec/Network Pentesting/Service Attacks/SMB & SAMBA.md",
@@ -195,8 +197,6 @@
     "InfoSec/Threat Intelligence/init.md",
     "Red Teaming/Active Directory/Cheat sheets/PowerView & SharpView cheatsheet.md",
     "InfoSec/Cloud Pentesting/AWS S3 Misconfigurations.md",
-    "InfoSec/Cloud Pentesting/Cloud Security.md",
-    "InfoSec/System Pentesting/Privilege Escalation/Windows/Exploits.md",
     "z/Pasted image 20240118205323.png",
     "z/Pasted image 20240113220200.png",
     "InfoSec/System Pentesting/Privilege Escalation/Windows",

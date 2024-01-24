@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "InfoSec/Network Pentesting/Service Attacks/SMB & SAMBA.md",
+                "file": "Red Teaming/Active Directory/Enumeration/LDAP.md",
                 "mode": "preview",
                 "source": false
               }
@@ -60,7 +60,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "smb enu",
+                "query": "rpc",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -106,7 +106,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "InfoSec/Network Pentesting/Service Attacks/SMB & SAMBA.md",
+                "file": "Red Teaming/Active Directory/Enumeration/LDAP.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -123,7 +123,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "InfoSec/Network Pentesting/Service Attacks/SMB & SAMBA.md",
+                "file": "Red Teaming/Active Directory/Enumeration/LDAP.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -146,7 +146,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "InfoSec/Network Pentesting/Service Attacks/SMB & SAMBA.md"
+                "file": "Red Teaming/Active Directory/Enumeration/LDAP.md"
               }
             }
           }
@@ -169,6 +169,8 @@
   },
   "active": "d35510d4ffd1c4e5",
   "lastOpenFiles": [
+    "Red Teaming/Active Directory/Enumeration/From linux.md",
+    "InfoSec/Network Pentesting/Service Attacks/SMB & SAMBA.md",
     "Red Teaming/Active Directory/Boxes/Forest.md",
     "Red Teaming/Active Directory/Attacks/Privilege Escalation.md",
     "Red Teaming/Active Directory/Building blocks.md",
@@ -182,7 +184,6 @@
     "Red Teaming/Active Directory/Attacks/Kerberos Attacks.md",
     "Red Teaming/Active Directory/Enumeration/Built-in Tools.md",
     "Red Teaming/Active Directory/Enumeration/LDAP.md",
-    "Red Teaming/Active Directory/Enumeration/From linux.md",
     "Red Teaming/Active Directory/Local Lab.md",
     "Red Teaming/Active Directory/AD Administration.md",
     "InfoSec/System Pentesting/Privilege Escalation/Windows/Enumeration.md",
@@ -202,7 +203,6 @@
     "conflict-files-obsidian-git.md",
     "z/Pasted image 20240102214330.png",
     "z/Pasted image 20231223003942.png",
-    "Red Teaming/Active Directory/Attacks/Across Trusts.md",
     "z/Pasted image 20240107115806.png",
     "z/Pasted image 20240102214958.png",
     "Pasted image 20231223003942.png",

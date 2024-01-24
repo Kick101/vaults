@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Red Teaming/Active Directory/Attacks/Privilege Escalation.md",
-                "mode": "source",
+                "file": "InfoSec/Network Pentesting/Service Attacks/SMB & SAMBA.md",
+                "mode": "preview",
                 "source": false
               }
             }
@@ -60,7 +60,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "Set-",
+                "query": "smb enu",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -85,12 +85,12 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 233.50260543823242,
-    "collapsed": true
+    "width": 233.50260543823242
   },
   "right": {
     "id": "fe286dd04d32f6ac",
@@ -106,7 +106,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Red Teaming/Active Directory/Attacks/Privilege Escalation.md",
+                "file": "InfoSec/Network Pentesting/Service Attacks/SMB & SAMBA.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -123,7 +123,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Red Teaming/Active Directory/Attacks/Privilege Escalation.md",
+                "file": "InfoSec/Network Pentesting/Service Attacks/SMB & SAMBA.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -146,7 +146,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Red Teaming/Active Directory/Attacks/Privilege Escalation.md"
+                "file": "InfoSec/Network Pentesting/Service Attacks/SMB & SAMBA.md"
               }
             }
           }
@@ -169,8 +169,9 @@
   },
   "active": "d35510d4ffd1c4e5",
   "lastOpenFiles": [
-    "Red Teaming/Active Directory/Building blocks.md",
+    "Red Teaming/Active Directory/Boxes/Forest.md",
     "Red Teaming/Active Directory/Attacks/Privilege Escalation.md",
+    "Red Teaming/Active Directory/Building blocks.md",
     "Red Teaming/CYSEC.md",
     "Red Teaming/Active Directory/Authentication.md",
     "Red Teaming/Active Directory/Attacks/Persistence.md",

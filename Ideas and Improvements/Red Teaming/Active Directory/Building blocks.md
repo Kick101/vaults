@@ -282,7 +282,7 @@ __Get TGS from another forest__
 
 ---
 ### Across Forest
-
+SIDs from 500-1000 will be filtered(removed)
 
 ---
 ### Default Security Posture

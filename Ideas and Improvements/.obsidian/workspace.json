@@ -4,28 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "bc2d301f9881c7c7",
+        "id": "2fd282062a97e4c1",
         "type": "tabs",
         "children": [
           {
-            "id": "d35510d4ffd1c4e5",
+            "id": "5b18f2ab35de0437",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Red Teaming/Active Directory/Boxes/Forest.md",
-                "mode": "preview",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "446c34ee32c5ef76",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Red Teaming/Active Directory/Building blocks.md",
+                "file": "Red Teaming/Active Directory/Boxes/VulnNet Roasted.md",
                 "mode": "source",
                 "source": false
               }
@@ -60,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "crackmap",
+                "query": "rid ",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -85,12 +73,12 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 233.50260543823242
+    "width": 233.50260543823242,
+    "collapsed": true
   },
   "right": {
     "id": "fe286dd04d32f6ac",
@@ -106,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Red Teaming/Active Directory/Boxes/Forest.md",
+                "file": "Red Teaming/Active Directory/Boxes/VulnNet Roasted.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -123,7 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Red Teaming/Active Directory/Boxes/Forest.md",
+                "file": "Red Teaming/Active Directory/Boxes/VulnNet Roasted.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -146,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Red Teaming/Active Directory/Boxes/Forest.md"
+                "file": "Red Teaming/Active Directory/Boxes/VulnNet Roasted.md"
               }
             }
           }
@@ -167,13 +155,14 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "d35510d4ffd1c4e5",
+  "active": "5b18f2ab35de0437",
   "lastOpenFiles": [
+    "Red Teaming/Active Directory/Enumeration/LDAP.md",
+    "Red Teaming/Active Directory/Boxes/Forest.md",
     "Red Teaming/Active Directory/Boxes/Resolute.md",
     "Red Teaming/Active Directory/Attacks/Privilege Escalation.md",
     "Red Teaming/Active Directory/Enumeration/From linux.md",
     "Certs/CEH/06 System Hacking.md",
-    "Red Teaming/Active Directory/Boxes/Forest.md",
     "Red Teaming/Active Directory/Boxes/VulnNet Roasted.md",
     "InfoSec/WebApp Pentesting/SSRF/SSRF.md",
     "Bug Bounty/newegg/Recon.md",
@@ -181,7 +170,6 @@
     "InfoSec/Network Pentesting/Service Attacks/SMB & SAMBA.md",
     "Red Teaming/Active Directory/Boxes/Attacktive Directory.md",
     "Red Teaming/Active Directory/Boxes/Active.md",
-    "Red Teaming/Active Directory/Enumeration/LDAP.md",
     "Red Teaming/Active Directory/Building blocks.md",
     "Red Teaming/CYSEC.md",
     "Red Teaming/Active Directory/Authentication.md",

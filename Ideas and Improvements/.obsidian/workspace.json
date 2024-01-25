@@ -13,7 +13,19 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Red Teaming/Active Directory/Enumeration/LDAP.md",
+                "file": "Red Teaming/Active Directory/Boxes/VulnNet Roasted.md",
+                "mode": "preview",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "115ffba95bcf43bf",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "InfoSec/System Pentesting/Privilege Escalation/Windows/Enumeration.md",
                 "mode": "source",
                 "source": false
               }
@@ -48,7 +60,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "ldapse",
+                "query": "group",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -73,12 +85,12 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 233.50260543823242
+    "width": 233.50260543823242,
+    "collapsed": true
   },
   "right": {
     "id": "fe286dd04d32f6ac",
@@ -94,7 +106,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Red Teaming/Active Directory/Enumeration/LDAP.md",
+                "file": "Red Teaming/Active Directory/Boxes/VulnNet Roasted.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +123,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Red Teaming/Active Directory/Enumeration/LDAP.md",
+                "file": "Red Teaming/Active Directory/Boxes/VulnNet Roasted.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +146,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Red Teaming/Active Directory/Enumeration/LDAP.md"
+                "file": "Red Teaming/Active Directory/Boxes/VulnNet Roasted.md"
               }
             }
           }
@@ -157,9 +169,12 @@
   },
   "active": "cc22c554b927432f",
   "lastOpenFiles": [
-    "Red Teaming/Active Directory/Enumeration/From linux.md",
-    "Red Teaming/Active Directory/Boxes/VulnNet Roasted.md",
     "Red Teaming/Active Directory/Boxes/Sauna.md",
+    "Red Teaming/Active Directory/AD Administration.md",
+    "InfoSec/System Pentesting/Privilege Escalation/Windows/Enumeration.md",
+    "Red Teaming/Active Directory/Boxes/VulnNet Roasted.md",
+    "Red Teaming/Active Directory/Enumeration/LDAP.md",
+    "Red Teaming/Active Directory/Enumeration/From linux.md",
     "Red Teaming/Active Directory/Attacks/Relay Attacks.md",
     "InfoSec/System Pentesting/Impacket Toolkit.md",
     "InfoSec/System Pentesting/Privilege Escalation/Windows/Exploits.md",
@@ -167,7 +182,6 @@
     "Red Teaming/Active Directory/Boxes/Forest.md",
     "Red Teaming/Active Directory/Attacks/Privilege Escalation.md",
     "Red Teaming/Active Directory/Boxes/Attacktive Directory.md",
-    "Red Teaming/Active Directory/Enumeration/LDAP.md",
     "Certs/CEH/06 System Hacking.md",
     "InfoSec/WebApp Pentesting/SSRF/SSRF.md",
     "Bug Bounty/newegg/Recon.md",
@@ -183,8 +197,6 @@
     "Pasted image 20240123141106.png",
     "Pasted image 20240123140717.png",
     "Red Teaming/Active Directory/Attacks/Kerberos Attacks.md",
-    "Red Teaming/Active Directory/Enumeration/Built-in Tools.md",
-    "Red Teaming/Active Directory/Local Lab.md",
     "z/Pasted image 20240118205323.png",
     "z/Pasted image 20240113220200.png",
     "InfoSec/System Pentesting/Privilege Escalation/Windows",

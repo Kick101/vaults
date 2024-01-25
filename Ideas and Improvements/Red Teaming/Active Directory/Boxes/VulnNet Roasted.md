@@ -32,4 +32,11 @@ t-skid
 tj072889*
 ```
 
+##### SMB Enum w/ creds
 
+__SYSVOL -> ResetPassword.vbs__
+```txt
+strUserNTName = "a-whitehat"
+strPassword = "bNdKVkjv3RR9ht"
+```
+##### PSExec

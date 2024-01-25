@@ -69,7 +69,7 @@ windapsearch.py --dc-ip 172.16.5.5 -u SAPService@INLANEFREIGHT.LOCAL -p '!Sapper
 ```
 __Get groups of a user__
 ```bash
-windapsearch.py --dc-ip 172.16.5.5 -u SAPService@INLANEFREIGHT.LOCAL -p '!SapperFi2' --custom '(member:1.2.840.113556.1.4.1941:=CN=SAPService,CN=Users,DC=INLANEFREIGHT,DC=LOCAL)
+windapsearch.py --dc-ip $IP -u SAPService@INLANEFREIGHT.LOCAL -p '!SapperFi2' --custom '(member:1.2.840.113556.1.4.1941:=CN=SAPService,CN=Users,DC=INLANEFREIGHT,DC=LOCAL)
 ```
 
 > [ldapsearch-ad.py](https://github.com/yaap7/ldapsearch-ad) is similar to `windapsearch`.

@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Red Teaming/Active Directory/Boxes/VulnNet Roasted.md",
+                "file": "InfoSec/System Pentesting/Impacket Toolkit.md",
                 "mode": "source",
                 "source": false
               }
@@ -48,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "crackma",
+                "query": "wmiex",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -73,12 +73,12 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 233.50260543823242,
-    "collapsed": true
+    "width": 233.50260543823242
   },
   "right": {
     "id": "fe286dd04d32f6ac",
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Red Teaming/Active Directory/Boxes/VulnNet Roasted.md",
+                "file": "InfoSec/System Pentesting/Impacket Toolkit.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Red Teaming/Active Directory/Boxes/VulnNet Roasted.md",
+                "file": "InfoSec/System Pentesting/Impacket Toolkit.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Red Teaming/Active Directory/Boxes/VulnNet Roasted.md"
+                "file": "InfoSec/System Pentesting/Impacket Toolkit.md"
               }
             }
           }
@@ -157,10 +157,11 @@
   },
   "active": "cc22c554b927432f",
   "lastOpenFiles": [
+    "InfoSec/System Pentesting/Privilege Escalation/Windows/Exploits.md",
+    "Red Teaming/Active Directory/Boxes/VulnNet Roasted.md",
     "Red Teaming/Active Directory/Boxes/Sauna.md",
     "Red Teaming/Active Directory/Boxes/Resolute.md",
     "Red Teaming/Active Directory/Boxes/Forest.md",
-    "Red Teaming/Active Directory/Boxes/VulnNet Roasted.md",
     "Red Teaming/Active Directory/Attacks/Privilege Escalation.md",
     "Red Teaming/Active Directory/Boxes/Attacktive Directory.md",
     "Red Teaming/Active Directory/Enumeration/LDAP.md",
@@ -184,7 +185,6 @@
     "Red Teaming/Active Directory/Local Lab.md",
     "Red Teaming/Active Directory/AD Administration.md",
     "InfoSec/System Pentesting/Privilege Escalation/Windows/Enumeration.md",
-    "Red Teaming/Active Directory/Bypass AV.md",
     "z/Pasted image 20240118205323.png",
     "z/Pasted image 20240113220200.png",
     "InfoSec/System Pentesting/Privilege Escalation/Windows",

@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Red Teaming/Active Directory/Boxes/Attacktive Directory.md",
+                "file": "Red Teaming/Active Directory/Boxes/VulnNet Roasted.md",
                 "mode": "preview",
                 "source": false
               }
@@ -85,12 +85,12 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 233.50260543823242
+    "width": 233.50260543823242,
+    "collapsed": true
   },
   "right": {
     "id": "fe286dd04d32f6ac",
@@ -106,7 +106,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Red Teaming/Active Directory/Boxes/Attacktive Directory.md",
+                "file": "Red Teaming/Active Directory/Boxes/VulnNet Roasted.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -123,7 +123,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Red Teaming/Active Directory/Boxes/Attacktive Directory.md",
+                "file": "Red Teaming/Active Directory/Boxes/VulnNet Roasted.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -146,7 +146,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Red Teaming/Active Directory/Boxes/Attacktive Directory.md"
+                "file": "Red Teaming/Active Directory/Boxes/VulnNet Roasted.md"
               }
             }
           }
@@ -169,6 +169,7 @@
   },
   "active": "cc22c554b927432f",
   "lastOpenFiles": [
+    "Red Teaming/Active Directory/Boxes/Attacktive Directory.md",
     "Red Teaming/Active Directory/Boxes/VulnNet Roasted.md",
     "InfoSec/System Pentesting/Privilege Escalation/Windows/Enumeration.md",
     "Red Teaming/Active Directory/Boxes/Sauna.md",
@@ -181,7 +182,6 @@
     "Red Teaming/Active Directory/Boxes/Resolute.md",
     "Red Teaming/Active Directory/Boxes/Forest.md",
     "Red Teaming/Active Directory/Attacks/Privilege Escalation.md",
-    "Red Teaming/Active Directory/Boxes/Attacktive Directory.md",
     "Certs/CEH/06 System Hacking.md",
     "InfoSec/WebApp Pentesting/SSRF/SSRF.md",
     "Bug Bounty/newegg/Recon.md",

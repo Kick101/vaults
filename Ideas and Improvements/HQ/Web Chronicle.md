@@ -3,3 +3,9 @@ Unleash your inner detective as you explore the digital trails left behind by th
 ```
 ![[Pasted image 20240127103840.png]]
 
+![[Pasted image 20240127104307.png]]
+
+![[Pasted image 20240127104519.png]]
+
+![[Pasted image 20240127104420.png]]
+

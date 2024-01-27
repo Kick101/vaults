@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "HQ/Web Chronicle.md",
+                "file": "HQ/Chowkidor.md",
                 "mode": "source",
                 "source": false
               }
@@ -77,8 +77,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 233.50260543823242,
-    "collapsed": true
+    "width": 233.50260543823242
   },
   "right": {
     "id": "fe286dd04d32f6ac",
@@ -94,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "HQ/Web Chronicle.md",
+                "file": "HQ/Chowkidor.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "HQ/Web Chronicle.md",
+                "file": "HQ/Chowkidor.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "HQ/Web Chronicle.md"
+                "file": "HQ/Chowkidor.md"
               }
             }
           }
@@ -157,12 +156,12 @@
   },
   "active": "6a463682310f8b31",
   "lastOpenFiles": [
+    "HQ/Web Chronicle.md",
     "HQ/Search Shenanigans.md",
     "HQ/Deceptive Mayhem.md",
     "HQ/Chowkidor.md",
     "HQ/Cloack and Dagger.md",
     "HQ/Baby Shark.md",
-    "HQ/Web Chronicle.md",
     "HQ/Trusting Responses.md",
     "HQ/Data Bandit.md",
     "Pasted image 20240127152450.png",

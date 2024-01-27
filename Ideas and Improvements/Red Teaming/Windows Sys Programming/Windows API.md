@@ -27,8 +27,14 @@ __Architecture__
 
 ![[Pasted image 20240128011230.png|500]]
 
+#### NTDLL.DLL Kernel Gate
+![[Pasted image 20240128011405.png|500]]
 
+#### Function Call Flow
+![[Pasted image 20240128011734.png|500]]
 
+#### Windows Subsystem API
+- Some are C based and DCOM
 
 
 

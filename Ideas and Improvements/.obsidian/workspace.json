@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "HQ/Search Shenanigans.md",
+                "file": "HQ/Chowkidor.md",
                 "mode": "source",
                 "source": false
               }
@@ -118,7 +118,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "HQ/Search Shenanigans.md",
+                "file": "HQ/Chowkidor.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -135,7 +135,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "HQ/Search Shenanigans.md",
+                "file": "HQ/Chowkidor.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -158,7 +158,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "HQ/Search Shenanigans.md"
+                "file": "HQ/Chowkidor.md"
               }
             }
           }
@@ -181,8 +181,15 @@
   },
   "active": "cf4f02d5c40877e0",
   "lastOpenFiles": [
-    "InfoSec/Network Pentesting/Wireshark.md",
+    "Pasted image 20240127122936.png",
+    "Pasted image 20240127122924.png",
+    "Pasted image 20240127122921.png",
     "HQ/Search Shenanigans.md",
+    "HQ/Chowkidor.md",
+    "Pasted image 20240127122653.png",
+    "Pasted image 20240127122621.png",
+    "Pasted image 20240127122600.png",
+    "InfoSec/Network Pentesting/Wireshark.md",
     "HQ/Data Bandit.md",
     "HQ/Web Chronicle.md",
     "HQ/Baby Shark.md",
@@ -191,9 +198,6 @@
     "Pasted image 20240127105748.png",
     "Pasted image 20240127104820.png",
     "Pasted image 20240127104519.png",
-    "Pasted image 20240127104420.png",
-    "Pasted image 20240127104307.png",
-    "Pasted image 20240127103840.png",
     "HQ",
     "InfoSec/Network Pentesting/Networking.md",
     "Red Teaming/Active Directory/Boxes/VulnNet Roasted.md",
@@ -214,10 +218,6 @@
     "Bug Bounty/newegg/Recon.md",
     "InfoSec/Cloud Pentesting/SEC588/Discovery, Recon and Architecture.md",
     "InfoSec/Network Pentesting/Service Attacks/SMB & SAMBA.md",
-    "Red Teaming/Active Directory/Boxes/Active.md",
-    "Red Teaming/Active Directory/Building blocks.md",
-    "z/Pasted image 20240123141106.png",
-    "z/Pasted image 20240123140717.png",
     "InfoSec/System Pentesting/Privilege Escalation/Windows",
     "Red Teaming/Active Directory/Attacks/Untitled",
     "Red Teaming/Active Directory/Attacks",

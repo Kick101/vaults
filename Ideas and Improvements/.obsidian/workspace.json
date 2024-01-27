@@ -25,14 +25,24 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "HQ/Chowkidor.md",
+                "file": "HQ/Baby Shark.md",
                 "mode": "source",
                 "source": false
               }
             }
+          },
+          {
+            "id": "685d6d20a54c0014",
+            "type": "leaf",
+            "state": {
+              "type": "image",
+              "state": {
+                "file": "Pasted image 20240127110014.png"
+              }
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -106,7 +116,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "HQ/Chowkidor.md",
+                "file": "Pasted image 20240127110014.png",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -123,7 +133,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "HQ/Chowkidor.md",
+                "file": "Pasted image 20240127110014.png",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -146,7 +156,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "HQ/Chowkidor.md"
+                "file": "Pasted image 20240127110014.png"
               }
             }
           }
@@ -167,13 +177,15 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "cf4f02d5c40877e0",
+  "active": "685d6d20a54c0014",
   "lastOpenFiles": [
+    "HQ/Baby Shark.md",
+    "HQ/Search Shenanigans.md",
+    "HQ/Chowkidor.md",
     "HQ/Trusting Responses.md",
     "Pasted image 20240127125447.png",
     "Pasted image 20240127124823.png",
     "HQ/Data Bandit.md",
-    "HQ/Chowkidor.md",
     "InfoSec/System Pentesting/Privilege Escalation/Windows/Enumeration.md",
     "Pasted image 20240127124537.png",
     "Pasted image 20240127124520.png",
@@ -183,10 +195,8 @@
     "Pasted image 20240127122936.png",
     "Pasted image 20240127122924.png",
     "Pasted image 20240127122921.png",
-    "HQ/Search Shenanigans.md",
     "InfoSec/Network Pentesting/Wireshark.md",
     "HQ/Web Chronicle.md",
-    "HQ/Baby Shark.md",
     "HQ",
     "InfoSec/Network Pentesting/Networking.md",
     "Red Teaming/Active Directory/Boxes/VulnNet Roasted.md",

@@ -46,11 +46,12 @@ __Architecture__
 
 void main()
 {
-	SYSTEM_INFO si;
-	GetNativeSystemInfo(&si);
+	SYSTEM_INFO si; // Data Struct
+	GetNativeSystemInfo(&si); // Win API call
 	
 	proc_num = si.dwNumberOfProcessors;
-	page_
+	page_size = si.dwPageSize;
+	active_proc_mask = si.dwActiveProcessorMask;
 }
 ```
 

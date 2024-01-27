@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "HQ/Web Chronicle.md",
-                "mode": "preview",
+                "file": "HQ/Cloack and Dagger.md",
+                "mode": "source",
                 "source": false
               }
             }
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "HQ/Web Chronicle.md",
+                "file": "HQ/Cloack and Dagger.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "HQ/Web Chronicle.md",
+                "file": "HQ/Cloack and Dagger.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "HQ/Web Chronicle.md"
+                "file": "HQ/Cloack and Dagger.md"
               }
             }
           }
@@ -157,13 +157,14 @@
   },
   "active": "6a463682310f8b31",
   "lastOpenFiles": [
+    "HQ/Baby Shark.md",
+    "HQ/Web Chronicle.md",
     "HQ/Trusting Responses.md",
     "HQ/Search Shenanigans.md",
     "HQ/Deceptive Mayhem.md",
     "HQ/Data Bandit.md",
     "HQ/Chowkidor.md",
     "HQ/Cloack and Dagger.md",
-    "HQ/Baby Shark.md",
     "Pasted image 20240127152450.png",
     "Pasted image 20240127152418.png",
     "Pasted image 20240127152404.png",
@@ -176,7 +177,6 @@
     "InfoSec/System Pentesting/Privilege Escalation/Windows/Enumeration.md",
     "Pasted image 20240127124537.png",
     "InfoSec/Network Pentesting/Wireshark.md",
-    "HQ/Web Chronicle.md",
     "HQ",
     "InfoSec/Network Pentesting/Networking.md",
     "Red Teaming/Active Directory/Boxes/VulnNet Roasted.md",

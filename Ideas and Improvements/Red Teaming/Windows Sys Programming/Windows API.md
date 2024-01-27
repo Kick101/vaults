@@ -35,8 +35,9 @@ __Architecture__
 
 #### Windows Subsystem API
 - Some are C based and DCOM
-
-
+- .NET: C#, VB.NET, F#, C++/CLI
+- Windows Runtime (WinRT): Built on top of COM
 
 ---
-### Threads
+### Application Basics
+

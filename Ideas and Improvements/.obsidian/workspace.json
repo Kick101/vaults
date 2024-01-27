@@ -31,7 +31,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -105,7 +106,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "HQ/Trusting Responses.md",
+                "file": "HQ/Chowkidor.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -122,7 +123,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "HQ/Trusting Responses.md",
+                "file": "HQ/Chowkidor.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -145,7 +146,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "HQ/Trusting Responses.md"
+                "file": "HQ/Chowkidor.md"
               }
             }
           }
@@ -166,12 +167,12 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "cc22c554b927432f",
+  "active": "cf4f02d5c40877e0",
   "lastOpenFiles": [
+    "HQ/Trusting Responses.md",
     "Pasted image 20240127125447.png",
     "Pasted image 20240127124823.png",
     "HQ/Data Bandit.md",
-    "HQ/Trusting Responses.md",
     "HQ/Chowkidor.md",
     "InfoSec/System Pentesting/Privilege Escalation/Windows/Enumeration.md",
     "Pasted image 20240127124537.png",
@@ -183,7 +184,6 @@
     "Pasted image 20240127122924.png",
     "Pasted image 20240127122921.png",
     "HQ/Search Shenanigans.md",
-    "Pasted image 20240127122653.png",
     "InfoSec/Network Pentesting/Wireshark.md",
     "HQ/Web Chronicle.md",
     "HQ/Baby Shark.md",

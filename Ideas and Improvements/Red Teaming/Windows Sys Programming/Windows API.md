@@ -40,7 +40,19 @@ __Architecture__
 
 ---
 ### Application Basics
+#### SYSTEM_INFO
+```c
+#include<Windows.h>
 
+void main()
+{
+	SYSTEM_INFO si;
+	GetNativeSystemInfo(&si);
+	
+	proc_num = si.dwNumberOfProcessors;
+	page_
+}
+```
 
 
 

@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "8424ea34800a0767",
+        "id": "5900545751c25c66",
         "type": "tabs",
         "children": [
           {
-            "id": "685d6d20a54c0014",
+            "id": "6a463682310f8b31",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "HQ/Deceptive Mayhem.md",
+                "file": "HQ/Web Chronicle.md",
                 "mode": "preview",
                 "source": false
               }
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "HQ/Deceptive Mayhem.md",
+                "file": "HQ/Web Chronicle.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "HQ/Deceptive Mayhem.md",
+                "file": "HQ/Web Chronicle.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "HQ/Deceptive Mayhem.md"
+                "file": "HQ/Web Chronicle.md"
               }
             }
           }
@@ -155,22 +155,22 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "685d6d20a54c0014",
+  "active": "6a463682310f8b31",
   "lastOpenFiles": [
+    "HQ/Trusting Responses.md",
+    "HQ/Search Shenanigans.md",
+    "HQ/Deceptive Mayhem.md",
     "HQ/Data Bandit.md",
     "HQ/Chowkidor.md",
     "HQ/Cloack and Dagger.md",
     "HQ/Baby Shark.md",
-    "HQ/Trusting Responses.md",
     "Pasted image 20240127152450.png",
     "Pasted image 20240127152418.png",
     "Pasted image 20240127152404.png",
-    "HQ/Deceptive Mayhem.md",
     "Pasted image 20240127151937.png",
     "Pasted image 20240127151918.png",
     "Pasted image 20240127151846.png",
     "Pasted image 20240127110014.png",
-    "HQ/Search Shenanigans.md",
     "Pasted image 20240127125447.png",
     "Pasted image 20240127124823.png",
     "InfoSec/System Pentesting/Privilege Escalation/Windows/Enumeration.md",

@@ -20,6 +20,18 @@
             }
           },
           {
+            "id": "cf4f02d5c40877e0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "InfoSec/Network Pentesting/Wireshark.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
             "id": "115ffba95bcf43bf",
             "type": "leaf",
             "state": {
@@ -31,7 +43,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -60,7 +73,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "wires",
+                "query": "wireshar",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -85,11 +98,13 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 233.50260543823242
+    "width": 233.50260543823242,
+    "collapsed": true
   },
   "right": {
     "id": "fe286dd04d32f6ac",
@@ -105,7 +120,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "HQ/Data Bandit.md",
+                "file": "InfoSec/Network Pentesting/Wireshark.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -122,7 +137,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "HQ/Data Bandit.md",
+                "file": "InfoSec/Network Pentesting/Wireshark.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -145,7 +160,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "HQ/Data Bandit.md"
+                "file": "InfoSec/Network Pentesting/Wireshark.md"
               }
             }
           }
@@ -166,10 +181,10 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "cc22c554b927432f",
+  "active": "cf4f02d5c40877e0",
   "lastOpenFiles": [
-    "HQ/Web Chronicle.md",
     "HQ/Data Bandit.md",
+    "HQ/Web Chronicle.md",
     "HQ/Baby Shark.md",
     "Pasted image 20240127110102.png",
     "Pasted image 20240127110014.png",

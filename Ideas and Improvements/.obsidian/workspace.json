@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "InfoSec/Network Pentesting/Wireshark.md",
+                "file": "HQ/Web Chronicle.md",
                 "mode": "source",
                 "source": false
               }
@@ -106,7 +106,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "InfoSec/Network Pentesting/Wireshark.md",
+                "file": "HQ/Web Chronicle.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -123,7 +123,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "InfoSec/Network Pentesting/Wireshark.md",
+                "file": "HQ/Web Chronicle.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -146,7 +146,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "InfoSec/Network Pentesting/Wireshark.md"
+                "file": "HQ/Web Chronicle.md"
               }
             }
           }
@@ -169,8 +169,10 @@
   },
   "active": "cc22c554b927432f",
   "lastOpenFiles": [
-    "InfoSec/Network Pentesting/Networking.md",
     "InfoSec/Network Pentesting/Wireshark.md",
+    "HQ/Web Chronicle.md",
+    "HQ",
+    "InfoSec/Network Pentesting/Networking.md",
     "Red Teaming/Active Directory/Boxes/VulnNet Roasted.md",
     "Red Teaming/Active Directory/Boxes/Attacktive Directory.md",
     "InfoSec/System Pentesting/Privilege Escalation/Windows/Enumeration.md",
@@ -194,7 +196,6 @@
     "Red Teaming/CYSEC.md",
     "Red Teaming/Active Directory/Authentication.md",
     "Red Teaming/Active Directory/Attacks/Persistence.md",
-    "Red Teaming/Active Directory/Attacks/Lateral Movement.md",
     "z/Pasted image 20240123141106.png",
     "z/Pasted image 20240123140717.png",
     "z/Pasted image 20240118205323.png",
@@ -213,7 +214,6 @@
     "Red Teaming/Active Directory",
     "Red Teaming/Active Directory/Enumeration",
     "InfoSec/Threat Intelligence",
-    "InfoSec/Forensics",
-    "Internship"
+    "InfoSec/Forensics"
   ]
 }

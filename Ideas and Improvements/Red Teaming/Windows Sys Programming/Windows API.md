@@ -23,7 +23,11 @@ __Architecture__
 - Executive layer in kernel mode, holds managers like I/O, memory, plugin play, configuration
 - Executive layer invokes syscalls
 - Device drivers, file system drivers and kernel beneath executive layer
-- 
+- Hardware Abstraction Layer (HAL)
+
+![[Pasted image 20240128011230.png|500]]
+
+
 
 
 

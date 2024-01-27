@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "HQ/Trusting Responses.md",
+                "file": "HQ/Baby Shark.md",
                 "mode": "source",
                 "source": false
               }
@@ -43,8 +43,7 @@
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -118,7 +117,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "HQ/Cloack and Dagger.md",
+                "file": "HQ/Baby Shark.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -135,7 +134,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "HQ/Cloack and Dagger.md",
+                "file": "HQ/Baby Shark.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -158,7 +157,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "HQ/Cloack and Dagger.md"
+                "file": "HQ/Baby Shark.md"
               }
             }
           }
@@ -179,27 +178,26 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "685d6d20a54c0014",
+  "active": "cc22c554b927432f",
   "lastOpenFiles": [
+    "HQ/Trusting Responses.md",
+    "HQ/Cloack and Dagger.md",
+    "HQ/Baby Shark.md",
     "Pasted image 20240127152450.png",
     "Pasted image 20240127152418.png",
     "Pasted image 20240127152404.png",
     "HQ/Deceptive Mayhem.md",
-    "HQ/Cloack and Dagger.md",
     "Pasted image 20240127151937.png",
     "Pasted image 20240127151918.png",
     "Pasted image 20240127151846.png",
     "Pasted image 20240127110014.png",
-    "HQ/Baby Shark.md",
     "HQ/Search Shenanigans.md",
     "HQ/Chowkidor.md",
-    "HQ/Trusting Responses.md",
     "Pasted image 20240127125447.png",
     "Pasted image 20240127124823.png",
     "HQ/Data Bandit.md",
     "InfoSec/System Pentesting/Privilege Escalation/Windows/Enumeration.md",
     "Pasted image 20240127124537.png",
-    "Pasted image 20240127124520.png",
     "InfoSec/Network Pentesting/Wireshark.md",
     "HQ/Web Chronicle.md",
     "HQ",

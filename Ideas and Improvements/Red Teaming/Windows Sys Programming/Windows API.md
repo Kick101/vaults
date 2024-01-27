@@ -7,14 +7,15 @@
  - Handles - Handles to objects
  - Threads -  Entity that is scheduled by the kernel to execute code on a processor
 
-__Threads maintains__
+__Thread maintains__
 - The state of CPU registers
 - Current access mode (user mode or kernel mode)
 - Two stacks: user space & kernel space
 - Thread Local Storage (TLS)
 - Optional security token
-- Optional message queue & Windows(rectange box around) the thread creates
-
+- Optional message queue & Windows(rectangle box around UI) the thread creates
+- Priority, used in thread scheduling
+- State: running, ready, waiting
  
 
 

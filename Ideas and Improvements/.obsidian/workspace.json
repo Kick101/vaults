@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "HQ/Search Shenanigans.md",
+                "file": "HQ/Web Chronicle.md",
                 "mode": "source",
                 "source": false
               }
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "HQ/Search Shenanigans.md",
+                "file": "HQ/Web Chronicle.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "HQ/Search Shenanigans.md",
+                "file": "HQ/Web Chronicle.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "HQ/Search Shenanigans.md"
+                "file": "HQ/Web Chronicle.md"
               }
             }
           }
@@ -157,13 +157,13 @@
   },
   "active": "6a463682310f8b31",
   "lastOpenFiles": [
+    "HQ/Search Shenanigans.md",
     "HQ/Deceptive Mayhem.md",
     "HQ/Chowkidor.md",
     "HQ/Cloack and Dagger.md",
     "HQ/Baby Shark.md",
     "HQ/Web Chronicle.md",
     "HQ/Trusting Responses.md",
-    "HQ/Search Shenanigans.md",
     "HQ/Data Bandit.md",
     "Pasted image 20240127152450.png",
     "Pasted image 20240127152418.png",

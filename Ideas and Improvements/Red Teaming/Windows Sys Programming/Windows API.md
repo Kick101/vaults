@@ -6,6 +6,10 @@
  - Active memory - Current active private memory
  - Handles - Handles to objects
  - Threads -  No of processes
+
+#### Threads
+- A thread maintain the state of CPU registers
+- 
  
 
 

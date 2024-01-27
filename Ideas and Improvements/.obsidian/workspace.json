@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "HQ/Baby Shark.md",
+                "file": "HQ/Data Bandit.md",
                 "mode": "source",
                 "source": false
               }
@@ -105,7 +105,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "HQ/Baby Shark.md",
+                "file": "HQ/Data Bandit.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -122,7 +122,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "HQ/Baby Shark.md",
+                "file": "HQ/Data Bandit.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -145,7 +145,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "HQ/Baby Shark.md"
+                "file": "HQ/Data Bandit.md"
               }
             }
           }
@@ -168,11 +168,13 @@
   },
   "active": "cc22c554b927432f",
   "lastOpenFiles": [
+    "HQ/Web Chronicle.md",
+    "HQ/Data Bandit.md",
+    "HQ/Baby Shark.md",
+    "Pasted image 20240127110102.png",
     "Pasted image 20240127110014.png",
     "Pasted image 20240127105748.png",
     "Pasted image 20240127104820.png",
-    "HQ/Web Chronicle.md",
-    "HQ/Baby Shark.md",
     "Pasted image 20240127104519.png",
     "Pasted image 20240127104420.png",
     "Pasted image 20240127104307.png",
@@ -203,8 +205,6 @@
     "Red Teaming/CYSEC.md",
     "z/Pasted image 20240123141106.png",
     "z/Pasted image 20240123140717.png",
-    "z/Pasted image 20240118205323.png",
-    "z/Pasted image 20240113220200.png",
     "InfoSec/System Pentesting/Privilege Escalation/Windows",
     "Red Teaming/Active Directory/Attacks/Untitled",
     "Red Teaming/Active Directory/Attacks",

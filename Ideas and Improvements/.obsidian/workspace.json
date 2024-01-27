@@ -35,9 +35,11 @@
             "id": "685d6d20a54c0014",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "markdown",
               "state": {
-                "file": "Pasted image 20240127110014.png"
+                "file": "HQ/Cloack and Dagger.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
@@ -116,7 +118,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Pasted image 20240127110014.png",
+                "file": "HQ/Cloack and Dagger.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -133,7 +135,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Pasted image 20240127110014.png",
+                "file": "HQ/Cloack and Dagger.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -156,7 +158,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Pasted image 20240127110014.png"
+                "file": "HQ/Cloack and Dagger.md"
               }
             }
           }
@@ -179,6 +181,14 @@
   },
   "active": "685d6d20a54c0014",
   "lastOpenFiles": [
+    "Pasted image 20240127152418.png",
+    "Pasted image 20240127152404.png",
+    "HQ/Deceptive Mayhem.md",
+    "HQ/Cloack and Dagger.md",
+    "Pasted image 20240127151937.png",
+    "Pasted image 20240127151918.png",
+    "Pasted image 20240127151846.png",
+    "Pasted image 20240127110014.png",
     "HQ/Baby Shark.md",
     "HQ/Search Shenanigans.md",
     "HQ/Chowkidor.md",
@@ -190,11 +200,6 @@
     "Pasted image 20240127124537.png",
     "Pasted image 20240127124520.png",
     "Pasted image 20240127124433.png",
-    "Pasted image 20240127124415.png",
-    "Pasted image 20240127124349.png",
-    "Pasted image 20240127122936.png",
-    "Pasted image 20240127122924.png",
-    "Pasted image 20240127122921.png",
     "InfoSec/Network Pentesting/Wireshark.md",
     "HQ/Web Chronicle.md",
     "HQ",
@@ -213,8 +218,6 @@
     "Red Teaming/Active Directory/Attacks/Privilege Escalation.md",
     "Certs/CEH/06 System Hacking.md",
     "InfoSec/WebApp Pentesting/SSRF/SSRF.md",
-    "Bug Bounty/newegg/Recon.md",
-    "InfoSec/Cloud Pentesting/SEC588/Discovery, Recon and Architecture.md",
     "InfoSec/System Pentesting/Privilege Escalation/Windows",
     "Red Teaming/Active Directory/Attacks/Untitled",
     "Red Teaming/Active Directory/Attacks",

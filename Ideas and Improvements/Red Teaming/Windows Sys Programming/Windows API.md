@@ -17,7 +17,9 @@ __Thread maintains__
 - Priority, used in thread scheduling
 - State: running, ready, waiting
  
-
+__Architecture__
+- Kernel32.dll is in User Mode, subsystem dll
+- NTDLL.dll lowest layer in user mode, implements native windows 
 
 
 ---

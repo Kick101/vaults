@@ -1,4 +1,3 @@
-### Processes Memory
  - Process not responding - thread that manages UI not checks it's message queue for at least 5 sec
  - Session 0 - SYSTEM, LOCAL SERVICE SYSTEM
  - Session >=1 - USER process
@@ -18,8 +17,15 @@ __Thread maintains__
 - State: running, ready, waiting
  
 __Architecture__
-- Kernel32.dll is in User Mode, subsystem dll
-- NTDLL.dll lowest layer in user mode, implements native windows 
+- Kernel32.dll is in User Mode, subsystem dll. 
+- NTDLL.dll lowest layer in user mode, implements native windows API
+- NTDLL.dll invoked into Kernel mode
+- Executive layer in kernel mode, holds managers like I/O, memory, plugin play, configuration
+- Executive layer invokes syscalls
+- Device drivers, file system drivers and kernel beneath executive layer
+- 
+
+
 
 
 ---

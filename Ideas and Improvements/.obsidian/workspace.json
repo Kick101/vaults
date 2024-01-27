@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "InfoSec/Network Pentesting/Wireshark.md",
+                "file": "HQ/Search Shenanigans.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,13 +98,11 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 233.50260543823242,
-    "collapsed": true
+    "width": 233.50260543823242
   },
   "right": {
     "id": "fe286dd04d32f6ac",
@@ -120,7 +118,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "InfoSec/Network Pentesting/Wireshark.md",
+                "file": "HQ/Search Shenanigans.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -137,7 +135,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "InfoSec/Network Pentesting/Wireshark.md",
+                "file": "HQ/Search Shenanigans.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -160,7 +158,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "InfoSec/Network Pentesting/Wireshark.md"
+                "file": "HQ/Search Shenanigans.md"
               }
             }
           }
@@ -183,6 +181,8 @@
   },
   "active": "cf4f02d5c40877e0",
   "lastOpenFiles": [
+    "InfoSec/Network Pentesting/Wireshark.md",
+    "HQ/Search Shenanigans.md",
     "HQ/Data Bandit.md",
     "HQ/Web Chronicle.md",
     "HQ/Baby Shark.md",
@@ -194,7 +194,6 @@
     "Pasted image 20240127104420.png",
     "Pasted image 20240127104307.png",
     "Pasted image 20240127103840.png",
-    "InfoSec/Network Pentesting/Wireshark.md",
     "HQ",
     "InfoSec/Network Pentesting/Networking.md",
     "Red Teaming/Active Directory/Boxes/VulnNet Roasted.md",
@@ -217,7 +216,6 @@
     "InfoSec/Network Pentesting/Service Attacks/SMB & SAMBA.md",
     "Red Teaming/Active Directory/Boxes/Active.md",
     "Red Teaming/Active Directory/Building blocks.md",
-    "Red Teaming/CYSEC.md",
     "z/Pasted image 20240123141106.png",
     "z/Pasted image 20240123140717.png",
     "InfoSec/System Pentesting/Privilege Escalation/Windows",

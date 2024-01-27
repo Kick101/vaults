@@ -5,3 +5,12 @@ Ever locked yourself out of your account? Imagine losing the key to a virtual tr
 ```
 
 ![[Pasted image 20240127122924.png]]
+![[Pasted image 20240127124415.png]]
+![[Pasted image 20240127124433.png]]
+
+![[Pasted image 20240127124349.png]]
+
+
+![[Pasted image 20240127124520.png]]
+
+![[Pasted image 20240127124537.png]]

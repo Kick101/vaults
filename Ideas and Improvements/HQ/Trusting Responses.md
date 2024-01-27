@@ -4,3 +4,5 @@ A young cybersecurity enthusiast stared down a seemingly impossible task: access
 
 ![[Pasted image 20240127124823.png]]
 
+![[Pasted image 20240127125447.png]]
+

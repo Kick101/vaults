@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "HQ/Chowkidor.md",
+                "file": "HQ/Deceptive Mayhem.md",
                 "mode": "preview",
                 "source": false
               }
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "HQ/Chowkidor.md",
+                "file": "HQ/Deceptive Mayhem.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "HQ/Chowkidor.md",
+                "file": "HQ/Deceptive Mayhem.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "HQ/Chowkidor.md"
+                "file": "HQ/Deceptive Mayhem.md"
               }
             }
           }
@@ -157,6 +157,8 @@
   },
   "active": "685d6d20a54c0014",
   "lastOpenFiles": [
+    "HQ/Data Bandit.md",
+    "HQ/Chowkidor.md",
     "HQ/Cloack and Dagger.md",
     "HQ/Baby Shark.md",
     "HQ/Trusting Responses.md",
@@ -169,10 +171,8 @@
     "Pasted image 20240127151846.png",
     "Pasted image 20240127110014.png",
     "HQ/Search Shenanigans.md",
-    "HQ/Chowkidor.md",
     "Pasted image 20240127125447.png",
     "Pasted image 20240127124823.png",
-    "HQ/Data Bandit.md",
     "InfoSec/System Pentesting/Privilege Escalation/Windows/Enumeration.md",
     "Pasted image 20240127124537.png",
     "InfoSec/Network Pentesting/Wireshark.md",

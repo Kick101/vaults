@@ -378,14 +378,19 @@ __There are various ways of abusing ADCS:__
 
 ![[Pasted image 20240128132007.png]]
 ![[Pasted image 20240128132033.png]]
-#### Domain Trusts AD CS
-- We can use the [Certify tool](https://github.com/GhostPack/Certify) to enumerate & for attacks.
+#### AD CS Enumeration
+##### Requirements for ESC1, ESC3, ESC6
+– CA grants normal/low-privileged users enrollment rights
+– Manager approval is disabled
+– Authorization signatures are not required
+– The target template grants normal/low-privileged users enrollment rights
 
-__Check for CA__
+
+__Enumerate CA__
 ```powershell
 Certify.exe cas
 ```
-__Enumerate the templates__
+__Enumerate templates__
 ```powershell
 Certify.exe find
 ```
@@ -398,7 +403,7 @@ Certify.exe find /vulnerable
 
 
 
-
+#### EC3
 
 
 

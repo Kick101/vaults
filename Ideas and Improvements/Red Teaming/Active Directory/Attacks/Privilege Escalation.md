@@ -357,7 +357,15 @@ kirbikator.exe lsa .\CIFS.mcorp-dc.moneycorp.local.kirbi
 ![[Pasted image 20240123141106.png]]
 
 ---
-### Cross Forest
+### AD CS (Active Directory Certificate Services)
+Active Directory Certificate Services (AD CS) enables use of Public Key
+Infrastructure (PKI) in active directory forest.
+• AD CS helps in authenticating users and machines, encrypting and
+signing documents, filesystem, emails and more.
+• "AD CS is the Server Role that allows you to build a public key
+infrastructure (PKI) and provide public key cryptography, digital
+certificates, and digital signature capabilities for your organization."
+
 
 
 

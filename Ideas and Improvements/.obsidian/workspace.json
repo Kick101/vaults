@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Red Teaming/Windows Sys Programming/Windows API.md",
+                "file": "Red Teaming/Active Directory/Attacks/Privilege Escalation.md",
                 "mode": "source",
                 "source": false
               }
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Red Teaming/Windows Sys Programming/Windows API.md",
+                "file": "Red Teaming/Active Directory/Attacks/Privilege Escalation.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Red Teaming/Windows Sys Programming/Windows API.md",
+                "file": "Red Teaming/Active Directory/Attacks/Privilege Escalation.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Red Teaming/Windows Sys Programming/Windows API.md"
+                "file": "Red Teaming/Active Directory/Attacks/Privilege Escalation.md"
               }
             }
           }
@@ -157,11 +157,11 @@
   },
   "active": "a937c4d3d4b8d876",
   "lastOpenFiles": [
+    "Red Teaming/Windows Sys Programming/Windows API.md",
     "Pasted image 20240128011734.png",
     "Pasted image 20240128011405.png",
     "Pasted image 20240128011230.png",
     "z/Pasted image 20240127103840.png",
-    "Red Teaming/Windows Sys Programming/Windows API.md",
     "Red Teaming/Windows Sys Programming",
     "CTF/HQ/Web Chronicle.md",
     "CTF/HQ/Baby Shark.md",
@@ -177,7 +177,6 @@
     "z/Pasted image 20240127151937.png",
     "z/Pasted image 20240127151918.png",
     "z/Pasted image 20240127151846.png",
-    "z/Pasted image 20240127110014.png",
     "InfoSec/System Pentesting/Privilege Escalation/Windows/Enumeration.md",
     "InfoSec/Network Pentesting/Wireshark.md",
     "CTF/HQ",

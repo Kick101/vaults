@@ -39,5 +39,5 @@ __Enumerating Database Links__
 Get-SQLServerLinkCrawl -Instance dcorp-mssql -Verbose
 ```
 
-
+ 
 

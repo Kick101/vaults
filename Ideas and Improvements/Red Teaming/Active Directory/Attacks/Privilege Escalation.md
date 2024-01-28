@@ -376,8 +376,24 @@ __There are various ways of abusing ADCS:__
 – Escalation to Domain Admin and Enterprise Admin
 – Domain persistence
 
+![[Pasted image 20240128132007.png]]
+![[Pasted image 20240128132033.png]]
 #### Domain Trusts AD CS
+- We can use the [Certify tool](https://github.com/GhostPack/Certify) to enumerate & for attacks.
 
+__Check for CA__
+```powershell
+Certify.exe cas
+```
+__Enumerate the templates__
+```powershell
+Certify.exe find
+```
+
+__Enumerate vulnerable templates__
+```powershell
+Certify.exe find /vulnerable
+```
 
 
 

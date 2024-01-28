@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Red Teaming/Active Directory/Attacks/Privilege Escalation.md",
-                "mode": "preview",
+                "file": "Red Teaming/Active Directory/Attacks/AD CS.md",
+                "mode": "source",
                 "source": false
               }
             }
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Red Teaming/Active Directory/Attacks/Privilege Escalation.md",
+                "file": "Red Teaming/Active Directory/Attacks/AD CS.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Red Teaming/Active Directory/Attacks/Privilege Escalation.md",
+                "file": "Red Teaming/Active Directory/Attacks/AD CS.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Red Teaming/Active Directory/Attacks/Privilege Escalation.md"
+                "file": "Red Teaming/Active Directory/Attacks/AD CS.md"
               }
             }
           }
@@ -157,6 +157,8 @@
   },
   "active": "a937c4d3d4b8d876",
   "lastOpenFiles": [
+    "Red Teaming/Active Directory/Attacks/Privilege Escalation.md",
+    "Red Teaming/Active Directory/Attacks/AD CS.md",
     "Pasted image 20240128132033.png",
     "Pasted image 20240128132007.png",
     "Pasted image 20240128131239.png",
@@ -177,7 +179,6 @@
     "z/Pasted image 20240127152450.png",
     "z/Pasted image 20240127152418.png",
     "z/Pasted image 20240127152404.png",
-    "z/Pasted image 20240127151937.png",
     "InfoSec/System Pentesting/Privilege Escalation/Windows/Enumeration.md",
     "InfoSec/Network Pentesting/Wireshark.md",
     "CTF/HQ",
@@ -193,7 +194,6 @@
     "InfoSec/System Pentesting/Privilege Escalation/Windows/Exploits.md",
     "Red Teaming/Active Directory/Boxes/Resolute.md",
     "Red Teaming/Active Directory/Boxes/Forest.md",
-    "Red Teaming/Active Directory/Attacks/Privilege Escalation.md",
     "Certs/CEH/06 System Hacking.md",
     "InfoSec/System Pentesting/Privilege Escalation/Windows",
     "Red Teaming/Active Directory/Attacks/Untitled",

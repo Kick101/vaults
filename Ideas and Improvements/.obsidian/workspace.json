@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Red Teaming/Active Directory/Attacks/AD CS.md",
+                "file": "Red Teaming/Active Directory/Attacks/MSSQL Servers.md",
                 "mode": "source",
                 "source": false
               }
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Red Teaming/Active Directory/Attacks/AD CS.md",
+                "file": "Red Teaming/Active Directory/Attacks/MSSQL Servers.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Red Teaming/Active Directory/Attacks/AD CS.md",
+                "file": "Red Teaming/Active Directory/Attacks/MSSQL Servers.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Red Teaming/Active Directory/Attacks/AD CS.md"
+                "file": "Red Teaming/Active Directory/Attacks/MSSQL Servers.md"
               }
             }
           }
@@ -157,6 +157,9 @@
   },
   "active": "a937c4d3d4b8d876",
   "lastOpenFiles": [
+    "Red Teaming/Active Directory/Attacks/Misc.md",
+    "Red Teaming/Active Directory/Attacks/MSSQL Servers.md",
+    "Red Teaming/Active Directory/Attacks/AD CS.md",
     "Blue Teaming/Active Directory/Detection and Defense.md",
     "z/Pasted image 20240128011230.png",
     "Blue Teaming/Active Directory",
@@ -165,8 +168,6 @@
     "Red Teaming/Active Directory/Building blocks.md",
     "Red Teaming/Active Directory/Detection & Defense",
     "Red Teaming/Active Directory/Untitled.md",
-    "Red Teaming/Active Directory/Attacks/MSSQL Servers.md",
-    "Red Teaming/Active Directory/Attacks/AD CS.md",
     "Red Teaming/Active Directory/Attacks/Privilege Escalation.md",
     "z/Pasted image 20240128132033.png",
     "z/Pasted image 20240128132007.png",

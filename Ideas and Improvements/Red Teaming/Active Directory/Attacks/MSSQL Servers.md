@@ -1,5 +1,6 @@
 - SQL Servers provide very good options for _lateral movement_ as domain users can be mapped to database roles.
 - For MSSQL and PowerShell hackery, lets use [PowerUpSQL](https://github.com/NetSPI/PowerUpSQL)
+- HeidiSQL is a GUI Tool
 
 #### Enumeration
 - Discovery (SPN Scanning)
@@ -24,15 +25,20 @@ Get-SQLInstanceDomain | Get-SQLServerInfo -Verbose
 - In case of database links between SQL servers, that is, linked SQL servers, it is possible to execute stored procedures.
 - _Database links work even across forest trusts._
 
+__Enumerate DB Link__
+```powershell
+Get-SQLServerLink -instance dcorp-mssql -Verbose
+```
+__Access Linked DB if `is_data_access_enabled: true`__
 ```sql
 select * from master..sysservers
 ```
 __Enumerating Database Links - Manually__
-- Openquery() function can be used to run queries on a linked database
+- Openquery() function can be used to run queries on a linked DB (dcorp-sql1)
 ```sql
 select * from openquery("dcorp-sql1",'select * from master..sysservers')
 ```
-__Enumerating Database Links__
+__Enumerating Database Links - Recursively__
 ```powershell
 Get-SQLServerLinkCrawl -Instance dcorp-mssql -Verbose
 ```

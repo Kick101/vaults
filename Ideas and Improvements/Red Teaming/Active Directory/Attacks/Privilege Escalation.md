@@ -358,13 +358,27 @@ kirbikator.exe lsa .\CIFS.mcorp-dc.moneycorp.local.kirbi
 
 ---
 ### AD CS (Active Directory Certificate Services)
-Active Directory Certificate Services (AD CS) enables use of Public Key
-Infrastructure (PKI) in active directory forest.
-• AD CS helps in authenticating users and machines, encrypting and
-signing documents, filesystem, emails and more.
-• "AD CS is the Server Role that allows you to build a public key
-infrastructure (PKI) and provide public key cryptography, digital
-certificates, and digital signature capabilities for your organization."
+- Active Directory Certificate Services (AD CS) enables use of Public Key Infrastructure (PKI) in active directory forest.
+- AD CS helps in authenticating users and machines, encrypting and signing documents, filesystem, emails and more.
+- "AD CS is the Server Role that allows you to build a public key infrastructure (PKI) and provide public key cryptography, digital certificates, and digital signature capabilities for your organization."
+- __CA__ - The certification authority that issues certificates. The server with AD CS role (DC or separate) is the CA.
+- __Certificate__ - Issued to a user or machine and can be used for authentication, encryption, signing etc.
+- __CSR__ - Certificate Signing Request made by a client to the CA to request a certificate.
+- __Certificate Template__ - Defines settings for a certificate. Contains information like - enrolment permissions, EKUs, expiry etc.
+- __EKU OIDs__ - Extended Key Usages Object Identifiers. These dictate the use of a certificate template (Client authentication, Smart Card Logon, SubCA etc.
+
+![[Pasted image 20240128131239.png]]
+
+__There are various ways of abusing ADCS:__
+– Extract user and machine certificates
+– Use certificates to retrieve NTLM hash
+– User and machine level persistence
+– Escalation to Domain Admin and Enterprise Admin
+– Domain persistence
+
+#### Domain Trusts AD CS
+
+
 
 
 

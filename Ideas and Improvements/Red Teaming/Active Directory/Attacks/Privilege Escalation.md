@@ -53,7 +53,7 @@ Set-DomainObject -Identity Control1User -XOR @{useraccountcontrol=4194304} -Verb
 ### Kerberoasting
 Domain-connected services, such as MSSQL, web servers may be connected and issued identifiers that allow Kerberos to authenticate the service account. 
 - If a domain user account is compromised, then that account can request kerberoastable account names and their _TGS_
-- A Kerberoastable account is one that has an SPN set.
+- _A Kerberoastable account is one that has an SPN set._
 - With enough rights (GenericAll/GenericWrite), a target user's SPN can be set to anything (unique in the domain).
 
 > In order to request SPNs, a domain account is required to make the query.

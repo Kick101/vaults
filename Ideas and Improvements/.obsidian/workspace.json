@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Red Teaming/Active Directory/Attacks/MSSQL Servers.md",
+                "file": "Red Teaming/Active Directory/Boxes/Active.md",
                 "mode": "preview",
                 "source": false
               }
@@ -77,8 +77,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 233.50260543823242,
-    "collapsed": true
+    "width": 233.50260543823242
   },
   "right": {
     "id": "fe286dd04d32f6ac",
@@ -94,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Red Teaming/Active Directory/Attacks/MSSQL Servers.md",
+                "file": "Red Teaming/Active Directory/Boxes/Active.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Red Teaming/Active Directory/Attacks/MSSQL Servers.md",
+                "file": "Red Teaming/Active Directory/Boxes/Active.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Red Teaming/Active Directory/Attacks/MSSQL Servers.md"
+                "file": "Red Teaming/Active Directory/Boxes/Active.md"
               }
             }
           }
@@ -157,8 +156,10 @@
   },
   "active": "a937c4d3d4b8d876",
   "lastOpenFiles": [
-    "Red Teaming/Active Directory/Attacks/Misc.md",
+    "Red Teaming/Active Directory/Boxes/VulnNet Roasted.md",
+    "Red Teaming/Active Directory/Boxes/Sauna.md",
     "Red Teaming/Active Directory/Attacks/MSSQL Servers.md",
+    "Red Teaming/Active Directory/Attacks/Misc.md",
     "Red Teaming/Active Directory/Attacks/AD CS.md",
     "Blue Teaming/Active Directory/Detection and Defense.md",
     "z/Pasted image 20240128011230.png",
@@ -192,9 +193,7 @@
     "InfoSec/Network Pentesting/Wireshark.md",
     "CTF/HQ",
     "InfoSec/Network Pentesting/Networking.md",
-    "Red Teaming/Active Directory/Boxes/VulnNet Roasted.md",
     "Red Teaming/Active Directory/Boxes/Attacktive Directory.md",
-    "Red Teaming/Active Directory/Boxes/Sauna.md",
     "Red Teaming/Active Directory/AD Administration.md",
     "Red Teaming/Active Directory/Enumeration/LDAP.md",
     "Red Teaming/Active Directory/Enumeration/From linux.md",

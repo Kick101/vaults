@@ -59,7 +59,7 @@ Get-DomainUser | ?{ $_.useraccountcontrol -like "*encr*"} | select name
 - `Get-DomainTrustMapping` : All trusts for our current domain
 
 ##### ACL
->`SecurityIdentifier` property tells us _who_ has the given right over an object
+>`SecurityIdentifier` property tells us _who_ has the given right over this object
 - `$sid = ConvertTo-NameToSid joe.evans` : Get SID
 - Get ACL of Joe.evans on all objects
 ```powershell
@@ -112,7 +112,6 @@ Get-DomainGPO | Get-ObjectAcl | ? {$_.SecurityIdentifier -eq 'S-1-5-21-297478322
 ##### Computers
 - `Get-ADComputer -Filter * -Properties *` : all computers
 - `Get-ADComputer -filter * -Properties * | select name,description` : Description of computer accounts
-
 
 ##### Forests
 - `Get-ADForest`

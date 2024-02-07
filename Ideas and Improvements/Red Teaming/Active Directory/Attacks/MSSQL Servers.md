@@ -10,9 +10,6 @@ Get-SQLInstanceDomain
 
 -  Check Accessibility
 ```powershell
-Get-SQLConnectionTestThreaded
-```
-```powershell
 Get-SQLInstanceDomain | Get-SQLConnectionTestThreaded -Verbose
 ```
 - Gather Information

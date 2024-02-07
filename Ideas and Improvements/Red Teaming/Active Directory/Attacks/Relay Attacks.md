@@ -42,7 +42,7 @@ __Common abuse cases__
 - Once a multicast request is made, we spoof our response as the file server and grab the IP, hostname and NTLMv2 hash of the victim
 
 <hr>
-<center><h3>SMB Relay with NTLMv2 hash</h3></center>
+### SMB Relay with NTLMv2 hash
 
 - https://tcm-sec.com/smb-relay-attacks-gift-that-keeps-on-giving/
 - https://www.sans.org/blog/smb-relay-demystified-and-ntlmv2-pwnage-with-python/
@@ -52,7 +52,8 @@ __Common abuse cases__
 __Conditions for this to work__
 - Relaying creds must be admin on victim machine 
 - SMB singing is disabled or not required
-<br>
+
+---
 
 __Discovering hosts with SMB signing disabled__
 ```sh

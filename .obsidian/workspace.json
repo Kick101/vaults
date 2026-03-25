@@ -14,7 +14,7 @@
               "type": "markdown",
               "state": {
                 "file": "Blue Teaming/SC 200/01_XDR/01_Intro_to_XDR/03_Incident_Management.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
@@ -27,16 +27,15 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Blue Teaming/SC 200/01_XDR/01_Intro_to_XDR/02_Unified_RBAC_Model.md",
+                "file": "Blue Teaming/SC 200/00_Exam_Objectives.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "02_Unified_RBAC_Model"
+              "title": "00_Exam_Objectives"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -93,8 +92,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 300.5116500854492
   },
   "right": {
     "id": "4211b058069103fa",
@@ -197,18 +195,19 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "dcb4ff66d135a612",
+  "active": "c4a3ff6b121f8d83",
   "lastOpenFiles": [
+    "Blue Teaming/SC 200/01_XDR/01_Intro_to_XDR/07_Automated_Investigation_&_Response.md",
     "Blue Teaming/SC 200/01_XDR/01_Intro_to_XDR/03_Incident_Management.md",
-    "Blue Teaming/SC 200/01_XDR/01_Intro_to_XDR/02_Unified_RBAC_Model.md",
     "Blue Teaming/SC 200/01_XDR/01_Intro_to_XDR/02_Threat_Investigation_Tools.md",
-    "Blue Teaming/SC 200/01_XDR/01_Intro_to_XDR/04_Threat_Analytics.md",
     "Blue Teaming/SC 200/01_XDR/01_Intro_to_XDR/01_Security_Graph.md",
     "Blue Teaming/SC 200/01_XDR/01_Intro_to_XDR/00_Use_Case.md",
+    "Blue Teaming/SC 200/00_Exam_Objectives.md",
+    "Blue Teaming/SC 200/01_XDR/01_Intro_to_XDR/02_Unified_RBAC_Model.md",
+    "Blue Teaming/SC 200/01_XDR/01_Intro_to_XDR/04_Threat_Analytics.md",
     "Blue Teaming/SC 200/01_XDR/01_Intro_to_XDR/10_MDCA.md",
     "Blue Teaming/SC 200/01_XDR/01_Intro_to_XDR/09_MDI.md",
     "Blue Teaming/SC 200/01_XDR/01_Intro_to_XDR/08_Entra_ID.md",
-    "Blue Teaming/SC 200/01_XDR/01_Intro_to_XDR/07_Automated_Investigation_&_Response.md",
     "Blue Teaming/SC 200/01_XDR/01_Intro_to_XDR/06_Advanced_Hunting.md",
     "Blue Teaming/SC 200/01_XDR/01_Intro_to_XDR/05_Secure_Score.md",
     "InfoSec/Wireless Pentesting/WiFi Hacking.md",
@@ -217,7 +216,6 @@
     "yes.pub",
     "yes",
     "conflict-files-obsidian-git.md",
-    "Blue Teaming/SC 200/00_Exam_Objectives.md",
     "Blue Teaming/SC-200/11_Subscriptions.md",
     "Blue Teaming/SC-200 old/03_Threat_Hunting/01_Hunting_Queries.md",
     "Blue Teaming/SC-200 old/03_Threat_Hunting/00_Threat_Hunting.md",

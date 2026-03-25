@@ -1,0 +1,58 @@
+__Credentials stuffing:__ It refers to the act of testing large sets of stolen credentials against targeted applications or web interfaces. Compromised credentials yielded from breaches are used to build “dictionaries” or “combo lists.”
+
+### Tools:
+- Sentry MBA AIO
+- Vertex
+- SNIPR
+- OpenBullet
+- STROM
+- Private Keeper
+- Brute and Checker PSN 1.0
+- Chase Bruteforce
+- Dark Star Netflix Checker
+
+### Netflix
+- Netflix Valid Checker By Dr.Max  
+- Netflix Checker New Api  
+- Netflix Email Validator Premium 
+- Netflix password changer + capture by RubiconT  
+- BearFlix    
+- NetFlix Checker by xRisky v2  
+- Easy Checker Netflix 
+- Netflix Accounts Checker v1.0 By X-LINE  
+- NetFlix Accounts Checker [v1.1]  
+- Netflix Brute By m1st  
+- BruteFlix - Multi Module Netflix Valid Mail & Mail Access Checker  
+- Netflix Checker v1 by Sh4lltear  
+- Netflix Checker v1 Removed Phone Number by Sh4lltear  
+- Z-Flix Netflix Checker Coded By Rezistenza  
+- Netflix Shitter By Team - Otimus V3.0  
+- NetFlix Checker by xRisky  
+- Netflix Account Checker Coded By U0k
+- Dark Star Netflix Checker By Scorpio  
+- Netflix Checker By Dark-Time Raisen  
+- Netflix Gift Card Checker by xRisky  
+- Netflix Checker v0.2.1  
+- Netflix Fucker Beta V6.5 By Team - Otimus 
+- NETFLIX Checker V2 By MrPrinceX 
+- STARS_NETFLIX_CHECKER  
+- Netflix Checker by GOD Cracked By GM`ka  
+- Netflix Checker Account By X-KILLER  
+- Netflix Checker  
+- Netflix Checker by Ariaei  
+- Netflix Checker By Leftcracker v2  
+- Netflix Proxy Checker  
+- Netflix checker v27.0 By Omega  
+- Gold Flix GC Netflix Checker  
+- Netflix Premium Account Generator By Random Card  
+- Netflixer v1.0 by Rezistenza  
+- Netflix Accounts Checker Ultra Version By Developer Boy  
+- Netflix Keker  
+- Netflix Cracker By Left Cracker  
+- Netflix Brute And Checker By ShaOnKrisTof  
+- Netflix GC Generator By Space XVIII  
+- NetflixGC Gen By 6ix9ineIsGod  
+- Netflix Checker V3.1 by Cetrix  
+- Netflix Account Checker by Bornwood  
+- Netflix Account Checker v1.0.0.3  
+- Netflix Gen

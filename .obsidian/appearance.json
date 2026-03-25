@@ -1,0 +1,10 @@
+{
+  "accentColor": "#818383",
+  "theme": "obsidian",
+  "cssTheme": "Hackthebox",
+  "baseFontSize": 17,
+  "textFontFamily": "",
+  "enabledCssSnippets": [
+    "font-styling"
+  ]
+}

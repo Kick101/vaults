@@ -1,0 +1,211 @@
+{
+  "main": {
+    "id": "9031889db7c0f5c5",
+    "type": "split",
+    "children": [
+      {
+        "id": "d10a87c1c954e04c",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "aca44ca5f69ddb7f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "JOB 2025/Interview.md",
+                "mode": "preview",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Interview"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "fc67ea76026c6544",
+    "type": "mobile-drawer",
+    "children": [
+      {
+        "id": "a75cbc45b1858f38",
+        "type": "leaf",
+        "state": {
+          "type": "file-explorer",
+          "state": {
+            "sortOrder": "alphabetical",
+            "autoReveal": false
+          },
+          "icon": "lucide-folder-closed",
+          "title": "Files"
+        }
+      },
+      {
+        "id": "5fdb1bdaa717d0cf",
+        "type": "leaf",
+        "state": {
+          "type": "search",
+          "state": {
+            "query": "",
+            "matchingCase": false,
+            "explainSearch": false,
+            "collapseAll": false,
+            "extraContext": false,
+            "sortOrder": "alphabetical"
+          },
+          "icon": "lucide-search",
+          "title": "Search"
+        }
+      },
+      {
+        "id": "301b4e1ec40453fe",
+        "type": "leaf",
+        "state": {
+          "type": "tag",
+          "state": {
+            "sortOrder": "frequency",
+            "useHierarchy": true,
+            "showSearch": false,
+            "searchQuery": ""
+          },
+          "icon": "lucide-tags",
+          "title": "Tags"
+        }
+      },
+      {
+        "id": "70a53f351fd69f64",
+        "type": "leaf",
+        "state": {
+          "type": "bookmarks",
+          "state": {},
+          "icon": "lucide-bookmark",
+          "title": "Bookmarks"
+        }
+      }
+    ],
+    "currentTab": 0
+  },
+  "right": {
+    "id": "f617b4d50bf14b47",
+    "type": "mobile-drawer",
+    "children": [
+      {
+        "id": "66df3be9f7f2eeb7",
+        "type": "leaf",
+        "state": {
+          "type": "backlink",
+          "state": {
+            "file": "JOB 2025/Market Expectations.md",
+            "collapseAll": false,
+            "extraContext": false,
+            "sortOrder": "alphabetical",
+            "showSearch": false,
+            "searchQuery": "",
+            "backlinkCollapsed": false,
+            "unlinkedCollapsed": true
+          },
+          "icon": "links-coming-in",
+          "title": "Backlinks"
+        }
+      },
+      {
+        "id": "69994dff145b186d",
+        "type": "leaf",
+        "state": {
+          "type": "outgoing-link",
+          "state": {
+            "file": "JOB 2025/Market Expectations.md",
+            "linksCollapsed": false,
+            "unlinkedCollapsed": true
+          },
+          "icon": "links-going-out",
+          "title": "Outgoing links"
+        }
+      },
+      {
+        "id": "31ce722c05b4b800",
+        "type": "leaf",
+        "state": {
+          "type": "outline",
+          "state": {
+            "file": "JOB 2025/Market Expectations.md",
+            "followCursor": false,
+            "showSearch": false,
+            "searchQuery": ""
+          },
+          "icon": "lucide-list",
+          "title": "Outline"
+        }
+      },
+      {
+        "id": "6bb79b05fddaa7a4",
+        "type": "leaf",
+        "state": {
+          "type": "git-view",
+          "state": {},
+          "icon": "lucide-ghost",
+          "title": "git-view"
+        }
+      }
+    ],
+    "currentTab": 3
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "bases:Create new base": false,
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "obsidian-git:Open Git source control": false
+    }
+  },
+  "active": "aca44ca5f69ddb7f",
+  "lastOpenFiles": [
+    "Blue Teaming/SoC Defined.md",
+    "Blue Teaming/Incident Response/Incident Reporting.md",
+    "Blue Teaming/Triaging/Triaging.md",
+    "Blue Teaming/Threat Hunting/Threat Intelligence Classifications.md",
+    "Blue Teaming/Threat Hunting/init.md",
+    "Blue Teaming/Incident Response/Incident Handling.md",
+    "JOB 2025/Interview.md",
+    "Blue Teaming/HTB SOC/1. Incident Handling Process with ToC.pdf",
+    "/JOB 2025/Interview.md",
+    "/JOB 2025",
+    "Certs/ISC2/Mike_Chappel.md",
+    "/Certs/ISC2/Mike_Chappel.md",
+    "/Certs/ISC2",
+    "/Certs",
+    "JOB 2025/Market Expectations.md",
+    "Ideas and Improvements/Blue Teaming/Forensics/DF.md",
+    "StillFlow App/Design.md",
+    "JOB 2025/SoC/🐷 Snort Cheat Sheet.md",
+    "Ideas and Improvements/Blue Teaming/Forensics/Windows/Registry Forensics.md",
+    "Ideas and Improvements/Blue Teaming/Forensics/Tools/Redline.md",
+    "/Ideas and Improvements/Blue Teaming/Forensics/DF.md",
+    "Ideas and Improvements/Blue Teaming/E-mail/E-mail Spoofing.md",
+    "Ideas and Improvements/Blue Teaming/E-mail/E-mail Headers.md",
+    "Ideas and Improvements/Blue Teaming/E-mail/E-mail Attack.md",
+    "/StillFlow App/Design.md",
+    "/JOB 2025/SoC/🐷 Snort Cheat Sheet.md",
+    "/JOB 2025/SoC/Snort.md",
+    "/JOB 2025/SoC",
+    "/Ideas and Improvements/Tech & Languages/python.md",
+    "/Ideas and Improvements/Tech & Languages",
+    "/Ideas and Improvements/InfoSec/Regular Expressions.md",
+    "/Ideas and Improvements/Blue Teaming/Forensics/Windows/Registry Forensics.md",
+    "StillFlow App",
+    "Ideas and Improvements/Blue Teaming/Forensics/Windows",
+    "Ideas and Improvements/Blue Teaming/Forensics/Tools",
+    "Ideas and Improvements/Blue Teaming/Forensics",
+    "Pasted image 20250510160834.png",
+    "/Pasted image 20250510160834.png",
+    "Pasted image 20250507213447.png",
+    "/Pasted image 20250507213447.png"
+  ]
+}

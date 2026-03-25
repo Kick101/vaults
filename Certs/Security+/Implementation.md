@@ -1,0 +1,11 @@
+- Given a scenario, implement secure protocols.
+- Given a scenario, implement host or application security solutions.
+- Given a scenario, implement secure network designs
+- Given a scenario, install and configure wireless security settings.
+- Given a scenario, implement secure mobile solutions
+- Given a scenario, apply cybersecurity solutions to the cloud.
+- Given a scenario, implement identity and account management controls.
+- Given a scenario, implement authentication and authorization solutions.
+- Given a scenario, implement public key infrastructure.
+
+---

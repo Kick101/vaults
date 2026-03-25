@@ -1,0 +1,250 @@
+{
+  "main": {
+    "id": "45a61bca1427fee4",
+    "type": "split",
+    "children": [
+      {
+        "id": "8c9e17ac7ea8260d",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "c4a3ff6b121f8d83",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Blue Teaming/SC 200/01_XDR/01_Intro_to_XDR/03_Incident_Management.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "03_Incident_Management"
+            }
+          },
+          {
+            "id": "dcb4ff66d135a612",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Blue Teaming/SC 200/01_XDR/01_Intro_to_XDR/02_Unified_RBAC_Model.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "02_Unified_RBAC_Model"
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "c2ffa35a5319301d",
+    "type": "split",
+    "children": [
+      {
+        "id": "03c75c259b59da6a",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "f8ed6ce09a5097b6",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "cf7c5256f076fa01",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "0338984b1d0b58ab",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 200,
+    "collapsed": true
+  },
+  "right": {
+    "id": "4211b058069103fa",
+    "type": "split",
+    "children": [
+      {
+        "id": "d4fc1e32152849f6",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "a1db9f44deac2a4a",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "StillFlow App/Malware Analysis.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for Malware Analysis"
+            }
+          },
+          {
+            "id": "6dd8cacd55bff749",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Blue Teaming/SC-200/02_Sentinel/10_Threat_Indicators.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from 10_Threat_Indicators"
+            }
+          },
+          {
+            "id": "a1acedcde3f67312",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "084c1c76f614aabe",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Blue Teaming/SC-200/02_Sentinel/09_syslog.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of 09_syslog"
+            }
+          },
+          {
+            "id": "cdcf98ca9ab20b01",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
+            }
+          }
+        ],
+        "currentTab": 4
+      }
+    ],
+    "direction": "horizontal",
+    "width": 200,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "bases:Create new base": false,
+      "graph:Open graph view": false,
+      "switcher:Open quick switcher": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "obsidian-git:Open Git source control": false
+    }
+  },
+  "active": "dcb4ff66d135a612",
+  "lastOpenFiles": [
+    "Blue Teaming/SC 200/01_XDR/01_Intro_to_XDR/03_Incident_Management.md",
+    "Blue Teaming/SC 200/01_XDR/01_Intro_to_XDR/02_Unified_RBAC_Model.md",
+    "Blue Teaming/SC 200/01_XDR/01_Intro_to_XDR/02_Threat_Investigation_Tools.md",
+    "Blue Teaming/SC 200/01_XDR/01_Intro_to_XDR/04_Threat_Analytics.md",
+    "Blue Teaming/SC 200/01_XDR/01_Intro_to_XDR/01_Security_Graph.md",
+    "Blue Teaming/SC 200/01_XDR/01_Intro_to_XDR/00_Use_Case.md",
+    "Blue Teaming/SC 200/01_XDR/01_Intro_to_XDR/10_MDCA.md",
+    "Blue Teaming/SC 200/01_XDR/01_Intro_to_XDR/09_MDI.md",
+    "Blue Teaming/SC 200/01_XDR/01_Intro_to_XDR/08_Entra_ID.md",
+    "Blue Teaming/SC 200/01_XDR/01_Intro_to_XDR/07_Automated_Investigation_&_Response.md",
+    "Blue Teaming/SC 200/01_XDR/01_Intro_to_XDR/06_Advanced_Hunting.md",
+    "Blue Teaming/SC 200/01_XDR/01_Intro_to_XDR/05_Secure_Score.md",
+    "InfoSec/Wireless Pentesting/WiFi Hacking.md",
+    "Blue Teaming/SoC Defined.md",
+    "Blue Teaming/SC 200/100_Azure_Notes.md",
+    "yes.pub",
+    "yes",
+    "conflict-files-obsidian-git.md",
+    "Blue Teaming/SC 200/00_Exam_Objectives.md",
+    "Blue Teaming/SC-200/11_Subscriptions.md",
+    "Blue Teaming/SC-200 old/03_Threat_Hunting/01_Hunting_Queries.md",
+    "Blue Teaming/SC-200 old/03_Threat_Hunting/00_Threat_Hunting.md",
+    "Blue Teaming/SC-200/07_Security_Copilot/00.md",
+    "Blue Teaming/SC 200/01_XDR/04_MDC/03_Connect_Azure_Assets.md",
+    "Blue Teaming/SC 200/01_XDR/03_Purview/00.md",
+    "Blue Teaming/SC 200/01_XDR/05_Security_Copilot",
+    "Blue Teaming/SC 200/01_XDR/04_MDC",
+    "Blue Teaming/SC 200/01_XDR/03_Purview",
+    "Blue Teaming/SC 200/01_XDR/02_MDE",
+    "Blue Teaming/SC 200/01_XDR/01_Intro_to_XDR",
+    "Blue Teaming/SC-200 old/10_Configuration_Guide/MDE/05_ASR.md",
+    "Blue Teaming/SC 200/02_Sentinel",
+    "Blue Teaming/SC 200/01_XDR",
+    "Blue Teaming/SC 200",
+    "Blue Teaming/SC-200 old/10_Configuration_Guide/MDE/04_Alerts_and_Detections.md",
+    "Blue Teaming/SC-200 old/10_Configuration_Guide/MDE/03_Device_Groups.md",
+    "z-images/Pasted image 20250919125012.png",
+    "z-images/Pasted image 20250824175029.png",
+    "z-images/Pasted image 20250824161019.png",
+    "z-images/Pasted image 20250824160924.png",
+    "z-images/Pasted image 20250824160358.png",
+    "z-images/Pasted image 20250824160248.png",
+    "z-images/Pasted image 20250824140624.png",
+    "z-images/Pasted image 20250824140234.png",
+    "z-images/Pasted image 20250824124050.png",
+    "z-images/Pasted image 20250824113415.png",
+    "Untitled.canvas"
+  ]
+}

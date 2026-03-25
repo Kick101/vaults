@@ -1,0 +1,3 @@
+- Authentication
+- Authorization
+- Accounting (monitoring and tracking user activities, creating a log of their actions and resource usage)

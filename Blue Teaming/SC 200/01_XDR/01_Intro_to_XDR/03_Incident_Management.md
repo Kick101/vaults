@@ -6,7 +6,7 @@ An incident is a collection of correlated alerts that make up the story of an at
 - how many devices, users, and mailboxes were impacted
 - how severe the impact was, and other details about affected entities.
 
-By default, the queue in the Microsoft Defender portal displays incidents seen in the last 30 days. The most recent incident is at the top of the list so that you can see it first.
+>By default, the queue in the Microsoft Defender portal displays incidents seen in the last `30 days`. The most recent incident is at the top of the list so that you can see it first.
 
 ## 🔍 Incident Filters
 
@@ -28,26 +28,6 @@ By default, the queue in the Microsoft Defender portal displays incidents seen i
 | **Automated Investigation State** | Filter by the status of the automated investigation process.                                           |
 | **Associated Threat**             | Filter based on known threat names or indicators tied to the incident.                                 |
 
-## Preview incidents
-
-The portal pages provide preview information for most list-related data.
-
-In this screenshot, the three highlighted areas are the circle, the greater than symbol, and the actual link.
-
-[![Screen shot of Incident Preview information options.](https://learn.microsoft.com/en-us/training/wwl-sci/mitigate-incidents-microsoft-365-defender/media/preview-options-from-list.png)](https://learn.microsoft.com/en-us/training/wwl-sci/mitigate-incidents-microsoft-365-defender/media/preview-options-from-list.png#lightbox)
-
-**Circle**
-
-Selecting the circle will open a details window on the right side of the page with a preview of the line item with an option to open the full page of information.
-
-**Greater than symbol**
-
-If there are related records that can be displayed, selecting the greater than sign will display the records below the current record.
-
-**Link**
-
-The link will navigate you to the full page for the line item.
-
 ## 🛠️ Incident Management
 
 | **Feature**            | **Description**                                                                                                    |
@@ -58,7 +38,38 @@ The link will navigate you to the full page for the line item.
 | **Set Classification** | Tag an incident as a **True Alert**, **False Alert**, or leave as **Not set** to aid threat intelligence learning. |
 | **Move Alerts**        | Use the **Alerts tab** to move specific alerts to another incident, merging or splitting as needed.                |
 | **Add Comments**       | Document investigation notes; changes and history are logged and viewable chronologically.                         |
-| **Add Tags**           | Apply custom tags to group similar incidents for easier filtering                                                  |
+| **Add Tags**           | Apply `custom tags` to group similar incidents for easier filtering                                                |
+
+## Incident Graph
+The Graph tells the story of the cybersecurity attack. For example, it shows you the entry point, which indicator of compromise or activity was observed on which device, etc.
+### Blast radius analysis (Preview)
+
+Blast radius analysis extends the incident graph with an advanced, interactive view of both the `current impact of a breach` (post‑breach) and the `potential future impact` (pre‑breach) in one consolidated graph.
+
+>Blast radius analysis extends and `replaces Attack path analysis`.
+
+**Prerequisites:**
+- `Onboarded to Microsoft Sentinel data lake` 
+- Appropriate Defender XDR unified RBAC permissions (`Exposure management read` or higher).
+
+How to use (from the incident graph):
+
+1. Select an entity node and choose “View blast radius.”
+2. Review the initial graph showing the top attack paths (you can open the full path list for expanded details).
+3. Expand grouped targets to view discrete paths to individual critical assets.
+4. Use context actions on nodes (isolate device, disable user, etc.) to interrupt likely lateral movement.
+5. Select “Hide blast radius” to return to the default incident graph.
+
+[![Screenshot showing the blast radius context menu item.](https://learn.microsoft.com/en-us/training/wwl-sci/mitigate-incidents-microsoft-365-defender/media/blast-radius.png)](https://learn.microsoft.com/en-us/training/wwl-sci/mitigate-incidents-microsoft-365-defender/media/blast-radius.png#lightbox)
+
+Limitations & modeling notes (summary):
+
+- Path depth is bounded (up to 7 hops overall; typical max 5 for cloud/on‑prem, 3 for hybrid).
+- Graph renders possible—not guaranteed—paths derived from known attack vectors.
+- Data freshness lag may temporarily omit newly emerged relationships.
+- Visibility constrained by user’s RBAC scope; out‑of‑scope nodes/edges aren’t shown.
+- Island (disconnected) nodes can appear due to collection/calculation timing.
+
 
 ---
 # Action Center

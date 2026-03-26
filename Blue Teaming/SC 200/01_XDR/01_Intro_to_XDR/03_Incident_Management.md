@@ -60,13 +60,24 @@ Blast radius analysis extends the incident graph with an advanced, interactive v
 5. Select “Hide blast radius” to return to the default incident graph.
 
 [![Screenshot showing the blast radius context menu item.](https://learn.microsoft.com/en-us/training/wwl-sci/mitigate-incidents-microsoft-365-defender/media/blast-radius.png)](https://learn.microsoft.com/en-us/training/wwl-sci/mitigate-incidents-microsoft-365-defender/media/blast-radius.png#lightbox)
-
 **Limitations & modeling notes (summary):**
 - Path depth is bounded (up to 7 hops overall; typical max 5 for cloud/on‑prem, 3 for hybrid).
 - Graph renders possible—not guaranteed—paths derived from known attack vectors.
 - Data freshness lag may temporarily omit newly emerged relationships.
 - Visibility constrained by user’s RBAC scope; out‑of‑scope nodes/edges aren’t shown.
 - Island (disconnected) nodes can appear due to collection/calculation timing.
+
+---
+## Suppress alerts
+When a suppression rule is created, it takes effect from the point when the rule is created. The rule won't affect existing alerts already in the queue prior to the rule creation. The rule will only be applied to alerts that satisfy the conditions set after the rule is created.
+
+There are two contexts for a suppression rule that you can choose from:
+
+- Suppress alert on this device
+- Suppress alert in my organization
+
+The context of the rule lets you tailor what gets surfaced into the portal and ensure that only real security alerts are surfaced into the portal.
+
 
 
 ---

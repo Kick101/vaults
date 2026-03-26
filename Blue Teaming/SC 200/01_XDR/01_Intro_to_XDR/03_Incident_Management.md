@@ -52,8 +52,7 @@ Blast radius analysis extends the incident graph with an advanced, interactive v
 - `Onboarded to Microsoft Sentinel data lake` 
 - Appropriate Defender XDR unified RBAC permissions (`Exposure management read` or higher).
 
-How to use (from the incident graph):
-
+**How to use (from the incident graph):**
 1. Select an entity node and choose “View blast radius.”
 2. Review the initial graph showing the top attack paths (you can open the full path list for expanded details).
 3. Expand grouped targets to view discrete paths to individual critical assets.
@@ -62,8 +61,7 @@ How to use (from the incident graph):
 
 [![Screenshot showing the blast radius context menu item.](https://learn.microsoft.com/en-us/training/wwl-sci/mitigate-incidents-microsoft-365-defender/media/blast-radius.png)](https://learn.microsoft.com/en-us/training/wwl-sci/mitigate-incidents-microsoft-365-defender/media/blast-radius.png#lightbox)
 
-Limitations & modeling notes (summary):
-
+**Limitations & modeling notes (summary):**
 - Path depth is bounded (up to 7 hops overall; typical max 5 for cloud/on‑prem, 3 for hybrid).
 - Graph renders possible—not guaranteed—paths derived from known attack vectors.
 - Data freshness lag may temporarily omit newly emerged relationships.

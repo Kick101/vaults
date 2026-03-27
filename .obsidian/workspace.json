@@ -14,7 +14,7 @@
               "type": "markdown",
               "state": {
                 "file": "Blue Teaming/SC 200/01_XDR/01_Intro_to_XDR/03_Incident_Management.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
@@ -197,10 +197,12 @@
   },
   "active": "c4a3ff6b121f8d83",
   "lastOpenFiles": [
-    "Blue Teaming/SC 200/01_XDR/02_MDE/01_Windows_ASR.md",
+    "Blue Teaming/SC 200/01_XDR/01_Intro_to_XDR/06_Advanced_Hunting.md",
+    "Blue Teaming/SC 200/01_XDR/01_Intro_to_XDR/05_Secure_Score.md",
+    "Blue Teaming/SC 200/01_XDR/01_Intro_to_XDR/04_Threat_Analytics.md",
     "Blue Teaming/SC 200/01_XDR/01_Intro_to_XDR/03_Incident_Management.md",
     "Blue Teaming/SC 200/00_Exam_Objectives.md",
-    "Blue Teaming/SC 200/01_XDR/01_Intro_to_XDR/04_Threat_Analytics.md",
+    "Blue Teaming/SC 200/01_XDR/02_MDE/01_Windows_ASR.md",
     "Blue Teaming/SC 200/01_XDR/01_Intro_to_XDR/01_Security_Graph.md",
     "Blue Teaming/SC 200/01_XDR/01_Intro_to_XDR/02_Threat_Investigation_Tools.md",
     "Blue Teaming/SC 200/01_XDR/01_Intro_to_XDR/07_Automated_Investigation_&_Response.md",
@@ -209,8 +211,6 @@
     "Blue Teaming/SC 200/01_XDR/01_Intro_to_XDR/10_MDCA.md",
     "Blue Teaming/SC 200/01_XDR/01_Intro_to_XDR/09_MDI.md",
     "Blue Teaming/SC 200/01_XDR/01_Intro_to_XDR/08_Entra_ID.md",
-    "Blue Teaming/SC 200/01_XDR/01_Intro_to_XDR/06_Advanced_Hunting.md",
-    "Blue Teaming/SC 200/01_XDR/01_Intro_to_XDR/05_Secure_Score.md",
     "InfoSec/Wireless Pentesting/WiFi Hacking.md",
     "Blue Teaming/SoC Defined.md",
     "Blue Teaming/SC 200/100_Azure_Notes.md",

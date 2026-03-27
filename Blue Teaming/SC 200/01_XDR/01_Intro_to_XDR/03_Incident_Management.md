@@ -81,7 +81,7 @@ The context of the rule lets you tailor what gets surfaced into the portal and e
 
 
 ---
-# Action Center
+# Defender O365
 
 >Payload reputation/detonation and grader analysis are not done in all tenants. Information is blocked from going outside the organization when data is not supposed to leave the tenant boundary for compliance purposes.
 

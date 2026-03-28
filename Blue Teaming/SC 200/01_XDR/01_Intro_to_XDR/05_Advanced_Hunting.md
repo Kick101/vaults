@@ -80,6 +80,12 @@ Apply to:
 - Click **Create**
 - Rule runs immediately, then on the configured schedule
 
+### 8. Prerequisites and access
+
+1. Appropriate Microsoft Entra ID role for advanced hunting.
+2. Access to the Microsoft Sentinel data lake (for cross‑workspace graph data).
+3. At least read-only access in Microsoft Security Exposure Management.
+
 ---
 ## Data schema
 

@@ -4,7 +4,7 @@
 - **Cloud Secure Score (Risk-Based):** Reflects your **cloud infrastructure security posture** (risk-adjusted).
 
 
->Higher scores = More recommended security actions implemented.
+>Higher scores (better) = More recommended security actions implemented.
 
 ### 🎯 **Benefits of Secure Score**
 

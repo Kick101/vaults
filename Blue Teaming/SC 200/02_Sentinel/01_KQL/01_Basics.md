@@ -30,7 +30,6 @@ GROUP BY Account LIMIT 10;
 ![[Pasted image 20250629122040.png]]
 
 ---
-
 ## Search Operator
 
 Although the search operator is easy to use, when compared to the where operator it's inefficient. Even with this inefficiency, you can use search to find data when unsure which table or column to filter.

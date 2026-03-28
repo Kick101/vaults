@@ -34,6 +34,20 @@
               "icon": "lucide-file",
               "title": "00_Exam_Objectives"
             }
+          },
+          {
+            "id": "d978261f8a49304d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Blue Teaming/SC 200/01_XDR/01_Intro_to_XDR/05_Secure_Score.md",
+                "mode": "preview",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "05_Secure_Score"
+            }
           }
         ]
       }
@@ -197,14 +211,18 @@
   },
   "active": "c4a3ff6b121f8d83",
   "lastOpenFiles": [
+    "Blue Teaming/SC 200/00_Exam_Objectives.md",
+    "Blue Teaming/SC 200/01_XDR/01_Intro_to_XDR/05_Secure_Score.md",
+    "Blue Teaming/SC 200/01_XDR/01_Intro_to_XDR/05_Advanced_Hunting.md",
+    "Blue Teaming/SC 200/02_Sentinel/01_KQL/01_Basics.md",
+    "Blue Teaming/SC 200/02_Sentinel/01_KQL/04_Parsing_Dynamic_JSON_External_Parsers.md",
+    "Blue Teaming/SC 200/02_Sentinel/01_KQL/03_Multi-table_Statements.md",
+    "Blue Teaming/SC 200/02_Sentinel/01_KQL/02_Analyze_Query_Results.md",
     "Blue Teaming/SC 200/01_XDR/01_Intro_to_XDR/02_Threat_Investigation_Tools.md",
     "Blue Teaming/SC 200/01_XDR/01_Intro_to_XDR/02_Unified_RBAC_Model.md",
     "Blue Teaming/SC 200/01_XDR/01_Intro_to_XDR/04_Automated_Investigation_&_Response.md",
     "Blue Teaming/SC 200/01_XDR/01_Intro_to_XDR/03_Incident_Management.md",
-    "Blue Teaming/SC 200/01_XDR/01_Intro_to_XDR/05_Advanced_Hunting.md",
-    "Blue Teaming/SC 200/01_XDR/01_Intro_to_XDR/05_Secure_Score.md",
     "Blue Teaming/SC 200/01_XDR/01_Intro_to_XDR/04_Threat_Analytics.md",
-    "Blue Teaming/SC 200/00_Exam_Objectives.md",
     "Blue Teaming/SC 200/01_XDR/02_MDE/01_Windows_ASR.md",
     "Blue Teaming/SC 200/01_XDR/01_Intro_to_XDR/01_Security_Graph.md",
     "Blue Teaming/SC 200/01_XDR/01_Intro_to_XDR/00_Use_Case.md",
@@ -221,18 +239,14 @@
     "Blue Teaming/SC-200 old/03_Threat_Hunting/01_Hunting_Queries.md",
     "Blue Teaming/SC-200 old/03_Threat_Hunting/00_Threat_Hunting.md",
     "Blue Teaming/SC-200/07_Security_Copilot/00.md",
-    "Blue Teaming/SC 200/01_XDR/04_MDC/03_Connect_Azure_Assets.md",
-    "Blue Teaming/SC 200/01_XDR/03_Purview/00.md",
     "Blue Teaming/SC 200/01_XDR/05_Security_Copilot",
     "Blue Teaming/SC 200/01_XDR/04_MDC",
     "Blue Teaming/SC 200/01_XDR/03_Purview",
     "Blue Teaming/SC 200/01_XDR/02_MDE",
     "Blue Teaming/SC 200/01_XDR/01_Intro_to_XDR",
-    "Blue Teaming/SC-200 old/10_Configuration_Guide/MDE/05_ASR.md",
     "Blue Teaming/SC 200/02_Sentinel",
     "Blue Teaming/SC 200/01_XDR",
     "Blue Teaming/SC 200",
-    "Blue Teaming/SC-200 old/10_Configuration_Guide/MDE/04_Alerts_and_Detections.md",
     "z-images/Pasted image 20250919125012.png",
     "z-images/Pasted image 20250824175029.png",
     "z-images/Pasted image 20250824161019.png",

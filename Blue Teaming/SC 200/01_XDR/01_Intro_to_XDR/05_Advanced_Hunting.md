@@ -11,8 +11,7 @@ Advanced hunting is a query-based threat-hunting tool that lets you explore up t
 
 ### 1. **Prepare the Query**
 
-- Use **Advanced Hunting** to create or select a query.
-- Ensure the query returns:
+- Query _must_ returns:
     - `Timestamp`
     - `DeviceId`
     - `ReportId`

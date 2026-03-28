@@ -14,7 +14,7 @@
               "type": "markdown",
               "state": {
                 "file": "Blue Teaming/SC 200/01_XDR/01_Intro_to_XDR/05_Advanced_Hunting.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
@@ -106,7 +106,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300.5116500854492
+    "width": 300.5116500854492,
+    "collapsed": true
   },
   "right": {
     "id": "4211b058069103fa",

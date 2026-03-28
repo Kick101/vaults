@@ -50,7 +50,7 @@ AIR in Microsoft Defender for Office 365 includes certain remediation actions. W
 | **5. Centralized Oversight**      | All actions—**pending or completed**—are tracked in the **[Action Center](https://security.microsoft.com)**. Analysts can review, approve, or **undo** remediation actions if needed.                                     |
 
 ---
-## ⚙️ Automation Levels in Automated Investigation and Remediation (AIR)
+## ⚙️ Automation Levels in AIR
 
 | **Level**                                  | **Behavior**                                                                                                | **Folder Sensitivity**           | **Review Location**                                          |
 | ------------------------------------------ | ----------------------------------------------------------------------------------------------------------- | -------------------------------- | ------------------------------------------------------------ |
@@ -58,12 +58,6 @@ AIR in Microsoft Defender for Office 365 includes certain remediation actions. W
 | **Semi – All Remediation Needs Approval**  | 🕒 No action is taken without analyst approval.                                                             | All folders.                     | Pending items appear in **Action Center → Pending**.         |
 | **Semi – Core Folder Approval Needed**     | ✅ Auto-remediation for non-core folders. 🕒 Core system directories (e.g., `C:\Windows\`) require approval. | System (core) folders protected. | Core folder actions → **Pending** tab; others → **History**. |
 | **Semi – Non-Temp Folder Approval Needed** | ✅ Auto-remediation only in temporary folders. 🕒 All other folders require approval.                        | Non-temp folders protected.      | Temp folder actions → **History**; others → **Pending**.     |
-
-> #### 📌 Notes:
-> - All actions—**pending or completed**—are visible in the **Action Center**.
-> - **Undo capability** is available for any completed remediation.
-> - **Full automation** is **recommended** for faster, organization-wide threat response.
-
 
 **Temporary folders can include the following examples:**
 
@@ -75,3 +69,5 @@ AIR in Microsoft Defender for Office 365 includes certain remediation actions. W
 - `\program files\`
 - `\program files (x86)*`
 - `\documents and settings*\users*`
+
+----

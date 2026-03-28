@@ -1,11 +1,11 @@
 Advanced hunting is a query-based threat-hunting tool that lets you explore up to 30 days of raw data. You can proactively inspect events in your network to locate threat indicators and entities. The flexible access to data enables unconstrained hunting for both known and potential threats.
 
-## 🔍 Types of Data in Advanced Hunting
+### 🔍 Types of Data in Advanced Hunting
 
-| **Data Type**             | **Description**                                             | **Update Frequency**                                                | **Example Tables**                    |
-| ------------------------- | ----------------------------------------------------------- | ------------------------------------------------------------------- | ------------------------------------- |
-| **Event / Activity Data** | Real-time events: alerts, system activity, security events. | Near real-time (from sensors)                                       | `DeviceEvents`, `AlertEvidence`, etc. |
-| **Entity Data**           | Info about users, devices, accounts (from AD, logs).        | Partial updates every **15 min**Full consolidation every **24 hrs** | `DeviceInfo`, `IdentityInfo`          |
+| **Data Type**             | **Description**                                             | **Update Frequency**                                                  | **Example Tables**                    |
+| ------------------------- | ----------------------------------------------------------- | --------------------------------------------------------------------- | ------------------------------------- |
+| **Event / Activity Data** | Real-time events: alerts, system activity, security events. | Near real-time (from sensors)                                         | `DeviceEvents`, `AlertEvidence`, etc. |
+| **Entity Data**           | Info about users, devices, accounts (from AD, logs).        | Partial updates every **15 min**. Full consolidation every **24 hrs** | `DeviceInfo`, `IdentityInfo`          |
 
 ## 🛠️ Steps to Create a Detection Rule
 

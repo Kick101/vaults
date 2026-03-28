@@ -58,10 +58,10 @@ Identify **one column** each for:
 
 📍 **Device Actions**:
 
-- Isolate device — applies full network isolation, preventing the device from connecting to any application or service, except for the Defender for Endpoint service.
-- Collect investigation package
-- Run antivirus scan
-- Initiate investigation
+1. Isolate device — applies full network isolation, preventing the device from connecting to any application or service, except for the Defender for Endpoint service.
+2. Collect investigation package
+3. Run antivirus scan
+4. Initiate investigation
 
 📍 **File Actions**:
 

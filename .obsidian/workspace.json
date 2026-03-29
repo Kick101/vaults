@@ -35,7 +35,8 @@
               "title": "00_Exam_Objectives"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -196,10 +197,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "c4a3ff6b121f8d83",
+  "active": "dcb4ff66d135a612",
   "lastOpenFiles": [
-    "Blue Teaming/SC 200/01_XDR/01_Intro_to_XDR/03_Incident_Management.md",
     "Blue Teaming/SC 200/01_XDR/01_Intro_to_XDR/07_Threat_Analytics.md",
+    "Blue Teaming/SC 200/01_XDR/01_Intro_to_XDR/03_Incident_Management.md",
     "Blue Teaming/SC 200/01_XDR/01_Intro_to_XDR/07.1_Threat_Investigation_Tools.md",
     "Blue Teaming/SC 200/01_XDR/01_Intro_to_XDR/06_Secure_Score.md",
     "Blue Teaming/SC 200/01_XDR/01_Intro_to_XDR/05_Advanced_Hunting.md",

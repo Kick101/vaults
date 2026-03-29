@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Blue Teaming/SC-200 old/10_Configuration_Guide/00_MDO_Security.md",
+                "file": "Blue Teaming/SC-200 old/10_Configuration_Guide/00_MDO_Security_ Policies.md",
                 "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "00_MDO_Security"
+              "title": "00_MDO_Security_ Policies"
             }
           }
         ],
@@ -93,8 +93,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300.5116500854492,
-    "collapsed": true
+    "width": 278.5116500854492
   },
   "right": {
     "id": "4211b058069103fa",
@@ -199,8 +198,9 @@
   },
   "active": "76043cf713de207b",
   "lastOpenFiles": [
-    "Blue Teaming/SC 200/00_Exam_Objectives.md",
     "Blue Teaming/SC-200 old/10_Configuration_Guide/MDC/Auto and Manual Provisioning.md",
+    "Blue Teaming/SC-200 old/10_Configuration_Guide/00_MDO_Security_ Policies.md",
+    "Blue Teaming/SC 200/00_Exam_Objectives.md",
     "Blue Teaming/SC-200 old/10_Configuration_Guide/MDE/06_Device_Actions.md",
     "Blue Teaming/SC-200 old/10_Configuration_Guide/MDE/05_ASR.md",
     "Blue Teaming/SC-200 old/10_Configuration_Guide/MDE/04_Alerts_and_Detections.md",
@@ -213,7 +213,6 @@
     "Blue Teaming/SC-200 old/10_Configuration_Guide/03_MDI_Identity_Sensors.md",
     "Blue Teaming/SC-200 old/10_Configuration_Guide/02_Identity_Protection_Entra_ID.md",
     "Blue Teaming/SC-200 old/10_Configuration_Guide/01_Defender_Notifications.md",
-    "Blue Teaming/SC-200 old/10_Configuration_Guide/00_MDO_Security.md",
     "Blue Teaming/SC 200/01_XDR/01_Intro_to_XDR/07_Threat_Analytics.md",
     "Blue Teaming/SC 200/01_XDR/01_Intro_to_XDR/03_Incident_Management.md",
     "Blue Teaming/SC 200/01_XDR/01_Intro_to_XDR/07.1_Threat_Investigation_Tools.md",

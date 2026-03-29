@@ -1,4 +1,15 @@
-# Safe Attachments
+- [[#Safe Attachments|Safe Attachments]]
+	- [[#Safe Attachments#🦠 Malware scanning option for email attachments|🦠 Malware scanning option for email attachments]]
+	- [[#Safe Attachments#🔁 Redirect Attachment on Detection|🔁 Redirect Attachment on Detection]]
+- [[#Safe Links|Safe Links]]
+	- [[#Safe Links#Safe Links policy configuration|Safe Links policy configuration]]
+- [[#🔐 Anti-Phishing Policy|🔐 Anti-Phishing Policy]]
+	- [[#🔐 Anti-Phishing Policy#⚠️ No Default anti-phishing Policy|⚠️ No Default anti-phishing Policy]]
+	- [[#🔐 Anti-Phishing Policy#🕵️‍♂️ Impersonation Detection|🕵️‍♂️ Impersonation Detection]]
+	- [[#🔐 Anti-Phishing Policy#🛠️ Configuration|🛠️ Configuration]]
+
+---
+## Safe Attachments
 
 All messages and attachments that don't have a known virus/malware signature are routed to a special environment where MDO uses various **machine learning and analysis techniques** to detect malicious intent. If no suspicious activity is detected, the message is released for delivery to the mailbox.
 
@@ -32,7 +43,7 @@ This feature allows you to **forward suspicious or problematic email attachments
 >- Modify the message properties to set a message header: `X-MS-Exchange-Organization-SkipSafeAttachmentProcessing` 
 
 ---
-# Safe Links
+## Safe Links
 
 **Safe Links supported apps:**
 
@@ -47,7 +58,7 @@ This feature allows you to **forward suspicious or problematic email attachments
 >- You can't delete this policy.
 >- It's recommended that you apply Microsoft Defender for Office 365 safe links policies to ALL users in your organization.
 
-### Safe Links policy config options
+### Safe Links policy configuration
 
 ![[Pasted image 20250703114340.png |]]
 
@@ -70,7 +81,7 @@ This feature allows you to **forward suspicious or problematic email attachments
 >MDO will **not honor headers added by external/unauthenticated sources**.
 
 ---
-# 🔐 Anti-Phishing Policy
+## 🔐 Anti-Phishing Policy
 
 ![[Pasted image 20250703115142.png ]]
 
@@ -85,7 +96,7 @@ This feature allows you to **forward suspicious or problematic email attachments
 - **Admins must configure** anti-phishing policies.
 - Initially, **only target selection** (users/groups/domains) is required.
 
-### 🕵️‍♂️ **Impersonation Detection**
+### 🕵️‍♂️ Impersonation Detection
 
 Detects subtle spoofing of:
 

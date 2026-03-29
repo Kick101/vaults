@@ -8,20 +8,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "c4a3ff6b121f8d83",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Blue Teaming/SC 200/01_XDR/01_Intro_to_XDR/07_Threat_Analytics.md",
-                "mode": "preview",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "07_Threat_Analytics"
-            }
-          },
-          {
             "id": "dcb4ff66d135a612",
             "type": "leaf",
             "state": {
@@ -195,10 +181,23 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "c4a3ff6b121f8d83",
+  "active": "f8ed6ce09a5097b6",
   "lastOpenFiles": [
-    "Blue Teaming/SC 200/00_Exam_Objectives.md",
+    "Blue Teaming/SC-200 old/10_Configuration_Guide/MDE/06_Device_Actions.md",
+    "Blue Teaming/SC-200 old/10_Configuration_Guide/MDE/05_ASR.md",
+    "Blue Teaming/SC-200 old/10_Configuration_Guide/MDE/04_Alerts_and_Detections.md",
+    "Blue Teaming/SC-200 old/10_Configuration_Guide/MDE/03_Device_Groups.md",
+    "Blue Teaming/SC-200 old/10_Configuration_Guide/MDE/02_RBAC.md",
+    "Blue Teaming/SC-200 old/10_Configuration_Guide/MDE/01_Onboard_Devices-Discovery.md",
+    "Blue Teaming/SC-200 old/10_Configuration_Guide/MDE/01_Device_Discovery.md",
+    "Blue Teaming/SC-200 old/10_Configuration_Guide/MDE/00_Environment.md",
+    "Blue Teaming/SC-200 old/10_Configuration_Guide/04_Conditional_Access_App_Control.md",
+    "Blue Teaming/SC-200 old/10_Configuration_Guide/03_MDI_Identity_Sensors.md",
+    "Blue Teaming/SC-200 old/10_Configuration_Guide/02_Identity_Protection_Entra_ID.md",
+    "Blue Teaming/SC-200 old/10_Configuration_Guide/01_Defender_Notifications.md",
+    "Blue Teaming/SC-200 old/10_Configuration_Guide/00_MDO_Links_Attachments_Phishing.md",
     "Blue Teaming/SC 200/01_XDR/01_Intro_to_XDR/07_Threat_Analytics.md",
+    "Blue Teaming/SC 200/00_Exam_Objectives.md",
     "Blue Teaming/SC 200/01_XDR/01_Intro_to_XDR/03_Incident_Management.md",
     "Blue Teaming/SC 200/01_XDR/01_Intro_to_XDR/07.1_Threat_Investigation_Tools.md",
     "Blue Teaming/SC 200/01_XDR/01_Intro_to_XDR/06_Secure_Score.md",
@@ -210,21 +209,8 @@
     "Blue Teaming/SC 200/02_Sentinel/01_KQL/01_Basics.md",
     "Blue Teaming/SC 200/02_Sentinel/01_KQL/04_Parsing_Dynamic_JSON_External_Parsers.md",
     "Blue Teaming/SC 200/02_Sentinel/01_KQL/03_Multi-table_Statements.md",
-    "Blue Teaming/SC 200/02_Sentinel/01_KQL/02_Analyze_Query_Results.md",
-    "Blue Teaming/SC 200/01_XDR/02_MDE/01_Windows_ASR.md",
-    "Blue Teaming/SC 200/01_XDR/01_Intro_to_XDR/10_MDCA.md",
-    "Blue Teaming/SC 200/01_XDR/01_Intro_to_XDR/09_MDI.md",
-    "Blue Teaming/SC 200/01_XDR/01_Intro_to_XDR/08_Entra_ID.md",
-    "InfoSec/Wireless Pentesting/WiFi Hacking.md",
-    "Blue Teaming/SoC Defined.md",
-    "Blue Teaming/SC 200/100_Azure_Notes.md",
     "yes.pub",
     "yes",
-    "conflict-files-obsidian-git.md",
-    "Blue Teaming/SC-200/11_Subscriptions.md",
-    "Blue Teaming/SC-200 old/03_Threat_Hunting/01_Hunting_Queries.md",
-    "Blue Teaming/SC-200 old/03_Threat_Hunting/00_Threat_Hunting.md",
-    "Blue Teaming/SC-200/07_Security_Copilot/00.md",
     "Blue Teaming/SC 200/01_XDR/05_Security_Copilot",
     "Blue Teaming/SC 200/01_XDR/04_MDC",
     "Blue Teaming/SC 200/01_XDR/03_Purview",

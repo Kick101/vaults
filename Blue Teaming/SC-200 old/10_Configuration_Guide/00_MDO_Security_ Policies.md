@@ -1,21 +1,24 @@
-- [[#Safe Attachments|Safe Attachments]]
-	- [[#Safe Attachments#🦠 Malware scanning option for email attachments|🦠 Malware scanning option for email attachments]]
-	- [[#Safe Attachments#🔁 Redirect Attachment on Detection|🔁 Redirect Attachment on Detection]]
-- [[#Safe Links|Safe Links]]
-	- [[#Safe Links#Safe Links policy configuration|Safe Links policy configuration]]
+- [[#Safe Attachments Policy|Safe Attachments Policy]]
+	- [[#Safe Attachments Policy#🦠 Malware scanning option for email attachments|🦠 Malware scanning option for email attachments]]
+	- [[#Safe Attachments Policy#🔁 Redirect Attachment on Detection|🔁 Redirect Attachment on Detection]]
+- [[#Safe Links Policy|Safe Links Policy]]
+	- [[#Safe Links Policy#Safe Links policy configuration|Safe Links policy configuration]]
 - [[#🔐 Anti-Phishing Policy|🔐 Anti-Phishing Policy]]
 	- [[#🔐 Anti-Phishing Policy#⚠️ No Default anti-phishing Policy|⚠️ No Default anti-phishing Policy]]
 	- [[#🔐 Anti-Phishing Policy#🕵️‍♂️ Impersonation Detection|🕵️‍♂️ Impersonation Detection]]
 	- [[#🔐 Anti-Phishing Policy#🛠️ Configuration|🛠️ Configuration]]
 
----
-## Safe Attachments
 
-All messages and attachments that don't have a known virus/malware signature are routed to a special environment where MDO uses various **machine learning and analysis techniques** to detect malicious intent. If no suspicious activity is detected, the message is released for delivery to the mailbox.
+---
+## Safe Attachments Policy
+
+1. All messages and attachments that don't have a known virus/malware signature are routed to a special environment 
+2. where MDO uses various *machine learning and analysis techniques* to detect malicious intent. 
+3. If no suspicious activity is detected, the message is released for delivery to the mailbox.
 
 ![[Pasted image 20250702191748.png]]
 
-### 🦠 Malware scanning option for email attachments
+### 1. 🦠Malware scanning option for email attachments
 
 | **Option**           | **Description**                                                                                                                                  | **Risk Level**      | **Recommended For**                               |
 | -------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------ | ------------------- | ------------------------------------------------- |
@@ -26,16 +29,12 @@ All messages and attachments that don't have a known virus/malware signature are
 | **Dynamic Delivery** | **Delivers message body immediately**, **holds the attachments for scanning**, and **reattaches** them **only if safe**.                         | 🟢 Low Risk         | Balanced option for speed and security            |
 
 
-### 🔁 Redirect Attachment on Detection
+### 2. 🔁Redirect Attachment on Detection
 
-This feature allows you to **forward suspicious or problematic email attachments** to a security admin for review.
+This feature forwards attachments (that were *blocked*, *replaced*, or *monitored*) to a **specific email address** — usually a **security administrator**.
 
 1. **Enable redirect**
-
-    - ✅ This **forwards attachments** (that were **blocked**, **replaced**, or **monitored**) to a **specific email address**—usually a **security administrator**.
-
 2. **Apply if malware scanning times out or errors**
-
     - ✅ When checked, the same redirect behavior applies **even if scanning fails or times out** (e.g., due to large files or service errors).
     - 📉 This prevents losing visibility on **attachments that weren’t fully scanned**, giving security teams a chance to analyze what might have slipped through.
 
@@ -43,7 +42,7 @@ This feature allows you to **forward suspicious or problematic email attachments
 >- Modify the message properties to set a message header: `X-MS-Exchange-Organization-SkipSafeAttachmentProcessing` 
 
 ---
-## Safe Links
+## Safe Links Policy
 
 **Safe Links supported apps:**
 
